@@ -1,0 +1,102 @@
+[
+  {
+    "ae_text": "Nausea intermittent nausea",
+    "true_term": "Nausea",
+    "predicted_term": "Nausea"
+  },
+  {
+    "ae_text": "headache",
+    "true_term": "Headache",
+    "predicted_term": "Headache"
+  },
+  {
+    "ae_text": "vomiting",
+    "true_term": "Vomiting",
+    "predicted_term": "Vomiting"
+  },
+  {
+    "ae_text": "Entsuendungszeichen erhoeht CRP-Wert erhoeht.",
+    "true_term": "CRP increased",
+    "predicted_term": "CRP increased"
+  },
+  {
+    "ae_text": "Arthralgien Arthralgien, die wir z.B. im Rahmen eines Cytarabin-Syndroms werten. Verdacht auf Cytarabin-Syndrom mit Arthralgien.",
+    "true_term": "Cytarabine syndrome",
+    "predicted_term": "Cytarabine syndrome"
+  },
+  {
+    "ae_text": "Sars-CoV-2",
+    "true_term": "SARS-CoV-2 infection",
+    "predicted_term": "SARS-CoV-2 infection"
+  },
+  {
+    "ae_text": "Bilirubin Erhoehung",
+    "true_term": "Blood bilirubin increased",
+    "predicted_term": "Blood bilirubin increased"
+  },
+  {
+    "ae_text": "Sepsis Subileus, megacolon, multiple bleedings.",
+    "true_term": "Abdominal sepsis",
+    "predicted_term": "Abdominal sepsis"
+  },
+  {
+    "ae_text": "Harnwegsinfekt Nachweis von Klebsiella pneumonieae in Urinkultur.",
+    "true_term": "Klebsiella pneumoniae cystitis",
+    "predicted_term": "Klebsiella pneumoniae cystitis"
+  },
+  {
+    "ae_text": "Akutes Nierenversagen AKI 2 \u00b0",
+    "true_term": "Acute kidney failure",
+    "predicted_term": "Acute kidney failure"
+  },
+  {
+    "ae_text": "Thrombophlebitis Thrombophlebitis im Bereich der oberflaechlichen Unterschenkelvenen.",
+    "true_term": "Phlebitis and thrombophlebitis of superficial vessels of lower extremities",
+    "predicted_term": "Phlebitis and thrombophlebitis of superficial vessels of lower extremities"
+  },
+  {
+    "ae_text": "neutrope Colitits",
+    "true_term": "Neutropenic colitis",
+    "predicted_term": "Neutropenic colitis"
+  },
+  {
+    "ae_text": "worsening of the preexisting Mucositis",
+    "true_term": "Mucositis",
+    "predicted_term": "Mucositis"
+  },
+  {
+    "ae_text": "rhinitis",
+    "true_term": "Rhinitis",
+    "predicted_term": "Rhinitis"
+  },
+  {
+    "ae_text": "weight loss",
+    "true_term": "Weight loss",
+    "predicted_term": "Weight loss"
+  },
+  {
+    "ae_text": "oedema both legs",
+    "true_term": "Edema legs",
+    "predicted_term": "Edema legs"
+  },
+  {
+    "ae_text": "dry skin",
+    "true_term": "Dry skin",
+    "predicted_term": "Dry skin"
+  },
+  {
+    "ae_text": "Skin irritation anal after diarrhea",
+    "true_term": "Skin irritation",
+    "predicted_term": "Skin irritation"
+  },
+  {
+    "ae_text": "alopecia",
+    "true_term": "Alopecia",
+    "predicted_term": "Alopecia"
+  },
+  {
+    "ae_text": "cramplike pain abdomen",
+    "true_term": "Abdominal crampy pains",
+    "predicted_term": "Abdominal crampy pains"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "AE": "Nausea intermittent nausea",
+    "True": "Nausea",
+    "Predicted": "This term directly matches the description provided, making it the most suitable choice from the given list of candidates.",
+    "Exact": false,
+    "Fuzzy": false
+  },
+  {
+    "AE": "headache",
+    "True": "Headache",
+    "Predicted": "This term directly matches the description provided, making it the most suitable choice from the given list of candidates.",
+    "Exact": false,
+    "Fuzzy": false
+  },
+  {
+    "AE": "vomiting",
+    "True": "Vomiting",
+    "Predicted": "This is the most direct and relevant match for the description \"vomiting\" from the given list of candidates.",
+    "Exact": false,
+    "Fuzzy": false
+  },
+  {
+    "AE": "Entsuendungszeichen erhoeht CRP-Wert erhoeht.",
+    "True": "CRP increased",
+    "Predicted": "Given the description",
+    "Exact": false,
+    "Fuzzy": false
+  },
+  {
+    "AE": "Arthralgien Arthralgien, die wir z.B. im Rahmen eines Cytarabin-Syndroms werten. Verdacht auf Cytarabin-Syndrom mit Arthralgien.",
+    "True": "Cytarabine syndrome",
+    "Predicted": "This answer is chosen because the description specifically mentions \"Cytarabin-Syndrom\", which is the German term for Cyt",
+    "Exact": false,
+    "Fuzzy": false
+  },
+  {
+    "AE": "Sars-CoV-2",
+    "True": "SARS-CoV-2 infection",
+    "Predicted": "This term directly matches the description provided, making it the most accurate choice.",
+    "Exact": false,
+    "Fuzzy": false
+  },
+  {
+    "AE": "Bilirubin Erhoehung",
+    "True": "Blood bilirubin increased",
+    "Predicted": "Blood bilirubin increased",
+    "Exact": true,
+    "Fuzzy": true
+  },
+  {
+    "AE": "Sepsis Subileus, megacolon, multiple bleedings.",
+    "True": "Abdominal sepsis",
+    "Predicted": "2. **Subileus**: This term is less commonly used and",
+    "Exact": false,
+    "Fuzzy": false
+  },
+  {
+    "AE": "Harnwegsinfekt Nachweis von Klebsiella pneumonieae in Urinkultur.",
+    "True": "Klebsiella pneumoniae cystitis",
+    "Predicted": "- \"in Urinkultur\" means in",
+    "Exact": false,
+    "Fuzzy": false
+  },
+  {
+    "AE": "Akutes Nierenversagen AKI 2 \u00b0",
+    "True": "Acute kidney failure",
+    "Predicted": "Acute kidney failure",
+    "Exact": true,
+    "Fuzzy": true
+  },
+  {
+    "AE": "Thrombophlebitis Thrombophlebitis im Bereich der oberflaechlichen Unterschenkelvenen.",
+    "True": "Phlebitis and thrombophlebitis of superficial vessels of lower extremities",
+    "Predicted": "This term directly matches the description provided, indicating inflammation of the veins (",
+    "Exact": false,
+    "Fuzzy": false
+  },
+  {
+    "AE": "neutrope Colitits",
+    "True": "Neutropenic colitis",
+    "Predicted": "This term directly matches the description provided, indicating an adverse event related to colitis in a neutropenic patient.",
+    "Exact": false,
+    "Fuzzy": false
+  },
+  {
+    "AE": "worsening of the preexisting Mucositis",
+    "True": "Mucositis",
+    "Predicted": "This term directly matches the condition described in the adverse event description. Mucositis refers to the inflammation of mucous membranes, which can be a side effect of various medical treatments, including chemotherapy and radiation therapy. The description specifically mentions the worsening of preexisting mucositis, indicating a progression or exacerbation of this condition.",
+    "Exact": false,
+    "Fuzzy": false
+  },
+  {
+    "AE": "rhinitis",
+    "True": "Rhinitis",
+    "Predicted": "This is because the description \"rhinitis\" directly matches the MedDRA LLT term \"Rhinitis\" in the list of candidates.",
+    "Exact": false,
+    "Fuzzy": false
+  },
+  {
+    "AE": "weight loss",
+    "True": "Weight loss",
+    "Predicted": "This term directly matches the description provided, making it the most suitable choice from the given list of candidates.",
+    "Exact": false,
+    "Fuzzy": false
+  },
+  {
+    "AE": "oedema both legs",
+    "True": "Edema legs",
+    "Predicted": "This term directly matches the description provided, indicating swelling (edema) in both legs.",
+    "Exact": false,
+    "Fuzzy": false
+  },
+  {
+    "AE": "dry skin",
+    "True": "Dry skin",
+    "Predicted": "This term directly matches the description provided.",
+    "Exact": false,
+    "Fuzzy": false
+  },
+  {
+    "AE": "Skin irritation anal after diarrhea",
+    "True": "Skin irritation",
+    "Predicted": "This term directly matches the description of \"skin irritation\" mentioned in the adverse event description, making it the most relevant choice. The location (anal) and the context (after diarrhea) provide additional details but do not change the fundamental nature of the event as skin irritation.",
+    "Exact": false,
+    "Fuzzy": false
+  },
+  {
+    "AE": "alopecia",
+    "True": "Alopecia",
+    "Predicted": "This is the most appropriate MedDRA LLT term that matches the given description \"alopecia\".",
+    "Exact": false,
+    "Fuzzy": false
+  },
+  {
+    "AE": "cramplike pain abdomen",
+    "True": "Abdominal crampy pains",
+    "Predicted": "This term directly matches the description provided, indicating that the correct answer is option 56.",
+    "Exact": false,
+    "Fuzzy": false
+  }
+]

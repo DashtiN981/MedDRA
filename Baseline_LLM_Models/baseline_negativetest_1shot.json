@@ -1,0 +1,202 @@
+[
+  {
+    "AE_text": "Nausea intermittent nausea",
+    "true_term": "Nausea",
+    "true_code": "10028813",
+    "predicted_term": "Nausea",
+    "predicted_code": "10019211",
+    "exact_match": true,
+    "fuzzy_score": 100,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "headache",
+    "true_term": "Headache",
+    "true_code": "10019211",
+    "predicted_term": "Headache",
+    "predicted_code": "10019211",
+    "exact_match": true,
+    "fuzzy_score": 100,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "vomiting",
+    "true_term": "Vomiting",
+    "true_code": "10047700",
+    "predicted_term": "Application site discomfort is not correct, a more suitable answer is not found, however, a term closely related to \"vomiting\" is not in the list, but a term that can be related to vomiting is \"Diarrhoea infectious\" is not",
+    "predicted_code": "10063072",
+    "exact_match": false,
+    "fuzzy_score": 7,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "Entsuendungszeichen erhoeht CRP-Wert erhoeht.",
+    "true_term": "CRP increased",
+    "true_code": "10011418",
+    "predicted_term": "Palpatory finding abnormal",
+    "predicted_code": "10064258",
+    "exact_match": false,
+    "fuzzy_score": 26,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "Arthralgien Arthralgien, die wir z.B. im Rahmen eines Cytarabin-Syndroms werten. Verdacht auf Cytarabin-Syndrom mit Arthralgien.",
+    "true_term": "Cytarabine syndrome",
+    "true_code": "10067549",
+    "predicted_term": "Arthralgia",
+    "predicted_code": "10019211",
+    "exact_match": false,
+    "fuzzy_score": 21,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "Sars-CoV-2",
+    "true_term": "SARS-CoV-2 infection",
+    "true_code": "10084272",
+    "predicted_term": "COVID-19 antigen test",
+    "predicted_code": "10084717",
+    "exact_match": false,
+    "fuzzy_score": 39,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "Bilirubin Erhoehung",
+    "true_term": "Blood bilirubin increased",
+    "true_code": "10005364",
+    "predicted_term": "Transaminase NOS increased",
+    "predicted_code": "10044346",
+    "exact_match": false,
+    "fuzzy_score": 51,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "Sepsis Subileus, megacolon, multiple bleedings.",
+    "true_term": "Abdominal sepsis",
+    "true_code": "10058040",
+    "predicted_term": "Unspecified bacteremia",
+    "predicted_code": "10045642",
+    "exact_match": false,
+    "fuzzy_score": 21,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "Harnwegsinfekt Nachweis von Klebsiella pneumonieae in Urinkultur.",
+    "true_term": "Klebsiella pneumoniae cystitis",
+    "true_code": "10023457",
+    "predicted_term": "Orchitis",
+    "predicted_code": "10031064",
+    "exact_match": false,
+    "fuzzy_score": 32,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "Akutes Nierenversagen AKI 2 \u00b0",
+    "true_term": "Acute kidney failure",
+    "true_code": "10000821",
+    "predicted_term": "Acute kidney injury",
+    "predicted_code": "10019203",
+    "exact_match": false,
+    "fuzzy_score": 82,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "Thrombophlebitis Thrombophlebitis im Bereich der oberflaechlichen Unterschenkelvenen.",
+    "true_term": "Phlebitis and thrombophlebitis of superficial vessels of lower extremities",
+    "true_code": "10034894",
+    "predicted_term": "Thrombophlebitis",
+    "predicted_code": "10019207",
+    "exact_match": false,
+    "fuzzy_score": 36,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "neutrope Colitits",
+    "true_term": "Neutropenic colitis",
+    "true_code": "10062959",
+    "predicted_term": "Abdominal phlegmon",
+    "predicted_code": "10064854",
+    "exact_match": false,
+    "fuzzy_score": 16,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "worsening of the preexisting Mucositis",
+    "true_term": "Mucositis",
+    "true_code": "10028127",
+    "predicted_term": "Genital infection \nis also not the best",
+    "predicted_code": "10019211",
+    "exact_match": false,
+    "fuzzy_score": 17,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "rhinitis",
+    "true_term": "Rhinitis",
+    "true_code": "10039083",
+    "predicted_term": "Reflux laryngitis",
+    "predicted_code": "10019211",
+    "exact_match": false,
+    "fuzzy_score": 48,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "weight loss",
+    "true_term": "Weight loss",
+    "true_code": "10047900",
+    "predicted_term": "Gastrointestinal fullness is not the best match, a more suitable option would be weight loss, however, it is not in the list. Considering the closest match: \nNo direct match for \"weight loss\" is found, however, a related term could be considered as \"Diuresis\" or other terms that may relate to weight, but none directly state \"weight loss\". Given the options, the closest could be considered under gastrointestinal issues or other related terms, but",
+    "predicted_code": "10017953",
+    "exact_match": false,
+    "fuzzy_score": 5,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "oedema both legs",
+    "true_term": "Edema legs",
+    "true_code": "10014230",
+    "predicted_term": "Lymphoedema praecox",
+    "predicted_code": "10025285",
+    "exact_match": false,
+    "fuzzy_score": 48,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "dry skin",
+    "true_term": "Dry skin",
+    "true_code": "10013786",
+    "predicted_term": "Skin turgor decreased",
+    "predicted_code": "10049428",
+    "exact_match": false,
+    "fuzzy_score": 28,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "Skin irritation anal after diarrhea",
+    "true_term": "Skin irritation",
+    "true_code": "10040880",
+    "predicted_term": "Medical device site irritation",
+    "predicted_code": "10075582",
+    "exact_match": false,
+    "fuzzy_score": 53,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "alopecia",
+    "true_term": "Alopecia",
+    "true_code": "10001760",
+    "predicted_term": "Alopecia",
+    "predicted_code": "10002869",
+    "exact_match": true,
+    "fuzzy_score": 100,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "cramplike pain abdomen",
+    "true_term": "Abdominal crampy pains",
+    "true_code": "10000058",
+    "predicted_term": "is not the correct answer as \"Sick role\" does not match \"cramplike pain abdomen\". \n\nA more suitable answer would be related to abdominal pain. However, none of the provided options directly match \"cramplike pain abdomen\". \n\nIf I had to choose the closest one, I would look for terms related to abdominal issues, but since none directly state \"abdominal cramp\" or similar, the closest in relation to abdominal issues would be",
+    "predicted_code": "10040638",
+    "exact_match": false,
+    "fuzzy_score": 9,
+    "fuzzy_match": false
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "AE": "Nausea intermittent nausea",
+    "True": "Nausea",
+    "Predicted": "Nausea",
+    "Exact": true,
+    "Fuzzy": true
+  },
+  {
+    "AE": "headache",
+    "True": "Headache",
+    "Predicted": "Headache",
+    "Exact": true,
+    "Fuzzy": true
+  },
+  {
+    "AE": "vomiting",
+    "True": "Vomiting",
+    "Predicted": "Vomiting",
+    "Exact": true,
+    "Fuzzy": true
+  },
+  {
+    "AE": "Entsuendungszeichen erhoeht CRP-Wert erhoeht.",
+    "True": "CRP increased",
+    "Predicted": "CRP increased",
+    "Exact": true,
+    "Fuzzy": true
+  },
+  {
+    "AE": "Arthralgien Arthralgien, die wir z.B. im Rahmen eines Cytarabin-Syndroms werten. Verdacht auf Cytarabin-Syndrom mit Arthralgien.",
+    "True": "Cytarabine syndrome",
+    "Predicted": "Cytarabine syndrome",
+    "Exact": true,
+    "Fuzzy": true
+  },
+  {
+    "AE": "Sars-CoV-2",
+    "True": "SARS-CoV-2 infection",
+    "Predicted": "SARS-CoV-2 infection",
+    "Exact": true,
+    "Fuzzy": true
+  },
+  {
+    "AE": "Bilirubin Erhoehung",
+    "True": "Blood bilirubin increased",
+    "Predicted": "Blood bilirubin increased",
+    "Exact": true,
+    "Fuzzy": true
+  },
+  {
+    "AE": "Sepsis Subileus, megacolon, multiple bleedings.",
+    "True": "Abdominal sepsis",
+    "Predicted": "Abdominal sepsis",
+    "Exact": true,
+    "Fuzzy": true
+  },
+  {
+    "AE": "Harnwegsinfekt Nachweis von Klebsiella pneumonieae in Urinkultur.",
+    "True": "Klebsiella pneumoniae cystitis",
+    "Predicted": "Klebsiella pneumoniae cystitis",
+    "Exact": true,
+    "Fuzzy": true
+  },
+  {
+    "AE": "Akutes Nierenversagen AKI 2 \u00b0",
+    "True": "Acute kidney failure",
+    "Predicted": "Acute kidney failure",
+    "Exact": true,
+    "Fuzzy": true
+  },
+  {
+    "AE": "Thrombophlebitis Thrombophlebitis im Bereich der oberflaechlichen Unterschenkelvenen.",
+    "True": "Phlebitis and thrombophlebitis of superficial vessels of lower extremities",
+    "Predicted": "Phlebitis and thrombophlebitis of superficial vessels of lower extremities",
+    "Exact": true,
+    "Fuzzy": true
+  },
+  {
+    "AE": "neutrope Colitits",
+    "True": "Neutropenic colitis",
+    "Predicted": "Neutropenic colitis",
+    "Exact": true,
+    "Fuzzy": true
+  },
+  {
+    "AE": "worsening of the preexisting Mucositis",
+    "True": "Mucositis",
+    "Predicted": "Mucositis",
+    "Exact": true,
+    "Fuzzy": true
+  },
+  {
+    "AE": "rhinitis",
+    "True": "Rhinitis",
+    "Predicted": "Rhinitis",
+    "Exact": true,
+    "Fuzzy": true
+  },
+  {
+    "AE": "weight loss",
+    "True": "Weight loss",
+    "Predicted": "Weight loss",
+    "Exact": true,
+    "Fuzzy": true
+  },
+  {
+    "AE": "oedema both legs",
+    "True": "Edema legs",
+    "Predicted": "Edema legs",
+    "Exact": true,
+    "Fuzzy": true
+  },
+  {
+    "AE": "dry skin",
+    "True": "Dry skin",
+    "Predicted": "Dry skin",
+    "Exact": true,
+    "Fuzzy": true
+  },
+  {
+    "AE": "Skin irritation anal after diarrhea",
+    "True": "Skin irritation",
+    "Predicted": "Skin irritation",
+    "Exact": true,
+    "Fuzzy": true
+  },
+  {
+    "AE": "alopecia",
+    "True": "Alopecia",
+    "Predicted": "Alopecia",
+    "Exact": true,
+    "Fuzzy": true
+  },
+  {
+    "AE": "cramplike pain abdomen",
+    "True": "Abdominal crampy pains",
+    "Predicted": "Abdominal crampy pains",
+    "Exact": true,
+    "Fuzzy": true
+  }
+]
