@@ -6,7 +6,7 @@ import json
 from tqdm import tqdm
 
 # Load AE terms from CSV
-ae_df = pd.read_csv("data/KI_Projekt_Mosaic_AE_Codierung_2024_07_03.csv", sep=';', encoding='latin1')
+ae_df = pd.read_csv("./data/KI_Projekt_Mosaic_AE_Codierung_2024_07_03.csv", sep=';', encoding='latin1')
 ae_terms = ae_df["Original_Term_aufbereitet"].dropna().unique().tolist()
 
 # Load the same model used for LLT embedding

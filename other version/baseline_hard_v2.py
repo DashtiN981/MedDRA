@@ -116,5 +116,5 @@ print("\n📊 Classification Report (Fuzzy Match):")
 print(classification_report(y_true, y_pred_fuzzy))
 
 # Optional: Save to file
-with open("baseline_hard_v2_predictions.json", "w") as f:
+with open("baseline_hard_v2.json", "w") as f:
     json.dump(results, f, indent=2)

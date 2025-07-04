@@ -4,7 +4,7 @@ import json
 from tqdm import tqdm
 
 # Load LLT terms from CSV
-llt_df = pd.read_csv("data/MedDRA1_LLT_Code_25_0.csv", sep=';', encoding='latin1')
+llt_df = pd.read_csv("./data/MedDRA1_LLT_Code_25_0.csv", sep=';', encoding='latin1')
 terms = llt_df["LLT_Term"].astype(str).tolist()
 
 # Load sentence transformer model (offline if already cached)
