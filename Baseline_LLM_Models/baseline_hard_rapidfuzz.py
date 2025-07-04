@@ -90,7 +90,7 @@ for idx, row in ae_df.iloc[:20].iterrows():
     except Exception as e:
         print(f"Error at index {idx}: {e}")
 
-with open("baseline_hard_v1_predictions.json", "w") as f:
+with open("baseline_hard_rapidfuzz.json", "w") as f:
     json.dump(results, f, indent=2)
 
 # Prepare metrics
@@ -105,3 +105,9 @@ print(classification_report(y_true, y_pred))
 
 print("\nEvaluation Report (Fuzzy Match):")
 print(classification_report(y_true, y_pred_fuzzy))
+
+acc = accuracy_score(y_true, y_pred)
+f1 = f1_score(y_true, y_pred, average="macro")
+
+print(f"\nAccuracy: {acc:.2f}")
+print(f"F1 Score: {f1:.2f}")

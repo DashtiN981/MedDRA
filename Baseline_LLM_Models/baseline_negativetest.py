@@ -4,6 +4,7 @@ import random
 import time
 import json
 from sklearn.metrics import classification_report
+from sklearn.metrics import accuracy_score, f1_score
 from fuzzywuzzy import fuzz
 from openai import OpenAI
 
@@ -106,3 +107,9 @@ report_exact = classification_report(y_true, y_pred, zero_division=0)
 report_fuzzy = classification_report(y_true, y_pred_fuzzy, zero_division=0)
 
 report_exact, report_fuzzy
+
+acc = accuracy_score(y_true, y_pred)
+f1 = f1_score(y_true, y_pred, average="macro")
+
+print(f"\nAccuracy: {acc:.2f}")
+print(f"F1 Score: {f1:.2f}")

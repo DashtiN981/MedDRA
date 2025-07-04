@@ -90,5 +90,5 @@ print(f"\nAccuracy: {acc:.2f}")
 print(f"F1 Score: {f1:.2f}")
 
 # Save results
-with open("baseline_prompt_realistic.json", "w") as f:
+with open("baseline_prompt_easy.json", "w") as f:
     json.dump(results, f, indent=2)
