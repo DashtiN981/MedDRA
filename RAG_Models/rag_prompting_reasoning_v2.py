@@ -4,7 +4,7 @@ rag_prompting_reasoning_v2.py
 This script implements an LLM-based MedDRA coding assistant using embedding-based RAG retrieval 
 combined with reasoning-augmented prompting. For each AE, it retrieves Top-K similar LLT terms 
 (based on cosine similarity), generates a chain-of-thought explanation using the LLM, and then 
-extracts the best matching term. Final predictions are evaluated using exact and fuzzy matching me
+extracts the best matching term. Final predictions are evaluated using exact and fuzzy matching metrics.
 
 Author: Naghme Dashti / July 2025
 """
@@ -135,7 +135,7 @@ for idx, row in ae_df.iloc[:20].iterrows():
         print(f"Error at index {idx}: {e}")
 
 # ----- Save Results -----
-with open("/home/naghmedashti/MedDRA-LLM/RAG_Models/rag_reasoning_results.json", "w") as f:
+with open("/home/naghmedashti/MedDRA-LLM/RAG_Models/rag_prompting_reasoning_v2.json", "w") as f:
     json.dump(results, f, indent=2)
 
 # ----- Evaluation -----
@@ -144,20 +144,20 @@ y_pred = [r["predicted"] for r in results]
 y_pred_fuzzy = [r["true_term"] if r["fuzzy_match"] else r["predicted"] for r in results]
 
 print("\nEvaluation Report (Exact Match):")
-print(classification_report(y_true, y_pred))
+print(classification_report(y_true, y_pred, zero_division=0))
 
 print("\nEvaluation Report (Fuzzy Match):")
-print(classification_report(y_true, y_pred_fuzzy))
+print(classification_report(y_true, y_pred_fuzzy, zero_division=0))
 
+# Custom Metrics
 acc = accuracy_score(y_true, y_pred)
 f1 = f1_score(y_true, y_pred, average="macro")
 precision = precision_score(y_true, y_pred, average="macro", zero_division=0)
 recall = recall_score(y_true, y_pred, average="macro", zero_division=0)
+fuzzy_acc = sum(r["fuzzy_match"] for r in results) / len(results)
 
 print(f"\nAccuracy: {acc:.2f}")
 print(f"F1 Score: {f1:.2f}")
 print(f"Precision (macro): {precision:.2f}")
 print(f"Recall (macro): {recall:.2f}")
-
-fuzzy_accuracy = sum(r["fuzzy_match"] for r in results) / len(results)
-print(f"Fuzzy Match Accuracy: {fuzzy_accuracy:.2f}")
+print(f"Fuzzy Match Accuracy: {fuzzy_acc:.2f}")

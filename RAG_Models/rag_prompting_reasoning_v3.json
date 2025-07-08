@@ -10,18 +10,18 @@
   {
     "AE_text": "headache",
     "true_term": "Headache",
-    "predicted": "Headache",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
-    "fuzzy_match": true
+    "predicted": "Headache NOS",
+    "exact_match": false,
+    "fuzzy_score": 80.0,
+    "fuzzy_match": false
   },
   {
     "AE_text": "vomiting",
     "true_term": "Vomiting",
-    "predicted": "Vomiting NOS",
-    "exact_match": false,
-    "fuzzy_score": 80.0,
-    "fuzzy_match": false
+    "predicted": "Vomiting",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
   },
   {
     "AE_text": "Entsuendungszeichen erhoeht CRP-Wert erhoeht.",
@@ -50,10 +50,10 @@
   {
     "AE_text": "Bilirubin Erhoehung",
     "true_term": "Blood bilirubin increased",
-    "predicted": "Bilirubin increased",
-    "exact_match": false,
-    "fuzzy_score": 86.36363636363636,
-    "fuzzy_match": false
+    "predicted": "Blood bilirubin increased",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
   },
   {
     "AE_text": "Sepsis Subileus, megacolon, multiple bleedings.",
@@ -72,11 +72,19 @@
     "fuzzy_match": true
   },
   {
+    "AE_text": "Akutes Nierenversagen AKI 2 \u00b0",
+    "true_term": "Acute kidney failure",
+    "predicted": "Acute kidney failure",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
     "AE_text": "Thrombophlebitis Thrombophlebitis im Bereich der oberflaechlichen Unterschenkelvenen.",
     "true_term": "Phlebitis and thrombophlebitis of superficial vessels of lower extremities",
-    "predicted": "Superficial thrombophlebitis of leg",
+    "predicted": "Thrombophlebitis superficial",
     "exact_match": false,
-    "fuzzy_score": 51.37614678899083,
+    "fuzzy_score": 54.90196078431373,
     "fuzzy_match": false
   },
   {
