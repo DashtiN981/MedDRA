@@ -10,10 +10,10 @@
   {
     "AE_text": "headache",
     "true_term": "Headache",
-    "predicted": "Headache",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
-    "fuzzy_match": true
+    "predicted": "Headache NOS",
+    "exact_match": false,
+    "fuzzy_score": 80.0,
+    "fuzzy_match": false
   },
   {
     "AE_text": "vomiting",
@@ -34,10 +34,10 @@
   {
     "AE_text": "Arthralgien Arthralgien, die wir z.B. im Rahmen eines Cytarabin-Syndroms werten. Verdacht auf Cytarabin-Syndrom mit Arthralgien.",
     "true_term": "Cytarabine syndrome",
-    "predicted": "Cytarabine syndrome",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
-    "fuzzy_match": true
+    "predicted": "Arthralgia",
+    "exact_match": false,
+    "fuzzy_score": 27.586206896551722,
+    "fuzzy_match": false
   },
   {
     "AE_text": "Sars-CoV-2",
@@ -50,17 +50,17 @@
   {
     "AE_text": "Bilirubin Erhoehung",
     "true_term": "Blood bilirubin increased",
-    "predicted": "Bilirubin elevated",
+    "predicted": "Bilirubin increased",
     "exact_match": false,
-    "fuzzy_score": 65.11627906976744,
+    "fuzzy_score": 86.36363636363636,
     "fuzzy_match": false
   },
   {
     "AE_text": "Sepsis Subileus, megacolon, multiple bleedings.",
     "true_term": "Abdominal sepsis",
-    "predicted": "Sepsis",
+    "predicted": "Sepsis NOS",
     "exact_match": false,
-    "fuzzy_score": 54.54545454545454,
+    "fuzzy_score": 46.15384615384615,
     "fuzzy_match": false
   },
   {
@@ -82,10 +82,10 @@
   {
     "AE_text": "Thrombophlebitis Thrombophlebitis im Bereich der oberflaechlichen Unterschenkelvenen.",
     "true_term": "Phlebitis and thrombophlebitis of superficial vessels of lower extremities",
-    "predicted": "Thrombophlebitis leg superficial",
-    "exact_match": false,
-    "fuzzy_score": 54.71698113207547,
-    "fuzzy_match": false
+    "predicted": "Phlebitis and thrombophlebitis of superficial vessels of lower extremities",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
   },
   {
     "AE_text": "neutrope Colitits",
@@ -106,10 +106,10 @@
   {
     "AE_text": "rhinitis",
     "true_term": "Rhinitis",
-    "predicted": "Rhinitis NOS",
-    "exact_match": false,
-    "fuzzy_score": 80.0,
-    "fuzzy_match": false
+    "predicted": "Rhinitis",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
   },
   {
     "AE_text": "weight loss",
@@ -138,9 +138,9 @@
   {
     "AE_text": "Skin irritation anal after diarrhea",
     "true_term": "Skin irritation",
-    "predicted": "Perianal irritation",
+    "predicted": "Anal irritation",
     "exact_match": false,
-    "fuzzy_score": 76.47058823529412,
+    "fuzzy_score": 80.0,
     "fuzzy_match": false
   },
   {
@@ -154,9 +154,9 @@
   {
     "AE_text": "cramplike pain abdomen",
     "true_term": "Abdominal crampy pains",
-    "predicted": "Abdominal crampy pains",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
-    "fuzzy_match": true
+    "predicted": "Abdominal cramps",
+    "exact_match": false,
+    "fuzzy_score": 84.21052631578947,
+    "fuzzy_match": false
   }
 ]

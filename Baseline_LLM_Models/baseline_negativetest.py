@@ -95,7 +95,7 @@ for idx, row in ae_df.iloc[:20].iterrows():
         print(f"Error at index {idx}: {e}")
 
 # Save predictions
-with open("baseline_negativetest.json", "w") as f:
+with open("/home/naghmedashti/MedDRA-LLM/Baseline_LLM_Models/baseline_negativetest.json", "w") as f:
     json.dump(results, f, indent=2)
 
 # Evaluate

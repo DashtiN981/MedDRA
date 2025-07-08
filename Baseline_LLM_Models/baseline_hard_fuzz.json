@@ -26,9 +26,9 @@
   {
     "AE_text": "Entsuendungszeichen erhoeht CRP-Wert erhoeht.",
     "true_term": "CRP increased",
-    "predicted": "Palpatory finding abnormal",
+    "predicted": "Inflammation NOS is not in the list, however, a related term is available: \n\nArthritis allergic",
     "exact_match": false,
-    "fuzzy_score": 26,
+    "fuzzy_score": 15,
     "fuzzy_match": false
   },
   {
@@ -36,7 +36,7 @@
     "true_term": "Cytarabine syndrome",
     "predicted": "Arthralgia",
     "exact_match": false,
-    "fuzzy_score": 21,
+    "fuzzy_score": 28,
     "fuzzy_match": false
   },
   {
@@ -44,23 +44,23 @@
     "true_term": "SARS-CoV-2 infection",
     "predicted": "COVID-19 antigen test",
     "exact_match": false,
-    "fuzzy_score": 39,
+    "fuzzy_score": 44,
     "fuzzy_match": false
   },
   {
     "AE_text": "Bilirubin Erhoehung",
     "true_term": "Blood bilirubin increased",
-    "predicted": "Transaminase NOS increased",
+    "predicted": "Bile output abnormal",
     "exact_match": false,
-    "fuzzy_score": 51,
+    "fuzzy_score": 36,
     "fuzzy_match": false
   },
   {
     "AE_text": "Sepsis Subileus, megacolon, multiple bleedings.",
     "true_term": "Abdominal sepsis",
-    "predicted": "Other specified intestinal obstruction",
+    "predicted": "Sepsis",
     "exact_match": false,
-    "fuzzy_score": 30,
+    "fuzzy_score": 55,
     "fuzzy_match": false
   },
   {
@@ -68,7 +68,7 @@
     "true_term": "Klebsiella pneumoniae cystitis",
     "predicted": "Urinary tract infection",
     "exact_match": false,
-    "fuzzy_score": 23,
+    "fuzzy_score": 34,
     "fuzzy_match": false
   },
   {
@@ -106,18 +106,18 @@
   {
     "AE_text": "rhinitis",
     "true_term": "Rhinitis",
-    "predicted": "Atopic urticaria",
-    "exact_match": false,
-    "fuzzy_score": 25,
-    "fuzzy_match": false
+    "predicted": "Rhinitis",
+    "exact_match": true,
+    "fuzzy_score": 100,
+    "fuzzy_match": true
   },
   {
     "AE_text": "weight loss",
     "true_term": "Weight loss",
-    "predicted": "Hyposthenia",
-    "exact_match": false,
-    "fuzzy_score": 27,
-    "fuzzy_match": false
+    "predicted": "Weight loss",
+    "exact_match": true,
+    "fuzzy_score": 100,
+    "fuzzy_match": true
   },
   {
     "AE_text": "oedema both legs",
@@ -130,17 +130,17 @@
   {
     "AE_text": "dry skin",
     "true_term": "Dry skin",
-    "predicted": "Dry skin",
-    "exact_match": true,
-    "fuzzy_score": 100,
-    "fuzzy_match": true
+    "predicted": "Skin turgor decreased",
+    "exact_match": false,
+    "fuzzy_score": 28,
+    "fuzzy_match": false
   },
   {
     "AE_text": "Skin irritation anal after diarrhea",
     "true_term": "Skin irritation",
     "predicted": "Medical device site irritation",
     "exact_match": false,
-    "fuzzy_score": 53,
+    "fuzzy_score": 58,
     "fuzzy_match": false
   },
   {

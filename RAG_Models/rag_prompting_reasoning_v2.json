@@ -1,0 +1,173 @@
+[
+  {
+    "ae_text": "Nausea intermittent nausea",
+    "true_term": "Nausea",
+    "predicted_term": "- **Intermittent** is not directly found in combination with nausea in",
+    "exact_match": false,
+    "fuzzy_score": 15.789473684210531,
+    "fuzzy_match": false,
+    "raw_answer": "To determine the best match for the Adverse Event (AE) \"Nausea intermittent nausea\", let's break down the key components and analyze the given MedDRA LLT terms step by step:\n\n1. **Identify Key Components**: The AE is \"Nausea intermittent nausea\". The key components here are \"nausea\" and \"intermittent\", indicating that the nausea is not constant but rather comes and goes.\n\n2. **Analyze MedDRA LLT Terms**:\n   - **Direct Matches**: Look for terms that directly mention \"nausea\" and consider the context of \"intermittent\".\n   - **Related Terms**: Consider terms that are related to nausea but may not directly mention \"intermittent\".\n\n3. **Eliminate Unrelated Terms**: Terms that mention specific contexts (like pregnancy, post-procedural, or chemotherapy) can be eliminated unless the AE specifically mentions such a context.\n\n4. **Select Potential Matches**:\n   - **Nausea**: A direct and simple match.\n   - **Nausea alone**: This could be a match since it specifies nausea without mentioning vomiting, which is not mentioned in the AE.\n   - **Sickness/nausea**: While this includes nausea, it's broader by including \"sickness\".\n   - **Nausea & vomiting**: This can be eliminated because the AE does not mention vomiting.\n   - **Intermittent** is not directly found in combination with nausea in"
+  },
+  {
+    "ae_text": "headache",
+    "true_term": "Headache",
+    "predicted_term": "Headache",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "raw_answer": "To determine the best match for the Adverse Event (AE) \"headache\", let's consider the options provided:\n\n1. **Specificity and Generality**: The term \"headache\" is very general. We should look for a term in the MedDRA LLT list that directly matches this generality without adding specifics not mentioned in the AE.\n\n2. **Exclusion of Specific Types**: Many of the options provided are specific types of headaches (e.g., migrainous headache, tension headache, post-traumatic headache). Since the AE does not specify the type of headache, we should avoid terms that imply a specific etiology or characteristic not mentioned.\n\n3. **Direct Matching**: We are looking for a term that directly corresponds to \"headache\" without adding additional details not provided in the AE.\n\nGiven these considerations, the most appropriate match from the provided list would be a term that is as general as \"headache\" and does not imply specifics not mentioned in the AE.\n\nFinal answer: Headache"
+  },
+  {
+    "ae_text": "vomiting",
+    "true_term": "Vomiting",
+    "predicted_term": "5. **Final Selection**: Given the direct match and the lack of additional context to warrant a more specific choice, the best match for the",
+    "exact_match": false,
+    "fuzzy_score": 8.163265306122447,
+    "fuzzy_match": false,
+    "raw_answer": "To determine the best match for the Adverse Event (AE) \"vomiting\", let's analyze the given options step by step:\n\n1. **Direct Match**: The first step is to look for a direct match. The term \"Vomiting\" is directly listed as an option.\n\n2. **Specificity**: Since \"vomiting\" is a broad term, we should consider if there's a more specific term that applies. However, without additional context (such as the cause, associated symptoms, or patient population), we cannot accurately narrow down to a more specific condition like \"Nausea with vomiting\", \"Vomiting post chemotherapy\", or \"Cyclic vomiting syndrome\".\n\n3. **Exclusion of Unrelated Terms**: Terms that are clearly unrelated or too specific without further context can be excluded. Examples include \"Diarrhea\", \"Poisoning\", \"Reaction serum sickness-like\", and terms that specify a cause or a very specific condition without it being mentioned in the AE.\n\n4. **Consideration of Similar Terms**: Terms like \"Vomiting NOS\" (Not Otherwise Specified) could be considered if the exact nature of the vomiting isn't specified. However, given that \"Vomiting\" itself is an option, and without additional context suggesting a need for \"NOS\", it remains the most straightforward choice.\n\n5. **Final Selection**: Given the direct match and the lack of additional context to warrant a more specific choice, the best match for the"
+  },
+  {
+    "ae_text": "Entsuendungszeichen erhoeht CRP-Wert erhoeht.",
+    "true_term": "CRP increased",
+    "predicted_term": "5. **Selecting the Best Match**: Given the direct reference to \"increased",
+    "exact_match": false,
+    "fuzzy_score": 27.906976744186053,
+    "fuzzy_match": false,
+    "raw_answer": "To determine the best match, let's break down the given Adverse Event (AE) and analyze it step by step:\n\n1. **Understanding the AE**: The AE is described in German as \"Entsuendungszeichen erhoeht CRP-Wert erhoeht.\" Translating this into English, we get \"Signs of inflammation increased CRP value increased.\" This indicates an inflammatory condition with elevated C-Reactive Protein (CRP) levels, which is a marker of inflammation.\n\n2. **Identifying Key Components**: The key components here are \"inflammation\" (Entsuendungszeichen) and \"increased CRP\" (erhöht CRP-Wert). We need to find a term that closely relates to these components.\n\n3. **Searching for Matches**: Looking through the provided list of MedDRA LLT terms, we need to find terms that relate to inflammation and/or increased CRP levels.\n\n4. **Analyzing Possible Matches**:\n   - **CRP increased**: This term directly matches the \"increased CRP\" part of the AE description. It specifically refers to an elevated level of C-Reactive Protein, which is a direct indicator of inflammation.\n   - Other terms like **Erythema**, **Eczema**, and **Inflammatory** conditions are related to inflammation but do not specifically mention increased CRP levels.\n\n5. **Selecting the Best Match**: Given the direct reference to \"increased"
+  },
+  {
+    "ae_text": "Arthralgien Arthralgien, die wir z.B. im Rahmen eines Cytarabin-Syndroms werten. Verdacht auf Cytarabin-Syndrom mit Arthralgien.",
+    "true_term": "Cytarabine syndrome",
+    "predicted_term": "- **Arthralgia** is a direct match for the",
+    "exact_match": false,
+    "fuzzy_score": 32.786885245901644,
+    "fuzzy_match": false,
+    "raw_answer": "To determine the best match, let's break down the given Adverse Event (AE) description: \"Arthralgien Arthralgien, die wir z.B. im Rahmen eines Cytarabin-Syndroms werten. Verdacht auf Cytarabin-Syndrom mit Arthralgien.\"\n\n1. **Identify Key Terms**: The key terms in this description are \"Arthralgien\" (which translates to arthralgia, meaning joint pain) and \"Cytarabin-Syndrom\" (which translates to Cytarabine syndrome). Cytarabine is a chemotherapy medication, and its syndrome can include various side effects, among them arthralgia.\n\n2. **Understand the Context**: The context suggests that the patient is experiencing joint pain (arthralgia) that is being evaluated in the context of a potential Cytarabine syndrome. This implies the need for a term that either directly references Cytarabine syndrome or accurately describes the symptom (arthralgia) in a way that could be related to such a syndrome.\n\n3. **Review MedDRA LLT Terms**: Looking through the provided list of MedDRA LLT terms, we need to find the term that best matches the description of arthralgia in the context of Cytarabine syndrome.\n\n4. **Select the Best Match**: \n    - **Arthralgia** is a direct match for the"
+  },
+  {
+    "ae_text": "Sars-CoV-2",
+    "true_term": "SARS-CoV-2 infection",
+    "predicted_term": "5. **Identifying the Most Accurate Term**: The term",
+    "exact_match": false,
+    "fuzzy_score": 19.718309859154925,
+    "fuzzy_match": false,
+    "raw_answer": "To determine the best match for the Adverse Event (AE) \"Sars-CoV-2\", let's break down the process step by step:\n\n1. **Understanding the AE**: The AE given is \"Sars-CoV-2\", which refers to the virus causing COVID-19. This is not a symptom or a disease condition but the virus itself.\n\n2. **Reviewing MedDRA LLT Terms**: The list provided contains various terms related to COVID-19, SARS-CoV-2, and other conditions. We need to find the term that most accurately represents the presence or infection of SARS-CoV-2.\n\n3. **Eliminating Unrelated Terms**: Terms like \"MERS-CoV test negative\", \"Sarcoidosis NOS\", \"Sarcopenia\", \"Rift Valley fever\", \"HIV-2\", and others not directly related to SARS-CoV-2 can be eliminated.\n\n4. **Focusing on SARS-CoV-2 Related Terms**: Terms such as \"SARS-CoV-2 viral load undetectable\", \"SARS-CoV-2 serology test positive\", \"SARS-CoV-2 antibody test negative\", and \"SARS-CoV-2 test positive\" are related to the detection or presence of SARS-CoV-2 but specify certain conditions (e.g., viral load, serology test results).\n\n5. **Identifying the Most Accurate Term**: The term"
+  },
+  {
+    "ae_text": "Bilirubin Erhoehung",
+    "true_term": "Blood bilirubin increased",
+    "predicted_term": "Bilirubin increased",
+    "exact_match": false,
+    "fuzzy_score": 86.36363636363636,
+    "fuzzy_match": false,
+    "raw_answer": "To determine the best match for the Adverse Event (AE) \"Bilirubin Erhoehung\", let's break down the term:\n\n- \"Bilirubin\" refers to the pigment itself.\n- \"Erhoehung\" is German for \"increase\" or \"elevation\".\n\nGiven this, we are looking for a MedDRA LLT term that reflects an increase or elevation in bilirubin levels.\n\nLooking through the list, several terms could potentially match, but we need the one that most accurately describes an increase in bilirubin without specifying the type (conjugated or unconjugated) unless the context of \"Erhoehung\" implies a total or general increase.\n\nTerms like \"Bilirubin increased\", \"Bilirubin total increased\", \"Bilirubins total increased\", \"Hyper bilirubinaemia\", \"Raised bilirubin\", and \"Bilirubin elevated\" all suggest an increase in bilirubin levels. However, \"Bilirubin Erhoehung\" most directly translates to a general increase in bilirubin, without specifying whether it's conjugated, unconjugated, or total.\n\nThe most straightforward and direct match, considering the translation and the context provided, would be a term that indicates a general increase in bilirubin levels.\n\nFinal answer: Bilirubin increased"
+  },
+  {
+    "ae_text": "Sepsis Subileus, megacolon, multiple bleedings.",
+    "true_term": "Abdominal sepsis",
+    "predicted_term": "Upon reviewing the list of provided MedDRA LLT terms",
+    "exact_match": false,
+    "fuzzy_score": 23.529411764705888,
+    "fuzzy_match": false,
+    "raw_answer": "To determine the best match for the given Adverse Event (AE) \"Sepsis Subileus, megacolon, multiple bleedings,\" let's break down the key components and analyze them step by step:\n\n1. **Sepsis**: This is a life-threatening condition that arises when the body's response to infection causes injury to its own tissues and organs. Sepsis is a key component of the AE.\n\n2. **Subileus**: This term refers to a condition where there is a partial obstruction of the intestine, which can lead to symptoms such as abdominal pain, nausea, vomiting, and constipation. It's a form of intestinal obstruction but is not as complete as an ileus.\n\n3. **Megacolon**: This condition is characterized by an abnormal dilation of the colon that can be acute or chronic. It can be associated with various conditions, including infections, and can lead to severe complications if not treated.\n\n4. **Multiple bleedings**: This indicates the presence of more than one site of bleeding or repeated episodes of bleeding, which can be due to various causes, including trauma, disease, or medication side effects.\n\nGiven these components, we are looking for a MedDRA LLT term that best encompasses the concept of sepsis, as it is the overarching condition mentioned, and ideally also considers the complications or associated conditions like subileus, megacolon, and multiple bleedings.\n\nUpon reviewing the list of provided MedDRA LLT terms"
+  },
+  {
+    "ae_text": "Harnwegsinfekt Nachweis von Klebsiella pneumonieae in Urinkultur.",
+    "true_term": "Klebsiella pneumoniae cystitis",
+    "predicted_term": "5. **Selecting the Best Match**: Given the specificity of \"Klebsiella pneumoniae cystitis\" to both",
+    "exact_match": false,
+    "fuzzy_score": 46.875,
+    "fuzzy_match": false,
+    "raw_answer": "To determine the best match, let's break down the given Adverse Event (AE) and analyze it step by step:\n\n1. **Understanding the AE**: The AE is \"Harnwegsinfekt Nachweis von Klebsiella pneumonieae in Urinkultur.\" This translates to \"Urinary tract infection with detection of Klebsiella pneumoniae in urine culture.\"\n\n2. **Identifying Key Components**: The key components here are \"Urinary tract infection\" and \"Klebsiella pneumoniae.\"\n\n3. **Matching with MedDRA LLT Terms**: We need to find a term that closely matches a urinary tract infection caused by Klebsiella pneumoniae.\n\n4. **Reviewing Options**:\n   - **Cystitis klebsiella**: This term directly refers to a bladder infection caused by Klebsiella, which is a type of urinary tract infection.\n   - **Klebsiella septicemia**: This refers to a condition where Klebsiella bacteria enter the bloodstream, causing a systemic infection, which is not specifically a urinary tract infection.\n   - **Klebsiella pneumoniae cystitis**: This term explicitly mentions the causative agent (Klebsiella pneumoniae) and the condition (cystitis), making it a precise match for the described AE.\n\n5. **Selecting the Best Match**: Given the specificity of \"Klebsiella pneumoniae cystitis\" to both"
+  },
+  {
+    "ae_text": "Thrombophlebitis Thrombophlebitis im Bereich der oberflaechlichen Unterschenkelvenen.",
+    "true_term": "Phlebitis and thrombophlebitis of superficial vessels of lower extremities",
+    "predicted_term": "- **Thromb",
+    "exact_match": false,
+    "fuzzy_score": 16.666666666666664,
+    "fuzzy_match": false,
+    "raw_answer": "To determine the best match, let's break down the given Adverse Event (AE) and analyze the options provided:\n\n1. **Understanding the AE**: The AE is \"Thrombophlebitis im Bereich der oberflaechlichen Unterschenkelvenen,\" which translates to \"Thrombophlebitis in the area of the superficial lower leg veins.\" This indicates we are dealing with a condition involving inflammation and clotting in the superficial veins of the lower extremities.\n\n2. **Identifying Key Components**: The key components here are \"thrombophlebitis,\" \"superficial,\" and \"lower leg veins\" (or lower extremities).\n\n3. **Matching with MedDRA LLT Terms**:\n   - **Thrombophlebitis**: Many terms contain this, so it's not specific enough on its own.\n   - **Superficial**: This helps narrow it down, as we're looking for terms that specify superficial thrombophlebitis.\n   - **Lower Leg Veins/Lower Extremities**: We need a term that relates to the lower extremities.\n\n4. **Analyzing Options**:\n   - **Phlebitis and thrombophlebitis of lower extremities unspecified**: This is close but does not specify superficial.\n   - **Thrombophlebitis leg**: This could be a match but does not specify superficial or deep.\n   - **Thromb"
+  },
+  {
+    "ae_text": "neutrope Colitits",
+    "true_term": "Neutropenic colitis",
+    "predicted_term": "Neutropenic colitis",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "raw_answer": "To determine the best match for the given Adverse Event (AE) \"neutrope Colitits\", let's break down the term into its components and analyze the provided MedDRA LLT terms step by step:\n\n1. **Neutrope**: This part of the term seems to refer to \"neutropenia\" or something related to neutrophils, which are a type of white blood cell.\n2. **Colitits**: This part clearly refers to \"colitis\", which is inflammation of the colon.\n\nGiven these components, we are looking for a term that combines the concepts of neutrophils (or neutropenia) and colitis.\n\nUpon reviewing the list of MedDRA LLT terms, several terms relate to either neutrophils/neutropenia or colitis, but we need a term that combines both concepts.\n\nThe term **Neutropenic colitis** directly combines the concepts of neutropenia (a condition characterized by an abnormally low number of neutrophils) and colitis (inflammation of the colon). This condition is a known complication, especially in patients undergoing chemotherapy or with other forms of immunosuppression, where the reduced number of neutrophils increases the risk of infections, including those causing colitis.\n\nFinal answer: Neutropenic colitis"
+  },
+  {
+    "ae_text": "worsening of the preexisting Mucositis",
+    "true_term": "Mucositis",
+    "predicted_term": "Given the information provided and focusing on the concept of \"worsening of the preexisting Mucositis\", the most direct and relevant term would be **M",
+    "exact_match": false,
+    "fuzzy_score": 11.32075471698113,
+    "fuzzy_match": false,
+    "raw_answer": "To determine the best match for the Adverse Event (AE) \"worsening of the preexisting Mucositis\", we should consider the terms that directly relate to mucositis and its exacerbation or worsening. \n\n1. **Mucositis** is a general term that refers to the inflammation of mucous membranes. The AE mentions a worsening of preexisting mucositis, which implies an exacerbation of this condition.\n\n2. **Mucositis NOS (Not Otherwise Specified)** could be considered if the location or specifics of the mucositis are not detailed. However, since the AE does not specify a new location or type of mucositis but rather a worsening of a preexisting condition, this term might be too broad.\n\n3. Terms like **Gastrointestinal mucositis**, **Esophageal mucositis**, **Oral mucositis**, etc., specify the location of the mucositis. Without specific information on the location of the worsening mucositis, these terms might be too specific.\n\n4. **Mucosal inflammation NOS** and **Mucosal disorder** are broader terms that could encompass worsening mucositis but do not directly convey the idea of an exacerbation of a preexisting condition as clearly as terms directly related to mucositis.\n\nGiven the information provided and focusing on the concept of \"worsening of the preexisting Mucositis\", the most direct and relevant term would be **M"
+  },
+  {
+    "ae_text": "rhinitis",
+    "true_term": "Rhinitis",
+    "predicted_term": "Rhinitis",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "raw_answer": "To determine the best match for the Adverse Event (AE) \"rhinitis\", let's consider the options provided:\n\n1. **Start with the most general term**: The AE is simply \"rhinitis\" without any specification of the cause (allergic, infective, etc.) or the duration (acute, chronic). Therefore, we should look for a term that matches this general description.\n\n2. **Eliminate specific types**: Terms like \"Allergic rhinitis\", \"Viral rhinitis\", \"Chronic rhinitis\", etc., are more specific and do not match the general nature of the AE \"rhinitis\" unless specified.\n\n3. **Consider the term \"Rhinitis\"**: This term directly matches the AE. It is general and does not specify the cause or duration, making it a broad match for \"rhinitis\".\n\n4. **Check for \"Rhinitis NOS\"**: \"NOS\" stands for \"Not Otherwise Specified\", which means this term is used when the specific type of rhinitis is not detailed. This could potentially be a good match if \"Rhinitis\" is not available or if the context suggests an unspecified type.\n\nGiven these considerations, the most direct and appropriate match for the AE \"rhinitis\" from the provided list is \"Rhinitis\" itself, as it directly corresponds to the AE without adding any additional specificity not provided in the AE description.\n\nFinal answer: Rhinitis"
+  },
+  {
+    "ae_text": "weight loss",
+    "true_term": "Weight loss",
+    "predicted_term": "5. **Selection**: Among the direct matches, \"Weight loss\" is the most straightforward and directly corresponds to the AE. \"Unintentional weight loss\" could also be a good choice if the context implied the weight loss was",
+    "exact_match": false,
+    "fuzzy_score": 9.523809523809524,
+    "fuzzy_match": false,
+    "raw_answer": "To determine the best match for the Adverse Event (AE) \"weight loss\" from the given list of MedDRA LLT terms, let's analyze the options step by step:\n\n1. **Direct Matches**: First, we look for direct matches or terms that closely resemble \"weight loss.\" Terms like \"Weight loss,\" \"Loss of weight,\" \"Unintentional weight loss,\" and \"Weight decrease\" are direct or close matches.\n\n2. **Contextual Relevance**: Since \"weight loss\" can be intentional or unintentional, we need to consider if the context provided leans towards one or the other. Without specific context indicating intentionality, we should consider both intentional and unintentional weight loss.\n\n3. **MedDRA Specificity**: MedDRA (Medical Dictionary for Regulatory Activities) is designed to be highly specific. Therefore, the chosen term should be as specific as possible while still accurately reflecting the AE described.\n\n4. **Exclusion of Less Relevant Terms**: Terms that imply a different condition or are less directly related to \"weight loss\" should be excluded. For example, \"Weight gain,\" \"Obesity,\" \"Overweight,\" and terms related to diet or appetite, while potentially related, do not directly describe \"weight loss.\"\n\n5. **Selection**: Among the direct matches, \"Weight loss\" is the most straightforward and directly corresponds to the AE. \"Unintentional weight loss\" could also be a good choice if the context implied the weight loss was"
+  },
+  {
+    "ae_text": "oedema both legs",
+    "true_term": "Edema legs",
+    "predicted_term": "Oedema of legs",
+    "exact_match": false,
+    "fuzzy_score": 83.33333333333334,
+    "fuzzy_match": false,
+    "raw_answer": "To determine the best match, let's break down the given Adverse Event (AE) \"oedema both legs\" and compare it with the provided MedDRA LLT terms.\n\n1. **Location**: The AE specifies the location as \"both legs.\" Therefore, the best match should directly relate to the legs.\n2. **Specificity**: Terms that are too general (like \"Oedema\") or overly specific but not directly related to the legs (like \"Oedema upper limb\") should be avoided.\n3. **Direct Matches**: Looking for terms that directly mention \"legs\" or are synonymous with the condition described.\n\nGiven these considerations, the most relevant terms from the list are:\n- Oedema of legs\n- Oedema legs\n- Leg oedema\n- Lower limb oedema (since legs are part of the lower limb)\n- Pitting leg oedema (specific type of oedema but directly mentions legs)\n- Chronic oedema of legs (implies a long-standing condition, which may not be specified in the AE)\n- Edema legs (similar to \"Oedema legs\" but uses \"Edema\" instead of \"Oedema\")\n\nAmong these, \"Oedema of legs\" directly matches the description given in the AE without implying additional specifics (like chronicity or the type of oedema) not mentioned in the AE.\n\nFinal answer: Oedema of legs"
+  },
+  {
+    "ae_text": "dry skin",
+    "true_term": "Dry skin",
+    "predicted_term": "Dry skin",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "raw_answer": "To determine the best match for the Adverse Event (AE) \"dry skin\" from the given list of MedDRA LLT terms, let's break down the process:\n\n1. **Direct Match**: First, look for a term that directly matches the AE. In this case, \"dry skin\" is present in the list.\n\n2. **Similar Terms**: Next, consider terms that are very similar or could potentially describe the same condition. Terms like \"skin dry\", \"dry skin face\", \"hot dry skin\", \"chapped skin\", and \"dry skin aggravated\" are related but may not be as precise for coding purposes as the direct match.\n\n3. **Specificity and Relevance**: For coding purposes, specificity is key. However, in this case, the direct match \"dry skin\" is both specific and directly relevant to the AE described.\n\n4. **Exclusion of Less Relevant Terms**: Terms that describe different conditions or are less directly related to \"dry skin\" (such as \"dry mouth\", \"dry eyes\", \"dry hair\", etc.) can be excluded.\n\n5. **Selection**: Based on the direct match and the importance of specificity in coding, the best match for the AE \"dry skin\" is the term that exactly matches the description.\n\nFinal answer: Dry skin"
+  },
+  {
+    "ae_text": "Skin irritation anal after diarrhea",
+    "true_term": "Skin irritation",
+    "predicted_term": "Considering the",
+    "exact_match": false,
+    "fuzzy_score": 33.333333333333336,
+    "fuzzy_match": false,
+    "raw_answer": "To determine the best match for the given Adverse Event (AE) \"Skin irritation anal after diarrhea\", let's break down the key components:\n\n1. **Location**: The irritation is specified as being \"anal\", which indicates the area affected.\n2. **Type of Reaction**: It's described as \"skin irritation\", which suggests a reaction affecting the skin.\n3. **Trigger**: The irritation occurs \"after diarrhea\", implying that the diarrhea is a preceding event or possibly a contributing factor, but the primary issue being coded is the skin irritation.\n\nGiven these components, we need to find a MedDRA LLT term that best matches \"skin irritation\" in the \"anal\" area. While there are terms related to diarrhea and anal issues, the focus of the AE is on the skin irritation.\n\nLooking through the provided list:\n- **Anal irritation** directly mentions the location and type of reaction, making it a strong candidate.\n- **Skin irritation** is also a relevant term but is less specific about the location.\n- **Perianal irritation** could be considered since \"perianal\" refers to the area around the anus, which might include the anal skin area. However, it's slightly less specific to the \"anal\" location mentioned in the AE.\n- **Anal discomfort**, **Anal itching**, and **Anal pruritus** are related but do not directly describe \"irritation\".\n- **Irritation skin** is relevant but lacks specificity regarding the location.\n\nConsidering the"
+  },
+  {
+    "ae_text": "alopecia",
+    "true_term": "Alopecia",
+    "predicted_term": "Alopecia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "raw_answer": "To determine the best match for the Adverse Event (AE) \"alopecia\", we should consider the options provided in the list of MedDRA LLT terms. \n\n1. **Direct Match**: The first step is to look for a direct match. The term \"alopecia\" is directly listed in the provided options.\n\n2. **Specificity**: Since \"alopecia\" is a general term that refers to hair loss, we should consider if there's a more specific type of alopecia mentioned in the AE description. However, the AE description only mentions \"alopecia\" without specifying the type.\n\n3. **MedDRA Hierarchy**: In MedDRA, terms are organized in a hierarchical structure. The most specific term should be chosen. However, since the AE does not provide specifics beyond \"alopecia\", we select the term that directly matches.\n\n4. **Exclusion of Unrelated Terms**: Many of the options provided are related to hair conditions but are more specific (e.g., androgenetic alopecia, alopecia areata) or unrelated (e.g., hairy elbow syndrome, scalp irritation). Without more specific information in the AE, these can be excluded in favor of the direct match.\n\n5. **Conclusion**: Given the information provided and the process of elimination, the most appropriate choice for the AE \"alopecia\" is the term that directly corresponds to the condition without adding specificity not provided in the AE description.\n\nFinal answer: Alopecia"
+  },
+  {
+    "ae_text": "cramplike pain abdomen",
+    "true_term": "Abdominal crampy pains",
+    "predicted_term": "- Terms like \"Abdominal crampy pains\", \"Abdominal cramps\", \"Abdominal spasm\", and \"Intestinal",
+    "exact_match": false,
+    "fuzzy_score": 38.26086956521739,
+    "fuzzy_match": false,
+    "raw_answer": "To determine the best match for the Adverse Event (AE) \"cramplike pain abdomen\", let's break down the key components of the AE and compare them to the provided MedDRA LLT terms.\n\n1. **Location**: The AE specifies the abdomen as the location of the pain.\n2. **Type of Pain**: The pain is described as \"cramplike\", which suggests a spasmodic or cramp-like nature.\n\nGiven these components, we can narrow down our search to terms that include both the location (abdomen) and the nature of the pain (cramp-like).\n\n- Terms like \"Muscle cramps\", \"Cramps in legs\", \"Cramp in hand\", \"Cramps of extremities\", \"Cramp of limb\", \"Uterine cramps\", \"Leg cramps\", and \"Cramps of lower body\" can be excluded because they either specify a different location (not abdomen) or do not directly relate to abdominal pain.\n- Terms such as \"Abdominal pain\", \"Abdominal pain generalized\", \"Abdominal pain lower\", \"Abdominal pain upper\", \"Abdominal pain NOS\", \"Pain abdominal\", and \"Abdominal pain peptic ulcer type\" describe abdominal pain but do not specifically mention a cramp-like quality.\n- Terms like \"Abdominal crampy pains\", \"Abdominal cramps\", \"Abdominal spasm\", and \"Intestinal"
+  }
+]

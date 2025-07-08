@@ -3,7 +3,7 @@ import random
 from openai import OpenAI
 import time
 import json
-from sklearn.metrics import accuracy_score, f1_score
+from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
 #from fuzzywuzzy import fuzz
 #from fuzzywuzzy import process
 from rapidfuzz import fuzz
@@ -90,7 +90,7 @@ for idx, row in ae_df.iloc[:20].iterrows():
     except Exception as e:
         print(f"Error at index {idx}: {e}")
 
-with open("baseline_hard_rapidfuzz.json", "w") as f:
+with open("/home/naghmedashti/MedDRA-LLM/Baseline_LLM_Models/baseline_hard_rapidfuzz.json", "w") as f:
     json.dump(results, f, indent=2)
 
 # Prepare metrics
@@ -111,3 +111,13 @@ f1 = f1_score(y_true, y_pred, average="macro")
 
 print(f"\nAccuracy: {acc:.2f}")
 print(f"F1 Score: {f1:.2f}")
+
+precision = precision_score(y_true, y_pred, average="macro", zero_division=0)
+recall = recall_score(y_true, y_pred, average="macro", zero_division=0)
+
+print(f"Precision (macro): {precision:.2f}")
+print(f"Recall (macro): {recall:.2f}")
+
+# Calculate Fuzzy Match Accuracy (custom metric)
+fuzzy_accuracy = sum(r["fuzzy_match"] for r in results) / len(results)
+print(f"Fuzzy Match Accuracy: {fuzzy_accuracy:.2f}")

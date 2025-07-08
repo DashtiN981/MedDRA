@@ -23,30 +23,30 @@
     "AE_text": "vomiting",
     "true_term": "Vomiting",
     "true_code": "10047700",
-    "predicted_term": "Antral ulcer is not the correct answer as it refers to a specific type",
-    "predicted_code": "10063072",
-    "exact_match": false,
-    "fuzzy_score": 10,
-    "fuzzy_match": false
+    "predicted_term": "Vomiting",
+    "predicted_code": "10052908",
+    "exact_match": true,
+    "fuzzy_score": 100,
+    "fuzzy_match": true
   },
   {
     "AE_text": "Entsuendungszeichen erhoeht CRP-Wert erhoeht.",
     "true_term": "CRP increased",
     "true_code": "10011418",
-    "predicted_term": "is not the correct answer, a more suitable answer would be a term related to inflammation or infection. \nA suitable MedDRA term for \"Entzuendungszeichen\" (signs of inflammation) and \"erhoeht CRP-Wert\" (elevated CRP value) is not explicitly listed, however, a term that could be related to inflammation is not present in the list. \n\nHowever, considering the closest possible match from the given list for",
-    "predicted_code": "10063103",
+    "predicted_term": "Palpatory finding abnormal",
+    "predicted_code": "10064258",
     "exact_match": false,
-    "fuzzy_score": 4,
+    "fuzzy_score": 26,
     "fuzzy_match": false
   },
   {
     "AE_text": "Arthralgien Arthralgien, die wir z.B. im Rahmen eines Cytarabin-Syndroms werten. Verdacht auf Cytarabin-Syndrom mit Arthralgien.",
     "true_term": "Cytarabine syndrome",
     "true_code": "10067549",
-    "predicted_term": "Pandactilitis",
-    "predicted_code": "10078711",
+    "predicted_term": "Chondromalacia of patella",
+    "predicted_code": "10028767",
     "exact_match": false,
-    "fuzzy_score": 19,
+    "fuzzy_score": 32,
     "fuzzy_match": false
   },
   {
@@ -83,20 +83,20 @@
     "AE_text": "Harnwegsinfekt Nachweis von Klebsiella pneumonieae in Urinkultur.",
     "true_term": "Klebsiella pneumoniae cystitis",
     "true_code": "10023457",
-    "predicted_term": "Healthcare associated pneumonia",
-    "predicted_code": "10078019",
+    "predicted_term": "Healthcare associated pneumonia, but since \"Harnwegsinfekt\" translates to urinary tract infection and \"Klebsiella pneumoniae\" is a type of bacteria, the best option is not explicitly listed. However, given the context of an infection, a more general term related to infections might be considered, but since none directly relate to",
+    "predicted_code": "10035711",
     "exact_match": false,
-    "fuzzy_score": 39,
+    "fuzzy_score": 13,
     "fuzzy_match": false
   },
   {
     "AE_text": "Akutes Nierenversagen AKI 2 \u00b0",
     "true_term": "Acute kidney failure",
     "true_code": "10000821",
-    "predicted_term": "Cardiac failure congestive is not the correct answer. However, a more suitable option is not available in the list. The closest match would be to look for \"Acute kidney injury\" which is often abbreviated as AKI. \n\nSince \"Acute kidney injury\" is not available, we can consider \"Cardiac failure\" as not the best match, and instead look for terms that could be related",
-    "predicted_code": "10007559",
+    "predicted_term": "Acute kidney injury",
+    "predicted_code": "10019231",
     "exact_match": false,
-    "fuzzy_score": 10,
+    "fuzzy_score": 82,
     "fuzzy_match": false
   },
   {
@@ -104,7 +104,7 @@
     "true_term": "Phlebitis and thrombophlebitis of superficial vessels of lower extremities",
     "true_code": "10034894",
     "predicted_term": "Thrombophlebitis",
-    "predicted_code": "10073449",
+    "predicted_code": "10065491",
     "exact_match": false,
     "fuzzy_score": 36,
     "fuzzy_match": false
@@ -113,30 +113,30 @@
     "AE_text": "neutrope Colitits",
     "true_term": "Neutropenic colitis",
     "true_code": "10062959",
-    "predicted_term": "Leucopenia neonatal",
-    "predicted_code": "10024284",
+    "predicted_term": "Abdominal phlegmon",
+    "predicted_code": "10059622",
     "exact_match": false,
-    "fuzzy_score": 53,
+    "fuzzy_score": 16,
     "fuzzy_match": false
   },
   {
     "AE_text": "worsening of the preexisting Mucositis",
     "true_term": "Mucositis",
     "true_code": "10028127",
-    "predicted_term": "Glossitis acute",
-    "predicted_code": "10018387",
-    "exact_match": false,
-    "fuzzy_score": 50,
-    "fuzzy_match": false
+    "predicted_term": "Mucositis",
+    "predicted_code": "10028451",
+    "exact_match": true,
+    "fuzzy_score": 100,
+    "fuzzy_match": true
   },
   {
     "AE_text": "rhinitis",
     "true_term": "Rhinitis",
     "true_code": "10039083",
-    "predicted_term": "is not the correct answer, a more suitable answer is not found in the list, however, rhinitis is closely related to \"Reflux laryngitis\" but it is not the exact term. \n\nA more suitable answer is not available in the list, however, one possible answer could be:\n No suitable answer available in the list.",
-    "predicted_code": "10062273",
+    "predicted_term": "Reflux laryngitis is not the best match, a better match would be rhinitis, however, it is not in the list. The closest match is not available, but a term related to rhinitis is not present. However, a term that could be considered is \"Aryepiglottis oedema\" which is related to the upper respiratory system, but it is not the best match. \n\nSince \"rhinitis\" is",
+    "predicted_code": "10067869",
     "exact_match": false,
-    "fuzzy_score": 5,
+    "fuzzy_score": 4,
     "fuzzy_match": false
   },
   {
@@ -183,20 +183,20 @@
     "AE_text": "alopecia",
     "true_term": "Alopecia",
     "true_code": "10001760",
-    "predicted_term": "Alopecia",
-    "predicted_code": "10028351",
-    "exact_match": true,
-    "fuzzy_score": 100,
-    "fuzzy_match": true
+    "predicted_term": "Toxicoderma \n\nHowever, a more suitable answer would be a term that directly corresponds to \"alopecia\", which is not",
+    "predicted_code": "10046756",
+    "exact_match": false,
+    "fuzzy_score": 13,
+    "fuzzy_match": false
   },
   {
     "AE_text": "cramplike pain abdomen",
     "true_term": "Abdominal crampy pains",
     "true_code": "10000058",
-    "predicted_term": "Angiospasm",
-    "predicted_code": "10002483",
+    "predicted_term": "Abdominal cramp",
+    "predicted_code": "10019359",
     "exact_match": false,
-    "fuzzy_score": 31,
+    "fuzzy_score": 81,
     "fuzzy_match": false
   }
 ]
