@@ -16,17 +16,17 @@ from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_sc
 from rapidfuzz import fuzz
 
 # ----- Constants -----
-AE_EMB_FILE = "/home/naghmedashti/MedDRA-LLM/data/embedding/ae_embeddings.json"
-LLT_EMB_FILE = "/home/naghmedashti/MedDRA-LLM/data/embedding/llt_embeddings.json"
+AE_EMB_FILE = "/home/naghmedashti/MedDRA-LLM/embedding/ae_embeddings.json"
+LLT_EMB_FILE = "/home/naghmedashti/MedDRA-LLM/embedding/llt_embeddings.json"
 AE_CSV_FILE = "/home/naghmedashti/MedDRA-LLM/data/KI_Projekt_Mosaic_AE_Codierung_2024_07_03.csv"
 LLT_CSV_FILE = "/home/naghmedashti/MedDRA-LLM/data/MedDRA1_LLT_Code_25_0.csv"
 TOP_K = 100
 
 # ----- Load Embeddings -----
-with open(AE_EMB_FILE, "r", encoding="utf-8") as f:
+with open(AE_EMB_FILE, "r", encoding="latin1") as f:
     ae_embeddings = json.load(f)
 
-with open(LLT_EMB_FILE, "r", encoding="utf-8") as f:
+with open(LLT_EMB_FILE, "r", encoding="latin1") as f:
     llt_embeddings = json.load(f)
 
 # Convert LLT embeddings to dict
