@@ -3,7 +3,7 @@ import random
 from openai import OpenAI
 import time
 import json
-from sklearn.metrics import accuracy_score, f1_score
+from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
 from fuzzywuzzy import fuzz
 
 # Initialize OpenAI-compatible API client
@@ -97,13 +97,23 @@ y_pred_fuzzy = [r["true_term"] if r["fuzzy_match"] else r["predicted"] for r in 
 # Output placeholder - evaluation below
 from sklearn.metrics import classification_report
 print("Evaluation Report (Exact Match):")
-print(classification_report(y_true, y_pred))
+print(classification_report(y_true, y_pred, zero_division=0))
 
 print("\nEvaluation Report (Fuzzy Match):")
-print(classification_report(y_true, y_pred_fuzzy))
+print(classification_report(y_true, y_pred_fuzzy, zero_division=0))
 
 acc = accuracy_score(y_true, y_pred)
 f1 = f1_score(y_true, y_pred, average="macro")
 
 print(f"\nAccuracy: {acc:.2f}")
 print(f"F1 Score: {f1:.2f}")
+
+precision = precision_score(y_true, y_pred, average="macro", zero_division=0)
+recall = recall_score(y_true, y_pred, average="macro", zero_division=0)
+
+print(f"Precision (macro): {precision:.2f}")
+print(f"Recall (macro): {recall:.2f}")
+
+# Calculate Fuzzy Match Accuracy (custom metric)
+fuzzy_accuracy = sum(r["fuzzy_match"] for r in results) / len(results)
+print(f"Fuzzy Match Accuracy: {fuzzy_accuracy:.2f}")
