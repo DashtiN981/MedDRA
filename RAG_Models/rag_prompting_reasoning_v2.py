@@ -30,7 +30,8 @@ with open(LLT_EMB_FILE, "r", encoding="latin1") as f:
     llt_embeddings = json.load(f)
 
 # Convert LLT embeddings to dict
-llt_emb_dict = {item["term"]: np.array(item["embedding"]) for item in llt_embeddings}
+#llt_emb_dict = {item["term"]: np.array(item["embedding"]) for item in llt_embeddings}
+llt_emb_dict = {term: np.array(embedding) for term, embedding in llt_embeddings.items()}
 
 # ----- Load CSV Data -----
 ae_df = pd.read_csv(AE_CSV_FILE, sep=";", encoding="latin1")

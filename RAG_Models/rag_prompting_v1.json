@@ -10,10 +10,10 @@
   {
     "AE_text": "headache",
     "true_term": "Headache",
-    "predicted": "Headache NOS",
-    "exact_match": false,
-    "fuzzy_score": 80.0,
-    "fuzzy_match": false
+    "predicted": "Headache",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
   },
   {
     "AE_text": "vomiting",
@@ -26,10 +26,10 @@
   {
     "AE_text": "Entsuendungszeichen erhoeht CRP-Wert erhoeht.",
     "true_term": "CRP increased",
-    "predicted": "CRP increased",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
-    "fuzzy_match": true
+    "predicted": "Erosive balanitis",
+    "exact_match": false,
+    "fuzzy_score": 33.333333333333336,
+    "fuzzy_match": false
   },
   {
     "AE_text": "Arthralgien Arthralgien, die wir z.B. im Rahmen eines Cytarabin-Syndroms werten. Verdacht auf Cytarabin-Syndrom mit Arthralgien.",
@@ -50,17 +50,17 @@
   {
     "AE_text": "Bilirubin Erhoehung",
     "true_term": "Blood bilirubin increased",
-    "predicted": "Bilirubin increased",
+    "predicted": "Bilirubin",
     "exact_match": false,
-    "fuzzy_score": 86.36363636363636,
+    "fuzzy_score": 52.94117647058824,
     "fuzzy_match": false
   },
   {
     "AE_text": "Sepsis Subileus, megacolon, multiple bleedings.",
     "true_term": "Abdominal sepsis",
-    "predicted": "Sepsis NOS",
+    "predicted": "Sepsis",
     "exact_match": false,
-    "fuzzy_score": 46.15384615384615,
+    "fuzzy_score": 54.54545454545454,
     "fuzzy_match": false
   },
   {
@@ -72,20 +72,12 @@
     "fuzzy_match": true
   },
   {
-    "AE_text": "Akutes Nierenversagen AKI 2 \u00b0",
-    "true_term": "Acute kidney failure",
-    "predicted": "Acute kidney failure",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
-    "fuzzy_match": true
-  },
-  {
     "AE_text": "Thrombophlebitis Thrombophlebitis im Bereich der oberflaechlichen Unterschenkelvenen.",
     "true_term": "Phlebitis and thrombophlebitis of superficial vessels of lower extremities",
-    "predicted": "Phlebitis and thrombophlebitis of superficial vessels of lower extremities",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
-    "fuzzy_match": true
+    "predicted": "Thrombophlebitis",
+    "exact_match": false,
+    "fuzzy_score": 35.55555555555555,
+    "fuzzy_match": false
   },
   {
     "AE_text": "neutrope Colitits",
@@ -122,10 +114,10 @@
   {
     "AE_text": "oedema both legs",
     "true_term": "Edema legs",
-    "predicted": "Oedema of legs",
+    "predicted": "Oedema legs",
     "exact_match": false,
-    "fuzzy_score": 83.33333333333334,
-    "fuzzy_match": false
+    "fuzzy_score": 95.23809523809523,
+    "fuzzy_match": true
   },
   {
     "AE_text": "dry skin",
@@ -154,9 +146,9 @@
   {
     "AE_text": "cramplike pain abdomen",
     "true_term": "Abdominal crampy pains",
-    "predicted": "Abdominal cramps",
+    "predicted": "Abdominal cramp",
     "exact_match": false,
-    "fuzzy_score": 84.21052631578947,
+    "fuzzy_score": 81.08108108108108,
     "fuzzy_match": false
   }
 ]

@@ -13,6 +13,9 @@ Overview:
 
 Model used: Llama-3.3-70B-Instruct via OpenAI-compatible API (e.g., Pluto)
 Embedding model: all-MiniLM-L6-v2 (SentenceTransformers)
+
+
+Author: Naghme Dashti / July 2025
 """
 import pandas as pd
 import json
@@ -45,7 +48,7 @@ llt_df = pd.read_csv(LLT_CSV, sep=';', encoding='latin1')[["LLT_Code", "LLT_Term
 llt_code_to_term = dict(zip(llt_df["LLT_Code"].astype(str), llt_df["LLT_Term"]))
 
 # === Load Embeddings ===
-with open(AE_EMB_FILE, "r") as f:
+with open(AE_EMB_FILE, "r", encoding="latin1") as f:
     ae_embeddings = json.load(f)
 with open(LLT_EMB_FILE, "r", encoding="latin1") as f:
     llt_embeddings = json.load(f)
