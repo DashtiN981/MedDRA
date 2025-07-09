@@ -62,7 +62,7 @@ for idx, row in ae_df.iloc[:20].iterrows():
     sampled_terms += similar_candidates
     sampled_terms.append(true_term)
 
-    # Step 56: Shuffle the final candidate list
+    # Step 6: Shuffle the final candidate list
     random.shuffle(sampled_terms)
     numbered_terms = [f"{i+1}. {term}" for i, term in enumerate(sampled_terms)]
 

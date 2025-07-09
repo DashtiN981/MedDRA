@@ -18,10 +18,10 @@
   {
     "AE_text": "vomiting",
     "true_term": "Vomiting",
-    "predicted": "Vomiting",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
-    "fuzzy_match": true
+    "predicted": "Vomiting NOS",
+    "exact_match": false,
+    "fuzzy_score": 80.0,
+    "fuzzy_match": false
   },
   {
     "AE_text": "Entsuendungszeichen erhoeht CRP-Wert erhoeht.",
@@ -50,9 +50,9 @@
   {
     "AE_text": "Bilirubin Erhoehung",
     "true_term": "Blood bilirubin increased",
-    "predicted": "Bilirubin elevated",
+    "predicted": "Bilirubin increased",
     "exact_match": false,
-    "fuzzy_score": 65.11627906976744,
+    "fuzzy_score": 86.36363636363636,
     "fuzzy_match": false
   },
   {
@@ -82,9 +82,9 @@
   {
     "AE_text": "Thrombophlebitis Thrombophlebitis im Bereich der oberflaechlichen Unterschenkelvenen.",
     "true_term": "Phlebitis and thrombophlebitis of superficial vessels of lower extremities",
-    "predicted": "Thrombophlebitis leg superficial",
+    "predicted": "Superficial thrombophlebitis of leg",
     "exact_match": false,
-    "fuzzy_score": 54.71698113207547,
+    "fuzzy_score": 51.37614678899083,
     "fuzzy_match": false
   },
   {
@@ -106,10 +106,10 @@
   {
     "AE_text": "rhinitis",
     "true_term": "Rhinitis",
-    "predicted": "Rhinitis NOS",
-    "exact_match": false,
-    "fuzzy_score": 80.0,
-    "fuzzy_match": false
+    "predicted": "Rhinitis",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
   },
   {
     "AE_text": "weight loss",

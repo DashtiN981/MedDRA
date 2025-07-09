@@ -39,13 +39,17 @@ for idx, row in ae_df.iloc[:20].iterrows():
         continue
 
     true_term = llt_code_to_term[true_code]
-
+    
+    # Sample candidates
     candidate_pool = llt_df[llt_df["LLT_Code"] != int(true_code)]
     sampled_terms = candidate_pool.sample(N_CANDIDATES, random_state=idx)["LLT_Term"].tolist()
     sampled_terms.append(true_term)
     random.shuffle(sampled_terms)
-    numbered_terms = [f"{i+1}. {term}" for i, term in enumerate(sampled_terms)]
 
+    # Prepare numbered list
+    numbered_terms = [f"{i+1}. {term}" for i, term in enumerate(sampled_terms)]
+    
+    # Construct prompt with one-shot example
     prompt = (
         "You are a medical coding assistant. Your task is to map adverse event descriptions to the most appropriate MedDRA LLT term from a given list.\n\n"
         "Example:\n"
@@ -79,7 +83,8 @@ for idx, row in ae_df.iloc[:20].iterrows():
         else:
             lines = raw_output.split("\n")
             answer = lines[-1].strip()
-
+        
+        # Evaluation
         exact_match = answer == true_term
         fuzzy_score = fuzz.ratio(answer.lower(), true_term.lower())
         fuzzy_match = fuzzy_score >= 90
@@ -102,19 +107,20 @@ for idx, row in ae_df.iloc[:20].iterrows():
     except Exception as e:
         print(f"Error at index {idx}: {e}")
 
-# Evaluation
+# Evaluation metrics
 y_true = [r["True"] for r in results]
 y_pred = [r["Predicted"] for r in results]
 y_pred_fuzzy = [r["True"] if r["Fuzzy"] else r["Predicted"] for r in results]
 
 acc = accuracy_score(y_true, y_pred)
-print(f"\n✅ Accuracy (Exact Match): {acc:.2f}")
-print("\n📊 Classification Report (Exact Match):")
+print(f"\n Accuracy (Exact Match): {acc:.2f}")
+print("\n Classification Report (Exact Match):")
 print(classification_report(y_true, y_pred))
 
-print("\n📊 Classification Report (Fuzzy Match):")
+print("\n Classification Report (Fuzzy Match):")
 print(classification_report(y_true, y_pred_fuzzy))
 
-# Optional: Save to file
+# Optional: Save predictions
 with open("baseline_hard_v2.json", "w") as f:
     json.dump(results, f, indent=2)
+
