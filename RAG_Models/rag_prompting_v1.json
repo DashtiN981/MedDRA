@@ -90,10 +90,10 @@
   {
     "AE_text": "worsening of the preexisting Mucositis",
     "true_term": "Mucositis",
-    "predicted": "Mucositis",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
-    "fuzzy_match": true
+    "predicted": "Mucositis NOS",
+    "exact_match": false,
+    "fuzzy_score": 81.81818181818181,
+    "fuzzy_match": false
   },
   {
     "AE_text": "rhinitis",
