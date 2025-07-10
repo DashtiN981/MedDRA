@@ -11,50 +11,49 @@ Author: Naghme Dashti / July 2025
 import json
 import pandas as pd
 import numpy as np
+import time
 from openai import OpenAI
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, classification_report
+from sklearn.metrics.pairwise import cosine_similarity
+import numpy as np
 from rapidfuzz import fuzz
 
-# ----- Constants -----
+
+# Load local OpenAI-compatible LLM API
+client = OpenAI(
+    api_key="sk-BEYOnuDXHm5OcYLc5xKX6w",
+    base_url="http://pluto/v1/"
+)
+
+# === Parameters ===
+TOP_K = 100
+MAX_ROWS = 100
+EMB_DIM = 384  # dimension of MiniLM
 AE_EMB_FILE = "/home/naghmedashti/MedDRA-LLM/embedding/ae_embeddings.json"
 LLT_EMB_FILE = "/home/naghmedashti/MedDRA-LLM/embedding/llt_embeddings.json"
 AE_CSV_FILE = "/home/naghmedashti/MedDRA-LLM/clean_data/KI_Projekt_Mosaic_AE_Codierung_2024_07_03.csv"
 LLT_CSV_FILE = "/home/naghmedashti/MedDRA-LLM/clean_data/MedDRA1_LLT_Code_25_0.csv"
-TOP_K = 100
-MAX_ROWS = 100
-EMB_DIM = 384  # dimension of MiniLM
 
-# ----- Load Embeddings -----
+# === Load Data ===
+ae_df = pd.read_csv(AE_CSV_FILE, sep=';', encoding='latin1')[["Original_Term_aufbereitet", "ZB_LLT_Code"]].dropna().reset_index(drop=True)
+llt_df = pd.read_csv(LLT_CSV_FILE, sep=';', encoding='latin1')[["LLT_Code", "LLT_Term"]].dropna().reset_index(drop=True)
+llt_code_to_term = dict(zip(llt_df["LLT_Code"].astype(str), llt_df["LLT_Term"]))
+
+
+# === Load Embeddings ===
 with open(AE_EMB_FILE, "r", encoding="latin1") as f:
     ae_embeddings = json.load(f)
 
 with open(LLT_EMB_FILE, "r", encoding="latin1") as f:
     llt_embeddings = json.load(f)
 
-# Convert LLT embeddings to dict
-#llt_emb_dict = {item["term"]: np.array(item["embedding"]) for item in llt_embeddings}
-llt_emb_dict = {term: np.array(embedding) for term, embedding in llt_embeddings.items()}
 
-# ----- Load CSV Data -----
-ae_df = pd.read_csv(AE_CSV_FILE, sep=";", encoding="latin1")
-ae_df = ae_df[["Original_Term_aufbereitet", "ZB_LLT_Code"]].dropna().reset_index(drop=True)
-
-llt_df = pd.read_csv(LLT_CSV_FILE, sep=";", encoding="latin1")
-llt_df = llt_df[["LLT_Code", "LLT_Term"]].dropna().reset_index(drop=True)
-llt_code_to_term = dict(zip(llt_df["LLT_Code"].astype(str), llt_df["LLT_Term"]))
-
-# ----- OpenAI-compatible Client -----
-client = OpenAI(
-    api_key="sk-BEYOnuDXHm5OcYLc5xKX6w",
-    base_url="http://pluto/v1/"
-)
-
-# ----- Similarity Function -----
+# === Similarity Function ===
 def cosine_similarity(a, b):
     a, b = np.array(a), np.array(b)
     return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b) + 1e-6)
 
-# ----- Extraction Logic -----
+# === Extraction Logic ===
 def extract_final_term(answer_text, candidate_terms):
     for line in answer_text.splitlines():
         if "final answer:" in line.lower():
@@ -66,8 +65,14 @@ def extract_final_term(answer_text, candidate_terms):
                 return term
     return answer_text.strip().split("\n")[-1].strip()
 
-# ----- Main Loop -----
+# Convert LLT embeddings to dictionary
+llt_emb_dict = {term: np.array(embedding) for term, embedding in llt_embeddings.items()}
+
+
+
+# === RAG Prompting ===
 results = []
+
 for idx, row in ae_df.iloc[:MAX_ROWS].iterrows():
     ae_text = row["Original_Term_aufbereitet"]
     true_code = str(int(row["ZB_LLT_Code"]))
@@ -132,15 +137,16 @@ for idx, row in ae_df.iloc[:MAX_ROWS].iterrows():
         print(f"→ True: {true_term}")
         print(f"→ Predicted: {answer_line}")
         print(f"→ Exact: {exact_match}, Fuzzy: {fuzzy_score:.1f} ({'✓' if fuzzy_match else '✗'})\n")
-
+        time.sleep(1.0)
+    
     except Exception as e:
         print(f"Error at index {idx}: {e}")
 
-# ----- Save Results -----
+# === Save Results ===
 with open("/home/naghmedashti/MedDRA-LLM/RAG_Models/rag_prompting_reasoning_v2.json", "w") as f:
     json.dump(results, f, indent=2)
 
-# ----- Evaluation -----
+# === Evaluation ===
 y_true = [r["true_term"] for r in results]
 y_pred = [r["predicted"] for r in results]
 y_pred_fuzzy = [r["true_term"] if r["fuzzy_match"] else r["predicted"] for r in results]
