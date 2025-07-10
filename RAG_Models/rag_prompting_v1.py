@@ -35,7 +35,7 @@ client = OpenAI(
 
 # === Parameters ===
 TOP_K = 100
-MAX_ROWS = 20
+MAX_ROWS = 100
 EMB_DIM = 384  # dimension of MiniLM
 AE_EMB_FILE = "/home/naghmedashti/MedDRA-LLM/embedding/ae_embeddings.json"
 LLT_EMB_FILE = "/home/naghmedashti/MedDRA-LLM/embedding/llt_embeddings.json"

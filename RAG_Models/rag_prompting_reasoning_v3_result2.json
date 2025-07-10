@@ -1,0 +1,162 @@
+[
+  {
+    "AE_text": "Nausea intermittent nausea",
+    "true_term": "Nausea",
+    "predicted": "Nausea",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "headache",
+    "true_term": "Headache",
+    "predicted": "Headache NOS",
+    "exact_match": false,
+    "fuzzy_score": 80.0,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "vomiting",
+    "true_term": "Vomiting",
+    "predicted": "Vomiting",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Entsuendungszeichen erhoeht CRP-Wert erhoeht.",
+    "true_term": "CRP increased",
+    "predicted": "CRP increased",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Arthralgien Arthralgien, die wir z.B. im Rahmen eines Cytarabin-Syndroms werten. Verdacht auf Cytarabin-Syndrom mit Arthralgien.",
+    "true_term": "Cytarabine syndrome",
+    "predicted": "Arthralgia",
+    "exact_match": false,
+    "fuzzy_score": 27.586206896551722,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "Sars-CoV-2",
+    "true_term": "SARS-CoV-2 infection",
+    "predicted": "SARS-CoV-2 infection",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Bilirubin Erhoehung",
+    "true_term": "Blood bilirubin increased",
+    "predicted": "Blood bilirubin increased",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Sepsis Subileus, megacolon, multiple bleedings.",
+    "true_term": "Abdominal sepsis",
+    "predicted": "Sepsis",
+    "exact_match": false,
+    "fuzzy_score": 54.54545454545454,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "Harnwegsinfekt Nachweis von Klebsiella pneumonieae in Urinkultur.",
+    "true_term": "Klebsiella pneumoniae cystitis",
+    "predicted": "Klebsiella pneumoniae cystitis",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Akutes Nierenversagen AKI 2 \u00b0",
+    "true_term": "Acute kidney failure",
+    "predicted": "Acute kidney failure",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Thrombophlebitis Thrombophlebitis im Bereich der oberflaechlichen Unterschenkelvenen.",
+    "true_term": "Phlebitis and thrombophlebitis of superficial vessels of lower extremities",
+    "predicted": "Thrombophlebitis superficial",
+    "exact_match": false,
+    "fuzzy_score": 54.90196078431373,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "neutrope Colitits",
+    "true_term": "Neutropenic colitis",
+    "predicted": "Neutropenic colitis",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "worsening of the preexisting Mucositis",
+    "true_term": "Mucositis",
+    "predicted": "Mucositis",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "rhinitis",
+    "true_term": "Rhinitis",
+    "predicted": "Rhinitis",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "weight loss",
+    "true_term": "Weight loss",
+    "predicted": "Weight loss",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "oedema both legs",
+    "true_term": "Edema legs",
+    "predicted": "Oedema legs",
+    "exact_match": false,
+    "fuzzy_score": 95.23809523809523,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "dry skin",
+    "true_term": "Dry skin",
+    "predicted": "Dry skin",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Skin irritation anal after diarrhea",
+    "true_term": "Skin irritation",
+    "predicted": "Anal irritation",
+    "exact_match": false,
+    "fuzzy_score": 80.0,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "alopecia",
+    "true_term": "Alopecia",
+    "predicted": "Alopecia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "cramplike pain abdomen",
+    "true_term": "Abdominal crampy pains",
+    "predicted": "Abdominal cramps",
+    "exact_match": false,
+    "fuzzy_score": 84.21052631578947,
+    "fuzzy_match": false
+  }
+]

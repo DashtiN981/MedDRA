@@ -21,6 +21,8 @@ LLT_EMB_FILE = "/home/naghmedashti/MedDRA-LLM/embedding/llt_embeddings.json"
 AE_CSV_FILE = "/home/naghmedashti/MedDRA-LLM/clean_data/KI_Projekt_Mosaic_AE_Codierung_2024_07_03.csv"
 LLT_CSV_FILE = "/home/naghmedashti/MedDRA-LLM/clean_data/MedDRA1_LLT_Code_25_0.csv"
 TOP_K = 100
+MAX_ROWS = 100
+EMB_DIM = 384  # dimension of MiniLM
 
 # ----- Load Embeddings -----
 with open(AE_EMB_FILE, "r", encoding="latin1") as f:
@@ -66,7 +68,7 @@ def extract_final_term(answer_text, candidate_terms):
 
 # ----- Main Loop -----
 results = []
-for idx, row in ae_df.iloc[:20].iterrows():
+for idx, row in ae_df.iloc[:MAX_ROWS].iterrows():
     ae_text = row["Original_Term_aufbereitet"]
     true_code = str(int(row["ZB_LLT_Code"]))
     if true_code not in llt_code_to_term:
