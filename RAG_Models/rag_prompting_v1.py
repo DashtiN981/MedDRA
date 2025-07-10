@@ -39,8 +39,8 @@ MAX_ROWS = 20
 EMB_DIM = 384  # dimension of MiniLM
 AE_EMB_FILE = "/home/naghmedashti/MedDRA-LLM/embedding/ae_embeddings.json"
 LLT_EMB_FILE = "/home/naghmedashti/MedDRA-LLM/embedding/llt_embeddings.json"
-AE_CSV = "/home/naghmedashti/MedDRA-LLM/data/KI_Projekt_Mosaic_AE_Codierung_2024_07_03.csv"
-LLT_CSV = "/home/naghmedashti/MedDRA-LLM/data/MedDRA1_LLT_Code_25_0.csv"
+AE_CSV = "/home/naghmedashti/MedDRA-LLM/clean_data/KI_Projekt_Mosaic_AE_Codierung_2024_07_03.csv"
+LLT_CSV = "/home/naghmedashti/MedDRA-LLM/clean_data/MedDRA1_LLT_Code_25_0.csv"
 
 # === Load Data ===
 ae_df = pd.read_csv(AE_CSV, sep=';', encoding='latin1')[["Original_Term_aufbereitet", "ZB_LLT_Code"]].dropna().reset_index(drop=True)
