@@ -15,11 +15,11 @@ client = OpenAI(
 )
 
 # Load AE data (English)
-ae_df = pd.read_csv("/home/naghmedashti/MedDRA-LLM/data/KI_Projekt_Mosaic_AE_Codierung_2024_07_03.csv", sep=';', encoding='latin1')
+ae_df = pd.read_csv("/home/naghmedashti/MedDRA-LLM/clean_data/KI_Projekt_Mosaic_AE_Codierung_2024_07_03.csv", sep=';', encoding='latin1')
 ae_df = ae_df[["Original_Term_aufbereitet", "ZB_LLT_Code"]].dropna().reset_index(drop=True)
 
 # Load LLT dictionary (English)
-llt_df = pd.read_csv("/home/naghmedashti/MedDRA-LLM/data/MedDRA1_LLT_Code_25_0.csv", sep=';', encoding='latin1')
+llt_df = pd.read_csv("/home/naghmedashti/MedDRA-LLM/clean_data/MedDRA1_LLT_Code_25_0.csv", sep=';', encoding='latin1')
 llt_df = llt_df[["LLT_Code", "LLT_Term"]].dropna().reset_index(drop=True)
 llt_code_to_term = dict(zip(llt_df["LLT_Code"].astype(str), llt_df["LLT_Term"]))
 llt_term_to_code = dict(zip(llt_df["LLT_Term"], llt_df["LLT_Code"]))

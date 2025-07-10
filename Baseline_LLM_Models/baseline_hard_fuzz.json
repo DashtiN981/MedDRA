@@ -10,10 +10,10 @@
   {
     "AE_text": "headache",
     "true_term": "Headache",
-    "predicted": "Headache",
-    "exact_match": true,
-    "fuzzy_score": 100,
-    "fuzzy_match": true
+    "predicted": "Hemicephalgia",
+    "exact_match": false,
+    "fuzzy_score": 38,
+    "fuzzy_match": false
   },
   {
     "AE_text": "vomiting",
@@ -26,41 +26,25 @@
   {
     "AE_text": "Entsuendungszeichen erhoeht CRP-Wert erhoeht.",
     "true_term": "CRP increased",
-    "predicted": "Palpatory finding abnormal",
+    "predicted": "Delayed skin reaction",
     "exact_match": false,
-    "fuzzy_score": 31,
-    "fuzzy_match": false
-  },
-  {
-    "AE_text": "Arthralgien Arthralgien, die wir z.B. im Rahmen eines Cytarabin-Syndroms werten. Verdacht auf Cytarabin-Syndrom mit Arthralgien.",
-    "true_term": "Cytarabine syndrome",
-    "predicted": "Arthralgia",
-    "exact_match": false,
-    "fuzzy_score": 28,
+    "fuzzy_score": 35,
     "fuzzy_match": false
   },
   {
     "AE_text": "Sars-CoV-2",
     "true_term": "SARS-CoV-2 infection",
-    "predicted": "COVID-19 antigen test",
+    "predicted": "Australia antigen positive",
     "exact_match": false,
-    "fuzzy_score": 44,
+    "fuzzy_score": 30,
     "fuzzy_match": false
   },
   {
     "AE_text": "Bilirubin Erhoehung",
     "true_term": "Blood bilirubin increased",
-    "predicted": "Transaminase NOS increased",
+    "predicted": "Hyperbilirubinemia is not listed, but a related term is not available. However, \"Hyperlactatemia\" is on the list, which is a similar concept of an increase of a substance in the blood, so a related term for \"Bilirubin Erhoehung\" (which is German for \"bilirubin increase\") would be a term that describes an increase of bilirubin. Since that term is not available, the closest related term to an increase of",
     "exact_match": false,
-    "fuzzy_score": 51,
-    "fuzzy_match": false
-  },
-  {
-    "AE_text": "Sepsis Subileus, megacolon, multiple bleedings.",
-    "true_term": "Abdominal sepsis",
-    "predicted": "Other specified intestinal obstruction",
-    "exact_match": false,
-    "fuzzy_score": 30,
+    "fuzzy_score": 12,
     "fuzzy_match": false
   },
   {
@@ -72,11 +56,11 @@
     "fuzzy_match": false
   },
   {
-    "AE_text": "Akutes Nierenversagen AKI 2 \u00b0",
+    "AE_text": "Akutes Nierenversagen AKI 2 \u00c2\u00b0",
     "true_term": "Acute kidney failure",
-    "predicted": "Acute kidney injury",
+    "predicted": "Renal function disorder",
     "exact_match": false,
-    "fuzzy_score": 82,
+    "fuzzy_score": 42,
     "fuzzy_match": false
   },
   {
@@ -104,14 +88,6 @@
     "fuzzy_match": true
   },
   {
-    "AE_text": "rhinitis",
-    "true_term": "Rhinitis",
-    "predicted": "Rhinitis",
-    "exact_match": true,
-    "fuzzy_score": 100,
-    "fuzzy_match": true
-  },
-  {
     "AE_text": "weight loss",
     "true_term": "Weight loss",
     "predicted": "Weight loss",
@@ -122,25 +98,25 @@
   {
     "AE_text": "oedema both legs",
     "true_term": "Edema legs",
-    "predicted": "Lymphoedema praecox",
+    "predicted": "Oedema pulmonary is the closest match, but since it specifies pulmonary, it's not the best choice for \"oedema both legs\". However, \"oedema\" is not explicitly listed for other body parts. The closest term related to the description given would be \"Application site oedema\" if considering a general oedema term, but it's not specific to legs. Since there isn't a term specifically for \"oedema of both legs,\" the closest in relation to",
     "exact_match": false,
-    "fuzzy_score": 48,
+    "fuzzy_score": 5,
     "fuzzy_match": false
   },
   {
     "AE_text": "dry skin",
     "true_term": "Dry skin",
-    "predicted": "Dry skin",
-    "exact_match": true,
-    "fuzzy_score": 100,
-    "fuzzy_match": true
+    "predicted": "Dermatosis steroid-induced",
+    "exact_match": false,
+    "fuzzy_score": 35,
+    "fuzzy_match": false
   },
   {
     "AE_text": "Skin irritation anal after diarrhea",
     "true_term": "Skin irritation",
-    "predicted": "Medical device site irritation",
+    "predicted": "Perineal erythema",
     "exact_match": false,
-    "fuzzy_score": 58,
+    "fuzzy_score": 38,
     "fuzzy_match": false
   },
   {
@@ -157,6 +133,30 @@
     "predicted": "Abdominal pain",
     "exact_match": false,
     "fuzzy_score": 78,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "Pain back",
+    "true_term": "Pain back",
+    "predicted": "Muscle discomfort",
+    "exact_match": false,
+    "fuzzy_score": 15,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "cough",
+    "true_term": "Cough",
+    "predicted": "Cough",
+    "exact_match": true,
+    "fuzzy_score": 100,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "rash",
+    "true_term": "Rash",
+    "predicted": "Rash papulo-vesicular",
+    "exact_match": false,
+    "fuzzy_score": 32,
     "fuzzy_match": false
   }
 ]

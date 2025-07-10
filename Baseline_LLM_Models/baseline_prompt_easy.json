@@ -20,11 +20,6 @@
     "predicted_term": "CRP increased"
   },
   {
-    "ae_text": "Arthralgien Arthralgien, die wir z.B. im Rahmen eines Cytarabin-Syndroms werten. Verdacht auf Cytarabin-Syndrom mit Arthralgien.",
-    "true_term": "Cytarabine syndrome",
-    "predicted_term": "Cytarabine syndrome"
-  },
-  {
     "ae_text": "Sars-CoV-2",
     "true_term": "SARS-CoV-2 infection",
     "predicted_term": "SARS-CoV-2 infection"
@@ -35,17 +30,12 @@
     "predicted_term": "Blood bilirubin increased"
   },
   {
-    "ae_text": "Sepsis Subileus, megacolon, multiple bleedings.",
-    "true_term": "Abdominal sepsis",
-    "predicted_term": "Abdominal sepsis"
-  },
-  {
     "ae_text": "Harnwegsinfekt Nachweis von Klebsiella pneumonieae in Urinkultur.",
     "true_term": "Klebsiella pneumoniae cystitis",
     "predicted_term": "Klebsiella pneumoniae cystitis"
   },
   {
-    "ae_text": "Akutes Nierenversagen AKI 2 \u00b0",
+    "ae_text": "Akutes Nierenversagen AKI 2 \u00c2\u00b0",
     "true_term": "Acute kidney failure",
     "predicted_term": "Acute kidney failure"
   },
@@ -63,11 +53,6 @@
     "ae_text": "worsening of the preexisting Mucositis",
     "true_term": "Mucositis",
     "predicted_term": "Mucositis"
-  },
-  {
-    "ae_text": "rhinitis",
-    "true_term": "Rhinitis",
-    "predicted_term": "Rhinitis"
   },
   {
     "ae_text": "weight loss",
@@ -98,5 +83,20 @@
     "ae_text": "cramplike pain abdomen",
     "true_term": "Abdominal crampy pains",
     "predicted_term": "Abdominal crampy pains"
+  },
+  {
+    "ae_text": "Pain back",
+    "true_term": "Pain back",
+    "predicted_term": "Pain back"
+  },
+  {
+    "ae_text": "cough",
+    "true_term": "Cough",
+    "predicted_term": "Cough"
+  },
+  {
+    "ae_text": "rash",
+    "true_term": "Rash",
+    "predicted_term": "Rash"
   }
 ]
