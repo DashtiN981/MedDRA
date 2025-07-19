@@ -1,147 +1,107 @@
 [
   {
-    "AE_text": "Nausea intermittent nausea",
-    "true_term": "Nausea",
-    "predicted": "Nausea",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
-    "fuzzy_match": true
-  },
-  {
-    "AE_text": "headache",
-    "true_term": "Headache",
-    "predicted": "Headache NOS",
+    "AE_text": "abdominal pain",
+    "true_term": "Abdominal pain",
+    "predicted": "Abdominal pain NOS",
     "exact_match": false,
-    "fuzzy_score": 80.0,
+    "fuzzy_score": 87.5,
     "fuzzy_match": false
   },
   {
-    "AE_text": "vomiting",
-    "true_term": "Vomiting",
-    "predicted": "Vomiting",
+    "AE_text": "Abdominal pain",
+    "true_term": "Abdominal pain",
+    "predicted": "Abdominal pain",
     "exact_match": true,
     "fuzzy_score": 100.0,
     "fuzzy_match": true
   },
   {
-    "AE_text": "Entsuendungszeichen erhoeht CRP-Wert erhoeht.",
-    "true_term": "CRP increased",
-    "predicted": "CRP increased",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
-    "fuzzy_match": true
-  },
-  {
-    "AE_text": "Arthralgien Arthralgien, die wir z.B. im Rahmen eines Cytarabin-Syndroms werten. Verdacht auf Cytarabin-Syndrom mit Arthralgien.",
-    "true_term": "Cytarabine syndrome",
-    "predicted": "Arthralgia",
+    "AE_text": "Acute cerebral hemorrhage",
+    "true_term": "Cerebral hemorrhage",
+    "predicted": "Cerebral haemorrhage",
     "exact_match": false,
-    "fuzzy_score": 27.586206896551722,
-    "fuzzy_match": false
-  },
-  {
-    "AE_text": "Sars-CoV-2",
-    "true_term": "SARS-CoV-2 infection",
-    "predicted": "SARS-CoV-2 infection",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
+    "fuzzy_score": 97.43589743589743,
     "fuzzy_match": true
   },
   {
-    "AE_text": "Bilirubin Erhoehung",
-    "true_term": "Blood bilirubin increased",
-    "predicted": "Blood bilirubin increased",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
-    "fuzzy_match": true
-  },
-  {
-    "AE_text": "Sepsis Subileus, megacolon, multiple bleedings.",
-    "true_term": "Abdominal sepsis",
-    "predicted": "Sepsis",
-    "exact_match": false,
-    "fuzzy_score": 54.54545454545454,
-    "fuzzy_match": false
-  },
-  {
-    "AE_text": "Harnwegsinfekt Nachweis von Klebsiella pneumonieae in Urinkultur.",
-    "true_term": "Klebsiella pneumoniae cystitis",
-    "predicted": "Klebsiella pneumoniae cystitis",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
-    "fuzzy_match": true
-  },
-  {
-    "AE_text": "Akutes Nierenversagen AKI 2 \u00b0",
+    "AE_text": "acute renal failure low eGFR",
     "true_term": "Acute kidney failure",
-    "predicted": "Acute kidney failure",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
-    "fuzzy_match": true
-  },
-  {
-    "AE_text": "Thrombophlebitis Thrombophlebitis im Bereich der oberflaechlichen Unterschenkelvenen.",
-    "true_term": "Phlebitis and thrombophlebitis of superficial vessels of lower extremities",
-    "predicted": "Thrombophlebitis superficial",
+    "predicted": "Acute renal failure",
     "exact_match": false,
-    "fuzzy_score": 54.90196078431373,
+    "fuzzy_score": 76.92307692307692,
     "fuzzy_match": false
   },
   {
-    "AE_text": "neutrope Colitits",
-    "true_term": "Neutropenic colitis",
-    "predicted": "Neutropenic colitis",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
-    "fuzzy_match": true
-  },
-  {
-    "AE_text": "worsening of the preexisting Mucositis",
-    "true_term": "Mucositis",
-    "predicted": "Mucositis",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
-    "fuzzy_match": true
-  },
-  {
-    "AE_text": "rhinitis",
-    "true_term": "Rhinitis",
-    "predicted": "Rhinitis",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
-    "fuzzy_match": true
-  },
-  {
-    "AE_text": "weight loss",
-    "true_term": "Weight loss",
-    "predicted": "Weight loss",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
-    "fuzzy_match": true
-  },
-  {
-    "AE_text": "oedema both legs",
-    "true_term": "Edema legs",
-    "predicted": "Oedema legs",
+    "AE_text": "acute urinary stasis left kidney Grad II acute renal failure; creatinin increase; fever; pain",
+    "true_term": "Acute kidney failure",
+    "predicted": "Acute renal failure",
     "exact_match": false,
-    "fuzzy_score": 95.23809523809523,
-    "fuzzy_match": true
-  },
-  {
-    "AE_text": "dry skin",
-    "true_term": "Dry skin",
-    "predicted": "Dry skin",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
-    "fuzzy_match": true
-  },
-  {
-    "AE_text": "Skin irritation anal after diarrhea",
-    "true_term": "Skin irritation",
-    "predicted": "Anal irritation",
-    "exact_match": false,
-    "fuzzy_score": 80.0,
+    "fuzzy_score": 76.92307692307692,
     "fuzzy_match": false
+  },
+  {
+    "AE_text": "Alanine Aminotransferase increased",
+    "true_term": "Alanine aminotransferase increased",
+    "predicted": "Alanine aminotransferase increased",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "ALAT increased",
+    "true_term": "Alanine aminotransferase increased",
+    "predicted": "Alanine aminotransferase increased",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Alkaline phoshatase increased",
+    "true_term": "Alkaline phosphatase increased",
+    "predicted": "Alkaline phosphatase increased",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "alkaline phosphatase increased",
+    "true_term": "Alkaline phosphatase increased",
+    "predicted": "Alkaline phosphatase increased",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "allergic reaction",
+    "true_term": "Allergic reaction",
+    "predicted": "Allergic reaction (NOS)",
+    "exact_match": false,
+    "fuzzy_score": 85.0,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "allergic reaction to transfusion of platelet concentrate",
+    "true_term": "Allergic transfusion reaction",
+    "predicted": "Allergic transfusion reaction",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Allergic reaction transfusion of platelets Treatment: tavegil i.v.",
+    "true_term": "Allergic transfusion reaction",
+    "predicted": "Allergic transfusion reaction",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "allergic transfusion reaction rash after blood transfusion",
+    "true_term": "Allergic transfusion reaction",
+    "predicted": "Allergic transfusion reaction",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
   },
   {
     "AE_text": "alopecia",
@@ -152,11 +112,43 @@
     "fuzzy_match": true
   },
   {
-    "AE_text": "cramplike pain abdomen",
-    "true_term": "Abdominal crampy pains",
-    "predicted": "Abdominal cramps",
+    "AE_text": "Anemia",
+    "true_term": "Anemia",
+    "predicted": "Anaemia",
     "exact_match": false,
-    "fuzzy_score": 84.21052631578947,
+    "fuzzy_score": 92.3076923076923,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "anemia",
+    "true_term": "Anemia",
+    "predicted": "Anemia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "anemia anemia",
+    "true_term": "Anemia",
+    "predicted": "Anemia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Bilirubin Erhoehung",
+    "true_term": "Blood bilirubin increased",
+    "predicted": "Bilirubin increased",
+    "exact_match": false,
+    "fuzzy_score": 86.36363636363636,
     "fuzzy_match": false
+  },
+  {
+    "AE_text": "blood bilirubin increased",
+    "true_term": "Blood bilirubin increased",
+    "predicted": "Blood bilirubin increased",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
   }
 ]

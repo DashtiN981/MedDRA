@@ -9,7 +9,7 @@ import time
 client = OpenAI(api_key="sk-BEYOnuDXHm5OcYLc5xKX6w", base_url="http://pluto/v1/")
 
 # Load LLT list
-llt_df = pd.read_csv("/home/naghmedashti/MedDRA-LLM/data/MedDRA1_LLT_Code_25_0.csv", sep=';', encoding='latin1')
+llt_df = pd.read_csv("/home/naghmedashti/MedDRA-LLM/data/LLT_Code_English_25_0.csv", sep=';', encoding='latin1')
 terms = llt_df["LLT_Term"].astype(str).tolist()  
 
 def get_embedding(text):

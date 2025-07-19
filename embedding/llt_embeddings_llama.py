@@ -9,7 +9,7 @@ from openai import OpenAI
 client = OpenAI(api_key="sk-BEYOnuDXHm5OcYLc5xKX6w", base_url="http://pluto/v1/")
 
 # Load LLT terms
-llt_df = pd.read_csv("/home/naghmedashti/MedDRA-LLM/data/MedDRA1_LLT_Code_25_0.csv", sep=";", encoding="latin1")
+llt_df = pd.read_csv("/home/naghmedashti/MedDRA-LLM/data/LLT_Code_English_25_0.csv", sep=";", encoding="latin1")
 terms = llt_df["LLT_Term"].dropna().astype(str).unique().tolist()
 
 def get_embedding_via_chat(text):

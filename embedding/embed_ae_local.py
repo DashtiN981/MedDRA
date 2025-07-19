@@ -6,7 +6,7 @@ import json
 from tqdm import tqdm
 
 # Load AE terms from CSV
-ae_df = pd.read_excel("./clean_data/KI_Projekt_Mosaic_AE_Codierung_2024_07_03.xlsx")
+ae_df = pd.read_excel("./data/Excel files/KI_Projekt_Delta_AE_Codierung_2023_02_08.xlsx")
 ae_terms = ae_df["Original_Term_aufbereitet"].dropna().unique().tolist()
 
 # Load the same model used for LLT embedding
@@ -24,7 +24,7 @@ for ae in tqdm(ae_terms, desc="Embedding AE terms"):
         print(f" Error embedding AE '{ae}': {e}")
 
 # Save embeddings to file
-with open("ae_embeddings.json", "w", encoding="utf-8") as f:
+with open("ae_embeddings_Delta.json", "w", encoding="utf-8") as f:
     json.dump(ae_embeddings, f, ensure_ascii=False, indent=2)
 
-print(" Done! AE embeddings saved to ae_embeddings.json")
+print(" Done! AE embeddings saved to ae_embeddings_Delta.json")

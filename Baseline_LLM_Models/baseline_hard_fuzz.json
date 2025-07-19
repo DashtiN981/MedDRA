@@ -1,123 +1,115 @@
 [
   {
-    "AE_text": "Nausea intermittent nausea",
-    "true_term": "Nausea",
-    "predicted": "Nausea",
+    "AE_text": "abdominal pain",
+    "true_term": "Abdominal pain",
+    "predicted": "Abdominal pain",
     "exact_match": true,
     "fuzzy_score": 100,
     "fuzzy_match": true
   },
   {
-    "AE_text": "headache",
-    "true_term": "Headache",
-    "predicted": "Hemicephalgia",
-    "exact_match": false,
-    "fuzzy_score": 38,
-    "fuzzy_match": false
-  },
-  {
-    "AE_text": "vomiting",
-    "true_term": "Vomiting",
-    "predicted": "Vomiting",
+    "AE_text": "Abdominal pain",
+    "true_term": "Abdominal pain",
+    "predicted": "Abdominal pain",
     "exact_match": true,
     "fuzzy_score": 100,
     "fuzzy_match": true
   },
   {
-    "AE_text": "Entsuendungszeichen erhoeht CRP-Wert erhoeht.",
-    "true_term": "CRP increased",
-    "predicted": "Delayed skin reaction",
+    "AE_text": "Acute cerebral hemorrhage",
+    "true_term": "Cerebral hemorrhage",
+    "predicted": "None of the provided options match \"Acute cerebral hemorrhage\". However, the closest related term is not available in the list, but for the purpose of this task, I must select the closest possible option which is not directly available. Since \"Scalp haemorrhage\" is the closest in context to a hemorrhage, but it does not accurately represent \"Acute cerebral hemorrhage\", and given the instruction to choose from the provided list, the task cannot be accurately completed as intended because",
     "exact_match": false,
-    "fuzzy_score": 35,
+    "fuzzy_score": 7,
     "fuzzy_match": false
   },
   {
-    "AE_text": "Sars-CoV-2",
-    "true_term": "SARS-CoV-2 infection",
-    "predicted": "Australia antigen positive",
+    "AE_text": "acute renal failure low eGFR",
+    "true_term": "Acute kidney failure",
+    "predicted": "Acute renal failure",
     "exact_match": false,
-    "fuzzy_score": 30,
+    "fuzzy_score": 77,
     "fuzzy_match": false
   },
   {
-    "AE_text": "Bilirubin Erhoehung",
-    "true_term": "Blood bilirubin increased",
-    "predicted": "Hyperbilirubinemia is not listed, but a related term is not available. However, \"Hyperlactatemia\" is on the list, which is a similar concept of an increase of a substance in the blood, so a related term for \"Bilirubin Erhoehung\" (which is German for \"bilirubin increase\") would be a term that describes an increase of bilirubin. Since that term is not available, the closest related term to an increase of",
+    "AE_text": "acute urinary stasis left kidney Grad II acute renal failure; creatinin increase; fever; pain",
+    "true_term": "Acute kidney failure",
+    "predicted": "Acute renal failure",
     "exact_match": false,
-    "fuzzy_score": 12,
-    "fuzzy_match": false
-  },
-  {
-    "AE_text": "Harnwegsinfekt Nachweis von Klebsiella pneumonieae in Urinkultur.",
-    "true_term": "Klebsiella pneumoniae cystitis",
-    "predicted": "Urinary tract infection",
-    "exact_match": false,
-    "fuzzy_score": 34,
+    "fuzzy_score": 77,
     "fuzzy_match": false
   },
   {
     "AE_text": "Akutes Nierenversagen AKI 2 \u00c2\u00b0",
     "true_term": "Acute kidney failure",
-    "predicted": "Renal function disorder",
+    "predicted": "Acute kidney injury",
     "exact_match": false,
-    "fuzzy_score": 42,
+    "fuzzy_score": 82,
     "fuzzy_match": false
   },
   {
-    "AE_text": "Thrombophlebitis Thrombophlebitis im Bereich der oberflaechlichen Unterschenkelvenen.",
-    "true_term": "Phlebitis and thrombophlebitis of superficial vessels of lower extremities",
-    "predicted": "Thrombophlebitis",
+    "AE_text": "Alanine Aminotransferase increased",
+    "true_term": "Alanine aminotransferase increased",
+    "predicted": "Alanine Aminotransferase increased",
     "exact_match": false,
-    "fuzzy_score": 36,
+    "fuzzy_score": 100,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "ALAT increased",
+    "true_term": "Alanine aminotransferase increased",
+    "predicted": "ALAT increased",
+    "exact_match": false,
+    "fuzzy_score": 58,
     "fuzzy_match": false
   },
   {
-    "AE_text": "neutrope Colitits",
-    "true_term": "Neutropenic colitis",
-    "predicted": "Neutropenic colitis",
+    "AE_text": "Alkaline phoshatase increased",
+    "true_term": "Alkaline phosphatase increased",
+    "predicted": "Blood glycoalbumin increased",
+    "exact_match": false,
+    "fuzzy_score": 52,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "alkaline phosphatase increased",
+    "true_term": "Alkaline phosphatase increased",
+    "predicted": "Increased effect",
+    "exact_match": false,
+    "fuzzy_score": 39,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "allergic reaction",
+    "true_term": "Allergic reaction",
+    "predicted": "Allergic reaction",
     "exact_match": true,
     "fuzzy_score": 100,
     "fuzzy_match": true
   },
   {
-    "AE_text": "worsening of the preexisting Mucositis",
-    "true_term": "Mucositis",
-    "predicted": "Mucositis",
+    "AE_text": "allergic reaction to transfusion of platelet concentrate",
+    "true_term": "Allergic transfusion reaction",
+    "predicted": "Infusion site reaction",
+    "exact_match": false,
+    "fuzzy_score": 67,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "Allergic reaction transfusion of platelets Treatment: tavegil i.v.",
+    "true_term": "Allergic transfusion reaction",
+    "predicted": "Hypersensitivity NOS",
+    "exact_match": false,
+    "fuzzy_score": 33,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "allergic transfusion reaction rash after blood transfusion",
+    "true_term": "Allergic transfusion reaction",
+    "predicted": "Allergic transfusion reaction",
     "exact_match": true,
     "fuzzy_score": 100,
     "fuzzy_match": true
-  },
-  {
-    "AE_text": "weight loss",
-    "true_term": "Weight loss",
-    "predicted": "Weight loss",
-    "exact_match": true,
-    "fuzzy_score": 100,
-    "fuzzy_match": true
-  },
-  {
-    "AE_text": "oedema both legs",
-    "true_term": "Edema legs",
-    "predicted": "Oedema pulmonary is the closest match, but since it specifies pulmonary, it's not the best choice for \"oedema both legs\". However, \"oedema\" is not explicitly listed for other body parts. The closest term related to the description given would be \"Application site oedema\" if considering a general oedema term, but it's not specific to legs. Since there isn't a term specifically for \"oedema of both legs,\" the closest in relation to",
-    "exact_match": false,
-    "fuzzy_score": 5,
-    "fuzzy_match": false
-  },
-  {
-    "AE_text": "dry skin",
-    "true_term": "Dry skin",
-    "predicted": "Dermatosis steroid-induced",
-    "exact_match": false,
-    "fuzzy_score": 35,
-    "fuzzy_match": false
-  },
-  {
-    "AE_text": "Skin irritation anal after diarrhea",
-    "true_term": "Skin irritation",
-    "predicted": "Perineal erythema",
-    "exact_match": false,
-    "fuzzy_score": 38,
-    "fuzzy_match": false
   },
   {
     "AE_text": "alopecia",
@@ -128,35 +120,43 @@
     "fuzzy_match": true
   },
   {
-    "AE_text": "cramplike pain abdomen",
-    "true_term": "Abdominal crampy pains",
-    "predicted": "Abdominal pain",
-    "exact_match": false,
-    "fuzzy_score": 78,
-    "fuzzy_match": false
-  },
-  {
-    "AE_text": "Pain back",
-    "true_term": "Pain back",
-    "predicted": "Muscle discomfort",
-    "exact_match": false,
-    "fuzzy_score": 15,
-    "fuzzy_match": false
-  },
-  {
-    "AE_text": "cough",
-    "true_term": "Cough",
-    "predicted": "Cough",
+    "AE_text": "Anemia",
+    "true_term": "Anemia",
+    "predicted": "Anemia",
     "exact_match": true,
     "fuzzy_score": 100,
     "fuzzy_match": true
   },
   {
-    "AE_text": "rash",
-    "true_term": "Rash",
-    "predicted": "Rash papulo-vesicular",
+    "AE_text": "anemia",
+    "true_term": "Anemia",
+    "predicted": "Anemia",
+    "exact_match": true,
+    "fuzzy_score": 100,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "anemia anemia",
+    "true_term": "Anemia",
+    "predicted": "Melanaemia",
     "exact_match": false,
-    "fuzzy_score": 32,
+    "fuzzy_score": 75,
     "fuzzy_match": false
+  },
+  {
+    "AE_text": "Bilirubin Erhoehung",
+    "true_term": "Blood bilirubin increased",
+    "predicted": "Feces discolored",
+    "exact_match": false,
+    "fuzzy_score": 29,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "blood bilirubin increased",
+    "true_term": "Blood bilirubin increased",
+    "predicted": "Blood bilirubin increased",
+    "exact_match": true,
+    "fuzzy_score": 100,
+    "fuzzy_match": true
   }
 ]

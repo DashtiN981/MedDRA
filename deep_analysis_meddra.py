@@ -2,8 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load datasets
-llt_df = pd.read_csv("/home/naghmedashti/MedDRA-LLM/data/MedDRA2_LLT_Code_25_0.csv", sep=';', encoding='latin1')
-pt_df = pd.read_csv("/home/naghmedashti/MedDRA-LLM/data/MedDRA_PT_SOC_25_0.csv", sep=';', encoding='latin1')
+llt_df = pd.read_csv("/home/naghmedashti/MedDRA-LLM/data/LLT_Code_Deutsch_25_0.csv", sep=';', encoding='latin1')
+pt_df = pd.read_csv("/home/naghmedashti/MedDRA-LLM/data/PT_SOC_25_0.csv", sep=';', encoding='latin1')
 
 # Merge on PT_Code
 merged_df = pd.merge(llt_df, pt_df, on='PT_Code', how='left')

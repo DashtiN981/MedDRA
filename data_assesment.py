@@ -2,7 +2,7 @@ import pandas as pd
 
 # Load the uploaded datasets
 ae_data_path = "/home/naghmedashti/MedDRA-LLM/data/KI_Projekt_Mosaic_AE_Codierung_2024_07_03.csv"
-llt_data_path = "/home/naghmedashti/MedDRA-LLM/data/MedDRA1_LLT_Code_25_0.csv"
+llt_data_path = "/home/naghmedashti/MedDRA-LLM/data/LLT_Code_English_25_0.csv"
 
 # Load the data
 ae_df = pd.read_csv(ae_data_path, sep=";", encoding="latin1")

@@ -1,12 +1,11 @@
 """
-rag_prompting_reasoning_v2.py
+File Name: rag_prompting_reasoning_v2.py    === Author: Naghme Dashti / July 2025
 
 This script implements an LLM-based MedDRA coding assistant using embedding-based RAG retrieval 
 combined with reasoning-augmented prompting. For each AE, it retrieves Top-K similar LLT terms 
 (based on cosine similarity), generates a chain-of-thought explanation using the LLM, and then 
 extracts the best matching term. Final predictions are evaluated using exact and fuzzy matching metrics.
 
-Author: Naghme Dashti / July 2025
 """
 import json
 import pandas as pd
@@ -26,13 +25,13 @@ client = OpenAI(
 )
 
 # === Parameters ===
-TOP_K = 100
+TOP_K = 30
 MAX_ROWS = 100
 EMB_DIM = 384  # dimension of MiniLM
 AE_EMB_FILE = "/home/naghmedashti/MedDRA-LLM/embedding/ae_embeddings.json"
 LLT_EMB_FILE = "/home/naghmedashti/MedDRA-LLM/embedding/llt_embeddings.json"
-AE_CSV_FILE = "/home/naghmedashti/MedDRA-LLM/clean_data/KI_Projekt_Mosaic_AE_Codierung_2024_07_03.csv"
-LLT_CSV_FILE = "/home/naghmedashti/MedDRA-LLM/clean_data/MedDRA1_LLT_Code_25_0.csv"
+AE_CSV_FILE = "/home/naghmedashti/MedDRA-LLM/data/KI_Projekt_Mosaic_AE_Codierung_2024_07_03.csv"
+LLT_CSV_FILE = "/home/naghmedashti/MedDRA-LLM/data/LLT_Code_English_25_0.csv"
 
 # === Load Data ===
 ae_df = pd.read_csv(AE_CSV_FILE, sep=';', encoding='latin1')[["Original_Term_aufbereitet", "ZB_LLT_Code"]].dropna().reset_index(drop=True)
@@ -109,6 +108,7 @@ for idx, row in ae_df.iloc[:MAX_ROWS].iterrows():
     try:
         response = client.chat.completions.create(
             model="Llama-3.3-70B-Instruct",
+            # model="llama-3.3-70b-instruct-awq",
             messages=[
                 {"role": "system", "content": "You are a medical coding assistant."},
                 {"role": "user", "content": prompt}
@@ -151,11 +151,15 @@ y_true = [r["true_term"] for r in results]
 y_pred = [r["predicted"] for r in results]
 y_pred_fuzzy = [r["true_term"] if r["fuzzy_match"] else r["predicted"] for r in results]
 
+
+#if len(y_true) > 0:
 print("\nEvaluation Report (Exact Match):")
 print(classification_report(y_true, y_pred, zero_division=0))
-
+    
 print("\nEvaluation Report (Fuzzy Match):")
 print(classification_report(y_true, y_pred_fuzzy, zero_division=0))
+#else:
+    #print("No successful predictions to evaluate.")
 
 # Custom Metrics
 acc = accuracy_score(y_true, y_pred)

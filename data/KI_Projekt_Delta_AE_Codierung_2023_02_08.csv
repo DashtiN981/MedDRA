@@ -1,0 +1,227 @@
+Codierungs_ID;AE_Term;AE_Term_Spec;Original_Term_aufbereitet;Art_Codierung;Version_Codierung;EB_LLT_Code;EB_SOC_Code;EB_Bemerkung;EB_Datum;EB_Erstbegutachter;ZB_LLT_Code;ZB_SOC_Code;ZB_Bemerkung;ZB_Datum;ZB_Zweitbegutachter;Status
+1207;Other;Acidosis metabolic;Acidosis metabolic;Automatisch;25;;;;;;10000492;10027433;;14.7.2022 00:00:00;Automatisch;Fertig
+1472;Other;Acute adhesion ileus;Acute adhesion ileus;Manuell;25;10056322.0;10017947.0;;13.10.2022 00:00:00;Buettneso;10056322;10017947;;28.12.2022 00:00:00;fiebigfra;Fertig
+1202;Other;acute kidney injury;acute kidney injury;Automatisch;25;;;;;;10069339;10038359;;14.7.2022 00:00:00;Automatisch;Fertig
+1219;Other;acute renal insufficiency;acute renal insufficiency;Automatisch;25;;;;;;10050440;10038359;;14.7.2022 00:00:00;Automatisch;Fertig
+1325;Other;aktue Cholezystitis;aktue Cholezystitis;Manuell;25;10000691.0;10019805.0;;6.9.2022 00:00:00;Buettneso;10000691;10019805;;28.12.2022 00:00:00;fiebigfra;Fertig
+1446;Other;AML Pregression;AML Pregression;Manuell;25;10066572.0;10029104.0;;10.10.2022 00:00:00;Buettneso;10066572;10029104;;28.12.2022 00:00:00;fiebigfra;Fertig
+1437;Other;AML Progress;AML Progress;Manuell;25;10066572.0;10029104.0;;10.10.2022 00:00:00;Buettneso;10066572;10029104;;28.12.2022 00:00:00;fiebigfra;Fertig
+1416;AML Progression;AML;AML Progression AML;Manuell;25;10066572.0;10029104.0;;10.10.2022 00:00:00;Buettneso;10066572;10029104;;28.12.2022 00:00:00;fiebigfra;Fertig
+1295;AML Progression;AML Progression;AML Progression AML Progression;Manuell;25;10066572.0;10029104.0;;2.9.2022 00:00:00;Buettneso;10066572;10029104;;28.12.2022 00:00:00;fiebigfra;Fertig
+1415;AML Progression;AML Progression im peripheren Blut;AML Progression AML Progression im peripheren Blut;Manuell;25;10066572.0;10029104.0;;10.10.2022 00:00:00;Buettneso;10066572;10029104;;28.12.2022 00:00:00;fiebigfra;Fertig
+1453;Other;AMl progression and pneumonie;AMl progression and pneumonie;Manuell;25;10066572.0;10029104.0;;10.10.2022 00:00:00;Buettneso;10066572;10029104;;28.12.2022 00:00:00;fiebigfra;Fertig
+1435;AML Progression;BSC;AML Progression BSC;Manuell;25;10066572.0;10029104.0;;10.10.2022 00:00:00;Buettneso;10066572;10029104;;28.12.2022 00:00:00;fiebigfra;Fertig
+1412;AML Progression;death by progredient AML;AML Progression death by progredient AML;Manuell;25;10066572.0;10029104.0;;10.10.2022 00:00:00;Buettneso;10066572;10029104;;28.12.2022 00:00:00;fiebigfra;Fertig
+1419;AML Progression;Leukozytose;AML Progression Leukozytose;Manuell;25;10066572.0;10029104.0;;10.10.2022 00:00:00;Buettneso;10066572;10029104;;28.12.2022 00:00:00;fiebigfra;Fertig
+1413;AML Progression;Panzytopenia;AML Progression Panzytopenia;Manuell;25;10066572.0;10029104.0;;10.10.2022 00:00:00;Buettneso;10066572;10029104;;28.12.2022 00:00:00;fiebigfra;Fertig
+1423;AML Progression;Patient deceased;AML Progression Patient deceased;Manuell;25;10066572.0;10029104.0;;10.10.2022 00:00:00;Buettneso;10066572;10029104;;28.12.2022 00:00:00;fiebigfra;Fertig
+1309;AML Progression;Patient dies at home due to AML progression;AML Progression Patient dies at home due to AML progression;Manuell;25;10066572.0;10029104.0;;2.9.2022 00:00:00;Buettneso;10066572;10029104;;28.12.2022 00:00:00;fiebigfra;Fertig
+1417;AML Progression;Progress of AML;AML Progression Progress of AML;Manuell;25;10066572.0;10029104.0;;10.10.2022 00:00:00;Buettneso;10066572;10029104;;28.12.2022 00:00:00;fiebigfra;Fertig
+1411;AML Progression;Progression;AML Progression Progression;Manuell;25;10066572.0;10029104.0;;10.10.2022 00:00:00;Buettneso;10066572;10029104;;28.12.2022 00:00:00;fiebigfra;Fertig
+1439;AML Progression;progressive AML;AML Progression progressive AML;Manuell;25;10066572.0;10029104.0;;10.10.2022 00:00:00;Buettneso;10066572;10029104;;28.12.2022 00:00:00;fiebigfra;Fertig
+1284;AML Progression;Vd. auf Leukostase Syndrom;AML Progression Vd. auf Leukostase Syndrom;Manuell;25;10066572.0;10029104.0;;2.9.2022 00:00:00;Buettneso;10066572;10029104;;28.12.2022 00:00:00;fiebigfra;Fertig
+1181;Other;Anämia;Anaemia;Automatisch;25;;;;;;10002034;10005329;;14.7.2022 00:00:00;Automatisch;Fertig
+1185;Other;Anemia;Anemia;Automatisch;25;;;;;;10002272;10005329;;14.7.2022 00:00:00;Automatisch;Fertig
+1398;Other;atrial fibrillation onset 04-Oct-2018 and worsening of General condition;atrial fibrillation onset 04-Oct-2018 and worsening of General condition;Manuell;25;10003658.0;10007541.0;;9.9.2022 00:00:00;Buettneso;10003658;10007541;;28.12.2022 00:00:00;fiebigfra;Fertig
+1320;Other;Atypische Pneumonie bei positivem RSV-Nachweis;Atypische Pneumonie bei positivem RSV-Nachweis;Manuell;25;10003757.0;10021881.0;;6.9.2022 00:00:00;Buettneso;10035732;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1283;Other;bacteriemia;bacteriemia;Manuell;25;10060562.0;10021881.0;;2.9.2022 00:00:00;Buettneso;10060562;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1300;Other;Bladdertumor with renal jam;Bladdertumor with renal jam;Manuell;25;10005056.0;10029104.0;;2.9.2022 00:00:00;Buettneso;10025735;10029104;;28.12.2022 00:00:00;fiebigfra;Fertig
+1363;Bleeding;cerebral Haemorrhage;Bleeding cerebral Haemorrhage;Manuell;25;10022737.0;10047065.0;;7.9.2022 00:00:00;Buettneso;10022737;10047065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1399;Bleeding;gastro-intestinal bleeding;Bleeding gastro-intestinal bleeding;Manuell;25;10005116.0;10047065.0;;9.9.2022 00:00:00;Buettneso;10005116;10047065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1297;Bleeding;gingival bleeding in thrombocytopenia;Bleeding gingival bleeding in thrombocytopenia;Manuell;25;10074558.0;10047065.0;;13.10.2022 00:00:00;Buettneso;10018276;10047065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1318;Bleeding;head;Bleeding head;Manuell;25;10019524.0;10047065.0;;6.9.2022 00:00:00;Buettneso;10073792;10047065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1400;Bleeding;hematuria;Bleeding hematuria;Manuell;25;10019450.0;10038359.0;;9.9.2022 00:00:00;Buettneso;10019450;10038359;;28.12.2022 00:00:00;fiebigfra;Fertig
+1401;Bleeding;intracranial bleeding;Bleeding intracranial bleeding;Manuell;25;10005121.0;10047065.0;;9.9.2022 00:00:00;Buettneso;10005121;10047065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1402;Bleeding;spontaneous subdural hematoma;Bleeding spontaneous subdural hematoma;Manuell;25;10042380.0;10047065.0;;9.9.2022 00:00:00;Buettneso;10042380;10047065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1403;Bleeding;subcutaneous bleeding - hematoma;Bleeding subcutaneous bleeding - hematoma;Manuell;25;10042346.0;10047065.0;;9.9.2022 00:00:00;Buettneso;10042346;10047065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1404;Bleeding;subcutaneous hematomas;Bleeding subcutaneous hematomas;Manuell;25;10042346.0;10047065.0;;9.9.2022 00:00:00;Buettneso;10042346;10047065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1405;Bleeding;Subdural Hematoma;Bleeding Subdural Hematoma;Manuell;25;10042346.0;10047065.0;;9.9.2022 00:00:00;Buettneso;10042364;10047065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1406;Other;Bone Marrow fibrosis;Bone Marrow fibrosis;Manuell;25;10069678.0;10005329.0;;9.9.2022 00:00:00;Buettneso;10069678;10005329;;28.12.2022 00:00:00;fiebigfra;Fertig
+1346;Other;Cardiac decompensation;Cardiac decompensation;Manuell;25;10011949.0;10007541.0;;7.9.2022 00:00:00;Buettneso;10011949;10007541;;28.12.2022 00:00:00;fiebigfra;Fertig
+1282;Other;cardial decompensation;cardial decompensation;Manuell;25;10011949.0;10007541.0;;2.9.2022 00:00:00;Buettneso;10011949;10007541;;28.12.2022 00:00:00;fiebigfra;Fertig
+1382;Other;Colonisation with vancomycin resistant enerococcus faecium;Colonisation with vancomycin resistant enerococcus faecium;Manuell;25;10067915.0;10021881.0;;9.9.2022 00:00:00;Buettneso;10067915;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1407;Other;coprostasis and obstipation;coprostasis and obstipation;Manuell;25;10067340.0;10017947.0;;9.9.2022 00:00:00;Buettneso;10067340;10017947;;28.12.2022 00:00:00;fiebigfra;Fertig
+1408;Other;cranial contusion;cranial contusion;Manuell;25;10052346.0;10022117.0;;9.9.2022 00:00:00;Buettneso;10052346;10022117;;28.12.2022 00:00:00;fiebigfra;Fertig
+1201;Other;Death;Death;Automatisch;25;;;;;;10011906;10018065;;14.7.2022 00:00:00;Automatisch;Fertig
+1409;Other;death of unkown origin;death of unkown origin;Manuell;25;10063378.0;10018065.0;;9.9.2022 00:00:00;Buettneso;10063378;10018065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1331;Other;Death: died on the way to the family doctor's practice (a. e. as part of the underlying disease);Death: died on the way to the family doctor's practice (a. e. as part of the underlying disease);Manuell;25;10066572.0;10005329.0;;6.9.2022 00:00:00;Buettneso;10066572;10005329;;28.12.2022 00:00:00;fiebigfra;Fertig
+1339;Other;death: Progression of AML;death: Progression of AML;Manuell;25;10066572.0;10029104.0;;7.9.2022 00:00:00;Buettneso;10066572;10029104;;28.12.2022 00:00:00;fiebigfra;Fertig
+1269;Other;Deceased Patient. Death cause: AML Progression;Deceased Patient. Death cause: AML Progression;Manuell;25;10066572.0;10029104.0;;24.8.2022 00:00:00;Buettneso;10066572;10029104;;28.12.2022 00:00:00;fiebigfra;Fertig
+1359;Diarrhea;Diarrhea;Diarrhea Diarrhea;Manuell;25;10012735.0;10017947.0;;7.9.2022 00:00:00;Buettneso;10012735;10017947;;28.12.2022 00:00:00;fiebigfra;Fertig
+1310;Diarrhea;gastrointestinal disorder;Diarrhea gastrointestinal disorder;Manuell;25;10012727.0;10017947.0;;2.9.2022 00:00:00;Buettneso;10012727;10017947;;28.12.2022 00:00:00;fiebigfra;Fertig
+1478;Diarrhea;massive;Diarrhea massive;Manuell;25;10012732.0;10017947.0;;13.10.2022 00:00:00;Buettneso;10012732;10017947;;28.12.2022 00:00:00;fiebigfra;Fertig
+1304;Dyspnea;Bronchial system;Dyspnea Bronchial system;Manuell;25;10013972.0;10038738.0;;2.9.2022 00:00:00;Buettneso;10013972;10038738;;28.12.2022 00:00:00;fiebigfra;Fertig
+1393;Dyspnea;excertional dyspnea;Dyspnea excertional dyspnea;Manuell;25;10013968.0;10038738.0;;9.9.2022 00:00:00;Buettneso;10013968;10038738;;28.12.2022 00:00:00;fiebigfra;Fertig
+1465;Dyspnea;exertional dyspnea;Dyspnea exertional dyspnea;Manuell;25;10013971.0;10038738.0;;10.10.2022 00:00:00;Buettneso;10013971;10038738;;28.12.2022 00:00:00;fiebigfra;Fertig
+1377;Dyspnea;Lung;Dyspnea Lung;Manuell;25;10013968.0;10038738.0;Dyspnoe als Symptom der Atelektase? --> Überschneidung Zeitraum prüfen;9.9.2022 00:00:00;Buettneso;10013968;10038738;;28.12.2022 00:00:00;fiebigfra;Fertig
+1480;Dyspnea;n.a.;Dyspnea n.a.;Manuell;25;10013963.0;10038738.0;;13.10.2022 00:00:00;Buettneso;10013963;10038738;;28.12.2022 00:00:00;fiebigfra;Fertig
+1289;Dyspnea;NYHA III;Dyspnea NYHA III;Manuell;25;10064081.0;10007541.0;;2.9.2022 00:00:00;Buettneso;10064081;10007541;;28.12.2022 00:00:00;fiebigfra;Fertig
+1376;Other;Dystelectasis both lungs;Dystelectasis both lungs;Manuell;25;10003598.0;10038738.0;Dystelektase als Vorstufe der Atelektase? LLT korrekt?;9.9.2022 00:00:00;Buettneso;10003598;10038738;;28.12.2022 00:00:00;fiebigfra;Fertig
+1342;Other;"Edema limbs; both lower legs";"Edema limbs; both lower legs";Manuell;25;10054498.0;10027433.0;;7.9.2022 00:00:00;Buettneso;10054498;10018065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1470;Other;Edema penis;Edema penis;Manuell;25;10014242.0;10038604.0;;10.10.2022 00:00:00;Buettneso;10014242;10038604;;28.12.2022 00:00:00;fiebigfra;Fertig
+1321;Other;Erysipel des Unterschenkel rechts;Erysipel des Unterschenkel rechts;Manuell;25;10015145.0;10021881.0;;6.9.2022 00:00:00;Buettneso;10015145;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1392;Fatigue;Fatigue;Fatigue Fatigue;Manuell;25;10016256.0;10018065.0;;9.9.2022 00:00:00;Buettneso;10016256;10018065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1288;Fatigue;generalized;Fatigue generalized;Manuell;25;10016256.0;10018065.0;;2.9.2022 00:00:00;Buettneso;10016256;10018065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1471;Fatigue;HB <= 6 --> EK tranfusion;Fatigue HB <= 6 --> EK tranfusion;Manuell;25;10016256.0;10018065.0;;10.10.2022 00:00:00;Buettneso;10002272;10005329;;28.12.2022 00:00:00;fiebigfra;Fertig
+1482;Fatigue;intermittend;Fatigue intermittend;Manuell;25;10016256.0;10018065.0;;13.10.2022 00:00:00;Buettneso;10016256;10018065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1474;Fatigue;n.a.;Fatigue n.a.;Manuell;25;10016256.0;;;13.10.2022 00:00:00;Buettneso;10016256;10018065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1198;Fever;;Fever;Automatisch;25;;;;;;10016558;10018065;;14.7.2022 00:00:00;Automatisch;Fertig
+1311;Fever;febrile neutropenia;Fever febrile neutropenia;Manuell;25;10016288.0;10005329.0;;2.9.2022 00:00:00;Buettneso;10016288;10005329;;28.12.2022 00:00:00;fiebigfra;Fertig
+1358;Fever;Fever;Fever Fever;Manuell;25;10016558.0;10018065.0;;7.9.2022 00:00:00;Buettneso;10016558;10018065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1468;Fever;Fever in neutropenia;Fever Fever in neutropenia;Manuell;25;10016288.0;10005329.0;;10.10.2022 00:00:00;Buettneso;10016288;10005329;;28.12.2022 00:00:00;fiebigfra;Fertig
+1351;Fever;NEUTROPENIC FEVER;Fever NEUTROPENIC FEVER;Manuell;25;10016288.0;10005329.0;;7.9.2022 00:00:00;Buettneso;10016288;10005329;;28.12.2022 00:00:00;fiebigfra;Fertig
+1332;Fever;neutropenic fever;Fever neutropenic fever;Manuell;25;10016288.0;10005329.0;;6.9.2022 00:00:00;Buettneso;10016288;10005329;;28.12.2022 00:00:00;fiebigfra;Fertig
+1290;Fever;no information;Fever no information;Manuell;25;10016558.0;10018065.0;;2.9.2022 00:00:00;Buettneso;10016558;10018065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1314;Fever;Pneumonia;Fever Pneumonia;Manuell;25;10035664.0;10021881.0;;2.9.2022 00:00:00;Buettneso;10035664;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1430;Fever;pneumonie;Fever pneumonie;Manuell;25;10035664.0;10021881.0;;10.10.2022 00:00:00;Buettneso;10035664;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1277;Fever;without focus;Fever without focus;Manuell;25;10016558.0;10018065.0;;2.9.2022 00:00:00;Buettneso;10016558;10018065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1278;Fever;wrosening General condition;Fever wrosening General condition;Manuell;25;10057364.0;10018065.0;;2.9.2022 00:00:00;Buettneso;10016558;10018065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1319;Other;Fracture of the humerus;Fracture of the humerus;Manuell;25;10017127.0;10022117.0;SOC: Sturzereignis oder durch Osteoporose;6.9.2022 00:00:00;Buettneso;10017127;10022117;;28.12.2022 00:00:00;fiebigfra;Fertig
+1372;Other;fugal infection;fugal infection;Manuell;25;10017533.0;10021881.0;;9.9.2022 00:00:00;Buettneso;10017533;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1455;Other;granulopenie;granulopenie;Manuell;25;10029354.0;10005329.0;;10.10.2022 00:00:00;Buettneso;10029354;10005329;;28.12.2022 00:00:00;fiebigfra;Fertig
+1212;Other;Heart failure;Heart failure;Automatisch;25;;;;;;10019279;10007541;;14.7.2022 00:00:00;Automatisch;Fertig
+1215;Other;hematoma;hematoma;Automatisch;25;;;;;;10019428;10047065;;14.7.2022 00:00:00;Automatisch;Fertig
+1293;Other;High UricAcic;High UricAcic;Manuell;25;10066980.0;10022891.0;;2.9.2022 00:00:00;Buettneso;10066980;10022891;;28.12.2022 00:00:00;fiebigfra;Fertig
+1190;Other;Hyperkalemia;Hyperkalemia;Automatisch;25;;;;;;10020647;10027433;;14.7.2022 00:00:00;Automatisch;Fertig
+1218;Other;hypertension;hypertension;Automatisch;25;;;;;;10020772;10047065;;14.7.2022 00:00:00;Automatisch;Fertig
+1213;Other;Hypertension;Hypertension;Automatisch;25;;;;;;10020772;10047065;;14.7.2022 00:00:00;Automatisch;Fertig
+1191;Other;Hypokalemia;Hypokalemia;Automatisch;25;;;;;;10021018;10027433;;14.7.2022 00:00:00;Automatisch;Fertig
+1195;Other;Hyponatriämie;Hyponatriaemie;Automatisch;25;;;;;;10021036;10027433;;14.7.2022 00:00:00;Automatisch;Fertig
+1370;Other;increase createnin;increase createnin;Manuell;25;10011368.0;10022891.0;;9.9.2022 00:00:00;Buettneso;10011368;10022891;;28.12.2022 00:00:00;fiebigfra;Fertig
+1371;Other;increase creatinin;increase creatinin;Manuell;25;10011368.0;10022891.0;;9.9.2022 00:00:00;Buettneso;10011368;10022891;;28.12.2022 00:00:00;fiebigfra;Fertig
+1353;Other;increase creatinine;increase creatinine;Manuell;25;10011368.0;10022891.0;;7.9.2022 00:00:00;Buettneso;10011368;10022891;;28.12.2022 00:00:00;fiebigfra;Fertig
+1461;Other;increase of CRP (infection of unknown origin);increase of CRP (infection of unknown origin);Manuell;25;10021842.0;10021881.0;;10.10.2022 00:00:00;Buettneso;10021842;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1313;Other;increased creatinine;increased creatinine;Manuell;25;10011368.0;10022891.0;;2.9.2022 00:00:00;Buettneso;10011368;10022891;;28.12.2022 00:00:00;fiebigfra;Fertig
+1349;Infarction;myocardial;Infarction myocardial;Manuell;25;10028596.0;;;7.9.2022 00:00:00;Buettneso;10028596;10007541;;28.12.2022 00:00:00;fiebigfra;Fertig
+1322;Infarction;NSTEMI;Infarction NSTEMI;Manuell;25;10064347.0;10007541.0;;6.9.2022 00:00:00;Buettneso;10064347;10007541;;28.12.2022 00:00:00;fiebigfra;Fertig
+1396;Infection;Bronchial infection;Infection Bronchial infection;Manuell;25;10055078.0;10021881.0;;9.9.2022 00:00:00;Buettneso;10055078;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1291;Infection;Bronchopneumonia;Infection Bronchopneumonia;Manuell;25;10006470.0;10021881.0;;2.9.2022 00:00:00;Buettneso;10006470;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1378;Infection;Catheter related (central venous catheter);Infection Catheter related (central venous catheter);Manuell;25;10007810.0;10021881.0;;9.9.2022 00:00:00;Buettneso;10007810;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1389;Infection;Colonisation with vancomycin resistant enerococcus faecium;Infection Colonisation with vancomycin resistant enerococcus faecium;Manuell;25;10067915.0;10021881.0;;9.9.2022 00:00:00;Buettneso;10067915;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1424;Infection;erysipelas at right calf;Infection erysipelas at right calf;Manuell;25;10015145.0;10021881.0;;10.10.2022 00:00:00;Buettneso;10015145;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1266;Infection;Fieberhafter Infekt im Rahmen einer Pneumonie rechts;Infection Fieberhafter Infekt im Rahmen einer Pneumonie rechts;Manuell;25;10035664.0;10021881.0;;24.8.2022 00:00:00;Buettneso;10035664;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1459;Infection;fungal infection;Infection fungal infection;Manuell;25;10021814.0;10021881.0;;10.10.2022 00:00:00;Buettneso;10021814;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1361;Infection;Herpes simplex;Infection Herpes simplex;Manuell;25;10019948.0;10021881.0;;7.9.2022 00:00:00;Buettneso;10019948;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1306;Infection;Herpes Zoster;Infection Herpes Zoster;Manuell;25;10019974.0;10021881.0;;2.9.2022 00:00:00;Buettneso;10019974;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1303;Infection;Herpes zoster infection;Infection Herpes zoster infection;Manuell;25;10019974.0;10021881.0;;2.9.2022 00:00:00;Buettneso;10019974;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1431;Infection;Influenza A;Infection Influenza A;Manuell;25;10022000.0;10021881.0;;10.10.2022 00:00:00;Buettneso;10022000;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1452;Infection;Influenza infection;Infection Influenza infection;Manuell;25;10022000.0;10021881.0;;10.10.2022 00:00:00;Buettneso;10022000;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1438;Infection;Influenza typ A infection;Infection Influenza typ A infection;Manuell;25;10022000.0;10021881.0;;10.10.2022 00:00:00;Buettneso;10022000;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1368;Infection;intense cough;Infection intense cough;Manuell;25;10062352.0;10021881.0;;9.9.2022 00:00:00;Buettneso;10062352;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1442;Infection;multiple infection probably due to progressive disease (AML);Infection multiple infection probably due to progressive disease (AML);Manuell;25;10021789.0;10021881.0;verstorben an einer Sepsis. Oder Progress codieren?;10.10.2022 00:00:00;Buettneso;10021789;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1273;Infection;mycosis Pneumonia;Infection mycosis Pneumonia;Manuell;25;10037422.0;10021881.0;;24.8.2022 00:00:00;Buettneso;10061354;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1275;Infection;mykosispneumonia;Infection mykosispneumonia;Manuell;25;10067330.0;10021881.0;;24.8.2022 00:00:00;Buettneso;10061354;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1274;Infection;neutropenic Fever;Infection neutropenic Fever;Manuell;25;10059482.0;10021881.0;;13.10.2022 00:00:00;Buettneso;10059482;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1428;Infection;Noro virus;Infection Noro virus;Manuell;25;10085018.0;10021881.0;;10.10.2022 00:00:00;Buettneso;10085018;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1344;Infection;oral trush;Infection oral trush;Manuell;25;10031026.0;10017947.0;;7.9.2022 00:00:00;Buettneso;10031026;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1427;Infection;phlegmon;Infection phlegmon;Manuell;25;10034907.0;10021881.0;;10.10.2022 00:00:00;Buettneso;10034907;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1294;Infection;Pneumonia / Respiratory insufficiency;Infection Pneumonia / Respiratory insufficiency;Manuell;25;10035664.0;10038738.0;;2.9.2022 00:00:00;Buettneso;10035664;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1485;Infection;Pneumonia with Fever and cardiac decompensation;Infection Pneumonia with Fever and cardiac decompensation;Manuell;25;10035664.0;10021881.0;;13.10.2022 00:00:00;Buettneso;10035664;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1460;Infection;pneumonie;Infection pneumonie;Manuell;25;10035664.0;10021881.0;;10.10.2022 00:00:00;Buettneso;10035664;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1315;Infection;pneumosepsis;Infection pneumosepsis;Manuell;25;10051739.0;10021881.0;;2.9.2022 00:00:00;Buettneso;10051739;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1449;Infection;port implantation;Infection port implantation;Manuell;25;10051387.0;10021881.0;;10.10.2022 00:00:00;Buettneso;10051387;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1425;Infection;Pulmonary sepsis;Infection Pulmonary sepsis;Manuell;25;10051739.0;10021881.0;;10.10.2022 00:00:00;Buettneso;10051739;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1355;Infection;respiratory infection;Infection respiratory infection;Manuell;25;10021863.0;10021881.0;;7.9.2022 00:00:00;Buettneso;10021863;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1308;Infection;RSV-Infection;Infection RSV-Infection;Manuell;25;10039247.0;10021881.0;;2.9.2022 00:00:00;Buettneso;10039247;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1329;Infection;Sepis;Infection Sepis;Manuell;25;10040047.0;10021881.0;;6.9.2022 00:00:00;Buettneso;10040047;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1255;Infection;Sepsis;Infection Sepsis;EW: Automatisch;25;;;;;;10040047;10021881;;14.7.2022 00:00:00;Automatisch;Fertig
+1254;Infection;sepsis;Infection sepsis;EW: Automatisch;25;;;;;;10040047;10021881;;14.7.2022 00:00:00;Automatisch;Fertig
+1375;Infection;Septic shock;Infection Septic shock;Manuell;25;10040070.0;10021881.0;;9.9.2022 00:00:00;Buettneso;10040070;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1312;Infection;septic shock;Infection septic shock;Manuell;25;10040070.0;10021881.0;;2.9.2022 00:00:00;Buettneso;10040070;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1285;Infection;Septic with multiorgan failure;Infection Septic with multiorgan failure;Manuell;25;10040070.0;10021881.0;;2.9.2022 00:00:00;Buettneso;10040047;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1467;Infection;sinusitis maxilaris;Infection sinusitis maxilaris;Manuell;25;10040753.0;10021881.0;;10.10.2022 00:00:00;Buettneso;10056475;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1276;Infection;soft tissue;Infection soft tissue;Manuell;25;10062255.0;10021881.0;;2.9.2022 00:00:00;Buettneso;10062255;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1426;Infection;Spondylodiscitis;Infection Spondylodiscitis;Manuell;25;10062691.0;10021881.0;;10.10.2022 00:00:00;Buettneso;10062691;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1337;Infection;Stomatitis;Infection Stomatitis;Manuell;25;10086643.0;10017947.0;;7.9.2022 00:00:00;Buettneso;10086643;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1345;Infection;surgical intervention at bottom lip (->necrosis) after infection into the mouth. Hospitalisation 07.03.2019 - 10.03.2019;Infection surgical intervention at bottom lip (->necrosis) after infection into the mouth. Hospitalisation 07.03.2019 - 10.03.2019;Manuell;25;10028869.0;10017947.0;;7.9.2022 00:00:00;Buettneso;10077856;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1267;Infection;Suspected Infection already before start of chemotherapy/study drug;Infection Suspected Infection already before start of chemapy/study drug;Manuell;25;10021789.0;10021881.0;;24.8.2022 00:00:00;Buettneso;10021842;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1305;Infection;urinary tract infection;Infection urinary tract infection;Manuell;25;10046571.0;10021881.0;;2.9.2022 00:00:00;Buettneso;10046571;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1384;Infection;Urinary tract infection;Infection Urinary tract infection;Manuell;25;10046571.0;10021881.0;;9.9.2022 00:00:00;Buettneso;10046571;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1391;Infection;Urinary tract infection;Infection Urinary tract infection;Manuell;25;10046544.0;10021881.0;;9.9.2022 00:00:00;Buettneso;10046544;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1390;Infection;urinary tract infection;Infection urinary tract infection;Manuell;25;10046544.0;10021881.0;;9.9.2022 00:00:00;Buettneso;10046544;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1379;Infection;urinary tract infection with eschericchia coli;Infection urinary tract infection with eschericchia coli;Manuell;25;10015293.0;10021881.0;;9.9.2022 00:00:00;Buettneso;10015293;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1301;Infection;Urosepsis with Multi Organ failure;Infection Urosepsis with Multi Organ failure;Manuell;25;10048709.0;10021881.0;;2.9.2022 00:00:00;Buettneso;10048709;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1444;Infection;with fever;Infection with fever;Manuell;25;10021789.0;10021881.0;;10.10.2022 00:00:00;Buettneso;10051998;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1374;Infection;Wound forearm right;Infection Wound forearm right;Manuell;25;10048038.0;10021881.0;;9.9.2022 00:00:00;Buettneso;10048038;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1410;Infection;Wound Infection Vein catheter (no microbiology finding);Infection Wound Infection Vein catheter (no microbiology finding);Manuell;25;10056520.0;10021881.0;;30.9.2022 00:00:00;Buettneso;10056520;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1330;Other;Infekt mit Bakterieämie und a.e. broncho pulmonalen Fokus;Infekt mit Bakterieaemie und a.e. broncho pulmonalen Fokus;Manuell;25;10003997.0;10021881.0;;6.9.2022 00:00:00;Buettneso;10004051;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1484;Other;Inflammation of Right foot;Inflammation of Right foot;Manuell;25;10021959.0;10018065.0;;13.10.2022 00:00:00;Buettneso;10016973;10028395;;28.12.2022 00:00:00;fiebigfra;Fertig
+1429;Other;intermittent anemia;intermittent anemia;Manuell;25;10002272.0;10005329.0;;10.10.2022 00:00:00;Buettneso;10002272;10005329;;28.12.2022 00:00:00;fiebigfra;Fertig
+1469;Other;Laceration on head after fall;Laceration on head after fall;Manuell;25;10019196.0;10022117.0;;10.10.2022 00:00:00;Buettneso;10019196;10022117;;28.12.2022 00:00:00;fiebigfra;Fertig
+1183;Other;leucopenia;leucopenia;Automatisch;25;;;;;;10024283;10005329;;14.7.2022 00:00:00;Automatisch;Fertig
+1367;Other;Leukozytostase-Syndrom;Leukozytostase-Syndrom;Manuell;25;10024279.0;10005329.0;;9.9.2022 00:00:00;Buettneso;10074608;10005329;;28.12.2022 00:00:00;fiebigfra;Fertig
+1307;Other;lungembolism;lungembolism;Manuell;25;10037377.0;10038738.0;;2.9.2022 00:00:00;Buettneso;10037377;10038738;;28.12.2022 00:00:00;fiebigfra;Fertig
+1354;Other;Macrohämatuturia;Macrohaematuturia;Manuell;25;10059802.0;10038359.0;;7.9.2022 00:00:00;Buettneso;10059802;10038359;;28.12.2022 00:00:00;fiebigfra;Fertig
+1204;Other;metabolic acidosis;metabolic acidosis;Automatisch;25;;;;;;10027417;10027433;;14.7.2022 00:00:00;Automatisch;Fertig
+1327;Other;Monokelhämatom links;Monokelhaematom links;Manuell;25;10064968.0;10047065.0;;6.9.2022 00:00:00;Buettneso;10064968;10047065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1203;Other;Multi organ failure;Multi organ failure;Automatisch;25;;;;;;10028151;10018065;;14.7.2022 00:00:00;Automatisch;Fertig
+1324;Other;mykotische atypische Pneumonie;mykotische atypische Pneumonie;Manuell;25;10003757.0;10021881.0;"atyp. Pneumonie; Mykosepneumonie oder  Pneumonie durch atyp. Mykobakterien?";6.9.2022 00:00:00;Buettneso;10061354;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1481;Nausea;intermittend;Nausea intermittend;Manuell;25;10028813.0;10017947.0;;13.10.2022 00:00:00;Buettneso;10028813;10017947;;28.12.2022 00:00:00;fiebigfra;Fertig
+1479;Nausea;n.a.;Nausea n.a.;Manuell;25;10028813.0;10017947.0;;13.10.2022 00:00:00;Buettneso;10028813;10017947;;28.12.2022 00:00:00;fiebigfra;Fertig
+1462;Nausea;severe Nausea and vomitting;Nausea severe Nausea and vomitting;Manuell;25;10028813.0;10017947.0;;10.10.2022 00:00:00;Buettneso;10028816;10017947;;28.12.2022 00:00:00;fiebigfra;Fertig
+1286;Nausea;Vomiting;Nausea Vomiting;Manuell;25;10028821.0;10017947.0;;2.9.2022 00:00:00;Buettneso;10028821;10017947;;28.12.2022 00:00:00;fiebigfra;Fertig
+1192;Other;neutropenia;neutropenia;Automatisch;25;;;;;;10029354;10005329;;14.7.2022 00:00:00;Automatisch;Fertig
+1193;Other;Neutropenie;Neutropenie;Automatisch;25;;;;;;10029354;10005329;;14.7.2022 00:00:00;Automatisch;Fertig
+1477;Other;Non small Cell Lung cancer;Non small Cell Lung cancer;Manuell;25;10061873.0;10029104.0;;13.10.2022 00:00:00;Buettneso;10061873;10029104;;28.12.2022 00:00:00;fiebigfra;Fertig
+1373;Other;opstipation;opstipation;Manuell;25;10010774.0;10017947.0;;9.9.2022 00:00:00;Buettneso;10010774;10017947;;28.12.2022 00:00:00;fiebigfra;Fertig
+1397;Pain;Backpain;Pain Backpain;Manuell;25;10003988.0;10028395.0;;9.9.2022 00:00:00;Buettneso;10003988;10028395;;28.12.2022 00:00:00;fiebigfra;Fertig
+1395;Pain;Backpain lumbal;Pain Backpain lumbal;Manuell;25;10003988.0;10028395.0;;9.9.2022 00:00:00;Buettneso;10076433;10028395;;28.12.2022 00:00:00;fiebigfra;Fertig
+1350;Pain;chest pain left;Pain chest pain left;Manuell;25;10006298.0;10038604.0;;7.9.2022 00:00:00;Buettneso;10006298;10038604;;28.12.2022 00:00:00;fiebigfra;Fertig
+1385;Pain;Joints;Pain Joints;Manuell;25;10033511.0;10028395.0;;9.9.2022 00:00:00;Buettneso;10033511;10028395;;28.12.2022 00:00:00;fiebigfra;Fertig
+1302;Pain;lumbar vertebra fracture (LWK 3);Pain lumbar vertebra fracture (LWK 3);Manuell;25;10049959.0;10022117.0;Ursache - Sturz? Oder Erkrankung der Sklettmuskulatur?;13.10.2022 00:00:00;Buettneso;10049959;10022117;;28.12.2022 00:00:00;fiebigfra;Fertig
+1394;Pain;rheumatic joint pain shoulders and hips;Pain rheumatic joint pain shoulders and hips;Manuell;25;10003268.0;10021428.0;Einteilung nach Ort oder nach Dysfunktion? Neu aufgetreten oder in MH erwähnt? --> 10003269;9.9.2022 00:00:00;Buettneso;10003268;10028395;;28.12.2022 00:00:00;fiebigfra;Fertig
+1180;Other;Pancytopenia;Pancytopenia;Automatisch;25;;;;;;10033661;10005329;;14.7.2022 00:00:00;Automatisch;Fertig
+1335;Other;Pancytopenia and febrile neutropenia with pneumonia;Pancytopenia and febrile neutropenia with pneumonia;Manuell;25;10035664.0;10021881.0;;7.9.2022 00:00:00;Buettneso;10035664;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1369;Other;Patient was transferred to intensiv care unit due to pneumonia intuation was Required;Patient was transferred to intensiv care unit due to pneumonia intuation was Required;Manuell;25;10035664.0;10021881.0;;9.9.2022 00:00:00;Buettneso;10035664;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1268;Other;Patient with atrial fibrillation to a Prior art. Now: tachyarrhythmic derailment. Hospitalisation for frequency control;Patient with atrial fibrillation to a Prior art. Now: tachyarrhythmic derailment. Hospitalisation for frequency control;Manuell;25;10049447.0;10007541.0;;24.8.2022 00:00:00;Buettneso;10049447;10007541;;28.12.2022 00:00:00;fiebigfra;Fertig
+1348;Other;perorated sigma dierticulitis;perorated sigma dierticulitis;Manuell;25;10084304.0;10017947.0;;7.9.2022 00:00:00;Buettneso;10084304;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1206;Other;Pleural effusion;Pleural effusion;Automatisch;25;;;;;;10035598;10038738;;14.7.2022 00:00:00;Automatisch;Fertig
+1279;Other;Pneumogene Sepsis;Pneumogene Sepsis;Manuell;25;10051739.0;10021881.0;;2.9.2022 00:00:00;Buettneso;10051739;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1323;Other;Pneumonie des Unterlappens und nachgewiesene Pleuraergüsse bds;Pneumonie des Unterlappens und nachgewiesene Pleuraerguesse bds;Manuell;25;10035664.0;10021881.0;;6.9.2022 00:00:00;Buettneso;10035664;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1357;Other;prärenales acute kidney injury;praerenales acute kidney injury;Manuell;25;10050440.0;10038359.0;;7.9.2022 00:00:00;Buettneso;10050440;10038359;;28.12.2022 00:00:00;fiebigfra;Fertig
+1433;Other;progress with leukocytosis;progress with leukocytosis;Manuell;25;10066572.0;10029104.0;;10.10.2022 00:00:00;Buettneso;10066572;10029104;;28.12.2022 00:00:00;fiebigfra;Fertig
+1299;Progression;General condition Deterioration in blast crisis;Progression General condition Deterioration in blast crisis;Manuell;25;10053747.0;10005329.0;;2.9.2022 00:00:00;Buettneso;10066764;10029104;;28.12.2022 00:00:00;fiebigfra;Fertig
+1414;Other;Progression of AML;Progression of AML;Manuell;25;10066572.0;;;10.10.2022 00:00:00;Buettneso;10066572;10029104;;28.12.2022 00:00:00;fiebigfra;Fertig
+1336;Other;pulmonal Sepsis;pulmonal Sepsis;Manuell;25;10051739.0;10021881.0;;7.9.2022 00:00:00;Buettneso;10051739;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1364;Rash;total body;Rash total body;Manuell;25;10037844.0;10040785.0;;7.9.2022 00:00:00;Buettneso;10018095;10040785;;28.12.2022 00:00:00;fiebigfra;Fertig
+1211;Other;rectal pain;rectal pain;Automatisch;25;;;;;;10038072;10017947;;14.7.2022 00:00:00;Automatisch;Fertig
+1338;Other;recurrent pneumonia;recurrent pneumonia;Manuell;25;10035664.0;10021881.0;;7.9.2022 00:00:00;Buettneso;10035664;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1466;Relapse;Morphological Relapse with a BM blast count of 28% in local cytology;Relapse Morphological Relapse with a BM blast count of 28% in local cytology;Manuell;25;10066572.0;10029104.0;;10.10.2022 00:00:00;Buettneso;10066572;10029104;;28.12.2022 00:00:00;fiebigfra;Fertig
+1217;Other;renal insufficiency;renal insufficiency;Automatisch;25;;;;;;10038474;10038359;;14.7.2022 00:00:00;Automatisch;Fertig
+1356;Other;Resection bladder carcinoma;Resection bladder carcinoma;Manuell;25;10005014.0;10029104.0;;7.9.2022 00:00:00;Buettneso;10062384;10042613;;28.12.2022 00:00:00;fiebigfra;Fertig
+1184;Other;Sepsis;Sepsis;Automatisch;25;;;;;;10040047;10021881;;14.7.2022 00:00:00;Automatisch;Fertig
+1317;Other;staphyloccocus infection;staphyloccocus infection;Manuell;25;10041950.0;10021881.0;;2.9.2022 00:00:00;Buettneso;10041950;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1328;Other;Sturz auf den Weg in die Ambulanz.;Sturz auf den Weg in die Ambulanz.;Manuell;25;10016173.0;10022117.0;;6.9.2022 00:00:00;Buettneso;10016173;10022117;;28.12.2022 00:00:00;fiebigfra;Fertig
+1220;Other;Subileus;Subileus;Automatisch;25;;;;;;10050396;10017947;;14.7.2022 00:00:00;Automatisch;Fertig
+1292;Other;Subilius;Subilius;Manuell;25;10050396.0;10017947.0;;2.9.2022 00:00:00;Buettneso;10050396;10017947;;28.12.2022 00:00:00;fiebigfra;Fertig
+1458;Other;sudden cardiac arrest at home;sudden cardiac arrest at home;Manuell;25;10007515.0;10007541.0;;10.10.2022 00:00:00;Buettneso;10049418;10018065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1454;Other;swelling of the Right knee with inflammation;swelling of the Right knee with inflammation;Manuell;25;10021958.0;10018065.0;;10.10.2022 00:00:00;Buettneso;10067624;10018065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1186;Other;Thrombocytopenia;Thrombocytopenia;Automatisch;25;;;;;;10043554;10005329;;14.7.2022 00:00:00;Automatisch;Fertig
+1214;Other;thrombocytopenia;thrombocytopenia;Automatisch;25;;;;;;10043554;10005329;;14.7.2022 00:00:00;Automatisch;Fertig
+1189;Other;Thrombopenia;Thrombopenia;Automatisch;25;;;;;;10043569;10005329;;14.7.2022 00:00:00;Automatisch;Fertig
+1196;Other;thrombopenia;thrombopenia;Automatisch;25;;;;;;10043569;10005329;;14.7.2022 00:00:00;Automatisch;Fertig
+1182;Other;Thrombopenie;Thrombopenie;Automatisch;25;;;;;;10043569;10005329;;14.7.2022 00:00:00;Automatisch;Fertig
+1483;Other;Trimalleolarfracture ankle Joint right after fall on the 30. Dec.2017. The Patient slipped whilst carrying Wood!;Trimalleolarfracture ankle Joint right after fall on the 30. Dec.2017. The Patient slipped whilst carrying Wood!;Manuell;25;10079503.0;10022117.0;;13.10.2022 00:00:00;Buettneso;10079503;10022117;;28.12.2022 00:00:00;fiebigfra;Fertig
+1445;Other;trush Stomatitis with candida albricans;trush Stomatitis with candida albricans;Manuell;25;10042128.0;10017947.0;;10.10.2022 00:00:00;Buettneso;10007142;10017947;;28.12.2022 00:00:00;fiebigfra;Fertig
+1199;Other;ventricular fibrillation;ventricular fibrillation;Automatisch;25;;;;;;10047290;10007541;;14.7.2022 00:00:00;Automatisch;Fertig
+1205;Other;ventricular Tachyarrhythmia;ventricular Tachyarrhythmia;Automatisch;25;;;;;;10065341;10007541;;14.7.2022 00:00:00;Automatisch;Fertig
+1209;Other;ventricular tachycardia;ventricular tachycardia;Automatisch;25;;;;;;10047302;10007541;;14.7.2022 00:00:00;Automatisch;Fertig
+1388;Vomiting;prolonged vomitting;Vomiting prolonged vomitting;Manuell;25;10040660.0;10017947.0;;9.9.2022 00:00:00;Buettneso;10047700;10017947;;28.12.2022 00:00:00;fiebigfra;Fertig
+1463;Vomiting;vomitting due to antibiotics;Vomiting vomitting due to antibiotics;Manuell;25;10080920.0;10018065.0;Oder Vomiting (10047700);10.10.2022 00:00:00;Buettneso;10080920;10018065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1420;Other;worsening of AML;worsening of AML;Manuell;25;10066572.0;10029104.0;;10.10.2022 00:00:00;Buettneso;10066572;10029104;;28.12.2022 00:00:00;fiebigfra;Fertig
+1473;Other;Worsening of aterial hypertension;Worsening of aterial hypertension;Manuell;25;10020779.0;10047065.0;;13.10.2022 00:00:00;Buettneso;10020779;10047065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1475;Other;Worsening of hypoalbuminämie;Worsening of hypoalbuminaemie;Manuell;25;10020942.0;10027433.0;;13.10.2022 00:00:00;Buettneso;10020942;10027433;;28.12.2022 00:00:00;fiebigfra;Fertig
+1476;Other;Worsening of renal insufficency;Worsening of renal insufficency;Manuell;25;10063886.0;;;13.10.2022 00:00:00;Buettneso;10063886;10038359;;28.12.2022 00:00:00;fiebigfra;Fertig
+1451;Worsening of the general condition;;Worsening of the general condition;Manuell;25;10057364.0;10018065.0;;10.10.2022 00:00:00;Buettneso;10057364;10018065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1422;Worsening of the general condition;AML;Worsening of the general condition AML;Manuell;25;10066572.0;10029104.0;;10.10.2022 00:00:00;Buettneso;10066572;10029104;;28.12.2022 00:00:00;fiebigfra;Fertig
+1287;Worsening of the general condition;bronchopneumonia;Worsening of the general condition bronchopneumonia;Manuell;25;10006470.0;10021881.0;;2.9.2022 00:00:00;Buettneso;10006470;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1448;Worsening of the general condition;fever;Worsening of the general condition fever;Manuell;25;10057364.0;10018065.0;;10.10.2022 00:00:00;Buettneso;10057364;10018065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1280;Worsening of the general condition;general;Worsening of the general condition general;Manuell;25;10057364.0;10018065.0;;2.9.2022 00:00:00;Buettneso;10057364;10018065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1447;Worsening of the general condition;pulmonary sepsis;Worsening of the general condition pulmonary sepsis;Manuell;25;10051739.0;10021881.0;;10.10.2022 00:00:00;Buettneso;10051739;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1343;Worsening of the general condition;"Reduced general condition; need of assistence";"Worsening of the general condition Reduced general condition; need of assistence";Manuell;25;10057364.0;10018065.0;;7.9.2022 00:00:00;Buettneso;10057364;10018065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1281;Worsening of the general condition;starke Schmerzsymptomatik in der linken Hüfte mit Ausstrahlung in das linke Bein. Blutiger Mund nach fraglichem Zungenbiss. Patientin völlig dement.;Worsening of the general condition starke Schmerzsymptomatik in der linken Huefte mit Ausstrahlung in das linke Bein. Blutiger Mund nach fraglichem Zungenbiss. Patientin voellig dement.;Manuell;25;10033447.0;10028395.0;Schmerzen in Extremitäten;2.9.2022 00:00:00;Buettneso;10049438;10018065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1450;Worsening of the general condition;with neutropenia and thrombopenie;Worsening of the general condition with neutropenia and thrombopenie;Manuell;25;10066274.0;10005329.0;;10.10.2022 00:00:00;Buettneso;10057364;10018065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1441;Worsening of the general condition;with vomiting and difficulty to swallow/ fungal oesophagitis;Worsening of the general condition with vomiting and difficulty to swallow/ fungal oesophagitis;Manuell;25;10057364.0;10018065.0;;10.10.2022 00:00:00;Buettneso;10049656;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig
+1432;Worsening of the general condition;worsening of the General condition;Worsening of the general condition worsening of the General condition;Manuell;25;10057364.0;10018065.0;;10.10.2022 00:00:00;Buettneso;10057364;10018065;;28.12.2022 00:00:00;fiebigfra;Fertig
+1362;Worsening of the generel condition;AML;Worsening of the generel condition AML;Manuell;25;10066572.0;10029104.0;;13.10.2022 00:00:00;Buettneso;10066572;10029104;;28.12.2022 00:00:00;fiebigfra;Fertig
+1272;Worsening of the generel condition;Sepsis;Worsening of the generel condition Sepsis;Manuell;25;10040047.0;10021881.0;;24.8.2022 00:00:00;Buettneso;10040047;10021881;;28.12.2022 00:00:00;fiebigfra;Fertig

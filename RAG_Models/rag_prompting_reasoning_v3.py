@@ -1,5 +1,5 @@
 """
-rag_prompting_reasoning_v3.py
+File Name: rag_prompting_reasoning_v3.py    === Author: Naghme Dashti / July 2025
 
 RAG-based Prompting with Explicit Reasoning + Final Answer Line
 ---------------------------------------------------------------
@@ -37,10 +37,10 @@ llt_emb_dict = {k: np.array(v) for k, v in llt_emb_dict.items()}
 ae_emb_dict = {k: np.array(v) for k, v in ae_emb_dict.items()}
 
 # --- Load AE and LLT data ---
-ae_df = pd.read_csv("/home/naghmedashti/MedDRA-LLM/clean_data/KI_Projekt_Mosaic_AE_Codierung_2024_07_03.csv", sep=';', encoding='latin1')
+ae_df = pd.read_csv("/home/naghmedashti/MedDRA-LLM/data/KI_Projekt_Mosaic_AE_Codierung_2024_07_03.csv", sep=';', encoding='latin1')
 ae_df = ae_df[["Original_Term_aufbereitet", "ZB_LLT_Code"]].dropna().reset_index(drop=True)
 
-llt_df = pd.read_csv("/home/naghmedashti/MedDRA-LLM/clean_data/MedDRA1_LLT_Code_25_0.csv", sep=';', encoding='latin1')
+llt_df = pd.read_csv("/home/naghmedashti/MedDRA-LLM/data/LLT_Code_English_25_0.csv", sep=';', encoding='latin1')
 llt_df = llt_df[["LLT_Code", "LLT_Term"]].dropna().reset_index(drop=True)
 llt_code_to_term = dict(zip(llt_df["LLT_Code"].astype(str), llt_df["LLT_Term"]))
 
@@ -128,7 +128,7 @@ for idx, row in ae_df.iloc[:20].iterrows():
         print(f"Error at index {idx}: {e}")
 
 # --- Save Results ---
-with open("/home/naghmedashti/MedDRA-LLM/RAG_Models/rag_prompting_reasoning_v2.json", "w") as f:
+with open("/home/naghmedashti/MedDRA-LLM/RAG_Models/rag_prompting_reasoning_v3.json", "w") as f:
     json.dump(results, f, indent=2)
 
 # --- Evaluate ---

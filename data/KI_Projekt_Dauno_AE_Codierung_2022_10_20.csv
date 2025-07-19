@@ -1,0 +1,444 @@
+Codierungs_ID;Original_Term_aufbereitet;Art_Codierung;Version_Codierung;EB_LLT_Code;EB_SOC_Code;EB_Bemerkung;EB_Datum;EB_Erstbegutachter;ZB_LLT_Code;ZB_SOC_Code;ZB_Bemerkung;ZB_Datum;ZB_Zweitbegutachter;Status
+113;abdominal pain;Automatisch;25;;;;;;10000081;10017947.0;;11.4.2022 00:00:00;Automatisch;Fertig
+972;Abscess scrotum;Manuell;25;10049571.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10049571;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+878;absence of appetite;Manuell;25;10003017.0;10027433.0;;27.6.2022 00:00:00;fiebigfra;10003017;10027433.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+980;Abszess ischiorectal;Manuell;25;10023046.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10023046;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+931;acut respiratory distress syndrom due to pneumonia;Manuell;25;10035664.0;10021881.0;;10.6.2022 00:00:00;Buettneso;10035664;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+981;acute Cholezystitis;Manuell;25;10008614.0;10019805.0;;17.6.2022 00:00:00;Buettneso;10008614;10019805.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+982;acute coronary syndrom;Manuell;25;10051592.0;10007541.0;;17.6.2022 00:00:00;Buettneso;10051592;10007541.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+880;Acute coronary syndrom with cardiac troponin t increased;Manuell;25;10051592.0;10007541.0;;10.6.2022 00:00:00;Buettneso;10051592;10007541.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+273;acute kidney failure;Automatisch;25;;;;;;10000821;10038359.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+920;acute kidney failure AKIN I;Manuell;25;10050440.0;10038359.0;;10.6.2022 00:00:00;Buettneso;10050440;10038359.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1136;acute kidney injury;Automatisch;25;;;;;;10069339;10038359.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+401;Acute kidney injury;Automatisch;25;;;;;;10069339;10038359.0;;11.4.2022 00:00:00;Automatisch;Fertig
+175;acute renal failure;Automatisch;25;;;;;;10001041;10038359.0;;11.4.2022 00:00:00;Automatisch;Fertig
+949;acute renal failure (AKIN II);Manuell;25;10038435.0;10038359.0;;10.6.2022 00:00:00;Buettneso;10038435;10038359.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+140;alanine aminotransferase increased;Automatisch;25;;;;;;10001551;10022891.0;;11.4.2022 00:00:00;Automatisch;Fertig
+939;ALAT increased;Manuell;25;10001551.0;10022891.0;;10.6.2022 00:00:00;Buettneso;10001551;10022891.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+983;Alkaline phoshatase increased;Manuell;25;10001677.0;10022891.0;;17.6.2022 00:00:00;Buettneso;10001677;10022891.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+823;allegic reaction platelet transfusion;Manuell;25;10066173.0;10022117.0;;9.6.2022 00:00:00;Buettneso;10066173;10021428.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+68;allergic reaction;Automatisch;25;;;;;;10001718;10021428.0;;11.4.2022 00:00:00;Automatisch;Fertig
+966;Allergic reaction cytarabin and daunorubicin;Manuell;25;10085395.0;10021428.0;;10.6.2022 00:00:00;Buettneso;10085395;10021428.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+984;Allergic reaction of Ambisome;Manuell;25;10082135.0;10021428.0;;17.6.2022 00:00:00;Buettneso;10082135;10021428.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+985;Allergic reaction paltelet transfusion;Manuell;25;10066173.0;10022117.0;;17.6.2022 00:00:00;Buettneso;10066173;10021428.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+912;allergic reaction platelet concentrate;Manuell;25;10066173.0;10022117.0;;10.6.2022 00:00:00;Buettneso;10066173;10021428.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+986;allergic reaction platelet transfusion;Manuell;25;10066173.0;10022117.0;;17.6.2022 00:00:00;Buettneso;10066173;10021428.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+987;allergic reaction platelets transfusion;Manuell;25;10066173.0;10022117.0;;17.6.2022 00:00:00;Buettneso;10066173;10021428.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+964;allergic reaction red blood cell transfusion;Manuell;25;10066173.0;10022117.0;;10.6.2022 00:00:00;Buettneso;10066173;10021428.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+875;allergic reaction to daunorubicine;Manuell;25;10085395.0;10021428.0;;10.6.2022 00:00:00;Buettneso;10085395;10021428.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+93;Alopecia;Automatisch;25;;;;;;10001760;10040785.0;;11.4.2022 00:00:00;Automatisch;Fertig
+27;Alopezie;Automatisch;25;;;;;;10001760;10040785.0;;11.4.2022 00:00:00;Automatisch;Fertig
+104;ALT increased;Automatisch;25;;;;;;10001845;10022891.0;;11.4.2022 00:00:00;Automatisch;Fertig
+246;Anaemia;Automatisch;25;;;;;;10002034;10005329.0;;11.4.2022 00:00:00;Automatisch;Fertig
+1144;Anaemie;Automatisch;25;;;;;;10002034;10005329.0;;30.6.2022 00:00:00;Automatisch;Fertig
+967;Anal fissur;Manuell;25;10002153.0;10017947.0;;10.6.2022 00:00:00;Buettneso;10002153;10017947.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+150;Anal ulcer;Automatisch;25;;;;;;10002180;10017947.0;;11.4.2022 00:00:00;Automatisch;Fertig
+96;Anemia;Automatisch;25;;;;;;10002272;10005329.0;;11.4.2022 00:00:00;Automatisch;Fertig
+988;anorexia (parenteral nutrition was necessary;Manuell;25;10054792.0;10027433.0;"AE Term - in Source Data ""Inappetenz""";17.6.2022 00:00:00;Buettneso;10002646;10027433.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+989;anorexia (parenterale nutrition was nessessary);Manuell;25;10054792.0;10027433.0;"AE laut Source Data - ""Inappetenz""";17.6.2022 00:00:00;Buettneso;10054792;10027433.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+222;Anurie;Automatisch;25;;;;;;10002847;10038359.0;;11.4.2022 00:00:00;Automatisch;Fertig
+990;ARDS by neutropenic sepsis and acute renal failure;Manuell;25;10049151.0;10021881.0;;27.6.2022 00:00:00;fiebigfra;10049151;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1159;arterial embolism / stenosis arteria fibular right;Manuell;25;10003159.0;10047065.0;;1.7.2022 00:00:00;Buettneso;10003159;10047065.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+325;arterial hypertension;Automatisch;25;;;;;;10081425;10047065.0;;11.4.2022 00:00:00;Automatisch;Fertig
+209;aspergillosis;Automatisch;25;;;;;;10003488;10021881.0;;11.4.2022 00:00:00;Automatisch;Fertig
+992;Aspirationpneumonia past BMP;Manuell;25;10003525.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10003525;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+993;atypical infiltrates lung;Manuell;25;10003757.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10003757;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+327;back pain;Automatisch;25;;;;;;10003988;10028395.0;;11.4.2022 00:00:00;Automatisch;Fertig
+994;Bacteriemia staphylococcus epidermidis;Manuell;25;10054637.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10054637;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+656;bakteraemia;EW: Automatisch;25;;;;;;10003999;10021881.0;;5.5.2022 00:00:00;Automatisch;Fertig
+1072;Bakteriaemie;Manuell;25;10003997.0;10021881.0;;1.7.2022 00:00:00;Buettneso;10003997;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+820;beginning sepsis of unknown origin;Manuell;25;10040047.0;10021881.0;;9.6.2022 00:00:00;Buettneso;10040047;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+956;bilirubin increase;Manuell;25;10004701.0;10022891.0;;10.6.2022 00:00:00;Buettneso;10004701;10022891.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+53;bilirubin increased;Automatisch;25;;;;;;10004690;10022891.0;;11.4.2022 00:00:00;Automatisch;Fertig
+995;bipulmonal atypical pneumonia;Manuell;25;10003757.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10003757;10021881.0;nicht als SAE gemeldet;;;
+996;bipulomale Pneumonia;Manuell;25;10058686.0;;;17.6.2022 00:00:00;Buettneso;10058686;10021881.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+997;Bleeding intracerebral;Manuell;25;10019551.0;10047065.0;;17.6.2022 00:00:00;Buettneso;10019551;10047065.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+847;bleending;Manuell;25;10019524.0;10047065.0;;9.6.2022 00:00:00;Buettneso;10019524;10047065.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+108;Blood Bilirubin increased;Automatisch;25;;;;;;10005364;10022891.0;;11.4.2022 00:00:00;Automatisch;Fertig
+998;blood stream infection;Manuell;25;10021842.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10021842;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+121;Candidiasis;Automatisch;25;;;;;;10007152;10021881.0;;11.4.2022 00:00:00;Automatisch;Fertig
+944;cannula infection;Manuell;25;10056520.0;10021881.0;;10.6.2022 00:00:00;Buettneso;10056520;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+813;Capillary Leak;Manuell;25;10007196.0;10047065.0;;8.6.2022 00:00:00;Buettneso;10007196;10047065.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+999;catheterinfection (E coli and Staph. epidermis);Manuell;25;10051387.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10051387;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+106;Cholestasis;Automatisch;25;;;;;;10008635;10019805.0;;11.4.2022 00:00:00;Automatisch;Fertig
+168;coagulopathy;Automatisch;25;;;;;;10009802;10005329.0;;11.4.2022 00:00:00;Automatisch;Fertig
+178;Colitis;Automatisch;25;;;;;;10009887;10017947.0;;11.4.2022 00:00:00;Automatisch;Fertig
+55;cough;Automatisch;25;;;;;;10011224;10038738.0;;11.4.2022 00:00:00;Automatisch;Fertig
+46;creatinine increased;Automatisch;25;;;;;;10011368;10022891.0;;11.4.2022 00:00:00;Automatisch;Fertig
+661;CRP increase;EW: Automatisch;25;;;;;;10011418;10022891.0;;5.5.2022 00:00:00;Automatisch;Fertig
+1000;CTNI increased;Manuell;25;10007612.0;10022891.0;;17.6.2022 00:00:00;Buettneso;10007612;10022891.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+394;Darmperforation;Automatisch;25;;;;;;10006056;10017947.0;;11.4.2022 00:00:00;Automatisch;Fertig
+261;Deep vein thrombosis;Automatisch;25;;;;;;10051055;10047065.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+862;Delir;Manuell;25;10012218.0;10037175.0;;9.6.2022 00:00:00;Buettneso;10012218;10037175.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+933;Detection of staphylococcus epidermis in blood;Manuell;25;10070065.0;10022891.0;;10.6.2022 00:00:00;Buettneso;10054154;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+7;Diarrhea;Automatisch;25;;;;;;10012727;10017947.0;;11.4.2022 00:00:00;Automatisch;Fertig
+974;diffuse alveolar hemorrhage;Manuell;25;10037313.0;10047065.0;;17.6.2022 00:00:00;Buettneso;10037313;10047065.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+951;Dizziness/Vertigo;Manuell;25;10013573.0;10029205.0;;10.6.2022 00:00:00;Buettneso;10013573;10029205.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+134;Duodenitis;Automatisch;25;;;;;;10013864;10017947.0;;11.4.2022 00:00:00;Automatisch;Fertig
+117;dysphagie;Automatisch;25;;;;;;10013950;10017947.0;;11.4.2022 00:00:00;Automatisch;Fertig
+427;Dyspnea;Automatisch;25;10013963.0;10038738.0;;;;10013963;10038738.0;;27.6.2022 00:00:00;Automatisch;Fertig
+416;dyspnea;Automatisch;25;10013963.0;10038738.0;;;;10013963;10038738.0;;27.6.2022 00:00:00;Automatisch;Fertig
+600;Dyspnea;Automatisch;25;10013963.0;10038738.0;;;;10013963;10038738.0;;27.6.2022 00:00:00;Automatisch;Fertig
+56;Electrocardiogram QT corrected interval prolonged;Automatisch;25;;;;;;10014383;10022891.0;;11.4.2022 00:00:00;Automatisch;Fertig
+911;elevated cardiac enzymes;Manuell;25;10058166.0;10022891.0;;10.6.2022 00:00:00;Buettneso;10058166;10022891.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+955;elevated Troponin I;Manuell;25;10058268.0;10022891.0;;10.6.2022 00:00:00;Buettneso;10058268;10022891.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+908;elevation of serum bilirubine;Manuell;25;10040159.0;10022891.0;;10.6.2022 00:00:00;Buettneso;10040159;10022891.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+214;Enterococcus faecium infection;Automatisch;25;;;;;;10054241;10021881.0;;11.4.2022 00:00:00;Automatisch;Fertig
+105;Enterocolitis;Automatisch;25;;;;;;10014893;10017947.0;;11.4.2022 00:00:00;Automatisch;Fertig
+100;epigastric pain;Automatisch;25;;;;;;10015026;10017947.0;;11.4.2022 00:00:00;Automatisch;Fertig
+410;Epistaxis;Automatisch;25;10015090.0;10038738.0;;8.6.2022 00:00:00;Buettneso;10015090;10047065.0;;27.6.2022 00:00:00;Automatisch;Fertig
+970;Exanthema general;Manuell;25;10015585.0;10040785.0;;10.6.2022 00:00:00;Buettneso;10015585;10040785.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1001;extramedullary manifestation;Manuell;25;10067117.0;10029104.0;;17.6.2022 00:00:00;Buettneso;10067117;10029104.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+21;Fatigue;Automatisch;25;;;;;;10016256;10018065.0;;11.4.2022 00:00:00;Automatisch;Fertig
+324;fatigue;Automatisch;25;;;;;;10016256;10018065.0;;11.4.2022 00:00:00;Automatisch;Fertig
+948;febbrille neutropenia;Manuell;25;10016288.0;10005329.0;;10.6.2022 00:00:00;Buettneso;10016288;10005329.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+958;febril neutropenia;Manuell;25;10016288.0;10005329.0;;10.6.2022 00:00:00;Buettneso;10016288;10005329.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+458;febrile neutropenia;Automatisch;25;10016288.0;10005329.0;;;;10016288;10005329.0;;27.6.2022 00:00:00;Automatisch;Fertig
+462;Febrile Neutropenia;Automatisch;25;10016288.0;10005329.0;;;;10016288;10005329.0;;27.6.2022 00:00:00;Automatisch;Fertig
+632;febrile neutropenia;Automatisch;25;10016288.0;10005329.0;;;;10016288;10005329.0;nicht als SAE gemeldet;;;
+1002;febrile neutropenia (temp. max. 38.5 °C);Manuell;25;10016288.0;10005329.0;;17.6.2022 00:00:00;Buettneso;10016288;10005329.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1003;febrille netropenia;Manuell;25;10016288.0;10005329.0;;17.6.2022 00:00:00;Buettneso;10016288;10005329.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+739;Febrille neutropenia;Automatisch;25;10016288.0;10005329.0;;;;10016288;10005329.0;;27.6.2022 00:00:00;Automatisch;Fertig
+742;febrille neutropenia;Automatisch;25;10016288.0;10005329.0;;;;10016288;10005329.0;;27.6.2022 00:00:00;Automatisch;Fertig
+1004;febriolle neutropnia;Manuell;25;10016288.0;10005329.0;;17.6.2022 00:00:00;Buettneso;10016288;10005329.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1135;Fever;Automatisch;25;;;;;;10016558;10018065.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+278;Fever;Automatisch;25;;;;;;10016558;10018065.0;kein SAE gemeldet;;;
+390;Fever;Automatisch;25;;;;;;10016558;10018065.0;nicht als SAE gemeldet;;;
+707;fever in neutropenia;Automatisch;25;10016288.0;10005329.0;;;;10016288;10005329.0;;27.6.2022 00:00:00;Automatisch;Fertig
+799;Fever in neutropenia;Automatisch;25;10016288.0;10005329.0;;;;10016288;10005329.0;;27.6.2022 00:00:00;Automatisch;Fertig
+907;fever unknown of origin;Manuell;25;10016563.0;10018065.0;;10.6.2022 00:00:00;Buettneso;10016563;10018065.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1160;Fibula fracture right;Manuell;25;10016667.0;10022117.0;;1.7.2022 00:00:00;Buettneso;10016667;10022117.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+910;Fissur Analbereich;Manuell;25;10002153.0;10017947.0;;10.6.2022 00:00:00;Buettneso;10002153;10017947.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1005;Folliculitis axillary fold left;Manuell;25;10016936.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10016936;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1006;fungal infection lung;Manuell;25;10085440.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10085440;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1007;fungal infection of lung;Manuell;25;10085440.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10085440;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1008;Gamma-glutamyltransferase disorder;Manuell;25;10057757.0;10022891.0;;17.6.2022 00:00:00;Buettneso;10057757;10022891.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+139;Gamma-GT increased;Automatisch;25;;;;;;10017696;10022891.0;;11.4.2022 00:00:00;Automatisch;Fertig
+1009;Ganzkoerperexanthem;Manuell;25;10015585.0;10040785.0;;17.6.2022 00:00:00;Buettneso;10015585;10040785.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+684;general worsening of condition;EW: Automatisch;25;;;;;;10049438;10018065.0;;5.5.2022 00:00:00;Automatisch;Fertig
+930;ges. Bili;Manuell;25;10004690.0;10022891.0;"Kein AE erkennbar; Nach RS mit F.Fiebig Bilirubin increased";23.6.2022 00:00:00;Buettneso;10004690;10022891.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+145;GGT increased;Automatisch;25;;;;;;10056910;10022891.0;;11.4.2022 00:00:00;Automatisch;Fertig
+385;HB decreased;Automatisch;25;;;;;;10019171;10022891.0;;11.4.2022 00:00:00;Automatisch;Fertig
+98;Headache;Automatisch;25;;;;;;10019211;10029205.0;;11.4.2022 00:00:00;Automatisch;Fertig
+384;Heart failure;Automatisch;25;;;;;;10019279;10007541.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+1011;Hematoma right thigh;Manuell;25;10018852.0;10047065.0;;17.6.2022 00:00:00;Buettneso;10018852;10047065.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1012;hematothorax after pleural puncture;Manuell;25;10060632.0;10022117.0;;17.6.2022 00:00:00;Buettneso;10060632;10022117.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+1013;Hemophagocytic lymphocytosis;Manuell;25;10071580.0;10021428.0;;17.6.2022 00:00:00;Buettneso;10071580;10021428.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1014;Hemorrhage after teeth extraction;Manuell;25;10036282.0;10022117.0;CAVE! SOC - vascular disorder? Erneute Blutung nach OP ausgelöst durch Reizung der Wunde?;17.6.2022 00:00:00;Buettneso;10036282;10047065.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+835;Hemorrhage cheek mucosa;Manuell;25;10030985.0;10047065.0;;9.6.2022 00:00:00;Buettneso;10030985;10047065.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1016;Hemorrhage colitis acuta;Manuell;25;10019597.0;10017947.0;;17.6.2022 00:00:00;Buettneso;10019597;10017947.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1017;Hemorrhage gum bleeding;Manuell;25;10055811.0;10047065.0;;17.6.2022 00:00:00;Buettneso;10055811;10047065.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+826;Hemorrhage Head;Manuell;25;10008114.0;10047065.0;;9.6.2022 00:00:00;Buettneso;10008114;10047065.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+891;Hemorrhage mucosa;Manuell;25;10028102.0;10047065.0;;10.6.2022 00:00:00;Buettneso;10028102;10047065.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+827;Hemorrhage nose;Manuell;25;10015090.0;10047065.0;;9.6.2022 00:00:00;Buettneso;10015090;10047065.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+876;Hemorrhage Petechien;Manuell;25;10034754.0;10047065.0;;10.6.2022 00:00:00;Buettneso;10034754;10047065.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+963;Hemorrhage subconjuctival;Manuell;25;10042341.0;10047065.0;;10.6.2022 00:00:00;Buettneso;10042341;10047065.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+928;Hemorrhage Zoekalpol;Manuell;25;10019524.0;10047065.0;;10.6.2022 00:00:00;Buettneso;10065758;10047065.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1161;Hemorrhoidal bleeding in thrombopenia;Manuell;25;10019609.0;10047065.0;;1.7.2022 00:00:00;Buettneso;10019609;10047065.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1018;Herpes root of tongue;Manuell;25;10020002.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10020002;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+921;high NT-proBNP an Troponin T;Manuell;25;10071712.0;10022891.0;;10.6.2022 00:00:00;Buettneso;10071712;10022891.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1020;HSV associate stomatitis;Manuell;25;10077627.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10077627;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+176;Hyperalbuminaemie;Automatisch;25;;;;;;10058819;10027433.0;;11.4.2022 00:00:00;Automatisch;Fertig
+115;hyperkalemia;Automatisch;25;;;;;;10020647;10027433.0;;11.4.2022 00:00:00;Automatisch;Fertig
+1021;hypertenion;Manuell;25;10020772.0;10047065.0;;17.6.2022 00:00:00;Buettneso;10020772;10047065.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1133;Hypertension;Automatisch;25;;;;;;10020772;10047065.0;;30.6.2022 00:00:00;Automatisch;Fertig
+39;hypertension;Automatisch;25;;;;;;10020772;10047065.0;;11.4.2022 00:00:00;Automatisch;Fertig
+685;hyperviscosity syndrom;EW: Automatisch;25;;;;;;10051151;10005329.0;;5.5.2022 00:00:00;Automatisch;Fertig
+372;Hypocalcemia;Automatisch;25;;;;;;10020949;10027433.0;;11.4.2022 00:00:00;Automatisch;Fertig
+839;hypocalemia;Manuell;25;10005724.0;10022891.0;;9.6.2022 00:00:00;Buettneso;10020947;;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1022;Hypocalemia;Manuell;25;10021018.0;10027433.0;;17.6.2022 00:00:00;Buettneso;10020583;10027433.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+125;hypokalaemia;Automatisch;25;;;;;;10021015;10027433.0;;11.4.2022 00:00:00;Automatisch;Fertig
+2;hypokalemia;Automatisch;25;;;;;;10021018;10027433.0;;11.4.2022 00:00:00;Automatisch;Fertig
+1134;Hypokalemia;Automatisch;25;;;;;;10021018;10027433.0;;30.6.2022 00:00:00;Automatisch;Fertig
+1023;hypokalemia intermittend;Manuell;25;10021018.0;10027433.0;;17.6.2022 00:00:00;Buettneso;10021018;10027433.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+664;hypokaliemia;EW: Automatisch;25;;;;;;10021018;10027433.0;;5.5.2022 00:00:00;Automatisch;Fertig
+52;hyponatremia;Automatisch;25;;;;;;10021038;10027433.0;;11.4.2022 00:00:00;Automatisch;Fertig
+1024;hypophophatemia;Manuell;25;10021059.0;10027433.0;;17.6.2022 00:00:00;Buettneso;10021059;10027433.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+266;hypophosphatemia;Automatisch;25;;;;;;10021059;10027433.0;;11.4.2022 00:00:00;Automatisch;Fertig
+269;hypopotassemia;Automatisch;25;;;;;;10021081;10027433.0;;11.4.2022 00:00:00;Automatisch;Fertig
+236;hypotension;Automatisch;25;;;;;;10021097;10047065.0;;11.4.2022 00:00:00;Automatisch;Fertig
+187;hypoxaemie;Automatisch;25;;;;;;10021141;10038738.0;;11.4.2022 00:00:00;Automatisch;Fertig
+225;Hypoxia;Automatisch;25;;;;;;10021143;10038738.0;;11.4.2022 00:00:00;Automatisch;Fertig
+171;Ileitis;Automatisch;25;;;;;;10021312;10017947.0;;11.4.2022 00:00:00;Automatisch;Fertig
+231;Ileus;Automatisch;25;;;;;;10021328;10017947.0;;11.4.2022 00:00:00;Automatisch;Fertig
+817;Ileus with attachment anus praeter;Manuell;25;10021328.0;10017947.0;;9.6.2022 00:00:00;Buettneso;10021328;10017947.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+869;incereased GGT;Manuell;25;10017670.0;10022891.0;;9.6.2022 00:00:00;Buettneso;10017670;10022891.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+941;Increase of CRP with fever;Manuell;25;10011418.0;10022891.0;;10.6.2022 00:00:00;Buettneso;10011418;10022891.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+871;increase of transaminases;Manuell;25;10044346.0;10022891.0;;10.6.2022 00:00:00;Buettneso;10044346;10022891.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+655;increased ALT;EW: Automatisch;25;;;;;;10001551;10022891.0;;5.5.2022 00:00:00;Automatisch;Fertig
+657;increased bilirubin;EW: Automatisch;25;;;;;;10004690;10022891.0;;5.5.2022 00:00:00;Automatisch;Fertig
+852;increased c reactive protein;Manuell;25;10006825.0;10022891.0;;9.6.2022 00:00:00;Buettneso;10006825;10022891.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+659;increased c-reactive protein;EW: Automatisch;25;;;;;;10011418;10022891.0;;5.5.2022 00:00:00;Automatisch;Fertig
+662;increased GGT;EW: Automatisch;25;;;;;;10017668;10022891.0;;5.5.2022 00:00:00;Automatisch;Fertig
+968;Infection Abszess left Hand;Manuell;25;10050481.0;10021881.0;;10.6.2022 00:00:00;Buettneso;10050481;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1025;Infection atypical pneumonia with dyspnea;Manuell;25;10003757.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10003757;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1026;Infection bacteremia;Manuell;25;10003997.0;10021881.0;;1.7.2022 00:00:00;Buettneso;10003997;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+877;"Infection BK gram+ Kokken; gram- E-coli ZVK";Manuell;25;10062979.0;10021881.0;;23.6.2022 00:00:00;Buettneso;10062979;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1027;Infection bladder catheter infection with fever;Manuell;25;10021794.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10021794;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+830;Infection blood;Manuell;25;10021842.0;10021881.0;;9.6.2022 00:00:00;Buettneso;10021842;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+942;Infection blood;Manuell;25;10021842.0;10021881.0;;10.6.2022 00:00:00;Buettneso;10021842;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1032;Infection blood;Manuell;25;10021842.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10021842;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1036;Infection Blood;Manuell;25;10021842.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10021842;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+860;Infection blood;Manuell;25;10021842.0;10021881.0;;9.6.2022 00:00:00;Buettneso;10021842;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1030;Infection blood;Manuell;25;10021842.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10021842;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+818;Infection blood;Manuell;25;10021789.0;10021881.0;NOS - Erregerbestimmung erforderlich?;9.6.2022 00:00:00;Buettneso;10021789;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+811;Infection blood;Manuell;25;10021842.0;10021881.0;;8.6.2022 00:00:00;Buettneso;10021842;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+825;Infection blood (catheter related infection);Manuell;25;10007810.0;10021881.0;Infection NOS;9.6.2022 00:00:00;Buettneso;10007810;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+953;Infection blood (staph. aureus);Manuell;25;10075981.0;10021881.0;;10.6.2022 00:00:00;Buettneso;10075981;10021881.0;nicht als SAE gemeldet;;;
+1039;Infection bloodstream with MssE;Manuell;25;10021842.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10054154;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+943;Infection bronchia;Manuell;25;10055078.0;10021881.0;;10.6.2022 00:00:00;Buettneso;10055078;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1040;Infection candida glabrata in blood;Manuell;25;10074170.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10074170;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+896;Infection Candidda in blood culture;Manuell;25;10074170.0;10021881.0;;10.6.2022 00:00:00;Buettneso;10074170;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1162;Infection Cateheter related infection;Manuell;25;10007810.0;10021881.0;;1.7.2022 00:00:00;Buettneso;10007810;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1041;Infection catheter;Manuell;25;10051387.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10051387;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1042;Infection catheter related;Manuell;25;10051387.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10051387;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+844;Infection central vene catherter;Manuell;25;10056520.0;10021881.0;;9.6.2022 00:00:00;Buettneso;10056520;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1163;Infection covid 2;Manuell;25;10084268.0;10021881.0;;1.7.2022 00:00:00;Buettneso;10084268;10021881.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+902;Infection CRP;Manuell;25;10021842.0;10021881.0;;10.6.2022 00:00:00;Buettneso;10021842;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1043;Infection E.coli in blood;Manuell;25;10054242.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10054242;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+924;Infection entzuendliche Infiltrate der Lunge;Manuell;25;10037411.0;10038738.0;;10.6.2022 00:00:00;Buettneso;10061229;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+822;Infection evidence of E. coli in blood;Manuell;25;10054242.0;10021881.0;;9.6.2022 00:00:00;Buettneso;10054242;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+717;Infection Fungal Pneumonia;Manuell;25;10061354.0;10021881.0;;1.7.2022 00:00:00;Buettneso;10061354;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+819;Infection gallbladder;Manuell;25;10062632.0;10021881.0;;9.6.2022 00:00:00;Buettneso;10062632;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1044;Infection gastrointestinal;Manuell;25;10017964.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10017964;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1045;Infection generalized Sepsis;Manuell;25;10040047.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10040047;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1046;Infection gerneral sepsis;Manuell;25;10040047.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10040047;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1047;Infection gram+ Kokken epidermidis in blood cultures;Manuell;25;10076584.0;10022891.0;;17.6.2022 00:00:00;Buettneso;10054276;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+898;Infection grampositive Kokken in blood;Manuell;25;10021842.0;10021881.0;;10.6.2022 00:00:00;Buettneso;10054276;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1048;Infection Hand (ZVK);Manuell;25;10056520.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10056520;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+938;Infection Herpes;Manuell;25;10019971.0;10021881.0;;10.6.2022 00:00:00;Buettneso;10019971;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1049;Infection Herpes labialis (mouth);Manuell;25;10049319.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10049319;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+879;Infection Herpes simplex nasalis;Manuell;25;10019948.0;10021881.0;;10.6.2022 00:00:00;Buettneso;10019948;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1051;Infection high c-reactive protein;Manuell;25;10021842.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10021842;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1052;Infection high CRP;Manuell;25;10021842.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10021842;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1054;Infection high CRP with no focal point;Manuell;25;10021842.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10021842;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1055;Infection Infected hematoma in the leg;Manuell;25;10055368.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10055368;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+901;Infection infection of unknown genesis;Manuell;25;10021842.0;10021881.0;;10.6.2022 00:00:00;Buettneso;10021842;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+952;Infection infection of unknown origin;Manuell;25;10021842.0;10021881.0;;10.6.2022 00:00:00;Buettneso;10021842;10021881.0;ursprünglich als SAE Sepsis gemeldet;6.7.2022 00:00:00;fiebigfra;Fertig
+959;Infection Infection unknown focus;Manuell;25;10021842.0;10021881.0;;10.6.2022 00:00:00;Buettneso;10021842;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1056;Infection influenza A pneumonia;Manuell;25;10078894.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10022008;10021881.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+858;Infection klebsiella infection;Manuell;25;10023454.0;10021881.0;;9.6.2022 00:00:00;Buettneso;10023454;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+702;Infection lung;Automatisch;25;10061229.0;10021881.0;;;;10061229;10021881.0;;27.6.2022 00:00:00;Automatisch;Fertig
+700;Infection Lung;Automatisch;25;10061229.0;10021881.0;;;;10061229;10021881.0;;27.6.2022 00:00:00;Automatisch;Fertig
+975;Infection lung and blood;Manuell;25;10048847.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10061229;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+734;Infection Lungs;Automatisch;25;10061229.0;10021881.0;;;;10061229;10021881.0;;27.6.2022 00:00:00;Automatisch;Fertig
+782;Infection lungs;Automatisch;25;10061229.0;10021881.0;;;;10061229;10021881.0;SAE nicht gemeldet;;;
+1059;Infection Lungs (pneumonia);Manuell;25;10035664.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10035664;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1060;Infection lungs/ catheter associated;Manuell;25;10035664.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10035664;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+854;Infection Lymphoid organs;Manuell;25;10021842.0;10021881.0;;9.6.2022 00:00:00;Buettneso;10050823;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1061;Infection maxillary sinus;Manuell;25;10040745.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10040745;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1062;Infection Mukosa upper respiratory tract (DD: Pharyngitis) Staph. aureus;Manuell;25;10046306.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10058863;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1063;Infection Nachweis von E. coli in Blutkultur;Manuell;25;10054242.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10054242;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+831;Infection Nachweis von E.coli in Blutkultur;Manuell;25;10054242.0;10021881.0;;9.6.2022 00:00:00;Buettneso;10054242;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1064;Infection Neutropenic Colitis;Manuell;25;10062959.0;10017947.0;;17.6.2022 00:00:00;Buettneso;10021905;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+885;Infection Neutropenic Enterocolitis;Manuell;25;10029359.0;10017947.0;;10.6.2022 00:00:00;Buettneso;10058838;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1065;Infection not specific;Manuell;25;10021842.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10021842;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1164;INFECTION OCCURING DURING NEURTOPENIA;Manuell;25;10059482.0;10021881.0;;1.7.2022 00:00:00;Buettneso;10059482;10021881.0;;13.7.2022 00:00:00;fiebigfra;Fertig
+1066;Infection of unknown origin;Manuell;25;10021842.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10021842;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+888;Infection of unknown origin;Manuell;25;10021842.0;10021881.0;;10.6.2022 00:00:00;Buettneso;10021842;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+845;Infection Otitis media left;Manuell;25;10014011.0;10021881.0;;9.6.2022 00:00:00;Buettneso;10033078;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1067;Infection Pharynx;Manuell;25;10034835.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10034835;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1068;Infection Phlegmonia;Manuell;25;10034907.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10034907;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1069;Infection Pneumocystis carinii Pneumonia;Manuell;25;10035659.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10035659;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+708;Infection Pneumonia;Automatisch;25;10035664.0;10021881.0;;;;10035664;10021881.0;;27.6.2022 00:00:00;Automatisch;Fertig
+732;Infection pneumonia;Automatisch;25;10035664.0;10021881.0;;;;10035664;10021881.0;;27.6.2022 00:00:00;Automatisch;Fertig
+810;Infection Pneumonia (asperillus);Manuell;25;10048385.0;10021881.0;;8.6.2022 00:00:00;Buettneso;10048385;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+917;Infection pneumonia (atypical);Manuell;25;10003757.0;10021881.0;;10.6.2022 00:00:00;Buettneso;10003757;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+851;Infection pneumonia atypical;Manuell;25;10003757.0;10021881.0;;9.6.2022 00:00:00;Buettneso;10003757;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1070;Infection Pneumonia fungal;Manuell;25;10035700.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10035700;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+726;Infection pulmo;Automatisch;25;10061229.0;10021881.0;;;;10061229;10021881.0;;27.6.2022 00:00:00;Automatisch;Fertig
+806;Infection pulmonal;Automatisch;25;10061229.0;10021881.0;;;;10061229;10021881.0;;27.6.2022 00:00:00;Automatisch;Fertig
+653;Infection Rectal;Manuell;25;10002579.0;10021881.0;;9.6.2022 00:00:00;Buettneso;10002579;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+856;Infection right forearm;Manuell;25;10075044.0;10021881.0;;23.6.2022 00:00:00;Buettneso;10075044;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1071;Infection right forearm entry catheter;Manuell;25;10056520.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10056520;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+668;Infection sepsis;EW: Automatisch;25;;;;;;10040047;10021881.0;"nicht als SAE gemeldet; nicht meldepflichtig laut eCRF";5.5.2022 00:00:00;Automatisch;Fertig
+667;Infection Sepsis;EW: Automatisch;25;;;;;;10040047;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+670;Infection sepsis;EW: Automatisch;25;;;;;;10040047;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+671;Infection Sepsis;EW: Automatisch;25;;;;;;10040047;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+367;Infection Sepsis;Manuell;25;10040047.0;10021881.0;;1.7.2022 00:00:00;Buettneso;10040047;10021881.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+669;Infection Sepsis;EW: Automatisch;25;;;;;;10040047;10021881.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+973;Infection sepsis (suspected);Manuell;25;10040047.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10040047;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+863;Infection sepsis general;Manuell;25;10040047.0;10021881.0;;9.6.2022 00:00:00;Buettneso;10040047;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+834;Infection Sepsis in Neutropenia;Manuell;25;10049151.0;10021881.0;;9.6.2022 00:00:00;Buettneso;10049151;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+926;Infection sepsis witrh shock and respiratory failure;Manuell;25;10040070.0;10021881.0;;10.6.2022 00:00:00;Buettneso;10040070;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+934;Infection sept. Embolie;Manuell;25;10040066.0;10021881.0;;10.6.2022 00:00:00;Buettneso;10040066;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1074;Infection spaphylococcus epidermis in blood;Manuell;25;10054154.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10054154;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+814;Infection staph. epidermis in blood;Manuell;25;10054154.0;10021881.0;;8.6.2022 00:00:00;Buettneso;10054154;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+691;Infection Staphylococcus epidermis in blood;EW: Automatisch;25;;;;;;10054154;10021881.0;;5.5.2022 00:00:00;Automatisch;Fertig
+686;Infection Staphylococcus haemolyticus in blood;EW: Automatisch;25;;;;;;10058080;10021881.0;;5.5.2022 00:00:00;Automatisch;Fertig
+687;Infection staphylococcus haemolyticus in blood;EW: Automatisch;25;;;;;;10058080;10021881.0;;5.5.2022 00:00:00;Automatisch;Fertig
+689;Infection Staphylococcus haemolyticus in blood;EW: Automatisch;25;;;;;;10058080;10021881.0;;5.5.2022 00:00:00;Automatisch;Fertig
+1075;Infection Staphylococcus hominis in blood;Manuell;25;10058080.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10058080;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1076;Infection Streptococcus mitis/oralis in blood;Manuell;25;10061372.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10061372;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+979;Infection throat;Manuell;25;10043520.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10043520;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+897;Infection Tonsillitis;Manuell;25;10044011.0;10021881.0;;10.6.2022 00:00:00;Buettneso;10044011;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+919;Infection tooth;Manuell;25;10048762.0;10021881.0;;10.6.2022 00:00:00;Buettneso;10048762;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1077;Infection Tooth Abscess;Manuell;25;10044016.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10044016;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1165;Infection unknown;Manuell;25;10021842.0;10021881.0;;1.7.2022 00:00:00;Buettneso;10021842;10021881.0;SAE nicht gemeldet;;;
+913;Infection unknown;Manuell;25;10021842.0;10021881.0;;10.6.2022 00:00:00;Buettneso;10021842;10021881.0;SAE nicht gemeldet;;;
+842;Infection unknown focus;Manuell;25;10021842.0;10021881.0;;9.6.2022 00:00:00;Buettneso;10021842;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+857;infection unknown of origin;Manuell;25;10021842.0;10021881.0;;9.6.2022 00:00:00;Buettneso;10021842;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1078;Infection unknown origin;Manuell;25;10021842.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10021842;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1166;Infection upper respiratory tract;Manuell;25;10046306.0;10021881.0;;1.7.2022 00:00:00;Buettneso;10046306;10021881.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+922;Infection urinary;Manuell;25;10046544.0;10021881.0;;10.6.2022 00:00:00;Buettneso;10046544;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+861;Infection with cytomegaly virus;Manuell;25;10011831.0;10021881.0;;9.6.2022 00:00:00;Buettneso;10011831;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+838;Infection with Staphylococcus epidermis in blood;Manuell;25;10054154.0;10021881.0;;9.6.2022 00:00:00;Buettneso;10054154;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+821;Infection worsening of preexisting pneumonia;Manuell;25;10052110.0;10021881.0;;9.6.2022 00:00:00;Buettneso;10052110;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+929;Infection ZVK Infection;Manuell;25;10056520.0;10021881.0;;10.6.2022 00:00:00;Buettneso;10056520;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+833;Infection ZVK with Staphylokokken;Manuell;25;10051387.0;10021881.0;;9.6.2022 00:00:00;Buettneso;10056520;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+816;Infection ZVK-Infektion;Manuell;25;10056520.0;10021881.0;;9.6.2022 00:00:00;Buettneso;10056520;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1082;inflammation GI tract (Peritonitis);Manuell;25;10034674.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10034674;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1083;Inflammation of Colon descendens;Manuell;25;10079511.0;10017947.0;;17.6.2022 00:00:00;Buettneso;10079511;10017947.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1167;Influenza A infection;Manuell;25;10022002.0;10021881.0;;1.7.2022 00:00:00;Buettneso;10022002;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+641;Influenza A+B Pneumonie;Manuell;25;10022008.0;10021881.0;;1.7.2022 00:00:00;Buettneso;10022008;10021881.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+1168;Influenza B;Manuell;25;10022003.0;10021881.0;;1.7.2022 00:00:00;Buettneso;10022003;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1169;Infusion Related Reaction Allergic Reaction;Manuell;25;10066173.0;10022117.0;;1.7.2022 00:00:00;Buettneso;10066173;10021428.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+167;INR increased;Automatisch;25;;;;;;10022402;10022891.0;;11.4.2022 00:00:00;Automatisch;Fertig
+1084;intermittend hypertension;Manuell;25;10020772.0;10047065.0;;17.6.2022 00:00:00;Buettneso;10020772;10047065.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+824;intermittend worsening of hypertension;Manuell;25;10020799.0;10047065.0;;9.6.2022 00:00:00;Buettneso;10020799;10047065.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+344;intermittent fever;Automatisch;25;;;;;;10058698;10018065.0;;11.4.2022 00:00:00;Automatisch;Fertig
+1085;intracerebral bleeding;Manuell;25;10022737.0;10047065.0;;17.6.2022 00:00:00;Buettneso;10022737;10047065.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1086;Ischaemia with perforation colon right;Manuell;25;10054438.0;10047065.0;;17.6.2022 00:00:00;Buettneso;10023037;10017947.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1087;katheterinfection Streptokokkus miles and oralis;Manuell;25;10051387.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10051387;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+194;left ventricular systolic dysfunction;Automatisch;25;;;;;;10069501;10007541.0;;11.4.2022 00:00:00;Automatisch;Fertig
+1088;Leukopaenia;Manuell;25;10024283.0;10005329.0;;17.6.2022 00:00:00;Buettneso;10024283;10005329.0;nicht als SAE gemeldet;;;
+870;low grade papillary urothelial carcinoma;Manuell;25;10005084.0;10029104.0;;10.6.2022 00:00:00;Buettneso;10005084;10029104.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+442;lung infection;Automatisch;25;10061229.0;10021881.0;;;;10061229;10021881.0;;27.6.2022 00:00:00;Automatisch;Fertig
+868;lung infection/pneumonia;Manuell;25;10035664.0;10021881.0;;9.6.2022 00:00:00;Buettneso;10035664;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+936;LVEF function decrease;Manuell;25;10053222.0;10022891.0;;10.6.2022 00:00:00;Buettneso;10053222;10022891.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1089;Medication induced hepatic toxity related to GO administration;Manuell;25;10072937.0;10022117.0;;1.7.2022 00:00:00;Buettneso;10072937;10022117.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+923;menorhea;Manuell;25;10020672.0;10038604.0;"Kein AE erkennbar; Nach RS mit F.Fiebig - Hypermenorrhoe";23.6.2022 00:00:00;Buettneso;10020672;10038604.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+30;menorrhagia;Automatisch;25;;;;;;10027313;10038604.0;;11.4.2022 00:00:00;Automatisch;Fertig
+432;Mucormycosis;Manuell;25;10028098.0;10021881.0;;1.7.2022 00:00:00;Buettneso;10028098;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+6;Mucositis;Automatisch;25;;;;;;10028127;10018065.0;;11.4.2022 00:00:00;Automatisch;Fertig
+1090;Mucositis bowel;Manuell;25;10017981.0;10017947.0;;17.6.2022 00:00:00;Buettneso;10017981;10017947.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+874;Mucositis enoral;Manuell;25;10028130.0;10017947.0;;10.6.2022 00:00:00;Buettneso;10028130;10017947.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+695;Mucositis gastrointestinal;EW: Automatisch;25;;;;;;10017981;10017947.0;;5.5.2022 00:00:00;Automatisch;Fertig
+696;Mucositis GIT;EW: Automatisch;25;;;;;;10017981;10017947.0;;5.5.2022 00:00:00;Automatisch;Fertig
+950;Mucositis intestine;Manuell;25;10017981.0;10017947.0;;10.6.2022 00:00:00;Buettneso;10017981;10017947.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+676;Mucositis Mouth;EW: Automatisch;25;;;;;;10028130;10017947.0;;5.5.2022 00:00:00;Automatisch;Fertig
+673;Mucositis mouth;EW: Automatisch;25;;;;;;10028130;10017947.0;;5.5.2022 00:00:00;Automatisch;Fertig
+76;Mucositis oral;Automatisch;25;;;;;;10028130;10017947.0;;11.4.2022 00:00:00;Automatisch;Fertig
+1138;Mucositis Oral;Automatisch;25;;;;;;10028130;10017947.0;;30.6.2022 00:00:00;Automatisch;Fertig
+1091;Mucositis oral mucosa;Manuell;25;10028130.0;10017947.0;;17.6.2022 00:00:00;Buettneso;10028130;10017947.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+155;multi organ failure;Automatisch;25;;;;;;10028151;10018065.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+243;Multi organ failure;Automatisch;25;;;;;;10028151;10018065.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+399;Multiorgan failure;Automatisch;25;;;;;;10028162;10018065.0;als Sepsis gemeldet und im eCRF als Todesursache dokumentiert;6.7.2022 00:00:00;fiebigfra;Fertig
+1092;multiresistence gramgegative bacteraemia;Manuell;25;10084206.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10084206;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1093;Muscle weakness (right leg);Manuell;25;10028350.0;10028395.0;;17.6.2022 00:00:00;Buettneso;10028350;10028395.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+14;Nausea;Automatisch;25;;;;;;10028813;10017947.0;;11.4.2022 00:00:00;Automatisch;Fertig
+1094;Neutropaenia;Manuell;25;10029354.0;10005329.0;;17.6.2022 00:00:00;Buettneso;10029354;10005329.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+849;neutropene Colitis with Diarrhea;Manuell;25;10062959.0;10017947.0;;9.6.2022 00:00:00;Buettneso;10062959;10017947.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+886;Neutropene colitis with paralytic ileus;Manuell;25;10062959.0;10017947.0;paralytischer Ileus als Folge der Kolitis;10.6.2022 00:00:00;Buettneso;10062959;10017947.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+724;neutropenes Fieber;Automatisch;25;10016288.0;10005329.0;;;;10016288;10005329.0;;27.6.2022 00:00:00;Automatisch;Fertig
+330;neutropenia;Automatisch;25;;;;;;10029354;10005329.0;nicht als SAE gemeldet;;;
+335;Neutropenia;Automatisch;25;;;;;;10029354;10005329.0;nicht als SAE gemeldet;;;
+978;neutropenia and sepsis;Manuell;25;10049151.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10049151;10021881.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+855;neutropenic colitis with appendicitis;Manuell;25;10062959.0;10017947.0;;9.6.2022 00:00:00;Buettneso;10062959;10017947.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+412;neutropenic fever;Automatisch;25;10051312.0;10005329.0;;;;10051312;10005329.0;;27.6.2022 00:00:00;Automatisch;Fertig
+474;Neutropenic fever;Automatisch;25;10051312.0;10005329.0;;;;10051312;10005329.0;;27.6.2022 00:00:00;Automatisch;Fertig
+477;Neutropenic Fever;Automatisch;25;10051312.0;10005329.0;;;;10051312;10005329.0;;27.6.2022 00:00:00;Automatisch;Fertig
+962;neutropenic sepsis with respiratory insufficiency;Manuell;25;10040047.0;10021881.0;;10.6.2022 00:00:00;Buettneso;10049151;10021881.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+376;Neutropenie;Automatisch;25;;;;;;10029354;10005329.0;;11.4.2022 00:00:00;Automatisch;Fertig
+883;NSTEMI myocardial infarction;Manuell;25;10064347.0;10007541.0;;10.6.2022 00:00:00;Buettneso;10064347;10007541.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+182;obstipation;Automatisch;25;;;;;;10010774;10017947.0;;11.4.2022 00:00:00;Automatisch;Fertig
+850;occipital exostosis with cerebraler Toxoplasmose;Manuell;25;10042710.0;10018065.0;Infektion Toxoplasmose bei Aufnahme vorbestehend.  Raumforderung neu.;9.6.2022 00:00:00;Buettneso;10057854;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1095;orthostatic vertigo;Manuell;25;10031125.0;10029205.0;;17.6.2022 00:00:00;Buettneso;10031125;10029205.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1096;Pain 30122018;Manuell;25;10000428.0;10018065.0;;17.6.2022 00:00:00;Buettneso;10000428;10018065.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+173;Pain Abdominal;Automatisch;25;;;;;;10033374;10017947.0;;11.4.2022 00:00:00;Automatisch;Fertig
+307;Pain abdominal;Automatisch;25;;;;;;10033374;10017947.0;;11.4.2022 00:00:00;Automatisch;Fertig
+904;Pain abdominal cramps;Manuell;25;10000058.0;10017947.0;;10.6.2022 00:00:00;Buettneso;10000058;10017947.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1097;Pain Abdominal with diarrhea;Manuell;25;10000081.0;10017947.0;;17.6.2022 00:00:00;Buettneso;10000081;10017947.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+916;Pain anal fissure;Manuell;25;10002153.0;10017947.0;;10.6.2022 00:00:00;Buettneso;10002153;10017947.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1098;Pain both legs;Manuell;25;10033459.0;10028395.0;;17.6.2022 00:00:00;Buettneso;10033459;10028395.0;;28.6.2022 00:00:00;fiebigfra;Fertig
+893;Pain epigastrium;Manuell;25;10015026.0;10017947.0;;10.6.2022 00:00:00;Buettneso;10015026;10017947.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1099;Pain general;Manuell;25;10000428.0;10018065.0;;17.6.2022 00:00:00;Buettneso;10000428;10018065.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+323;Pain head;Automatisch;25;;;;;;10033405;10029205.0;;11.4.2022 00:00:00;Automatisch;Fertig
+815;Pain right foot;Manuell;25;10033425.0;10028395.0;;9.6.2022 00:00:00;Buettneso;10033425;10028395.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1100;Pain spine;Manuell;25;10052060.0;10028395.0;;17.6.2022 00:00:00;Buettneso;10052060;10028395.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+976;Pain thoracal;Manuell;25;10043471.0;10018065.0;;17.6.2022 00:00:00;Buettneso;10043471;10018065.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+848;Pain throat/oral;Manuell;25;10068319.0;10038738.0;;9.6.2022 00:00:00;Buettneso;10068319;10038738.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+666;Pain Whole Body;EW: Automatisch;25;;;;;;10048971;10018065.0;;5.5.2022 00:00:00;Automatisch;Fertig
+665;Pain whole body;EW: Automatisch;25;;;;;;10048971;10018065.0;;5.5.2022 00:00:00;Automatisch;Fertig
+889;Palmar-plantar erythrodysesthesia syndrome (Hand-foot-syndrome);Manuell;25;10033552.0;10040785.0;;10.6.2022 00:00:00;Buettneso;10033552;10040785.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+267;pancolitis;Automatisch;25;;;;;;10033573;10017947.0;;11.4.2022 00:00:00;Automatisch;Fertig
+221;Paralytischer Ileus;Automatisch;25;;;;;;10033841;10017947.0;;11.4.2022 00:00:00;Automatisch;Fertig
+1104;periapical ostitis;Manuell;25;10031149.0;10028395.0;;17.6.2022 00:00:00;Buettneso;10031149;10028395.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+437;petechiae;Automatisch;25;10034754.0;10040785.0;;;;10034754;10047065.0;;27.6.2022 00:00:00;Automatisch;Fertig
+1170;Petechiae Both Legs;Manuell;25;10034754.0;10047065.0;;1.7.2022 00:00:00;Buettneso;10034754;10047065.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1105;petechiae feet;Manuell;25;10034754.0;;;17.6.2022 00:00:00;Buettneso;10034754;10047065.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1106;petechiae oral;Manuell;25;10030998.0;10047065.0;;17.6.2022 00:00:00;Buettneso;10030998;10047065.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+971;petechiae whole-body;Manuell;25;10034754.0;10047065.0;;10.6.2022 00:00:00;Buettneso;10034754;10047065.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+946;pleural efffusion;Manuell;25;10035598.0;10038738.0;;10.6.2022 00:00:00;Buettneso;10035598;10038738.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+402;pleural effusion;Automatisch;25;;;;;;10035598;10038738.0;;11.4.2022 00:00:00;Automatisch;Fertig
+264;pleuritis;Automatisch;25;;;;;;10035618;10038738.0;;11.4.2022 00:00:00;Automatisch;Fertig
+457;pneumonia;Automatisch;25;10035664.0;10021881.0;;;;10035664;10021881.0;;27.6.2022 00:00:00;Automatisch;Fertig
+471;Pneumonia;Automatisch;25;10035664.0;10021881.0;;;;10035664;10021881.0;;27.6.2022 00:00:00;Automatisch;Fertig
+1108;pneumonia (Aspergillus pneumonia);Manuell;25;10048385.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10048385;10021881.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+654;Pneumonia (Sepsis);Manuell;25;10051739.0;10021881.0;;9.6.2022 00:00:00;Buettneso;10051739;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+846;Pneumonia with dyspnea;Manuell;25;10035664.0;10021881.0;;9.6.2022 00:00:00;Buettneso;10035664;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+514;Pneumonie;Automatisch;25;10035664.0;10021881.0;;;;10035664;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1109;Pneumothorax after CVC implantation;Manuell;25;10035759.0;10038738.0;;17.6.2022 00:00:00;Buettneso;10035759;10038738.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+887;positive hecilture - klebsiella pneumonia;Manuell;25;10070108.0;10022891.0;;10.6.2022 00:00:00;Buettneso;10023456;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+927;possible mycosis;Manuell;25;10067330.0;10021881.0;;10.6.2022 00:00:00;Buettneso;10067330;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+181;potassium low;Automatisch;25;;;;;;10036452;10022891.0;;11.4.2022 00:00:00;Automatisch;Fertig
+1110;pulmogene sepsis with multiorgan failure;Manuell;25;10051739.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10051739;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1111;pulmonary hyperhydration with pleural effusion on both sides;Manuell;25;10078037.0;10038738.0;;17.6.2022 00:00:00;Buettneso;10078037;10038738.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+882;pulmonary insufficiency because cardiac pulmonary edema;Manuell;25;10075448.0;10038738.0;;10.6.2022 00:00:00;Buettneso;10075448;10038738.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+1112;qtc extension;Manuell;25;10053698.0;10022891.0;;17.6.2022 00:00:00;Buettneso;10053698;10022891.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+12;Rash;Automatisch;25;;;;;;10037844;10040785.0;;11.4.2022 00:00:00;Automatisch;Fertig
+960;Rektaler Abszess;Manuell;25;10048947.0;10021881.0;;10.6.2022 00:00:00;Buettneso;10048947;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+865;respiratoric worsening;Manuell;25;10068615.0;10038738.0;;9.6.2022 00:00:00;Buettneso;10068615;10038738.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1171;rheumatic thrust;Manuell;25;10001060.0;10021881.0;Laut SAE rheumatischer Schub mit Fieber. Alternativ: 1003269;1.7.2022 00:00:00;Buettneso;10001060;10028395.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+116;seizures;Automatisch;25;;;;;;10039910;10029205.0;;11.4.2022 00:00:00;Automatisch;Fertig
+18;Sepsis;Automatisch;25;;;;;;10040047;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1137;sepsis;Automatisch;25;;;;;;10040047;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+103;Sepsis;Automatisch;25;;;;;;10040047;10021881.0;"nicht als SAE gemeldet; nicht meldepflichtig laut eCRF";5.7.2022 00:00:00;Fiebigfra;Fertig
+1114;Sepsis due to Klebsiella pneumoniae infection;Manuell;25;10054160.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10054160;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1173;Sepsis in neutropenia;Manuell;25;10049151.0;10021881.0;;1.7.2022 00:00:00;Buettneso;10049151;10021881.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+1175;sepsis in neutropenia;Manuell;25;10049151.0;10021881.0;;1.7.2022 00:00:00;Buettneso;10049151;10021881.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+1035;Sepsis in Neutropenie mit MRSA;Manuell;25;10049253.0;10021881.0;;1.7.2022 00:00:00;Buettneso;10049253;10021881.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+945;septic colitis;Manuell;25;10009887.0;10017947.0;;10.6.2022 00:00:00;Buettneso;10021905;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1115;Septische Pneumonie;Manuell;25;10051739.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10051739;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+873;Sigmadiverticulitis;Manuell;25;10072616.0;10021881.0;;10.6.2022 00:00:00;Buettneso;10072616;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1116;soor oesophagitis;Manuell;25;10065056.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10065056;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1117;sooroesophagitis;Manuell;25;10065056.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10065056;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1118;sPO2 decrease - atypical infiltrates;Manuell;25;10021143.0;10022891.0;;17.6.2022 00:00:00;Buettneso;10025102;10038738.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+890;sputum with blood;Manuell;25;10041804.0;10038738.0;;10.6.2022 00:00:00;Buettneso;10041804;10047065.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+841;stomache pain;Manuell;25;10000085.0;10017947.0;;9.6.2022 00:00:00;Buettneso;10000085;10017947.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+42;Supraventricular tachycardia;Automatisch;25;;;;;;10042604;10007541.0;;11.4.2022 00:00:00;Automatisch;Fertig
+867;surgery of acute arterial occlusion left lower leg;Manuell;25;10058475.0;10047065.0;;9.6.2022 00:00:00;Buettneso;10058475;10047065.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1119;suspected Pneumonitis;Manuell;25;10035742.0;10038738.0;;17.6.2022 00:00:00;Buettneso;10035742;10038738.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1120;Suspected upper GI bleeding;Manuell;25;10046274.0;10047065.0;;17.6.2022 00:00:00;Buettneso;10046274;10047065.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+900;symptomatic leukocytosis;Manuell;25;10024378.0;10005329.0;;10.6.2022 00:00:00;Buettneso;10024378;10005329.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+391;Tachykardie;Automatisch;25;;;;;;10043071;10007541.0;;11.4.2022 00:00:00;Automatisch;Fertig
+894;therapy-resistant thrombocytopenia;Manuell;25;10043551.0;10005329.0;;10.6.2022 00:00:00;Buettneso;10043551;10005329.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+350;Thrombocytopenia;Automatisch;25;;;;;;10043554;10005329.0;nicht als SAE gemeldet;;;
+382;Thrombopenia;Automatisch;25;;;;;;10043569;10005329.0;nicht als SAE gemeldet;;;
+1121;Thrombophlebitis cubital;Manuell;25;10043570.0;10047065.0;;17.6.2022 00:00:00;Buettneso;10043570;10047065.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1122;Thrombophlebitis rechter Unterarm volarseitig;Manuell;25;10043571.0;10047065.0;;17.6.2022 00:00:00;Buettneso;10043571;10047065.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1123;thrombosis vena jugularis right;Manuell;25;10023237.0;10047065.0;;17.6.2022 00:00:00;Buettneso;10023237;10047065.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+864;thrombozytopenia;Manuell;25;10043551.0;10005329.0;;9.6.2022 00:00:00;Buettneso;10043551;10005329.0;nicht als SAE gemeldet;;;
+836;TLS with MOF;Manuell;25;10045170.0;10027433.0;;9.6.2022 00:00:00;Buettneso;10045170;10027433.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+829;Tonsilitis;Manuell;25;10044008.0;10021881.0;;9.6.2022 00:00:00;Buettneso;10044008;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+828;toxic skin reaction on both hands;Manuell;25;10057970.0;10040785.0;;9.6.2022 00:00:00;Buettneso;10057970;10040785.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+403;toxische Enterocolitis mit Ileus;Manuell;25;10044225.0;10017947.0;;1.7.2022 00:00:00;Buettneso;10044225;10017947.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+1176;transfusions reaction;Manuell;25;10066173.0;10022117.0;;1.7.2022 00:00:00;Buettneso;10066173;10021428.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+1125;trush oral;Manuell;25;10043653.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10043653;10021881.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+965;tumorllysis syndrome;Manuell;25;10078186.0;10027433.0;;10.6.2022 00:00:00;Buettneso;10045152;;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1126;Tumorlysesyndrom nach FLAG-IDA;Manuell;25;10045152.0;10027433.0;;17.6.2022 00:00:00;Buettneso;10045152;10027433.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1127;tumorlysis with acute kidney injury;Manuell;25;10045152.0;10027433.0;;17.6.2022 00:00:00;Buettneso;10045152;10027433.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+940;Urin output Decreased;Manuell;25;10030302.0;10038359.0;;10.6.2022 00:00:00;Buettneso;10059895;10022891.0;;4.7.2022 00:00:00;fiebigfra;Fertig
+1177;uveitis anterior involving synechien left;Manuell;25;10046852.0;10015919.0;;1.7.2022 00:00:00;Buettneso;10046852;10015919.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+1128;Veno occlusive disease with acute lever failure;Manuell;25;10047216.0;10019805.0;;17.6.2022 00:00:00;Buettneso;10047216;10019805.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+892;ventricular fibrallation;Manuell;25;10047290.0;10007541.0;;10.6.2022 00:00:00;Buettneso;10047290;10007541.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+359;ventricular tachycardia;Automatisch;25;;;;;;10047302;10007541.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+328;volvulus;Automatisch;25;;;;;;10047697;10017947.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+683;Vomitting;EW: Automatisch;25;;;;;;10047700;10017947.0;;5.5.2022 00:00:00;Automatisch;Fertig
+332;weakness and dissyness with pancytopenia;Manuell;25;10033661.0;10005329.0;PT Dizziness - Zuordnung aber zu 10005329;1.7.2022 00:00:00;Buettneso;10033661;10005329.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+914;worsening of general condition;Manuell;25;10049438.0;10018065.0;;10.6.2022 00:00:00;Buettneso;10049438;10018065.0;;6.7.2022 00:00:00;fiebigfra;Fertig
+859;worsening of peripheral ischemia (right foot);Manuell;25;10034577.0;10047065.0;;9.6.2022 00:00:00;Buettneso;10034577;10047065.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1129;worsening of pre-existing Hypertension;Manuell;25;10020773.0;10047065.0;;17.6.2022 00:00:00;Buettneso;10020773;10047065.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1130;wound healing disorder;Manuell;25;10048036.0;10018065.0;;17.6.2022 00:00:00;Buettneso;10048036;10018065.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1131;ZVK assoziierte Jugularisvenenthrombose rechts;Manuell;25;10023237.0;10047065.0;;17.6.2022 00:00:00;Buettneso;10023237;10047065.0;;5.7.2022 00:00:00;Fiebigfra;Fertig
+1132;ZVK Infection;Manuell;25;10056520.0;10021881.0;;17.6.2022 00:00:00;Buettneso;10056520;10021881.0;;5.7.2022 00:00:00;Fiebigfra;Fertig

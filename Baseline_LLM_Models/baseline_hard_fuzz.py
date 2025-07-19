@@ -1,3 +1,8 @@
+"""
+=== File Name: baseline_hard_fuzz.py     === Author: Naghme Dashti / June 2025
+
+"""
+
 import pandas as pd
 import random
 from openai import OpenAI
@@ -13,20 +18,22 @@ client = OpenAI(
 )
 
 # Load AE data
-ae_df = pd.read_csv("/home/naghmedashti/MedDRA-LLM/clean_data/KI_Projekt_Mosaic_AE_Codierung_2024_07_03.csv", sep=';', encoding='latin1')
+ae_df = pd.read_csv("/home/naghmedashti/MedDRA-LLM/data/KI_Projekt_Mosaic_AE_Codierung_2024_07_03.csv", sep=';', encoding='latin1')
 ae_df = ae_df[["Original_Term_aufbereitet", "ZB_LLT_Code"]].dropna().reset_index(drop=True)
 
 # Load LLT dictionary
-llt_df = pd.read_csv("/home/naghmedashti/MedDRA-LLM/clean_data/MedDRA1_LLT_Code_25_0.csv", sep=';', encoding='latin1')
+llt_df = pd.read_csv("/home/naghmedashti/MedDRA-LLM/data/LLT_Code_English_25_0.csv", sep=';', encoding='latin1')
 llt_df = llt_df[["LLT_Code", "LLT_Term"]].dropna().reset_index(drop=True)
 llt_code_to_term = dict(zip(llt_df["LLT_Code"].astype(str), llt_df["LLT_Term"]))
 
 # Parameters
 N_CANDIDATES = 100  # realistic set size (more difficult task)
+MAX_ROWS = 20       # Number of AE samples for demo
 results = []
 
+
 # Loop over a small subset of AEs (adjust as needed)
-for idx, row in ae_df.iloc[:20].iterrows():
+for idx, row in ae_df.iloc[:MAX_ROWS].iterrows():
     ae_text = row["Original_Term_aufbereitet"]
     true_code = str(int(row["ZB_LLT_Code"]))
     
