@@ -1,0 +1,802 @@
+[
+  {
+    "AE_text": "abdominal pain",
+    "true_term": "Abdominal pain",
+    "predicted": "Abdominal pain",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Abdominal pain",
+    "true_term": "Abdominal pain",
+    "predicted": "Abdominal pain",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Acute cerebral hemorrhage",
+    "true_term": "Cerebral hemorrhage",
+    "predicted": "Cerebral hemorrhage",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "acute renal failure low eGFR",
+    "true_term": "Acute kidney failure",
+    "predicted": "Acute renal failure",
+    "exact_match": false,
+    "fuzzy_score": 76.92307692307692,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "acute urinary stasis left kidney Grad II acute renal failure; creatinin increase; fever; pain",
+    "true_term": "Acute kidney failure",
+    "predicted": "Acute renal failure",
+    "exact_match": false,
+    "fuzzy_score": 76.92307692307692,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "Akutes Nierenversagen AKI 2 \u00c2\u00b0",
+    "true_term": "Acute kidney failure",
+    "predicted": "Acute kidney injury",
+    "exact_match": false,
+    "fuzzy_score": 82.05128205128204,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "Alanine Aminotransferase increased",
+    "true_term": "Alanine aminotransferase increased",
+    "predicted": "Alanine aminotransferase increased",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "ALAT increased",
+    "true_term": "Alanine aminotransferase increased",
+    "predicted": "ALT increased",
+    "exact_match": false,
+    "fuzzy_score": 55.319148936170215,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "Alkaline phoshatase increased",
+    "true_term": "Alkaline phosphatase increased",
+    "predicted": "Alkaline phosphatase increased",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "alkaline phosphatase increased",
+    "true_term": "Alkaline phosphatase increased",
+    "predicted": "Alkaline phosphatase increased",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "allergic reaction",
+    "true_term": "Allergic reaction",
+    "predicted": "Allergic reaction",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "allergic reaction to transfusion of platelet concentrate",
+    "true_term": "Allergic transfusion reaction",
+    "predicted": "Allergic transfusion reaction",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Allergic reaction transfusion of platelets Treatment: tavegil i.v.",
+    "true_term": "Allergic transfusion reaction",
+    "predicted": "Allergic transfusion reaction",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "allergic transfusion reaction rash after blood transfusion",
+    "true_term": "Allergic transfusion reaction",
+    "predicted": "Allergic transfusion reaction",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "alopecia",
+    "true_term": "Alopecia",
+    "predicted": "Alopecia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Anemia",
+    "true_term": "Anemia",
+    "predicted": "Anemia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "anemia",
+    "true_term": "Anemia",
+    "predicted": "Anemia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "anemia anemia",
+    "true_term": "Anemia",
+    "predicted": "Anemia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Bilirubin Erhoehung",
+    "true_term": "Blood bilirubin increased",
+    "predicted": "Bilirubin",
+    "exact_match": false,
+    "fuzzy_score": 52.94117647058824,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "blood bilirubin increased",
+    "true_term": "Blood bilirubin increased",
+    "predicted": "Bilirubin increased",
+    "exact_match": false,
+    "fuzzy_score": 86.36363636363636,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "Blood bilirubin increased hoher Bilirubin Wert",
+    "true_term": "Blood bilirubin increased",
+    "predicted": "Bilirubin increased",
+    "exact_match": false,
+    "fuzzy_score": 86.36363636363636,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "Catheter related infection Abszess/Infektion ZVK Stelle",
+    "true_term": "Catheter site infection",
+    "predicted": "Catheter site abscess",
+    "exact_match": false,
+    "fuzzy_score": 68.18181818181819,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "Chills Schuettelfrost",
+    "true_term": "Chills",
+    "predicted": "Chills",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Constipation",
+    "true_term": "Constipation",
+    "predicted": "Constipation",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "constipation",
+    "true_term": "Constipation",
+    "predicted": "Constipation",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Constipation Obstipation",
+    "true_term": "Constipation",
+    "predicted": "Constipation",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "coprostasis Koprostase",
+    "true_term": "Coprostasis",
+    "predicted": "Coprostasis",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "cough",
+    "true_term": "Cough",
+    "predicted": "Cough",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Cough",
+    "true_term": "Cough",
+    "predicted": "Cough",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "cough Hustenreiz",
+    "true_term": "Cough",
+    "predicted": "Cough",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "cramplike pain abdomen",
+    "true_term": "Abdominal crampy pains",
+    "predicted": "Abdominal cramp",
+    "exact_match": false,
+    "fuzzy_score": 81.08108108108108,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "crampy upper abdominal pain crampy upper abdominal pain",
+    "true_term": "Abdominal crampy pains",
+    "predicted": "Abdominal crampy pains",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "creatinin increased",
+    "true_term": "Creatinine increased",
+    "predicted": "Creatinine increased",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Creatinine increased high Creatinine",
+    "true_term": "Creatinine increased",
+    "predicted": "Creatinine increased",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Delirium",
+    "true_term": "Delirium",
+    "predicted": "Delirium",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Delirium Verwirrtheitszustaende",
+    "true_term": "Delirium",
+    "predicted": "Delirium",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "depressive mode",
+    "true_term": "Depressive disorder",
+    "predicted": "Depressed mood",
+    "exact_match": false,
+    "fuzzy_score": 66.66666666666667,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "depressive mood in relation to situation with new diagnostic AML",
+    "true_term": "Depressive disorder",
+    "predicted": "Situational depression",
+    "exact_match": false,
+    "fuzzy_score": 43.90243902439024,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "diarrhea",
+    "true_term": "Diarrhea",
+    "predicted": "Diarrhea",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Diarrhea",
+    "true_term": "Diarrhea",
+    "predicted": "Diarrhea",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "diarrhea Enteroviren in Stuhlprobe",
+    "true_term": "Enterovirus gastroenteritis",
+    "predicted": "Gastroenteritis enteroviral",
+    "exact_match": false,
+    "fuzzy_score": 55.55555555555556,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "diarrhoe",
+    "true_term": "Diarrhea",
+    "predicted": "Diarrhoea",
+    "exact_match": false,
+    "fuzzy_score": 94.11764705882352,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "dry skin",
+    "true_term": "Dry skin",
+    "predicted": "Dry skin",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Dyspnea Oxygen given",
+    "true_term": "Dyspnea",
+    "predicted": "Dyspnea",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Edema limbs Unterschenkeloedeme bds.",
+    "true_term": "Edema limbs",
+    "predicted": "Edema lower limb",
+    "exact_match": false,
+    "fuzzy_score": 74.07407407407408,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "edema trunk oedeme ganzer Koerper",
+    "true_term": "Edema trunk",
+    "predicted": "Edema",
+    "exact_match": false,
+    "fuzzy_score": 62.5,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "Entsuendungszeichen erhoeht CRP-Wert erhoeht.",
+    "true_term": "CRP increased",
+    "predicted": "Erysipelas",
+    "exact_match": false,
+    "fuzzy_score": 43.47826086956522,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "epistaxis Nasenbluten",
+    "true_term": "Epistaxis",
+    "predicted": "Epistaxis",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "epistaxis transfusion given",
+    "true_term": "Epistaxis",
+    "predicted": "Epistaxis",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "epistaxis Transfusion given (platelets)",
+    "true_term": "Epistaxis",
+    "predicted": "Epistaxis",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Exanthem Exanthem Th4-5 ventral und dorsal",
+    "true_term": "Exanthema",
+    "predicted": "Exanthem",
+    "exact_match": false,
+    "fuzzy_score": 94.11764705882352,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Eye disorders Hemorrhage eye (Hyposphagma rechts)",
+    "true_term": "Hyposphagma",
+    "predicted": "Hyposphagma",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "fatigue",
+    "true_term": "Fatigue",
+    "predicted": "Fatigue",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Fatique severe fatique",
+    "true_term": "Fatigue",
+    "predicted": "Fatiguability",
+    "exact_match": false,
+    "fuzzy_score": 60.0,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "febrile infection in neutropenia of unkown etiology Patient presented an CRP elevation and increasing body temperature during neutropenia. PCR diagnostics and CT scans showed no focus of infection.",
+    "true_term": "Febrile infection",
+    "predicted": "Febrile neutropenia",
+    "exact_match": false,
+    "fuzzy_score": 72.22222222222221,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "febrile infection in neutropenia Patient presented an CRP elevation and increasing body temperature during neutropenia. Diagnostics showed no focus of infection.",
+    "true_term": "Febrile infection",
+    "predicted": "Febrile neutropenia",
+    "exact_match": false,
+    "fuzzy_score": 72.22222222222221,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "febrile Neutropenia febrile Neutropenia",
+    "true_term": "Febrile neutropenia",
+    "predicted": "Febrile neutropenia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "febrile neutropenia febrile neutropenia without infection focus (tested in urine and pharyngeal swab). Temperatures up to 38.6 degrees. CRP up to 30 mg/l. Patient was treated with Piperacillin/Tazobactam (03/JUL - 06/Jul/2023) and Meropenem (06/Jul - 12/J",
+    "true_term": "Febrile neutropenia",
+    "predicted": "Febrile neutropenia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "febrile neutropenia febrile neutropenia without infection focus (tested in urine and pharyngeal swab). Temperatures up to 38.8 degrees. CRP up to 32 mg/l. Patient was treated with Meropenem (16/Jul - 21/Jul/2023).",
+    "true_term": "Febrile neutropenia",
+    "predicted": "Febrile neutropenia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "febrile neutropenia Fieber",
+    "true_term": "Febrile neutropenia",
+    "predicted": "Febrile neutropenia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Febrile neutropenia Fieber in Neutropenie",
+    "true_term": "Febrile neutropenia",
+    "predicted": "Febrile neutropenia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "febrile neutropenia neutropenes Fieber",
+    "true_term": "Febrile neutropenia",
+    "predicted": "Febrile neutropenia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Febrile neutropenia possibly related to Midostaurin; interventions Meropenem",
+    "true_term": "Febrile neutropenia",
+    "predicted": "Febrile neutropenia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "febrile neutrophenia Fieber",
+    "true_term": "Febrile neutropenia",
+    "predicted": "Febrile neutropenia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "febrile neutrpenie fever",
+    "true_term": "Febrile neutropenia",
+    "predicted": "Febrile neutropenia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Fecal incontinence Stuhlinikontinenz",
+    "true_term": "Faecal incontinence",
+    "predicted": "Fecal incontinence",
+    "exact_match": false,
+    "fuzzy_score": 97.2972972972973,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "fever",
+    "true_term": "Fever",
+    "predicted": "Fever",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "fever in neutropenia Fever; CRP 2.7 mg/dl",
+    "true_term": "Febrile neutropenia",
+    "predicted": "Neutropenia",
+    "exact_match": false,
+    "fuzzy_score": 73.33333333333334,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "GGT increased",
+    "true_term": "GGT increased",
+    "predicted": "Gamma-GT increased",
+    "exact_match": false,
+    "fuzzy_score": 83.87096774193549,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "GGT increased GGT increased up to 243 U/L.",
+    "true_term": "GGT increased",
+    "predicted": "Gamma-GT increased",
+    "exact_match": false,
+    "fuzzy_score": 83.87096774193549,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "GGT increased GGT increased up to 256 U/L.",
+    "true_term": "GGT increased",
+    "predicted": "Gamma-GT increased",
+    "exact_match": false,
+    "fuzzy_score": 83.87096774193549,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "GGT increased GGT increased up to 258 U/L.",
+    "true_term": "GGT increased",
+    "predicted": "Gamma-GT increased",
+    "exact_match": false,
+    "fuzzy_score": 83.87096774193549,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "gingival pain",
+    "true_term": "Gingival pain",
+    "predicted": "Gingival pain",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "gross hematuria",
+    "true_term": "Hematuria",
+    "predicted": "Hematuria",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Harnwegsinfekt Nachweis von Klebsiella pneumonieae in Urinkultur.",
+    "true_term": "Klebsiella pneumoniae cystitis",
+    "predicted": "Klebsiella pneumoniae cystitis",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "headache",
+    "true_term": "Headache",
+    "predicted": "Headache",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Headache",
+    "true_term": "Headache",
+    "predicted": "Headache",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Headache Kopfschmerzen",
+    "true_term": "Headache",
+    "predicted": "Headache",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "hematoma abdomen",
+    "true_term": "Abdominal hematoma",
+    "predicted": "Abdominal hematoma",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "hematoma left flank Transfusion given (platelets)",
+    "true_term": "Hematoma NOS",
+    "predicted": "Hematoma",
+    "exact_match": false,
+    "fuzzy_score": 80.0,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "hematoma left thigh",
+    "true_term": "Abdominal hematoma",
+    "predicted": "Hematoma",
+    "exact_match": false,
+    "fuzzy_score": 61.53846153846154,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "hematoma right forearm",
+    "true_term": "Hematoma NOS",
+    "predicted": "Hematoma",
+    "exact_match": false,
+    "fuzzy_score": 80.0,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "hematoma right shoulder/upperarm",
+    "true_term": "Hematoma NOS",
+    "predicted": "Hematoma",
+    "exact_match": false,
+    "fuzzy_score": 80.0,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "hematoma upperarms",
+    "true_term": "Hematoma NOS",
+    "predicted": "Hematoma",
+    "exact_match": false,
+    "fuzzy_score": 80.0,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "hematuria blutiger Urin",
+    "true_term": "Hematuria",
+    "predicted": "Hematuria",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Hematuria gross hematuria",
+    "true_term": "Hematuria",
+    "predicted": "Hematuria",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Hemorrhoids with pain",
+    "true_term": "Hemorrhoids",
+    "predicted": "Hemorrhoids",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Herpes labialis Aciclovir i.v. given",
+    "true_term": "Herpes labialis",
+    "predicted": "Herpes labialis",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Herpes labialis Herpes labialis",
+    "true_term": "Herpes labialis",
+    "predicted": "Herpes labialis",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Herpes simplex reactivation",
+    "true_term": "Herpes simplex reactivation",
+    "predicted": "Herpes simplex reactivation",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Hot flashes starkes schwitzen",
+    "true_term": "Hot flashes",
+    "predicted": "Hot flushes",
+    "exact_match": false,
+    "fuzzy_score": 90.9090909090909,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "hyperglycaemia glucose over 160mg/dl",
+    "true_term": "Hyperglycaemia",
+    "predicted": "Hyperglycaemia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Hyperkalemia",
+    "true_term": "Hyperkalemia",
+    "predicted": "Hyperkalemia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "hyperphosphatemia",
+    "true_term": "Hyperphosphatemia",
+    "predicted": "Hyperphosphatemia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Hypertension",
+    "true_term": "Hypertension",
+    "predicted": "Hypertension",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "hypertension",
+    "true_term": "Hypertension",
+    "predicted": "Hypertension",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Hypokalemia",
+    "true_term": "Hypokalemia",
+    "predicted": "Hypokalemia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "hypokalemia",
+    "true_term": "Hypokalemia",
+    "predicted": "Hypokalemia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Hypokalemia niedriger Kaliumwert",
+    "true_term": "Hypokalaemia",
+    "predicted": "Hypokalemia",
+    "exact_match": false,
+    "fuzzy_score": 95.65217391304348,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "hypophosphatemia",
+    "true_term": "Hypophosphatemia",
+    "predicted": "Hypophosphatemia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  }
+]

@@ -8,14 +8,13 @@ extracts the best matching term. Final predictions are evaluated using exact and
 
 """
 import json
-import pandas as pd
 import numpy as np
-import time
-from openai import OpenAI
+import pandas as pd
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, classification_report
 from sklearn.metrics.pairwise import cosine_similarity
-import numpy as np
+from openai import OpenAI
 from rapidfuzz import fuzz
+import time
 
 
 # Load local OpenAI-compatible LLM API
@@ -28,10 +27,11 @@ client = OpenAI(
 TOP_K = 30
 MAX_ROWS = 100
 EMB_DIM = 384  # dimension of MiniLM
-AE_EMB_FILE = "/home/naghmedashti/MedDRA-LLM/embedding/ae_embeddings.json"
-LLT_EMB_FILE = "/home/naghmedashti/MedDRA-LLM/embedding/llt_embeddings.json"
+
+AE_EMB_FILE = "/home/naghmedashti/MedDRA-LLM/embedding/ae_embeddings_Mosaic.json"
+LLT_EMB_FILE = "/home/naghmedashti/MedDRA-LLM/embedding/llt2_embeddings.json"
 AE_CSV_FILE = "/home/naghmedashti/MedDRA-LLM/data/KI_Projekt_Mosaic_AE_Codierung_2024_07_03.csv"
-LLT_CSV_FILE = "/home/naghmedashti/MedDRA-LLM/data/LLT_Code_English_25_0.csv"
+LLT_CSV_FILE = "/home/naghmedashti/MedDRA-LLM/data/LLT2_Code_English_25_0.csv"
 
 # === Load Data ===
 ae_df = pd.read_csv(AE_CSV_FILE, sep=';', encoding='latin1')[["Original_Term_aufbereitet", "ZB_LLT_Code"]].dropna().reset_index(drop=True)
@@ -79,6 +79,7 @@ for idx, row in ae_df.iloc[:MAX_ROWS].iterrows():
         continue
     true_term = llt_code_to_term[true_code]
 
+    # Get AE embedding
     ae_emb = ae_embeddings.get(ae_text)
     if ae_emb is None:
         continue

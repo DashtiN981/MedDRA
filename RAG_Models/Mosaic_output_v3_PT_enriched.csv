@@ -1,0 +1,180 @@
+AE_text,true_LLT_term,pred_LLT_term,true_PT_term,pred_PT_term,LLT_correct,PT_correct,exact_LLT_match,LLT_fuzzy_score,LLT_fuzzy_match,exact_PT_match,PT_fuzzy_score,PT_fuzzy_match,true_LLT_Code,true_PT_Code,pred_LLT_Code,pred_PT_Code
+abdominal pain,Abdominal pain,Abdominal pain,Abdominalschmerz,Abdominalschmerz,True,True,True,100.0,True,True,100.0,True,10000081,10000081,10000081,10000081
+Abdominal pain,Abdominal pain,Abdominal pain,Abdominalschmerz,Abdominalschmerz,True,True,True,100.0,True,True,100.0,True,10000081,10000081,10000081,10000081
+Acute cerebral hemorrhage,Cerebral hemorrhage,Cerebral hemorrhage,Hirnblutung,Hirnblutung,True,True,True,100.0,True,True,100.0,True,10008114,10008111,10008114,10008111
+acute renal failure low eGFR,Acute kidney failure,Acute renal failure,Akute Nierenschaedigung,Akute Nierenschaedigung,False,True,False,76.92307692307692,False,True,100.0,True,10000821,10069339,10001041,10069339
+acute urinary stasis left kidney Grad II acute renal failure; creatinin increase; fever; pain,Acute kidney failure,Acute renal failure,Akute Nierenschaedigung,Akute Nierenschaedigung,False,True,False,76.92307692307692,False,True,100.0,True,10000821,10069339,10001041,10069339
+Akutes Nierenversagen AKI 2 Â°,Acute kidney failure,Acute kidney failure,Akute Nierenschaedigung,Akute Nierenschaedigung,True,True,True,100.0,True,True,100.0,True,10000821,10069339,10000821,10069339
+Alanine Aminotransferase increased,Alanine aminotransferase increased,Alanine aminotransferase increased,Alaninaminotransferase erhoeht,Alaninaminotransferase erhoeht,True,True,True,100.0,True,True,100.0,True,10001551,10001551,10001551,10001551
+ALAT increased,Alanine aminotransferase increased,Alanine aminotransferase increased,Alaninaminotransferase erhoeht,Alaninaminotransferase erhoeht,True,True,True,100.0,True,True,100.0,True,10001551,10001551,10001551,10001551
+Alkaline phoshatase increased,Alkaline phosphatase increased,Alkaline phosphatase increased,Alkalische Phosphatase im Blut erhoeht,Alkalische Phosphatase im Blut erhoeht,True,True,True,100.0,True,True,100.0,True,10001675,10059570,10001675,10059570
+alkaline phosphatase increased,Alkaline phosphatase increased,Alkaline phosphatase increased,Alkalische Phosphatase im Blut erhoeht,Alkalische Phosphatase im Blut erhoeht,True,True,True,100.0,True,True,100.0,True,10001675,10059570,10001675,10059570
+allergic reaction,Allergic reaction,Allergic reaction NOS,Ueberempfindlichkeit,Ueberempfindlichkeit,False,True,False,89.47368421052632,False,True,100.0,True,10001718,10020751,10001719,10020751
+allergic reaction to transfusion of platelet concentrate,Allergic transfusion reaction,Allergic transfusion reaction,Allergische Transfusionsreaktion,Allergische Transfusionsreaktion,True,True,True,100.0,True,True,100.0,True,10066173,10066173,10066173,10066173
+Allergic reaction transfusion of platelets Treatment: tavegil i.v.,Allergic transfusion reaction,Allergic transfusion reaction,Allergische Transfusionsreaktion,Allergische Transfusionsreaktion,True,True,True,100.0,True,True,100.0,True,10066173,10066173,10066173,10066173
+allergic transfusion reaction rash after blood transfusion,Allergic transfusion reaction,"The AE ""allergic transfusion reaction rash after blood transfusion"" suggests a reaction that occurred as a result of a blood transfusion, which is an allergic response. The key elements here are ""allergic"", ""transfusion"", and ""reaction"". While terms like ""Allergic skin reaction"", ""Immune-mediated rash"", and ""Allergic rash"" capture the allergic and skin aspects, they do not specifically mention the context of a transfusion. Terms like ""Systemic allergic reaction"" and ""Anaphylactic transfusion reaction"" could be relevant, but ""Systemic allergic reaction"" is broader and does not specify the transfusion context, and ""Anaphylactic transfusion reaction"" implies a severity (anaphylaxis) that is not explicitly mentioned in the AE. ""Transfusion reaction"" is relevant but does not capture the allergic aspect. ""Transfusion-related immunomodulation reaction"" is not directly relevant as it implies a modulation of the immune system which is not the focus of the described AE. ""Rash at site of injection"" and ""Infusion site rash"" are not the best matches because the reaction is described as occurring after a blood transfusion, not necessarily at the site of the transfusion.",Allergische Transfusionsreaktion,,False,False,False,4.821280133000827,False,False,0.0,False,10066173,10066173,,
+alopecia,Alopecia,Alopecia,Alopezie,Alopezie,True,True,True,100.0,True,True,100.0,True,10001760,10001760,10001760,10001760
+Anemia,Anemia,Anemia,Anaemie,Anaemie,True,True,True,100.0,True,True,100.0,True,10002272,10002034,10002272,10002034
+anemia,Anemia,Anemia,Anaemie,Anaemie,True,True,True,100.0,True,True,100.0,True,10002272,10002034,10002272,10002034
+anemia anemia,Anemia,Anemia,Anaemie,Anaemie,True,True,True,100.0,True,True,100.0,True,10002272,10002034,10002272,10002034
+Bilirubin Erhoehung,Blood bilirubin increased,Blood bilirubin increased,Bilirubin im Blut erhoeht,Bilirubin im Blut erhoeht,True,True,True,100.0,True,True,100.0,True,10005364,10005364,10005364,10005364
+blood bilirubin increased,Blood bilirubin increased,Blood bilirubin increased,Bilirubin im Blut erhoeht,Bilirubin im Blut erhoeht,True,True,True,100.0,True,True,100.0,True,10005364,10005364,10005364,10005364
+Blood bilirubin increased hoher Bilirubin Wert,Blood bilirubin increased,Blood bilirubin increased,Bilirubin im Blut erhoeht,Bilirubin im Blut erhoeht,True,True,True,100.0,True,True,100.0,True,10005364,10005364,10005364,10005364
+Catheter related infection Abszess/Infektion ZVK Stelle,Catheter site infection,Catheter site infection,Infektion an der Katheterstelle,Infektion an der Katheterstelle,True,True,True,100.0,True,True,100.0,True,10056520,10056520,10056520,10056520
+Chills Schuettelfrost,Chills,Chills,Schuettelfrost,Schuettelfrost,True,True,True,100.0,True,True,100.0,True,10008531,10008531,10008531,10008531
+Constipation,Constipation,Constipation,Obstipation,Obstipation,True,True,True,100.0,True,True,100.0,True,10010774,10010774,10010774,10010774
+constipation,Constipation,Constipation,Obstipation,Obstipation,True,True,True,100.0,True,True,100.0,True,10010774,10010774,10010774,10010774
+Constipation Obstipation,Constipation,Obstipation,Obstipation,Obstipation,False,True,False,86.95652173913044,False,True,100.0,True,10010774,10010774,10029932,10010774
+coprostasis Koprostase,Coprostasis,Coprostasis,Faekulom,Faekulom,True,True,True,100.0,True,True,100.0,True,10067340,10056325,10067340,10056325
+cough,Cough,Cough,Husten,Husten,True,True,True,100.0,True,True,100.0,True,10011224,10011224,10011224,10011224
+Cough,Cough,Cough,Husten,Husten,True,True,True,100.0,True,True,100.0,True,10011224,10011224,10011224,10011224
+cough Hustenreiz,Cough,Cough,Husten,Husten,True,True,True,100.0,True,True,100.0,True,10011224,10011224,10011224,10011224
+cramplike pain abdomen,Abdominal crampy pains,Abdominal crampy pains,Abdominalschmerz,Abdominalschmerz,True,True,True,100.0,True,True,100.0,True,10000058,10000081,10000058,10000081
+crampy upper abdominal pain crampy upper abdominal pain,Abdominal crampy pains,Abdominal crampy pains,Abdominalschmerz,Abdominalschmerz,True,True,True,100.0,True,True,100.0,True,10000058,10000081,10000058,10000081
+creatinin increased,Creatinine increased,Serum creatinine increased,Kreatinin im Blut erhoeht,Kreatinin im Blut erhoeht,False,True,False,86.95652173913044,False,True,100.0,True,10011368,10005483,10040233,10005483
+Creatinine increased high Creatinine,Creatinine increased,Creatinine increased,Kreatinin im Blut erhoeht,Kreatinin im Blut erhoeht,True,True,True,100.0,True,True,100.0,True,10011368,10005483,10011368,10005483
+Delirium,Delirium,Delirium,Delirium,Delirium,True,True,True,100.0,True,True,100.0,True,10012218,10012218,10012218,10012218
+Delirium Verwirrtheitszustaende,Delirium,Delirium,Delirium,Delirium,True,True,True,100.0,True,True,100.0,True,10012218,10012218,10012218,10012218
+depressive mode,Depressive disorder,Depressive state,Depression,Depression,False,True,False,74.28571428571429,False,True,100.0,True,10012399,10012378,10049709,10012378
+depressive mood in relation to situation with new diagnostic AML,Depressive disorder,Depressed mood,Depression,Depressive Verstimmung,False,False,False,66.66666666666667,False,False,56.25,False,10012399,10012378,10012374,10012374
+diarrhea,Diarrhea,Diarrhea,Diarrhoe,Diarrhoe,True,True,True,100.0,True,True,100.0,True,10012727,10012735,10012727,10012735
+Diarrhea,Diarrhea,Diarrhea,Diarrhoe,Diarrhoe,True,True,True,100.0,True,True,100.0,True,10012727,10012735,10012727,10012735
+diarrhea Enteroviren in Stuhlprobe,Enterovirus gastroenteritis,Enterovirus gastroenteritis,Gastroenteritis enteroviral,Gastroenteritis enteroviral,True,True,True,100.0,True,True,100.0,True,10014908,10017901,10014908,10017901
+diarrhoe,Diarrhea,Diarrhea,Diarrhoe,Diarrhoe,True,True,True,100.0,True,True,100.0,True,10012727,10012735,10012727,10012735
+dry skin,Dry skin,Dry skin,Trockene Haut,Trockene Haut,True,True,True,100.0,True,True,100.0,True,10013786,10013786,10013786,10013786
+Dyspnea Oxygen given,Dyspnea,Dyspnea,Dyspnoe,Dyspnoe,True,True,True,100.0,True,True,100.0,True,10013963,10013968,10013963,10013968
+Edema limbs Unterschenkeloedeme bds.,Edema limbs,Edema lower limb,Oedem peripher,Oedem peripher,False,True,False,74.07407407407408,False,True,100.0,True,10050068,10030124,10014232,10030124
+edema trunk oedeme ganzer Koerper,Edema trunk,Edema trunk,Lokalisiertes Oedem,Lokalisiertes Oedem,True,True,True,100.0,True,True,100.0,True,10058720,10048961,10058720,10048961
+Entsuendungszeichen erhoeht CRP-Wert erhoeht.,CRP increased,CRP increased,C-reaktives Protein erhoeht,C-reaktives Protein erhoeht,True,True,True,100.0,True,True,100.0,True,10011418,10006825,10011418,10006825
+epistaxis Nasenbluten,Epistaxis,Epistaxis,Epistaxis,Epistaxis,True,True,True,100.0,True,True,100.0,True,10015090,10015090,10015090,10015090
+epistaxis transfusion given,Epistaxis,Epistaxis,Epistaxis,Epistaxis,True,True,True,100.0,True,True,100.0,True,10015090,10015090,10015090,10015090
+epistaxis Transfusion given (platelets),Epistaxis,Epistaxis,Epistaxis,Epistaxis,True,True,True,100.0,True,True,100.0,True,10015090,10015090,10015090,10015090
+Exanthem Exanthem Th4-5 ventral und dorsal,Exanthema,Exanthem,,,False,True,False,94.11764705882352,True,False,0.0,False,10015587,10037844,10015585,10037844
+Eye disorders Hemorrhage eye (Hyposphagma rechts),Hyposphagma,Hemorrhage eye,Bindehautblutung,Augenblutung,False,False,False,40.0,False,False,64.28571428571428,False,10062689,10010719,10019536,10015926
+fatigue,Fatigue,Fatigue,Ermuedung,Ermuedung,True,True,True,100.0,True,True,100.0,True,10016256,10016256,10016256,10016256
+Fatique severe fatique,Fatigue,Fatigue,Ermuedung,Ermuedung,True,True,True,100.0,True,True,100.0,True,10016256,10016256,10016256,10016256
+febrile infection in neutropenia of unkown etiology Patient presented an CRP elevation and increasing body temperature during neutropenia. PCR diagnostics and CT scans showed no focus of infection.,Febrile infection,Febrile neutropenia,Febrile Infektion,Febrile Neutropenie,False,False,False,72.22222222222221,False,False,72.22222222222221,False,10051998,10051998,10016288,10016288
+febrile infection in neutropenia Patient presented an CRP elevation and increasing body temperature during neutropenia. Diagnostics showed no focus of infection.,Febrile infection,Febrile neutropenia,Febrile Infektion,Febrile Neutropenie,False,False,False,72.22222222222221,False,False,72.22222222222221,False,10051998,10051998,10016288,10016288
+febrile Neutropenia febrile Neutropenia,Febrile neutropenia,Febrile neutropenia,Febrile Neutropenie,Febrile Neutropenie,True,True,True,100.0,True,True,100.0,True,10016288,10016288,10016288,10016288
+febrile neutropenia febrile neutropenia without infection focus (tested in urine and pharyngeal swab). Temperatures up to 38.6 degrees. CRP up to 30 mg/l. Patient was treated with Piperacillin/Tazobactam (03/JUL - 06/Jul/2023) and Meropenem (06/Jul - 12/J,Febrile neutropenia,Febrile neutropenia,Febrile Neutropenie,Febrile Neutropenie,True,True,True,100.0,True,True,100.0,True,10016288,10016288,10016288,10016288
+febrile neutropenia febrile neutropenia without infection focus (tested in urine and pharyngeal swab). Temperatures up to 38.8 degrees. CRP up to 32 mg/l. Patient was treated with Meropenem (16/Jul - 21/Jul/2023).,Febrile neutropenia,Febrile neutropenia,Febrile Neutropenie,Febrile Neutropenie,True,True,True,100.0,True,True,100.0,True,10016288,10016288,10016288,10016288
+febrile neutropenia Fieber,Febrile neutropenia,Febrile neutropenia,Febrile Neutropenie,Febrile Neutropenie,True,True,True,100.0,True,True,100.0,True,10016288,10016288,10016288,10016288
+Febrile neutropenia Fieber in Neutropenie,Febrile neutropenia,Febrile neutropenia,Febrile Neutropenie,Febrile Neutropenie,True,True,True,100.0,True,True,100.0,True,10016288,10016288,10016288,10016288
+febrile neutropenia neutropenes Fieber,Febrile neutropenia,Febrile neutropenia,Febrile Neutropenie,Febrile Neutropenie,True,True,True,100.0,True,True,100.0,True,10016288,10016288,10016288,10016288
+Febrile neutropenia possibly related to Midostaurin; interventions Meropenem,Febrile neutropenia,Febrile neutropenia,Febrile Neutropenie,Febrile Neutropenie,True,True,True,100.0,True,True,100.0,True,10016288,10016288,10016288,10016288
+febrile neutrophenia Fieber,Febrile neutropenia,Febrile neutropenia,Febrile Neutropenie,Febrile Neutropenie,True,True,True,100.0,True,True,100.0,True,10016288,10016288,10016288,10016288
+febrile neutrpenie fever,Febrile neutropenia,Febrile neutropenia,Febrile Neutropenie,Febrile Neutropenie,True,True,True,100.0,True,True,100.0,True,10016288,10016288,10016288,10016288
+Fecal incontinence Stuhlinikontinenz,Faecal incontinence,Fecal incontinence,Anale Inkontinenz,Anale Inkontinenz,False,True,False,97.2972972972973,True,True,100.0,True,10016092,10077605,10016296,10077605
+fever,Fever,Fever,Fieber,Fieber,True,True,True,100.0,True,True,100.0,True,10016558,10037660,10016558,10037660
+fever in neutropenia Fever; CRP 2.7 mg/dl,Febrile neutropenia,Febrile neutropenia,Febrile Neutropenie,Febrile Neutropenie,True,True,True,100.0,True,True,100.0,True,10016288,10016288,10016288,10016288
+GGT increased,GGT increased,GGT increased,Gamma-Glutamyltransferase erhoeht,Gamma-Glutamyltransferase erhoeht,True,True,True,100.0,True,True,100.0,True,10056910,10017693,10056910,10017693
+GGT increased GGT increased up to 243 U/L.,GGT increased,GGT increased,Gamma-Glutamyltransferase erhoeht,Gamma-Glutamyltransferase erhoeht,True,True,True,100.0,True,True,100.0,True,10056910,10017693,10056910,10017693
+GGT increased GGT increased up to 256 U/L.,GGT increased,GGT increased,Gamma-Glutamyltransferase erhoeht,Gamma-Glutamyltransferase erhoeht,True,True,True,100.0,True,True,100.0,True,10056910,10017693,10056910,10017693
+GGT increased GGT increased up to 258 U/L.,GGT increased,GGT increased,Gamma-Glutamyltransferase erhoeht,Gamma-Glutamyltransferase erhoeht,True,True,True,100.0,True,True,100.0,True,10056910,10017693,10056910,10017693
+gingival pain,Gingival pain,Gingival pain,Zahnfleischschmerz,Zahnfleischschmerz,True,True,True,100.0,True,True,100.0,True,10018286,10018286,10018286,10018286
+gross hematuria,Hematuria,Macroscopic hematuria,Haematurie,Haematurie,False,True,False,60.0,False,True,100.0,True,10019450,10018867,10059823,10018867
+Harnwegsinfekt Nachweis von Klebsiella pneumonieae in Urinkultur.,Klebsiella pneumoniae cystitis,Klebsiella pneumoniae cystitis,Zystitis klebsiella,Zystitis klebsiella,True,True,True,100.0,True,True,100.0,True,10023457,10011797,10023457,10011797
+headache,Headache,Headache,Kopfschmerzen,Kopfschmerzen,True,True,True,100.0,True,True,100.0,True,10019211,10019211,10019211,10019211
+Headache,Headache,Headache,Kopfschmerzen,Kopfschmerzen,True,True,True,100.0,True,True,100.0,True,10019211,10019211,10019211,10019211
+Headache Kopfschmerzen,Headache,Headache,Kopfschmerzen,Kopfschmerzen,True,True,True,100.0,True,True,100.0,True,10019211,10019211,10019211,10019211
+hematoma abdomen,Abdominal hematoma,Abdominal haematoma,Intra-abdominales Haematom,Intra-abdominales Haematom,False,True,False,97.2972972972973,True,True,100.0,True,10054988,10056457,10054975,10056457
+hematoma left flank Transfusion given (platelets),Hematoma NOS,Hematoma NOS,Haematom,Haematom,True,True,True,100.0,True,True,100.0,True,10019434,10018852,10019434,10018852
+hematoma left thigh,Abdominal hematoma,Subcutaneous hematoma,Intra-abdominales Haematom,Subkutanes Haematom,False,False,False,56.41025641025641,False,False,62.22222222222222,False,10054988,10056457,10042346,10042345
+hematoma right forearm,Hematoma NOS,Hematoma NOS,Haematom,Haematom,True,True,True,100.0,True,True,100.0,True,10019434,10018852,10019434,10018852
+hematoma right shoulder/upperarm,Hematoma NOS,"The AE ""hematoma right shoulder/upperarm"" indicates a hematoma located in the shoulder or upper arm area. Given the location, we can rule out terms related to abdominal or splenic hematomas. The term ""hematoma"" is too general, while ""hematoma NOS"" (not otherwise specified) might be considered if no more specific term is available. However, since the location is specified as the shoulder/upper arm, we should look for terms that relate to this area. ""Shoulder haemarthrosis"" and ""Shoulder hemarthrosis"" seem to be relevant, but ""haemarthrosis"" typically refers to bleeding into a joint, which might not exactly match the description of a hematoma in the shoulder/upper arm area without specifying joint involvement. ""Hematoma muscle"" could be a consideration since the upper arm has significant muscle tissue, but it's not as specific to the shoulder as needed. ""Subcutaneous hematoma"" could be a possibility since it refers to a hematoma under the skin, which could occur in the shoulder/upper arm area, but it doesn't specifically denote the location as being in the shoulder or upper arm. ""Joint hematoma"" might",Haematom,,False,False,False,2.127659574468088,False,False,0.0,False,10019434,10018852,,
+hematoma upperarms,Hematoma NOS,Hematoma,Haematom,Haematom,False,True,False,80.0,False,True,100.0,True,10019434,10018852,10019428,10018852
+hematuria blutiger Urin,Hematuria,Hematuria,Haematurie,Haematurie,True,True,True,100.0,True,True,100.0,True,10019450,10018867,10019450,10018867
+Hematuria gross hematuria,Hematuria,Hematuria,Haematurie,Haematurie,True,True,True,100.0,True,True,100.0,True,10019450,10018867,10019450,10018867
+Hemorrhoids with pain,Hemorrhoids,Hemorrhoids,Haemorrhoiden,Haemorrhoiden,True,True,True,100.0,True,True,100.0,True,10019611,10019022,10019611,10019022
+Herpes labialis Aciclovir i.v. given,Herpes labialis,Herpes labialis,Oraler Herpes,Oraler Herpes,True,True,True,100.0,True,True,100.0,True,10019942,10067152,10019942,10067152
+Herpes labialis Herpes labialis,Herpes labialis,Herpes labialis,Oraler Herpes,Oraler Herpes,True,True,True,100.0,True,True,100.0,True,10019942,10067152,10019942,10067152
+Herpes simplex reactivation,Herpes simplex reactivation,Herpes simplex reactivation,Herpes-simplex-Reaktivierung,Herpes-simplex-Reaktivierung,True,True,True,100.0,True,True,100.0,True,10080137,10080137,10080137,10080137
+Hot flashes starkes schwitzen,Hot flashes,Hot flashes,Hitzewallung,Hitzewallung,True,True,True,100.0,True,True,100.0,True,10020407,10060800,10020407,10060800
+hyperglycaemia glucose over 160mg/dl,Hyperglycaemia,Hyperglycaemia,Hyperglykaemie,Hyperglykaemie,True,True,True,100.0,True,True,100.0,True,10020635,10020635,10020635,10020635
+Hyperkalemia,Hyperkalemia,Hyperkalemia,Hyperkaliaemie,Hyperkaliaemie,True,True,True,100.0,True,True,100.0,True,10020647,10020646,10020647,10020646
+hyperphosphatemia,Hyperphosphatemia,Hyperphosphatemia,,,True,True,True,100.0,True,False,0.0,False,10020712,10020711,10020712,10020711
+Hypertension,Hypertension,Hypertension,Hypertonie,Hypertonie,True,True,True,100.0,True,True,100.0,True,10020772,10020772,10020772,10020772
+hypertension,Hypertension,Hypertension NOS,Hypertonie,Hypertonie,False,True,False,85.71428571428572,False,True,100.0,True,10020772,10020772,10020782,10020772
+Hypokalemia,Hypokalemia,Hypokalaemia,Hypokaliaemie,Hypokaliaemie,False,True,False,95.65217391304348,True,True,100.0,True,10021018,10021015,10021015,10021015
+hypokalemia,Hypokalemia,Hypokalemia,Hypokaliaemie,Hypokaliaemie,True,True,True,100.0,True,True,100.0,True,10021018,10021015,10021018,10021015
+Hypokalemia niedriger Kaliumwert,Hypokalaemia,Hypokalemia,Hypokaliaemie,Hypokaliaemie,False,True,False,95.65217391304348,True,True,100.0,True,10021015,10021015,10021018,10021015
+hypophosphatemia,Hypophosphatemia,Hypophosphatemia,,,True,True,True,100.0,True,False,0.0,False,10021059,10021058,10021059,10021058
+Hypotension,Hypotension,Hypotension NOS,Hypotonie,Hypotonie,False,True,False,84.61538461538461,False,True,100.0,True,10021097,10021097,10021099,10021097
+Hypotension hypotone Blutdruckwerte,Hypotension,Hypotension NOS,Hypotonie,Hypotonie,False,True,False,84.61538461538461,False,True,100.0,True,10021097,10021097,10021099,10021097
+hypotension niedrige Blutdruckwerte,Hypotension,Hypotension,Hypotonie,Hypotonie,True,True,True,100.0,True,True,100.0,True,10021097,10021097,10021097,10021097
+Hypotension relocation to the KMT3 for logistic and safety reasons,Hypotension,Hypotension,Hypotonie,Hypotonie,True,True,True,100.0,True,True,100.0,True,10021097,10021097,10021097,10021097
+increased liver values Alanine aminotransferase increased     Aspartate aminotransferase increased,Alanine aminotransferase increase,Aspartate aminotransferase increased,Alaninaminotransferase erhoeht,Aspartataminotransferase erhoeht,False,False,False,84.05797101449275,False,False,83.87096774193549,False,10001550,10001551,10003481,10003481
+infection high CRP,Infection NOS,Infection NOS,Infektion,Infektion,True,True,True,100.0,True,True,100.0,True,10021842,10021789,10021842,10021789
+Infection increased CRP,Infection NOS,Infection NOS,Infektion,Infektion,True,True,True,100.0,True,True,100.0,True,10021842,10021789,10021842,10021789
+infection On 24.07.2023 the patient developed fever. Anitbiotics were started (Piperacilin/ Tazobactam). Bloodcultures: gram positive coccus,Gram-positive bacteraemia,Gram-positive bacteraemia,,,True,True,True,100.0,True,False,0.0,False,10063444,10003997,10063444,10003997
+infection VRE Infektion,Vancomycin-resistant enterococcal infection,Vancomycin-resistant enterococcal infection,Enterokokken-Infektion,Enterokokken-Infektion,True,True,True,100.0,True,True,100.0,True,10053621,10061124,10053621,10061124
+inflammation ZVK puncture site,Catheter site inflammation,Puncture site inflammation,Entzuendung an der Katheterstelle,Entzuendung an der Punktionsstelle,False,False,False,80.76923076923077,False,False,80.59701492537313,False,10052267,10052267,10085888,10085888
+Infusion related reaction with capillary leak syndrome and subsequent respiratory insufficiency,Infusion related reaction,Capillary leak syndrome,Reaktion im Zusammenhang mit einer Infusion,Kapillarlecksyndrom,False,False,False,29.166666666666664,False,False,22.580645161290324,False,10051792,10051792,10007196,10007196
+invasive Aspergillose progrediente Apsergillose der Lunge,Pulmonary aspergillosis,Invasive bronchopulmonary aspergillosis,Bronchopulmonale Aspergillose,Bronchopulmonale Aspergillose,False,True,False,74.19354838709677,False,True,100.0,True,10059259,10006473,10022881,10006473
+Kolonperforation CT-morphologisch gedeckte Perforation bei anhaltendem Fieber und Bauchschmerzen,Colonic perforation,Colonic perforation,Dickdarmperforation,Dickdarmperforation,True,True,True,100.0,True,True,100.0,True,10010001,10023804,10010001,10023804
+lipase increased,Lipase increased,Lipase increased,Lipase erhoeht,Lipase erhoeht,True,True,True,100.0,True,True,100.0,True,10024574,10024574,10024574,10024574
+Liver toxicity,Hepatotoxicity,Hepatotoxicity,Lebertoxizitaet,Lebertoxizitaet,True,True,True,100.0,True,True,100.0,True,10019851,10019851,10019851,10019851
+localized edema (ankle),Edema arms,Ankle edema,Oedem peripher,Oedem peripher,False,True,False,47.61904761904761,False,True,100.0,True,10014214,10030124,10002542,10030124
+Loss of appetite/ Anorexia,Anorexia,Decreased appetite,Appetit vermindert,Appetit vermindert,False,True,False,23.076923076923073,False,True,100.0,True,10002646,10061428,10061428,10061428
+Loss of appetite/anorexia related to mucositis,Anorexia,Decreased appetite,Appetit vermindert,Appetit vermindert,False,True,False,23.076923076923073,False,True,100.0,True,10002646,10061428,10061428,10061428
+Lung infection Lung infection - Known fungal pneumonia,Lung infection,Pneumonia fungal,Pneumonie,Pneumonie durch Pilze,False,False,False,33.333333333333336,False,False,60.0,False,10061229,10035664,10061354,10061354
+Lung Infection Transfer to the intensive care unit on 08. Jan. 2023,Lung infection,Lung infection NOS,Pneumonie,Pneumonie,False,True,False,87.5,False,True,100.0,True,10061229,10035664,10048847,10035664
+lymphocyte count decreased,Lymphocyte count decreased,Lymphocyte count decreased,Lymphozytenzahl erniedrigt,Lymphozytenzahl erniedrigt,True,True,True,100.0,True,True,100.0,True,10025256,10025256,10025256,10025256
+Menorrhagia Menorrhagia due to thrombocytopenia. Patient was treated with platelet concentrates and cyclokapron (20/Jun - 26/Jun/2023),Menorrhagia,Thrombocytopenia,Starke Menstruationsblutung,Thrombozytopenie,False,False,False,37.03703703703704,False,False,27.906976744186053,False,10027313,10085423,10043554,10043554
+menorrhagia transfusion given,Menorrhagia,Menorrhagia,Starke Menstruationsblutung,Starke Menstruationsblutung,True,True,True,100.0,True,True,100.0,True,10027313,10085423,10027313,10085423
+Mucositis,Mucositis,Mucositis NOS,Schleimhautentzuendung,Schleimhautentzuendung,False,True,False,81.81818181818181,False,True,100.0,True,10028127,10028116,10028129,10028116
+mucositis oral,Mucositis oral,Mucositis oral,Stomatitis,Stomatitis,True,True,True,100.0,True,True,100.0,True,10028130,10042128,10028130,10042128
+mucositis oral morphin given,Mucositis,Mucositis oral,Schleimhautentzuendung,Stomatitis,False,False,False,78.26086956521739,False,False,31.25,False,10028127,10028116,10028130,10042128
+Mucositis oral Mukositisbeschwerden im Mund,Mucositis oral,Mucositis oral,Stomatitis,Stomatitis,True,True,True,100.0,True,True,100.0,True,10028130,10042128,10028130,10042128
+nausea,Nausea,Nausea,Uebelkeit,Uebelkeit,True,True,True,100.0,True,True,100.0,True,10028813,10028813,10028813,10028813
+Nausea,Nausea,Nausea,Uebelkeit,Uebelkeit,True,True,True,100.0,True,True,100.0,True,10028813,10028813,10028813,10028813
+Nausea intermittent nausea,Nausea,Nausea,Uebelkeit,Uebelkeit,True,True,True,100.0,True,True,100.0,True,10028813,10028813,10028813,10028813
+Nausea with vomiting,Nausea with vomiting,Nausea and vomiting,Erbrechen,Erbrechen,False,True,False,82.05128205128204,False,True,100.0,True,10028821,10047700,10028816,10047700
+Nausea/Emesis Nausea/Emesis,Nausea,Nausea and vomiting,Uebelkeit,Erbrechen,False,False,False,48.0,False,False,44.44444444444444,False,10028813,10028813,10028816,10047700
+neutrope Colitits,Neutropenic colitis,Neutropenic colitis,Neutropene Kolitis,Neutropene Kolitis,True,True,True,100.0,True,True,100.0,True,10062959,10062959,10062959,10062959
+neutropene Sepsis,Neutropenic sepsis,Neutropenic sepsis,Neutropenische Sepsis,Neutropenische Sepsis,True,True,True,100.0,True,True,100.0,True,10049151,10049151,10049151,10049151
+Neutropenia Neutropenia,Neutropenia,Neutropenia,Neutropenie,Neutropenie,True,True,True,100.0,True,True,100.0,True,10029354,10029354,10029354,10029354
+Neutrophhil count decrease,Neutropenia,Neutrophil count decreased,Neutropenie,Neutrophilenzahl erniedrigt,False,False,False,48.64864864864865,False,False,57.89473684210527,False,10029354,10029354,10029366,10029366
+Neutrophil count decrease,Neutropenia,Neutrophil count decreased,Neutropenie,Neutrophilenzahl erniedrigt,False,False,False,48.64864864864865,False,False,57.89473684210527,False,10029354,10029354,10029366,10029366
+neutrophil count decreased,Neutrophil count decreased,Neutrophil count decreased,Neutrophilenzahl erniedrigt,Neutrophilenzahl erniedrigt,True,True,True,100.0,True,True,100.0,True,10029366,10029366,10029366,10029366
+Neutrophil count decreased Day / Time / Value      Do 14.04.2022 / 08:43 / 0.97,Neutropenia,Neutrophil count decreased,Neutropenie,Neutrophilenzahl erniedrigt,False,False,False,48.64864864864865,False,False,57.89473684210527,False,10029354,10029354,10029366,10029366
+oedema both legs,Edema legs,Oedema legs,Oedem peripher,Oedem peripher,False,True,False,95.23809523809523,True,True,100.0,True,10014230,10030124,10030105,10030124
+oral hemorrhage transfusion given,Haemorrhage oral,Oral hemorrhage,Blutung Mund,Blutung Mund,False,True,False,64.51612903225806,False,True,100.0,True,10055833,10028024,10030980,10028024
+Pain back,Pain back,Back pain,Rueckenschmerzen,Rueckenschmerzen,False,True,False,44.44444444444444,False,True,100.0,True,10033380,10003988,10003988,10003988
+pain stomach,Pain stomach,Pain stomach,Schmerzen Oberbauch,Schmerzen Oberbauch,True,True,True,100.0,True,True,100.0,True,10033492,10000087,10033492,10000087
+pain tongue,Pain tongue,Pain tongue,Glossodynie,Glossodynie,True,True,True,100.0,True,True,100.0,True,10033496,10018388,10033496,10018388
+parvo B19 infection fever with rash,Parvovirus B19 infection,Parvovirus B19 infection,Parvovirus-B19-Infektion,Parvovirus-B19-Infektion,True,True,True,100.0,True,True,100.0,True,10034099,10034099,10034099,10034099
+petechiae chest and lower leg Petechien im Brustbereich und Unterschenkel,,Petechiae,,Petechien,False,False,False,0.0,False,False,0.0,False,10087542,,10034754,10034754
+petechiae chest Petechien im Brustbereich,Petechia,Petechiae,Petechien,Petechien,False,True,False,94.11764705882352,True,True,100.0,True,10034752,10034754,10034754,10034754
+Petechiae Petechien am ganzen Koerper,Petechia,Petechiae,Petechien,Petechien,False,True,False,94.11764705882352,True,True,100.0,True,10034752,10034754,10034754,10034754
+petechiae right thigh,Petechia,Petechiae,Petechien,Petechien,False,True,False,94.11764705882352,True,True,100.0,True,10034752,10034754,10034754,10034754
+Petechiae transfusion given,Petechia,Petechiae,Petechien,Petechien,False,True,False,94.11764705882352,True,True,100.0,True,10034752,10034754,10034754,10034754
+petechiae Transfusion given (platelets),Petechia,Petechia,Petechien,Petechien,True,True,True,100.0,True,True,100.0,True,10034752,10034754,10034752,10034754
+Platelet count decrease,Thrombopenia,Platelet count decreased,Thrombozytopenie,Thrombozytenzahl vermindert,False,False,False,22.22222222222222,False,False,65.11627906976744,False,10043569,10043554,10035528,10035528
+platelet count decreased,Platelet count decreased,Platelet count decreased,Thrombozytenzahl vermindert,Thrombozytenzahl vermindert,True,True,True,100.0,True,True,100.0,True,10035528,10035528,10035528,10035528
+Platelet count decreased Thrombocytopenia,Thrombopenia,Platelet count decreased,Thrombozytopenie,Thrombozytenzahl vermindert,False,False,False,22.22222222222222,False,False,65.11627906976744,False,10043569,10043554,10035528,10035528
+Platelet cunt decrease,Thrombopenia,Platelet count decreased,Thrombozytopenie,Thrombozytenzahl vermindert,False,False,False,22.22222222222222,False,False,65.11627906976744,False,10043569,10043554,10035528,10035528
+rash,Rash,Rash,,,True,True,True,100.0,True,False,0.0,False,10037844,10037844,10037844,10037844
+Rash Entire body,Rash generalised,Rash generalised,,,True,True,True,100.0,True,False,0.0,False,10037858,10037844,10037858,10037844
+Rash whole body,Rash generalised,Widespread rash,,,False,True,False,38.70967741935484,False,False,0.0,False,10037858,10037844,10047984,10037844
+Renal toxicity,Toxicity renal,Toxic nephropathy,,,False,True,False,51.61290322580645,False,False,0.0,False,10044258,10029155,10044238,10029155
+Restlessness Unruhezustaende und Panikattacken,Restlessness,Restlessness,Unruhe,Unruhe,True,True,True,100.0,True,True,100.0,True,10038743,10038743,10038743,10038743
+Sars-CoV-2,SARS-CoV-2 infection,SARS-CoV-2 infection,COVID-19,COVID-19,True,True,True,100.0,True,True,100.0,True,10084272,10084268,10084272,10084268
+Sepsis,Sepsis,Sepsis,,,True,True,True,100.0,True,False,0.0,False,10040047,10040047,10040047,10040047
+Skin irritation anal after diarrhea,Skin irritation,Perianal irritation,Hautreizung,Anorektale Beschwerden,False,False,False,76.47058823529412,False,False,30.303030303030297,False,10040880,10040880,10034452,10068286
+splenic infection Pain in the lower abdomen on the left side,Splenic infection,Splenic infection NOS,,,False,True,False,89.47368421052632,False,False,0.0,False,10062112,10062112,10051724,10062112
+stomach pain,Stomach pain,Stomach pain,Schmerzen Oberbauch,Schmerzen Oberbauch,True,True,True,100.0,True,True,100.0,True,10042112,10000087,10042112,10000087
+tachycardia,Tachycardia,Tachycardia,Tachykardie,Tachykardie,True,True,True,100.0,True,True,100.0,True,10043071,10043071,10043071,10043071
+Thrombopenia Thrombocytes on 09-Dec-2022 51Gpt/l,Thrombopenia,Thrombocytopenia,Thrombozytopenie,Thrombozytopenie,False,True,False,85.71428571428572,False,True,100.0,True,10043569,10043554,10043554,10043554
+Thrombophlebitis Thrombophlebitis im Bereich der oberflaechlichen Unterschenkelvenen.,Phlebitis and thrombophlebitis of superficial vessels of lower extremities,Phlebitis and thrombophlebitis of superficial vessels of lower extremities,Oberflaechliche Venenthrombose,Oberflaechliche Venenthrombose,True,True,True,100.0,True,True,100.0,True,10034894,10086210,10034894,10086210
+Thrombosis Vena subclavia dextra,Thrombosis venous arm,Thrombosis venous arm,Venenthrombose einer Extremitaet,Venenthrombose einer Extremitaet,True,True,True,100.0,True,True,100.0,True,10043641,10061408,10043641,10061408
+Thrombotic thrombocytopenic purpura Petechiae,Purpura thrombopaenic thrombotic,Thrombotic thrombocytopenic purpura,Thrombotisch-thrombozytopenische Purpura,Thrombotisch-thrombozytopenische Purpura,False,True,False,59.70149253731343,False,True,100.0,True,10037562,10043648,10043648,10043648
+vomiting,Vomiting,Vomiting,Erbrechen,Erbrechen,True,True,True,100.0,True,True,100.0,True,10047700,10047700,10047700,10047700
+Weight gain,Weight gain,Weight gain,Gewicht erhoeht,Gewicht erhoeht,True,True,True,100.0,True,True,100.0,True,10047896,10047899,10047896,10047899
+weight gain,Weight gain,Weight gain,Gewicht erhoeht,Gewicht erhoeht,True,True,True,100.0,True,True,100.0,True,10047896,10047899,10047896,10047899
+Weight gain Gewichtszunahme (Diurese),Weight gain,Weight gain,Gewicht erhoeht,Gewicht erhoeht,True,True,True,100.0,True,True,100.0,True,10047896,10047899,10047896,10047899
+weight loss,Weight loss,Unintentional weight loss,Gewicht erniedrigt,Anomaler Gewichtsverlust,False,False,False,61.111111111111114,False,False,47.61904761904761,False,10047900,10047895,10068329,10000159
+Weight loss,Weight loss,Weight decreased,Gewicht erniedrigt,Gewicht erniedrigt,False,True,False,59.25925925925925,False,True,100.0,True,10047900,10047895,10047895,10047895
+white blood cell decreased,White blood cell decreased,White blood cell count decreased,Leukozytenzahl erniedrigt,Leukozytenzahl erniedrigt,False,True,False,89.65517241379311,False,True,100.0,True,10049182,10047942,10047942,10047942
+worsening of the preexisting Diarrhea,Diarrhea aggravated,Diarrhea aggravated,Diarrhoe,Diarrhoe,True,True,True,100.0,True,True,100.0,True,10012728,10012735,10012728,10012735
+worsening of the preexisting Mucositis,Mucositis,Mucositis,Schleimhautentzuendung,Schleimhautentzuendung,True,True,True,100.0,True,True,100.0,True,10028127,10028116,10028127,10028116

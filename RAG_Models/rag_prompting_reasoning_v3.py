@@ -23,39 +23,46 @@ from openai import OpenAI
 from rapidfuzz import fuzz
 import time
 
-# --- Load Embeddings ---
-AE_EMB_FILE = "/home/naghmedashti/MedDRA-LLM/embedding/ae_embeddings.json"
-LLT_EMB_FILE = "/home/naghmedashti/MedDRA-LLM/embedding/llt_embeddings.json"
 
-with open(AE_EMB_FILE, "r", encoding="utf-8") as f:
+# Load local OpenAI-compatible LLM API
+client = OpenAI(
+    api_key="sk-BEYOnuDXHm5OcYLc5xKX6w",
+    base_url="http://pluto/v1/"
+)
+
+## === Parameters ===
+TOP_K = 30
+MAX_ROWS = 100
+EMB_DIM = 384  # dimension of MiniLM
+
+AE_EMB_FILE = "/home/naghmedashti/MedDRA-LLM/embedding/ae_embeddings_Mosaic.json"
+LLT_EMB_FILE = "/home/naghmedashti/MedDRA-LLM/embedding/llt2_embeddings.json"
+AE_CSV_FILE = "/home/naghmedashti/MedDRA-LLM/data/KI_Projekt_Mosaic_AE_Codierung_2024_07_03.csv"
+LLT_CSV_FILE = "/home/naghmedashti/MedDRA-LLM/data/LLT2_Code_English_25_0.csv"
+
+# === Load AE and LLT data ===
+ae_df = pd.read_csv(AE_CSV_FILE, sep=';', encoding='latin1')[["Original_Term_aufbereitet", "ZB_LLT_Code"]].dropna().reset_index(drop=True)
+llt_df = pd.read_csv(LLT_CSV_FILE, sep=';', encoding='latin1')[["LLT_Code", "LLT_Term"]].dropna().reset_index(drop=True)
+llt_code_to_term = dict(zip(llt_df["LLT_Code"].astype(str), llt_df["LLT_Term"]))
+
+# === Load Embeddings ===
+with open(AE_EMB_FILE, "r", encoding="latin1") as f:
     ae_emb_dict = json.load(f)
-with open(LLT_EMB_FILE, "r", encoding="utf-8") as f:
+with open(LLT_EMB_FILE, "r", encoding="latin1") as f:
     llt_emb_dict = json.load(f)
 
 # Convert embedding lists to numpy arrays
 llt_emb_dict = {k: np.array(v) for k, v in llt_emb_dict.items()}
 ae_emb_dict = {k: np.array(v) for k, v in ae_emb_dict.items()}
 
-# --- Load AE and LLT data ---
-ae_df = pd.read_csv("/home/naghmedashti/MedDRA-LLM/data/KI_Projekt_Mosaic_AE_Codierung_2024_07_03.csv", sep=';', encoding='latin1')
-ae_df = ae_df[["Original_Term_aufbereitet", "ZB_LLT_Code"]].dropna().reset_index(drop=True)
 
-llt_df = pd.read_csv("/home/naghmedashti/MedDRA-LLM/data/LLT_Code_English_25_0.csv", sep=';', encoding='latin1')
-llt_df = llt_df[["LLT_Code", "LLT_Term"]].dropna().reset_index(drop=True)
-llt_code_to_term = dict(zip(llt_df["LLT_Code"].astype(str), llt_df["LLT_Term"]))
 
-# --- Parameters ---
-K = 100
+
+# === RAG Prompting ===
 results = []
 
-# --- Initialize API ---
-client = OpenAI(
-    api_key="sk-BEYOnuDXHm5OcYLc5xKX6w",
-    base_url="http://pluto/v1/"
-)
-
 # --- Main Loop ---
-for idx, row in ae_df.iloc[:20].iterrows():
+for idx, row in ae_df.iloc[:MAX_ROWS].iterrows():
     ae_text = row["Original_Term_aufbereitet"]
     true_code = str(int(row["ZB_LLT_Code"]))
     if true_code not in llt_code_to_term:
@@ -67,17 +74,17 @@ for idx, row in ae_df.iloc[:20].iterrows():
         continue
     ae_emb = ae_emb_dict[ae_text]
 
-    # Compute cosine similarity with LLTs
+    # Compute cosine similarity with LLTs manual, which doesn't require reshape
     similarities = [(term, float(np.dot(ae_emb, llt_emb) / (np.linalg.norm(ae_emb) * np.linalg.norm(llt_emb))))
                     for term, llt_emb in llt_emb_dict.items()]
     similarities.sort(key=lambda x: x[1], reverse=True)
 
-    candidate_terms = [term for term, _ in similarities[:K]]
+    candidate_terms = [term for term, _ in similarities[:TOP_K]]
     if true_term not in candidate_terms:
         candidate_terms.append(true_term)
     random.shuffle(candidate_terms)
 
-    # --- Prompt ---
+    # Build  prompt
     prompt = (
         f"You are a medical coding assistant. Your job is to reason through the best MedDRA LLT term."
         f"Here is an Adverse Event (AE):\n\"{ae_text}\"\n\n"
@@ -89,7 +96,8 @@ for idx, row in ae_df.iloc[:20].iterrows():
 
     try:
         response = client.chat.completions.create(
-            model="Llama-3.3-70B-Instruct",
+            #model="Llama-3.3-70B-Instruct",
+            model="llama-3.3-70b-instruct-awq",
             messages=[
                 {"role": "system", "content": "You are a helpful medical coding assistant."},
                 {"role": "user", "content": prompt}
@@ -105,6 +113,7 @@ for idx, row in ae_df.iloc[:20].iterrows():
         else:
             answer_line = answer.strip().split("\n")[-1].strip()
 
+        
         exact_match = answer_line == true_term
         fuzzy_score = fuzz.ratio(answer_line.lower(), true_term.lower())
         fuzzy_match = fuzzy_score >= 90
@@ -127,21 +136,24 @@ for idx, row in ae_df.iloc[:20].iterrows():
     except Exception as e:
         print(f"Error at index {idx}: {e}")
 
-# --- Save Results ---
-with open("/home/naghmedashti/MedDRA-LLM/RAG_Models/rag_prompting_reasoning_v3.json", "w") as f:
+# === Save Results ===
+with open("/home/naghmedashti/MedDRA-LLM/RAG_Models/rag_prompting_reasoning_v3-1.json", "w") as f:
     json.dump(results, f, indent=2)
 
-# --- Evaluate ---
+# === Evaluation ===
 y_true = [r["true_term"] for r in results]
 y_pred = [r["predicted"] for r in results]
 y_pred_fuzzy = [r["true_term"] if r["fuzzy_match"] else r["predicted"] for r in results]
 
+#if len(y_true) > 0:
 print("Evaluation Report (Exact Match):")
 print(classification_report(y_true, y_pred, zero_division=0))
 
 print("\nEvaluation Report (Fuzzy Match):")
 print(classification_report(y_true, y_pred_fuzzy, zero_division=0))
-
+#else:
+    #print("No successful predictions to evaluate.")
+    
 # Custom Metrics
 acc = accuracy_score(y_true, y_pred)
 f1 = f1_score(y_true, y_pred, average="macro")

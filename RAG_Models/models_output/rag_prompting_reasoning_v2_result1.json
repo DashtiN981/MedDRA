@@ -1,0 +1,162 @@
+[
+  {
+    "AE_text": "abdominal pain",
+    "true_term": "Abdominal pain",
+    "predicted": "Abdominal pain",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Abdominal pain",
+    "true_term": "Abdominal pain",
+    "predicted": "Abdominal pain",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Acute cerebral hemorrhage",
+    "true_term": "Cerebral hemorrhage",
+    "predicted": "Cerebral hemorrhage",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "acute renal failure low eGFR",
+    "true_term": "Acute kidney failure",
+    "predicted": "Acute renal failure",
+    "exact_match": false,
+    "fuzzy_score": 76.92307692307692,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "acute urinary stasis left kidney Grad II acute renal failure; creatinin increase; fever; pain",
+    "true_term": "Acute kidney failure",
+    "predicted": "Acute kidney injury",
+    "exact_match": false,
+    "fuzzy_score": 82.05128205128204,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "Akutes Nierenversagen AKI 2 \u00c2\u00b0",
+    "true_term": "Acute kidney failure",
+    "predicted": "Acute kidney injury",
+    "exact_match": false,
+    "fuzzy_score": 82.05128205128204,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "Alanine Aminotransferase increased",
+    "true_term": "Alanine aminotransferase increased",
+    "predicted": "Alanine aminotransferase increased",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "ALAT increased",
+    "true_term": "Alanine aminotransferase increased",
+    "predicted": "ALT increased",
+    "exact_match": false,
+    "fuzzy_score": 55.319148936170215,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "Alkaline phoshatase increased",
+    "true_term": "Alkaline phosphatase increased",
+    "predicted": "Alkaline phosphatase increased",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "alkaline phosphatase increased",
+    "true_term": "Alkaline phosphatase increased",
+    "predicted": "Alkaline phosphatase increased",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "allergic reaction",
+    "true_term": "Allergic reaction",
+    "predicted": "Allergic reaction",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "allergic reaction to transfusion of platelet concentrate",
+    "true_term": "Allergic transfusion reaction",
+    "predicted": "Allergic transfusion reaction",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Allergic reaction transfusion of platelets Treatment: tavegil i.v.",
+    "true_term": "Allergic transfusion reaction",
+    "predicted": "Allergic transfusion reaction",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "allergic transfusion reaction rash after blood transfusion",
+    "true_term": "Allergic transfusion reaction",
+    "predicted": "Allergic transfusion reaction",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "alopecia",
+    "true_term": "Alopecia",
+    "predicted": "Alopecia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Anemia",
+    "true_term": "Anemia",
+    "predicted": "Anemia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "anemia",
+    "true_term": "Anemia",
+    "predicted": "Anemia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "anemia anemia",
+    "true_term": "Anemia",
+    "predicted": "Anemia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true
+  },
+  {
+    "AE_text": "Bilirubin Erhoehung",
+    "true_term": "Blood bilirubin increased",
+    "predicted": "Bilirubin",
+    "exact_match": false,
+    "fuzzy_score": 52.94117647058824,
+    "fuzzy_match": false
+  },
+  {
+    "AE_text": "blood bilirubin increased",
+    "true_term": "Blood bilirubin increased",
+    "predicted": "Bilirubin increased",
+    "exact_match": false,
+    "fuzzy_score": 86.36363636363636,
+    "fuzzy_match": false
+  }
+]

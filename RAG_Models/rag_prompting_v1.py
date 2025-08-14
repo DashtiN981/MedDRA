@@ -35,10 +35,10 @@ client = OpenAI(
 TOP_K = 30
 MAX_ROWS = 100
 EMB_DIM = 384  # dimension of MiniLM
-AE_EMB_FILE = "/home/naghmedashti/MedDRA-LLM/embedding/ae_embeddings.json"
-LLT_EMB_FILE = "/home/naghmedashti/MedDRA-LLM/embedding/llt_embeddings.json"
+AE_EMB_FILE = "/home/naghmedashti/MedDRA-LLM/embedding/ae_embeddings_Mosaic.json"
+LLT_EMB_FILE = "/home/naghmedashti/MedDRA-LLM/embedding/llt2_embeddings.json"
 AE_CSV = "/home/naghmedashti/MedDRA-LLM/data/KI_Projekt_Mosaic_AE_Codierung_2024_07_03.csv"
-LLT_CSV = "/home/naghmedashti/MedDRA-LLM/data/LLT_Code_English_25_0.csv"
+LLT_CSV = "/home/naghmedashti/MedDRA-LLM/data/LLT2_Code_English_25_0.csv"
 
 # === Load Data ===
 ae_df = pd.read_csv(AE_CSV, sep=';', encoding='latin1')[["Original_Term_aufbereitet", "ZB_LLT_Code"]].dropna().reset_index(drop=True)

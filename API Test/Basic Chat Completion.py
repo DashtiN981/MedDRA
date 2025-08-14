@@ -13,7 +13,9 @@ response = client.chat.completions.create(
             "content": "What do you know about the KatherLab?",
         }
     ],
-    model="Llama-3.3-70B-Instruct",
+      model="Llama-3.3-70B-Instruct",
+      #model="llama-3.3-70b-instruct-awq",
+    
 )
 
 print(response.choices[0].message.content)
