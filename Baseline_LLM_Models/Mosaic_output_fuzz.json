@@ -1,0 +1,578 @@
+[
+  {
+    "AE_text": "abdominal pain",
+    "true_llt_term": "Abdominal pain",
+    "pred_llt_term": "Abdominal pain",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_llt_code": 10000081,
+    "pred_llt_code": 10000081,
+    "true_pt_code": 10000081,
+    "pred_pt_code": 10000081,
+    "true_soc_code": 10017947,
+    "pred_soc_code": 10017947,
+    "true_soc_code_primary": 10017947,
+    "true_pt_term": "Abdominalschmerz",
+    "pred_pt_term": "Abdominalschmerz",
+    "true_soc_term": "Erkrankungen des Gastrointestinaltrakts",
+    "pred_soc_term": "Erkrankungen des Gastrointestinaltrakts",
+    "true_soc_term_primary": "Erkrankungen des Gastrointestinaltrakts",
+    "true_soc_codes_all": [
+      10017947
+    ],
+    "pred_soc_codes_all": [
+      10017947
+    ],
+    "pred_primary_soc_missing": false,
+    "true_primary_soc_missing": false,
+    "model_output": "Abdominal pain"
+  },
+  {
+    "AE_text": "Abdominal pain",
+    "true_llt_term": "Abdominal pain",
+    "pred_llt_term": "Abdominal pain",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_llt_code": 10000081,
+    "pred_llt_code": 10000081,
+    "true_pt_code": 10000081,
+    "pred_pt_code": 10000081,
+    "true_soc_code": 10017947,
+    "pred_soc_code": 10017947,
+    "true_soc_code_primary": 10017947,
+    "true_pt_term": "Abdominalschmerz",
+    "pred_pt_term": "Abdominalschmerz",
+    "true_soc_term": "Erkrankungen des Gastrointestinaltrakts",
+    "pred_soc_term": "Erkrankungen des Gastrointestinaltrakts",
+    "true_soc_term_primary": "Erkrankungen des Gastrointestinaltrakts",
+    "true_soc_codes_all": [
+      10017947
+    ],
+    "pred_soc_codes_all": [
+      10017947
+    ],
+    "pred_primary_soc_missing": false,
+    "true_primary_soc_missing": false,
+    "model_output": "Abdominal pain"
+  },
+  {
+    "AE_text": "Acute cerebral hemorrhage",
+    "true_llt_term": "Cerebral hemorrhage",
+    "pred_llt_term": "Cerebral circulatory disorder",
+    "exact_match": false,
+    "fuzzy_score": 54.0,
+    "fuzzy_match": false,
+    "true_llt_code": 10008114,
+    "pred_llt_code": 10083985,
+    "true_pt_code": 10008111,
+    "pred_pt_code": 10008196,
+    "true_soc_code": 10047065,
+    "pred_soc_code": 10029205,
+    "true_soc_code_primary": 10029205,
+    "true_pt_term": "Hirnblutung",
+    "pred_pt_term": "Zerebrovaskulaere Erkrankung",
+    "true_soc_term": "Gefaesserkrankungen",
+    "pred_soc_term": "Erkrankungen des Nervensystems",
+    "true_soc_term_primary": "Erkrankungen des Nervensystems",
+    "true_soc_codes_all": [
+      10029205
+    ],
+    "pred_soc_codes_all": [
+      10029205
+    ],
+    "pred_primary_soc_missing": false,
+    "true_primary_soc_missing": false,
+    "model_output": "Cerebral circulatory disorder"
+  },
+  {
+    "AE_text": "acute renal failure low eGFR",
+    "true_llt_term": "Acute kidney failure",
+    "pred_llt_term": "Kidney tubular necrosis",
+    "exact_match": false,
+    "fuzzy_score": 47.0,
+    "fuzzy_match": false,
+    "true_llt_code": 10000821,
+    "pred_llt_code": 10023441,
+    "true_pt_code": 10069339,
+    "pred_pt_code": 10038540,
+    "true_soc_code": 10038359,
+    "pred_soc_code": 10038359,
+    "true_soc_code_primary": 10038359,
+    "true_pt_term": "Akute Nierenschaedigung",
+    "pred_pt_term": "Nierentubulusnekrose",
+    "true_soc_term": "Erkrankungen der Nieren und Harnwege",
+    "pred_soc_term": "Erkrankungen der Nieren und Harnwege",
+    "true_soc_term_primary": "Erkrankungen der Nieren und Harnwege",
+    "true_soc_codes_all": [
+      10038359
+    ],
+    "pred_soc_codes_all": [
+      10038359
+    ],
+    "pred_primary_soc_missing": false,
+    "true_primary_soc_missing": false,
+    "model_output": "Kidney tubular necrosis"
+  },
+  {
+    "AE_text": "acute urinary stasis left kidney Grad II acute renal failure; creatinin increase; fever; pain",
+    "true_llt_term": "Acute kidney failure",
+    "pred_llt_term": "Acute renal failure",
+    "exact_match": false,
+    "fuzzy_score": 77.0,
+    "fuzzy_match": false,
+    "true_llt_code": 10000821,
+    "pred_llt_code": 10001041,
+    "true_pt_code": 10069339,
+    "pred_pt_code": 10069339,
+    "true_soc_code": 10038359,
+    "pred_soc_code": 10038359,
+    "true_soc_code_primary": 10038359,
+    "true_pt_term": "Akute Nierenschaedigung",
+    "pred_pt_term": "Akute Nierenschaedigung",
+    "true_soc_term": "Erkrankungen der Nieren und Harnwege",
+    "pred_soc_term": "Erkrankungen der Nieren und Harnwege",
+    "true_soc_term_primary": "Erkrankungen der Nieren und Harnwege",
+    "true_soc_codes_all": [
+      10038359
+    ],
+    "pred_soc_codes_all": [
+      10038359
+    ],
+    "pred_primary_soc_missing": false,
+    "true_primary_soc_missing": false,
+    "model_output": "Acute renal failure"
+  },
+  {
+    "AE_text": "Akutes Nierenversagen AKI 2 Â°",
+    "true_llt_term": "Acute kidney failure",
+    "pred_llt_term": "Acute kidney injury",
+    "exact_match": false,
+    "fuzzy_score": 82.0,
+    "fuzzy_match": false,
+    "true_llt_code": 10000821,
+    "pred_llt_code": 10069339,
+    "true_pt_code": 10069339,
+    "pred_pt_code": 10069339,
+    "true_soc_code": 10038359,
+    "pred_soc_code": 10038359,
+    "true_soc_code_primary": 10038359,
+    "true_pt_term": "Akute Nierenschaedigung",
+    "pred_pt_term": "Akute Nierenschaedigung",
+    "true_soc_term": "Erkrankungen der Nieren und Harnwege",
+    "pred_soc_term": "Erkrankungen der Nieren und Harnwege",
+    "true_soc_term_primary": "Erkrankungen der Nieren und Harnwege",
+    "true_soc_codes_all": [
+      10038359
+    ],
+    "pred_soc_codes_all": [
+      10038359
+    ],
+    "pred_primary_soc_missing": false,
+    "true_primary_soc_missing": false,
+    "model_output": "Acute kidney injury"
+  },
+  {
+    "AE_text": "Alanine Aminotransferase increased",
+    "true_llt_term": "Alanine aminotransferase increased",
+    "pred_llt_term": "Glutamic-pyruvate transaminase",
+    "exact_match": false,
+    "fuzzy_score": 38.0,
+    "fuzzy_match": false,
+    "true_llt_code": 10001551,
+    "pred_llt_code": 10018454,
+    "true_pt_code": 10001551,
+    "pred_pt_code": 10001546,
+    "true_soc_code": 10022891,
+    "pred_soc_code": 10022891,
+    "true_soc_code_primary": 10022891,
+    "true_pt_term": "Alaninaminotransferase erhoeht",
+    "pred_pt_term": "Alaninaminotransferase",
+    "true_soc_term": "Untersuchungen",
+    "pred_soc_term": "Untersuchungen",
+    "true_soc_term_primary": "Untersuchungen",
+    "true_soc_codes_all": [
+      10022891
+    ],
+    "pred_soc_codes_all": [
+      10022891
+    ],
+    "pred_primary_soc_missing": false,
+    "true_primary_soc_missing": false,
+    "model_output": "Glutamic-pyruvate transaminase"
+  },
+  {
+    "AE_text": "ALAT increased",
+    "true_llt_term": "Alanine aminotransferase increased",
+    "pred_llt_term": "ALAT increased",
+    "exact_match": false,
+    "fuzzy_score": 58.0,
+    "fuzzy_match": false,
+    "true_llt_code": 10001551,
+    "pred_llt_code": null,
+    "true_pt_code": 10001551,
+    "pred_pt_code": null,
+    "true_soc_code": 10022891,
+    "pred_soc_code": null,
+    "true_soc_code_primary": 10022891,
+    "true_pt_term": "Alaninaminotransferase erhoeht",
+    "pred_pt_term": null,
+    "true_soc_term": "Untersuchungen",
+    "pred_soc_term": null,
+    "true_soc_term_primary": "Untersuchungen",
+    "true_soc_codes_all": [
+      10022891
+    ],
+    "pred_soc_codes_all": [],
+    "pred_primary_soc_missing": false,
+    "true_primary_soc_missing": false,
+    "model_output": "ALAT increased"
+  },
+  {
+    "AE_text": "Alkaline phoshatase increased",
+    "true_llt_term": "Alkaline phosphatase increased",
+    "pred_llt_term": "Alkaline phosphatase increased",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_llt_code": 10001675,
+    "pred_llt_code": 10001675,
+    "true_pt_code": 10059570,
+    "pred_pt_code": 10059570,
+    "true_soc_code": 10022891,
+    "pred_soc_code": 10022891,
+    "true_soc_code_primary": 10022891,
+    "true_pt_term": "Alkalische Phosphatase im Blut erhoeht",
+    "pred_pt_term": "Alkalische Phosphatase im Blut erhoeht",
+    "true_soc_term": "Untersuchungen",
+    "pred_soc_term": "Untersuchungen",
+    "true_soc_term_primary": "Untersuchungen",
+    "true_soc_codes_all": [
+      10022891
+    ],
+    "pred_soc_codes_all": [
+      10022891
+    ],
+    "pred_primary_soc_missing": false,
+    "true_primary_soc_missing": false,
+    "model_output": "Alkaline phosphatase increased"
+  },
+  {
+    "AE_text": "alkaline phosphatase increased",
+    "true_llt_term": "Alkaline phosphatase increased",
+    "pred_llt_term": "Blood alkaline phosphatase increased",
+    "exact_match": false,
+    "fuzzy_score": 91.0,
+    "fuzzy_match": true,
+    "true_llt_code": 10001675,
+    "pred_llt_code": 10059570,
+    "true_pt_code": 10059570,
+    "pred_pt_code": 10059570,
+    "true_soc_code": 10022891,
+    "pred_soc_code": 10022891,
+    "true_soc_code_primary": 10022891,
+    "true_pt_term": "Alkalische Phosphatase im Blut erhoeht",
+    "pred_pt_term": "Alkalische Phosphatase im Blut erhoeht",
+    "true_soc_term": "Untersuchungen",
+    "pred_soc_term": "Untersuchungen",
+    "true_soc_term_primary": "Untersuchungen",
+    "true_soc_codes_all": [
+      10022891
+    ],
+    "pred_soc_codes_all": [
+      10022891
+    ],
+    "pred_primary_soc_missing": false,
+    "true_primary_soc_missing": false,
+    "model_output": "Blood alkaline phosphatase increased"
+  },
+  {
+    "AE_text": "allergic reaction",
+    "true_llt_term": "Allergic reaction",
+    "pred_llt_term": "Urtication",
+    "exact_match": false,
+    "fuzzy_score": 59.0,
+    "fuzzy_match": false,
+    "true_llt_code": 10001718,
+    "pred_llt_code": 10046761,
+    "true_pt_code": 10020751,
+    "pred_pt_code": 10046735,
+    "true_soc_code": 10021428,
+    "pred_soc_code": 10021428,
+    "true_soc_code_primary": 10021428,
+    "true_pt_term": "Ueberempfindlichkeit",
+    "pred_pt_term": "Urtikaria",
+    "true_soc_term": "Erkrankungen des Immunsystems",
+    "pred_soc_term": "Erkrankungen des Immunsystems",
+    "true_soc_term_primary": "Erkrankungen des Immunsystems",
+    "true_soc_codes_all": [
+      10021428
+    ],
+    "pred_soc_codes_all": [
+      10021428
+    ],
+    "pred_primary_soc_missing": false,
+    "true_primary_soc_missing": false,
+    "model_output": "Urtication"
+  },
+  {
+    "AE_text": "allergic reaction to transfusion of platelet concentrate",
+    "true_llt_term": "Allergic transfusion reaction",
+    "pred_llt_term": "Allergic rhinoconjunctivitis",
+    "exact_match": false,
+    "fuzzy_score": 56.0,
+    "fuzzy_match": false,
+    "true_llt_code": 10066173,
+    "pred_llt_code": 10001728,
+    "true_pt_code": 10066173,
+    "pred_pt_code": 10010744,
+    "true_soc_code": 10022117,
+    "pred_soc_code": null,
+    "true_soc_code_primary": 10021428,
+    "true_pt_term": "Allergische Transfusionsreaktion",
+    "pred_pt_term": null,
+    "true_soc_term": "Verletzung",
+    "pred_soc_term": null,
+    "true_soc_term_primary": "Erkrankungen des Immunsystems",
+    "true_soc_codes_all": [
+      10021428
+    ],
+    "pred_soc_codes_all": [],
+    "pred_primary_soc_missing": true,
+    "true_primary_soc_missing": false,
+    "model_output": "Allergic rhinoconjunctivitis"
+  },
+  {
+    "AE_text": "Allergic reaction transfusion of platelets Treatment: tavegil i.v.",
+    "true_llt_term": "Allergic transfusion reaction",
+    "pred_llt_term": "Allergic reaction",
+    "exact_match": false,
+    "fuzzy_score": 74.0,
+    "fuzzy_match": false,
+    "true_llt_code": 10066173,
+    "pred_llt_code": 10001718,
+    "true_pt_code": 10066173,
+    "pred_pt_code": 10020751,
+    "true_soc_code": 10022117,
+    "pred_soc_code": 10021428,
+    "true_soc_code_primary": 10021428,
+    "true_pt_term": "Allergische Transfusionsreaktion",
+    "pred_pt_term": "Ueberempfindlichkeit",
+    "true_soc_term": "Verletzung",
+    "pred_soc_term": "Erkrankungen des Immunsystems",
+    "true_soc_term_primary": "Erkrankungen des Immunsystems",
+    "true_soc_codes_all": [
+      10021428
+    ],
+    "pred_soc_codes_all": [
+      10021428
+    ],
+    "pred_primary_soc_missing": false,
+    "true_primary_soc_missing": false,
+    "model_output": "Allergic reaction"
+  },
+  {
+    "AE_text": "allergic transfusion reaction rash after blood transfusion",
+    "true_llt_term": "Allergic transfusion reaction",
+    "pred_llt_term": "Hypersensitivity NOS",
+    "exact_match": false,
+    "fuzzy_score": 33.0,
+    "fuzzy_match": false,
+    "true_llt_code": 10066173,
+    "pred_llt_code": 10020755,
+    "true_pt_code": 10066173,
+    "pred_pt_code": 10020751,
+    "true_soc_code": 10022117,
+    "pred_soc_code": 10021428,
+    "true_soc_code_primary": 10021428,
+    "true_pt_term": "Allergische Transfusionsreaktion",
+    "pred_pt_term": "Ueberempfindlichkeit",
+    "true_soc_term": "Verletzung",
+    "pred_soc_term": "Erkrankungen des Immunsystems",
+    "true_soc_term_primary": "Erkrankungen des Immunsystems",
+    "true_soc_codes_all": [
+      10021428
+    ],
+    "pred_soc_codes_all": [
+      10021428
+    ],
+    "pred_primary_soc_missing": false,
+    "true_primary_soc_missing": false,
+    "model_output": "Hypersensitivity NOS"
+  },
+  {
+    "AE_text": "alopecia",
+    "true_llt_term": "Alopecia",
+    "pred_llt_term": "Alopecia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_llt_code": 10001760,
+    "pred_llt_code": 10001760,
+    "true_pt_code": 10001760,
+    "pred_pt_code": 10001760,
+    "true_soc_code": 10040785,
+    "pred_soc_code": 10040785,
+    "true_soc_code_primary": 10040785,
+    "true_pt_term": "Alopezie",
+    "pred_pt_term": "Alopezie",
+    "true_soc_term": "Erkrankungen der Haut und des Unterhautgewebes",
+    "pred_soc_term": "Erkrankungen der Haut und des Unterhautgewebes",
+    "true_soc_term_primary": "Erkrankungen der Haut und des Unterhautgewebes",
+    "true_soc_codes_all": [
+      10040785
+    ],
+    "pred_soc_codes_all": [
+      10040785
+    ],
+    "pred_primary_soc_missing": false,
+    "true_primary_soc_missing": false,
+    "model_output": "Alopecia"
+  },
+  {
+    "AE_text": "Anemia",
+    "true_llt_term": "Anemia",
+    "pred_llt_term": "Anemia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_llt_code": 10002272,
+    "pred_llt_code": 10002272,
+    "true_pt_code": 10002034,
+    "pred_pt_code": 10002034,
+    "true_soc_code": 10005329,
+    "pred_soc_code": 10005329,
+    "true_soc_code_primary": 10005329,
+    "true_pt_term": "Anaemie",
+    "pred_pt_term": "Anaemie",
+    "true_soc_term": "Erkrankungen des Blutes und des Lymphsystems",
+    "pred_soc_term": "Erkrankungen des Blutes und des Lymphsystems",
+    "true_soc_term_primary": "Erkrankungen des Blutes und des Lymphsystems",
+    "true_soc_codes_all": [
+      10005329
+    ],
+    "pred_soc_codes_all": [
+      10005329
+    ],
+    "pred_primary_soc_missing": false,
+    "true_primary_soc_missing": false,
+    "model_output": "Anemia"
+  },
+  {
+    "AE_text": "anemia",
+    "true_llt_term": "Anemia",
+    "pred_llt_term": "Anemia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_llt_code": 10002272,
+    "pred_llt_code": 10002272,
+    "true_pt_code": 10002034,
+    "pred_pt_code": 10002034,
+    "true_soc_code": 10005329,
+    "pred_soc_code": 10005329,
+    "true_soc_code_primary": 10005329,
+    "true_pt_term": "Anaemie",
+    "pred_pt_term": "Anaemie",
+    "true_soc_term": "Erkrankungen des Blutes und des Lymphsystems",
+    "pred_soc_term": "Erkrankungen des Blutes und des Lymphsystems",
+    "true_soc_term_primary": "Erkrankungen des Blutes und des Lymphsystems",
+    "true_soc_codes_all": [
+      10005329
+    ],
+    "pred_soc_codes_all": [
+      10005329
+    ],
+    "pred_primary_soc_missing": false,
+    "true_primary_soc_missing": false,
+    "model_output": "Anemia"
+  },
+  {
+    "AE_text": "anemia anemia",
+    "true_llt_term": "Anemia",
+    "pred_llt_term": "Anemia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_llt_code": 10002272,
+    "pred_llt_code": 10002272,
+    "true_pt_code": 10002034,
+    "pred_pt_code": 10002034,
+    "true_soc_code": 10005329,
+    "pred_soc_code": 10005329,
+    "true_soc_code_primary": 10005329,
+    "true_pt_term": "Anaemie",
+    "pred_pt_term": "Anaemie",
+    "true_soc_term": "Erkrankungen des Blutes und des Lymphsystems",
+    "pred_soc_term": "Erkrankungen des Blutes und des Lymphsystems",
+    "true_soc_term_primary": "Erkrankungen des Blutes und des Lymphsystems",
+    "true_soc_codes_all": [
+      10005329
+    ],
+    "pred_soc_codes_all": [
+      10005329
+    ],
+    "pred_primary_soc_missing": false,
+    "true_primary_soc_missing": false,
+    "model_output": "Anemia"
+  },
+  {
+    "AE_text": "Bilirubin Erhoehung",
+    "true_llt_term": "Blood bilirubin increased",
+    "pred_llt_term": "Bilirubin increased",
+    "exact_match": false,
+    "fuzzy_score": 86.0,
+    "fuzzy_match": false,
+    "true_llt_code": 10005364,
+    "pred_llt_code": 10004690,
+    "true_pt_code": 10005364,
+    "pred_pt_code": 10005364,
+    "true_soc_code": 10022891,
+    "pred_soc_code": 10022891,
+    "true_soc_code_primary": 10022891,
+    "true_pt_term": "Bilirubin im Blut erhoeht",
+    "pred_pt_term": "Bilirubin im Blut erhoeht",
+    "true_soc_term": "Untersuchungen",
+    "pred_soc_term": "Untersuchungen",
+    "true_soc_term_primary": "Untersuchungen",
+    "true_soc_codes_all": [
+      10022891
+    ],
+    "pred_soc_codes_all": [
+      10022891
+    ],
+    "pred_primary_soc_missing": false,
+    "true_primary_soc_missing": false,
+    "model_output": "Bilirubin increased"
+  },
+  {
+    "AE_text": "blood bilirubin increased",
+    "true_llt_term": "Blood bilirubin increased",
+    "pred_llt_term": "Elevated liver enzyme levels",
+    "exact_match": false,
+    "fuzzy_score": 15.0,
+    "fuzzy_match": false,
+    "true_llt_code": 10005364,
+    "pred_llt_code": 10014480,
+    "true_pt_code": 10005364,
+    "pred_pt_code": 10060795,
+    "true_soc_code": 10022891,
+    "pred_soc_code": 10022891,
+    "true_soc_code_primary": 10022891,
+    "true_pt_term": "Bilirubin im Blut erhoeht",
+    "pred_pt_term": "Leberenzym erhoeht",
+    "true_soc_term": "Untersuchungen",
+    "pred_soc_term": "Untersuchungen",
+    "true_soc_term_primary": "Untersuchungen",
+    "true_soc_codes_all": [
+      10022891
+    ],
+    "pred_soc_codes_all": [
+      10022891
+    ],
+    "pred_primary_soc_missing": false,
+    "true_primary_soc_missing": false,
+    "model_output": "Elevated liver enzyme levels"
+  }
+]
