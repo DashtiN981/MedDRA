@@ -21,7 +21,7 @@ OUT_JSON     = "/home/naghmedashti/MedDRA-LLM/Baseline_LLM_Models/Mosaic_output_
 
 # OpenAI-compatible API client
 client = OpenAI(
-    api_key="sk-BEYOnuDXHm5OcYLc5xKX6w",
+    api_key="sk-aKGeEFMZB0gXEcE51FTc0A",
     base_url="http://pluto/v1/"
 )
 
@@ -132,7 +132,7 @@ if not pt_code_to_term and pt_code_to_term_from_llt:
 # Params
 # ===========================
 N_CANDIDATES = 100  # Number of Top-K LLTs shown to the model
-MAX_ROWS = 20       # Number of AE samples for demo
+MAX_ROWS = None       # Number of AE samples for demo
 SLEEP_SEC = 1.0
 results = []
 
@@ -344,21 +344,27 @@ if has_pt_in_llt:
 else:
     print("\nPT Accuracy (code): N/A (LLT file has no PT_Code column)")
 
-# SOC accuracy (primary vs AE ground-truth)
+# SOC accuracy (primary vs AE ground-truth)  --> Option A
 soc_pairs_ae = _both_present([(r.get("true_soc_code"), r.get("pred_soc_code")) for r in results])
 if soc_pairs_ae:
     soc_acc_vs_ae = sum(int(a == b) for a, b in soc_pairs_ae) / len(soc_pairs_ae)
     print(f"SOC Accuracy (primary vs AE): {soc_acc_vs_ae:.4f} (over {len(soc_pairs_ae)} rows)")
+    # explicit Option A label (added without removing original)
+    print(f"SOC Accuracy (Option A):      {soc_acc_vs_ae:.4f} (over {len(soc_pairs_ae)} rows)")
 else:
     print("SOC Accuracy (primary vs AE): N/A")
+    print("SOC Accuracy (Option A):      N/A")
 
-# SOC accuracy (primary vs true primary mapping)
+# SOC accuracy (primary vs true primary mapping)  --> Option B
 soc_pairs_primary = _both_present([(r.get("true_soc_code_primary"), r.get("pred_soc_code")) for r in results])
 if soc_pairs_primary:
     soc_acc_vs_true_primary = sum(int(a == b) for a, b in soc_pairs_primary) / len(soc_pairs_primary)
     print(f"SOC Accuracy (primary vs true primary): {soc_acc_vs_true_primary:.4f} (over {len(soc_pairs_primary)} rows)")
+    # explicit Option B label (added without removing original)
+    print(f"SOC Accuracy (Option B):                {soc_acc_vs_true_primary:.4f} (over {len(soc_pairs_primary)} rows)")
 else:
     print("SOC Accuracy (primary vs true primary): N/A")
+    print("SOC Accuracy (Option B):                N/A")
 
 # SOC accuracy (any-of vs AE): true AE SOC is within set of all SOCs of predicted PT
 soc_any = []
