@@ -118,31 +118,29 @@
   {
     "AE_text": "acute urinary stasis left kidney Grad II acute renal failure; creatinin increase; fever; pain",
     "true_llt_term": "Acute kidney failure",
-    "pred_llt_term": "Acute renal failure",
+    "pred_llt_term": "Acute renal failure; creatinin increase; fever; pain",
     "exact_match": false,
-    "fuzzy_score": 77.0,
+    "fuzzy_score": 42.0,
     "fuzzy_match": false,
     "true_llt_code": 10000821,
-    "pred_llt_code": 10001041,
+    "pred_llt_code": null,
     "true_pt_code": 10069339,
-    "pred_pt_code": 10069339,
+    "pred_pt_code": null,
     "true_soc_code": 10038359,
-    "pred_soc_code": 10038359,
+    "pred_soc_code": null,
     "true_soc_code_primary": 10038359,
     "true_pt_term": "Akute Nierenschaedigung",
-    "pred_pt_term": "Akute Nierenschaedigung",
+    "pred_pt_term": null,
     "true_soc_term": "Erkrankungen der Nieren und Harnwege",
-    "pred_soc_term": "Erkrankungen der Nieren und Harnwege",
+    "pred_soc_term": null,
     "true_soc_term_primary": "Erkrankungen der Nieren und Harnwege",
     "true_soc_codes_all": [
       10038359
     ],
-    "pred_soc_codes_all": [
-      10038359
-    ],
+    "pred_soc_codes_all": [],
     "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
-    "model_output": "Acute renal failure"
+    "model_output": "Acute renal failure; creatinin increase; fever; pain"
   },
   {
     "AE_text": "Akutes Nierenversagen AKI 2 Â°",
@@ -261,12 +259,12 @@
   {
     "AE_text": "alkaline phosphatase increased",
     "true_llt_term": "Alkaline phosphatase increased",
-    "pred_llt_term": "Blood alkaline phosphatase increased",
-    "exact_match": false,
-    "fuzzy_score": 91.0,
+    "pred_llt_term": "Alkaline phosphatase increased",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
     "fuzzy_match": true,
     "true_llt_code": 10001675,
-    "pred_llt_code": 10059570,
+    "pred_llt_code": 10001675,
     "true_pt_code": 10059570,
     "pred_pt_code": 10059570,
     "true_soc_code": 10022891,
@@ -285,7 +283,7 @@
     ],
     "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
-    "model_output": "Blood alkaline phosphatase increased"
+    "model_output": "Alkaline phosphatase increased"
   },
   {
     "AE_text": "allergic reaction",
@@ -299,12 +297,12 @@
     "true_pt_code": 10020751,
     "pred_pt_code": 10046735,
     "true_soc_code": 10021428,
-    "pred_soc_code": 10021428,
+    "pred_soc_code": 10040785,
     "true_soc_code_primary": 10021428,
     "true_pt_term": "Ueberempfindlichkeit",
     "pred_pt_term": "Urtikaria",
     "true_soc_term": "Erkrankungen des Immunsystems",
-    "pred_soc_term": "Erkrankungen des Immunsystems",
+    "pred_soc_term": "Erkrankungen der Haut und des Unterhautgewebes",
     "true_soc_term_primary": "Erkrankungen des Immunsystems",
     "true_soc_codes_all": [
       10021428
@@ -319,29 +317,29 @@
   {
     "AE_text": "allergic reaction to transfusion of platelet concentrate",
     "true_llt_term": "Allergic transfusion reaction",
-    "pred_llt_term": "Allergic rhinoconjunctivitis",
+    "pred_llt_term": "The best choice",
     "exact_match": false,
-    "fuzzy_score": 56.0,
+    "fuzzy_score": 18.0,
     "fuzzy_match": false,
     "true_llt_code": 10066173,
-    "pred_llt_code": 10001728,
+    "pred_llt_code": null,
     "true_pt_code": 10066173,
-    "pred_pt_code": 10010744,
+    "pred_pt_code": null,
     "true_soc_code": 10022117,
     "pred_soc_code": null,
-    "true_soc_code_primary": 10021428,
+    "true_soc_code_primary": 10022117,
     "true_pt_term": "Allergische Transfusionsreaktion",
     "pred_pt_term": null,
     "true_soc_term": "Verletzung",
     "pred_soc_term": null,
-    "true_soc_term_primary": "Erkrankungen des Immunsystems",
+    "true_soc_term_primary": "Verletzung",
     "true_soc_codes_all": [
       10021428
     ],
     "pred_soc_codes_all": [],
-    "pred_primary_soc_missing": true,
+    "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
-    "model_output": "Allergic rhinoconjunctivitis"
+    "model_output": "Allergic reaction to transfusion of platelet concentrate is best described by the term \"Infusion site oedema\" is not the best choice, a better choice would be \"Allergic rhinoconjunctivitis\" is also not the best choice, the best choice would be \"Allergic reaction\" which is not in the list, however \"Allergic rhinoconjunctivitis\" has \"allergic\" in it, but it is not the best choice. \nThe best choice"
   },
   {
     "AE_text": "Allergic reaction transfusion of platelets Treatment: tavegil i.v.",
@@ -356,12 +354,12 @@
     "pred_pt_code": 10020751,
     "true_soc_code": 10022117,
     "pred_soc_code": 10021428,
-    "true_soc_code_primary": 10021428,
+    "true_soc_code_primary": 10022117,
     "true_pt_term": "Allergische Transfusionsreaktion",
     "pred_pt_term": "Ueberempfindlichkeit",
     "true_soc_term": "Verletzung",
     "pred_soc_term": "Erkrankungen des Immunsystems",
-    "true_soc_term_primary": "Erkrankungen des Immunsystems",
+    "true_soc_term_primary": "Verletzung",
     "true_soc_codes_all": [
       10021428
     ],
@@ -375,31 +373,29 @@
   {
     "AE_text": "allergic transfusion reaction rash after blood transfusion",
     "true_llt_term": "Allergic transfusion reaction",
-    "pred_llt_term": "Hypersensitivity NOS",
+    "pred_llt_term": "Generalised raised red spots trunk",
     "exact_match": false,
-    "fuzzy_score": 33.0,
+    "fuzzy_score": 38.0,
     "fuzzy_match": false,
     "true_llt_code": 10066173,
-    "pred_llt_code": 10020755,
+    "pred_llt_code": 10018094,
     "true_pt_code": 10066173,
-    "pred_pt_code": 10020751,
+    "pred_pt_code": 10037876,
     "true_soc_code": 10022117,
-    "pred_soc_code": 10021428,
-    "true_soc_code_primary": 10021428,
+    "pred_soc_code": null,
+    "true_soc_code_primary": 10022117,
     "true_pt_term": "Allergische Transfusionsreaktion",
-    "pred_pt_term": "Ueberempfindlichkeit",
+    "pred_pt_term": null,
     "true_soc_term": "Verletzung",
-    "pred_soc_term": "Erkrankungen des Immunsystems",
-    "true_soc_term_primary": "Erkrankungen des Immunsystems",
+    "pred_soc_term": null,
+    "true_soc_term_primary": "Verletzung",
     "true_soc_codes_all": [
       10021428
     ],
-    "pred_soc_codes_all": [
-      10021428
-    ],
-    "pred_primary_soc_missing": false,
+    "pred_soc_codes_all": [],
+    "pred_primary_soc_missing": true,
     "true_primary_soc_missing": false,
-    "model_output": "Hypersensitivity NOS"
+    "model_output": "Generalised raised red spots trunk"
   },
   {
     "AE_text": "alopecia",
