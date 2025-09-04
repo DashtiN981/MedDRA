@@ -31,12 +31,12 @@
   {
     "AE_text": "Abdominal pain",
     "true_llt_term": "Abdominal pain",
-    "pred_llt_term": "Abdominal pain",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
-    "fuzzy_match": true,
+    "pred_llt_term": "Abdominal pain NOS",
+    "exact_match": false,
+    "fuzzy_score": 87.5,
+    "fuzzy_match": false,
     "true_llt_code": 10000081,
-    "pred_llt_code": 10000081,
+    "pred_llt_code": 10000085,
     "true_pt_code": 10000081,
     "pred_pt_code": 10000081,
     "true_soc_code": 10017947,
@@ -55,7 +55,7 @@
     ],
     "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
-    "model_output": "Abdominal pain"
+    "model_output": "Abdominal pain NOS"
   },
   {
     "AE_text": "Acute cerebral hemorrhage",
@@ -91,12 +91,12 @@
   {
     "AE_text": "acute renal failure low eGFR",
     "true_llt_term": "Acute kidney failure",
-    "pred_llt_term": "Acute renal failure",
-    "exact_match": false,
-    "fuzzy_score": 76.92307692307692,
-    "fuzzy_match": false,
+    "pred_llt_term": "Acute kidney failure",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
     "true_llt_code": 10000821,
-    "pred_llt_code": 10001041,
+    "pred_llt_code": 10000821,
     "true_pt_code": 10069339,
     "pred_pt_code": 10069339,
     "true_soc_code": 10038359,
@@ -115,7 +115,7 @@
     ],
     "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
-    "model_output": "Acute renal failure"
+    "model_output": "Acute kidney failure"
   },
   {
     "AE_text": "acute urinary stasis left kidney Grad II acute renal failure; creatinin increase; fever; pain",
@@ -474,12 +474,12 @@
   {
     "AE_text": "anemia",
     "true_llt_term": "Anemia",
-    "pred_llt_term": "Anemia",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
-    "fuzzy_match": true,
+    "pred_llt_term": "Unspecified anemia",
+    "exact_match": false,
+    "fuzzy_score": 50.0,
+    "fuzzy_match": false,
     "true_llt_code": 10002272,
-    "pred_llt_code": 10002272,
+    "pred_llt_code": 10045627,
     "true_pt_code": 10002034,
     "pred_pt_code": 10002034,
     "true_soc_code": 10005329,
@@ -498,7 +498,7 @@
     ],
     "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
-    "model_output": "Anemia"
+    "model_output": "Unspecified anemia"
   },
   {
     "AE_text": "anemia anemia",
@@ -682,12 +682,12 @@
   {
     "AE_text": "Constipation",
     "true_llt_term": "Constipation",
-    "pred_llt_term": "Constipation",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
-    "fuzzy_match": true,
+    "pred_llt_term": "Constipation (excl faecal impaction)",
+    "exact_match": false,
+    "fuzzy_score": 50.0,
+    "fuzzy_match": false,
     "true_llt_code": 10010774,
-    "pred_llt_code": 10010774,
+    "pred_llt_code": 10010775,
     "true_pt_code": 10010774,
     "pred_pt_code": 10010774,
     "true_soc_code": 10017947,
@@ -706,7 +706,7 @@
     ],
     "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
-    "model_output": "Constipation"
+    "model_output": "Constipation (excl faecal impaction)"
   },
   {
     "AE_text": "constipation",
@@ -740,12 +740,12 @@
   {
     "AE_text": "Constipation Obstipation",
     "true_llt_term": "Constipation",
-    "pred_llt_term": "Obstipation",
-    "exact_match": false,
-    "fuzzy_score": 86.95652173913044,
-    "fuzzy_match": false,
+    "pred_llt_term": "Constipation",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
     "true_llt_code": 10010774,
-    "pred_llt_code": 10029932,
+    "pred_llt_code": 10010774,
     "true_pt_code": 10010774,
     "pred_pt_code": 10010774,
     "true_soc_code": 10017947,
@@ -764,7 +764,7 @@
     ],
     "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
-    "model_output": "Obstipation"
+    "model_output": "Constipation"
   },
   {
     "AE_text": "coprostasis Koprostase",
@@ -914,19 +914,19 @@
   {
     "AE_text": "crampy upper abdominal pain crampy upper abdominal pain",
     "true_llt_term": "Abdominal crampy pains",
-    "pred_llt_term": "Upper abdominal pain",
-    "exact_match": false,
-    "fuzzy_score": 66.66666666666667,
-    "fuzzy_match": false,
+    "pred_llt_term": "Abdominal crampy pains",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
     "true_llt_code": 10000058,
-    "pred_llt_code": 10046272,
+    "pred_llt_code": 10000058,
     "true_pt_code": 10000081,
-    "pred_pt_code": 10000087,
+    "pred_pt_code": 10000081,
     "true_soc_code": 10017947,
     "pred_soc_code": 10017947,
     "true_soc_code_primary": 10017947,
     "true_pt_term": "Abdominalschmerz",
-    "pred_pt_term": "Schmerzen Oberbauch",
+    "pred_pt_term": "Abdominalschmerz",
     "true_soc_term": "Erkrankungen des Gastrointestinaltrakts",
     "pred_soc_term": "Erkrankungen des Gastrointestinaltrakts",
     "true_soc_term_primary": "Erkrankungen des Gastrointestinaltrakts",
@@ -938,7 +938,7 @@
     ],
     "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
-    "model_output": "Upper abdominal pain"
+    "model_output": "Abdominal crampy pains"
   },
   {
     "AE_text": "creatinin increased",
@@ -1088,19 +1088,19 @@
   {
     "AE_text": "depressive mood in relation to situation with new diagnostic AML",
     "true_llt_term": "Depressive disorder",
-    "pred_llt_term": "Depressive disorder",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
-    "fuzzy_match": true,
+    "pred_llt_term": "Adjustment disorder with depressed mood",
+    "exact_match": false,
+    "fuzzy_score": 41.379310344827594,
+    "fuzzy_match": false,
     "true_llt_code": 10012399,
-    "pred_llt_code": 10012399,
+    "pred_llt_code": 10001297,
     "true_pt_code": 10012378,
-    "pred_pt_code": 10012378,
+    "pred_pt_code": 10001297,
     "true_soc_code": 10037175,
     "pred_soc_code": 10037175,
     "true_soc_code_primary": 10037175,
     "true_pt_term": "Depression",
-    "pred_pt_term": "Depression",
+    "pred_pt_term": "Anpassungsstoerung mit depressiver Verstimmung",
     "true_soc_term": "Psychiatrische Erkrankungen",
     "pred_soc_term": "Psychiatrische Erkrankungen",
     "true_soc_term_primary": "Psychiatrische Erkrankungen",
@@ -1112,39 +1112,10 @@
     ],
     "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
-    "model_output": "Depressive disorder"
+    "model_output": "Adjustment disorder with depressed mood"
   },
   {
     "AE_text": "diarrhea",
-    "true_llt_term": "Diarrhea",
-    "pred_llt_term": "Diarrhoea",
-    "exact_match": false,
-    "fuzzy_score": 94.11764705882352,
-    "fuzzy_match": true,
-    "true_llt_code": 10012727,
-    "pred_llt_code": 10012735,
-    "true_pt_code": 10012735,
-    "pred_pt_code": 10012735,
-    "true_soc_code": 10017947,
-    "pred_soc_code": 10017947,
-    "true_soc_code_primary": 10017947,
-    "true_pt_term": "Diarrhoe",
-    "pred_pt_term": "Diarrhoe",
-    "true_soc_term": "Erkrankungen des Gastrointestinaltrakts",
-    "pred_soc_term": "Erkrankungen des Gastrointestinaltrakts",
-    "true_soc_term_primary": "Erkrankungen des Gastrointestinaltrakts",
-    "true_soc_codes_all": [
-      10017947
-    ],
-    "pred_soc_codes_all": [
-      10017947
-    ],
-    "pred_primary_soc_missing": false,
-    "true_primary_soc_missing": false,
-    "model_output": "Diarrhoea"
-  },
-  {
-    "AE_text": "Diarrhea",
     "true_llt_term": "Diarrhea",
     "pred_llt_term": "Diarrhea",
     "exact_match": true,
@@ -1171,6 +1142,35 @@
     "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
     "model_output": "Diarrhea"
+  },
+  {
+    "AE_text": "Diarrhea",
+    "true_llt_term": "Diarrhea",
+    "pred_llt_term": "Diarrhoea",
+    "exact_match": false,
+    "fuzzy_score": 94.11764705882352,
+    "fuzzy_match": true,
+    "true_llt_code": 10012727,
+    "pred_llt_code": 10012735,
+    "true_pt_code": 10012735,
+    "pred_pt_code": 10012735,
+    "true_soc_code": 10017947,
+    "pred_soc_code": 10017947,
+    "true_soc_code_primary": 10017947,
+    "true_pt_term": "Diarrhoe",
+    "pred_pt_term": "Diarrhoe",
+    "true_soc_term": "Erkrankungen des Gastrointestinaltrakts",
+    "pred_soc_term": "Erkrankungen des Gastrointestinaltrakts",
+    "true_soc_term_primary": "Erkrankungen des Gastrointestinaltrakts",
+    "true_soc_codes_all": [
+      10017947
+    ],
+    "pred_soc_codes_all": [
+      10017947
+    ],
+    "pred_primary_soc_missing": false,
+    "true_primary_soc_missing": false,
+    "model_output": "Diarrhoea"
   },
   {
     "AE_text": "diarrhea Enteroviren in Stuhlprobe",
@@ -1206,12 +1206,12 @@
   {
     "AE_text": "diarrhoe",
     "true_llt_term": "Diarrhea",
-    "pred_llt_term": "Diarrhoea NOS",
+    "pred_llt_term": "Diarrhoea",
     "exact_match": false,
-    "fuzzy_score": 76.19047619047619,
-    "fuzzy_match": false,
+    "fuzzy_score": 94.11764705882352,
+    "fuzzy_match": true,
     "true_llt_code": 10012727,
-    "pred_llt_code": 10012745,
+    "pred_llt_code": 10012735,
     "true_pt_code": 10012735,
     "pred_pt_code": 10012735,
     "true_soc_code": 10017947,
@@ -1230,7 +1230,7 @@
     ],
     "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
-    "model_output": "Diarrhoea NOS"
+    "model_output": "Diarrhoea"
   },
   {
     "AE_text": "dry skin",
@@ -1295,12 +1295,12 @@
   {
     "AE_text": "Edema limbs Unterschenkeloedeme bds.",
     "true_llt_term": "Edema limbs",
-    "pred_llt_term": "Edema limbs",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
+    "pred_llt_term": "Oedema limbs",
+    "exact_match": false,
+    "fuzzy_score": 95.65217391304348,
     "fuzzy_match": true,
     "true_llt_code": 10050068,
-    "pred_llt_code": 10050068,
+    "pred_llt_code": 10060442,
     "true_pt_code": 10030124,
     "pred_pt_code": 10030124,
     "true_soc_code": 10018065,
@@ -1323,7 +1323,7 @@
     ],
     "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
-    "model_output": "Edema limbs"
+    "model_output": "Oedema limbs"
   },
   {
     "AE_text": "edema trunk oedeme ganzer Koerper",
@@ -1508,19 +1508,19 @@
   {
     "AE_text": "Eye disorders Hemorrhage eye (Hyposphagma rechts)",
     "true_llt_term": "Hyposphagma",
-    "pred_llt_term": "Hemorrhage eye",
-    "exact_match": false,
-    "fuzzy_score": 40.0,
-    "fuzzy_match": false,
+    "pred_llt_term": "Hyposphagma",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
     "true_llt_code": 10062689,
-    "pred_llt_code": 10019536,
+    "pred_llt_code": 10062689,
     "true_pt_code": 10010719,
-    "pred_pt_code": 10015926,
+    "pred_pt_code": 10010719,
     "true_soc_code": 10015919,
     "pred_soc_code": 10015919,
     "true_soc_code_primary": 10015919,
     "true_pt_term": "Bindehautblutung",
-    "pred_pt_term": "Augenblutung",
+    "pred_pt_term": "Bindehautblutung",
     "true_soc_term": "Augenerkrankungen",
     "pred_soc_term": "Augenerkrankungen",
     "true_soc_term_primary": "Augenerkrankungen",
@@ -1530,12 +1530,11 @@
     ],
     "pred_soc_codes_all": [
       10015919,
-      10022117,
       10047065
     ],
     "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
-    "model_output": "Hemorrhage eye"
+    "model_output": "Hyposphagma"
   },
   {
     "AE_text": "fatigue",
@@ -1908,12 +1907,12 @@
   {
     "AE_text": "febrile neutrpenie fever",
     "true_llt_term": "Febrile neutropenia",
-    "pred_llt_term": "Neutropenic fever",
-    "exact_match": false,
-    "fuzzy_score": 55.55555555555556,
-    "fuzzy_match": false,
+    "pred_llt_term": "Febrile neutropenia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
     "true_llt_code": 10016288,
-    "pred_llt_code": 10051312,
+    "pred_llt_code": 10016288,
     "true_pt_code": 10016288,
     "pred_pt_code": 10016288,
     "true_soc_code": 10005329,
@@ -1934,17 +1933,17 @@
     ],
     "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
-    "model_output": "Neutropenic fever"
+    "model_output": "Febrile neutropenia"
   },
   {
     "AE_text": "Fecal incontinence Stuhlinikontinenz",
     "true_llt_term": "Faecal incontinence",
-    "pred_llt_term": "Fecal incontinence",
-    "exact_match": false,
-    "fuzzy_score": 97.2972972972973,
+    "pred_llt_term": "Faecal incontinence",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
     "fuzzy_match": true,
     "true_llt_code": 10016092,
-    "pred_llt_code": 10016296,
+    "pred_llt_code": 10016092,
     "true_pt_code": 10077605,
     "pred_pt_code": 10077605,
     "true_soc_code": 10017947,
@@ -1965,7 +1964,7 @@
     ],
     "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
-    "model_output": "Fecal incontinence"
+    "model_output": "Faecal incontinence"
   },
   {
     "AE_text": "fever",
@@ -2175,12 +2174,12 @@
   {
     "AE_text": "gross hematuria",
     "true_llt_term": "Hematuria",
-    "pred_llt_term": "Macroscopic haematuria",
+    "pred_llt_term": "Macroscopic hematuria",
     "exact_match": false,
-    "fuzzy_score": 58.06451612903225,
+    "fuzzy_score": 60.0,
     "fuzzy_match": false,
     "true_llt_code": 10019450,
-    "pred_llt_code": 10059802,
+    "pred_llt_code": 10059823,
     "true_pt_code": 10018867,
     "pred_pt_code": 10018867,
     "true_soc_code": 10038359,
@@ -2203,7 +2202,7 @@
     ],
     "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
-    "model_output": "Macroscopic haematuria"
+    "model_output": "Macroscopic hematuria"
   },
   {
     "AE_text": "Harnwegsinfekt Nachweis von Klebsiella pneumonieae in Urinkultur.",
@@ -2326,12 +2325,12 @@
   {
     "AE_text": "hematoma abdomen",
     "true_llt_term": "Abdominal hematoma",
-    "pred_llt_term": "Abdominal hematoma",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
+    "pred_llt_term": "Abdominal haematoma",
+    "exact_match": false,
+    "fuzzy_score": 97.2972972972973,
     "fuzzy_match": true,
     "true_llt_code": 10054988,
-    "pred_llt_code": 10054988,
+    "pred_llt_code": 10054975,
     "true_pt_code": 10056457,
     "pred_pt_code": 10056457,
     "true_soc_code": 10047065,
@@ -2352,126 +2351,10 @@
     ],
     "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
-    "model_output": "Abdominal hematoma"
+    "model_output": "Abdominal haematoma"
   },
   {
     "AE_text": "hematoma left flank Transfusion given (platelets)",
-    "true_llt_term": "Hematoma NOS",
-    "pred_llt_term": "Retroperitoneal hematoma",
-    "exact_match": false,
-    "fuzzy_score": 44.44444444444444,
-    "fuzzy_match": false,
-    "true_llt_code": 10019434,
-    "pred_llt_code": 10058361,
-    "true_pt_code": 10018852,
-    "pred_pt_code": 10058360,
-    "true_soc_code": 10047065,
-    "pred_soc_code": 10017947,
-    "true_soc_code_primary": 10047065,
-    "true_pt_term": "Haematom",
-    "pred_pt_term": "Retroperitonealhaematom",
-    "true_soc_term": "Gefaesserkrankungen",
-    "pred_soc_term": "Erkrankungen des Gastrointestinaltrakts",
-    "true_soc_term_primary": "Gefaesserkrankungen",
-    "true_soc_codes_all": [
-      10047065
-    ],
-    "pred_soc_codes_all": [
-      10017947,
-      10047065
-    ],
-    "pred_primary_soc_missing": false,
-    "true_primary_soc_missing": false,
-    "model_output": "Retroperitoneal hematoma"
-  },
-  {
-    "AE_text": "hematoma left thigh",
-    "true_llt_term": "Abdominal hematoma",
-    "pred_llt_term": "Hematoma of soft tissue",
-    "exact_match": false,
-    "fuzzy_score": 39.02439024390244,
-    "fuzzy_match": false,
-    "true_llt_code": 10054988,
-    "pred_llt_code": null,
-    "true_pt_code": 10056457,
-    "pred_pt_code": null,
-    "true_soc_code": 10047065,
-    "pred_soc_code": null,
-    "true_soc_code_primary": 10017947,
-    "true_pt_term": "Intra-abdominales Haematom",
-    "pred_pt_term": null,
-    "true_soc_term": "Gefaesserkrankungen",
-    "pred_soc_term": null,
-    "true_soc_term_primary": "Erkrankungen des Gastrointestinaltrakts",
-    "true_soc_codes_all": [
-      10017947,
-      10047065
-    ],
-    "pred_soc_codes_all": [],
-    "pred_primary_soc_missing": false,
-    "true_primary_soc_missing": false,
-    "model_output": "Hematoma of soft tissue"
-  },
-  {
-    "AE_text": "hematoma right forearm",
-    "true_llt_term": "Hematoma NOS",
-    "pred_llt_term": "Hematoma",
-    "exact_match": false,
-    "fuzzy_score": 80.0,
-    "fuzzy_match": false,
-    "true_llt_code": 10019434,
-    "pred_llt_code": 10019428,
-    "true_pt_code": 10018852,
-    "pred_pt_code": 10018852,
-    "true_soc_code": 10047065,
-    "pred_soc_code": 10047065,
-    "true_soc_code_primary": 10047065,
-    "true_pt_term": "Haematom",
-    "pred_pt_term": "Haematom",
-    "true_soc_term": "Gefaesserkrankungen",
-    "pred_soc_term": "Gefaesserkrankungen",
-    "true_soc_term_primary": "Gefaesserkrankungen",
-    "true_soc_codes_all": [
-      10047065
-    ],
-    "pred_soc_codes_all": [
-      10047065
-    ],
-    "pred_primary_soc_missing": false,
-    "true_primary_soc_missing": false,
-    "model_output": "Hematoma"
-  },
-  {
-    "AE_text": "hematoma right shoulder/upperarm",
-    "true_llt_term": "Hematoma NOS",
-    "pred_llt_term": "Hematoma",
-    "exact_match": false,
-    "fuzzy_score": 80.0,
-    "fuzzy_match": false,
-    "true_llt_code": 10019434,
-    "pred_llt_code": 10019428,
-    "true_pt_code": 10018852,
-    "pred_pt_code": 10018852,
-    "true_soc_code": 10047065,
-    "pred_soc_code": 10047065,
-    "true_soc_code_primary": 10047065,
-    "true_pt_term": "Haematom",
-    "pred_pt_term": "Haematom",
-    "true_soc_term": "Gefaesserkrankungen",
-    "pred_soc_term": "Gefaesserkrankungen",
-    "true_soc_term_primary": "Gefaesserkrankungen",
-    "true_soc_codes_all": [
-      10047065
-    ],
-    "pred_soc_codes_all": [
-      10047065
-    ],
-    "pred_primary_soc_missing": false,
-    "true_primary_soc_missing": false,
-    "model_output": "Hematoma"
-  },
-  {
-    "AE_text": "hematoma upperarms",
     "true_llt_term": "Hematoma NOS",
     "pred_llt_term": "Hematoma NOS",
     "exact_match": true,
@@ -2500,14 +2383,135 @@
     "model_output": "Hematoma NOS"
   },
   {
+    "AE_text": "hematoma left thigh",
+    "true_llt_term": "Abdominal hematoma",
+    "pred_llt_term": "Vessel puncture site hematoma",
+    "exact_match": false,
+    "fuzzy_score": 42.553191489361694,
+    "fuzzy_match": false,
+    "true_llt_code": 10054988,
+    "pred_llt_code": 10065905,
+    "true_pt_code": 10056457,
+    "pred_pt_code": 10065902,
+    "true_soc_code": 10047065,
+    "pred_soc_code": 10018065,
+    "true_soc_code_primary": 10017947,
+    "true_pt_term": "Intra-abdominales Haematom",
+    "pred_pt_term": "Haematom an der Gefaesspunktionsstelle",
+    "true_soc_term": "Gefaesserkrankungen",
+    "pred_soc_term": "Allgemeine Erkrankungen und Beschwerden am Verabreichungsort",
+    "true_soc_term_primary": "Erkrankungen des Gastrointestinaltrakts",
+    "true_soc_codes_all": [
+      10017947,
+      10047065
+    ],
+    "pred_soc_codes_all": [
+      10018065,
+      10022117,
+      10047065
+    ],
+    "pred_primary_soc_missing": false,
+    "true_primary_soc_missing": false,
+    "model_output": "Vessel puncture site hematoma"
+  },
+  {
+    "AE_text": "hematoma right forearm",
+    "true_llt_term": "Hematoma NOS",
+    "pred_llt_term": "Haematoma NOS",
+    "exact_match": false,
+    "fuzzy_score": 96.0,
+    "fuzzy_match": true,
+    "true_llt_code": 10019434,
+    "pred_llt_code": 10018854,
+    "true_pt_code": 10018852,
+    "pred_pt_code": 10018852,
+    "true_soc_code": 10047065,
+    "pred_soc_code": 10047065,
+    "true_soc_code_primary": 10047065,
+    "true_pt_term": "Haematom",
+    "pred_pt_term": "Haematom",
+    "true_soc_term": "Gefaesserkrankungen",
+    "pred_soc_term": "Gefaesserkrankungen",
+    "true_soc_term_primary": "Gefaesserkrankungen",
+    "true_soc_codes_all": [
+      10047065
+    ],
+    "pred_soc_codes_all": [
+      10047065
+    ],
+    "pred_primary_soc_missing": false,
+    "true_primary_soc_missing": false,
+    "model_output": "Haematoma NOS"
+  },
+  {
+    "AE_text": "hematoma right shoulder/upperarm",
+    "true_llt_term": "Hematoma NOS",
+    "pred_llt_term": "Subcutaneous hematoma",
+    "exact_match": false,
+    "fuzzy_score": 48.484848484848484,
+    "fuzzy_match": false,
+    "true_llt_code": 10019434,
+    "pred_llt_code": 10042346,
+    "true_pt_code": 10018852,
+    "pred_pt_code": 10042345,
+    "true_soc_code": 10047065,
+    "pred_soc_code": 10022117,
+    "true_soc_code_primary": 10047065,
+    "true_pt_term": "Haematom",
+    "pred_pt_term": "Subkutanes Haematom",
+    "true_soc_term": "Gefaesserkrankungen",
+    "pred_soc_term": "Verletzung",
+    "true_soc_term_primary": "Gefaesserkrankungen",
+    "true_soc_codes_all": [
+      10047065
+    ],
+    "pred_soc_codes_all": [
+      10022117,
+      10040785,
+      10047065
+    ],
+    "pred_primary_soc_missing": false,
+    "true_primary_soc_missing": false,
+    "model_output": "Subcutaneous hematoma"
+  },
+  {
+    "AE_text": "hematoma upperarms",
+    "true_llt_term": "Hematoma NOS",
+    "pred_llt_term": "Hematoma",
+    "exact_match": false,
+    "fuzzy_score": 80.0,
+    "fuzzy_match": false,
+    "true_llt_code": 10019434,
+    "pred_llt_code": 10019428,
+    "true_pt_code": 10018852,
+    "pred_pt_code": 10018852,
+    "true_soc_code": 10047065,
+    "pred_soc_code": 10047065,
+    "true_soc_code_primary": 10047065,
+    "true_pt_term": "Haematom",
+    "pred_pt_term": "Haematom",
+    "true_soc_term": "Gefaesserkrankungen",
+    "pred_soc_term": "Gefaesserkrankungen",
+    "true_soc_term_primary": "Gefaesserkrankungen",
+    "true_soc_codes_all": [
+      10047065
+    ],
+    "pred_soc_codes_all": [
+      10047065
+    ],
+    "pred_primary_soc_missing": false,
+    "true_primary_soc_missing": false,
+    "model_output": "Hematoma"
+  },
+  {
     "AE_text": "hematuria blutiger Urin",
     "true_llt_term": "Hematuria",
-    "pred_llt_term": "Hematuria",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
+    "pred_llt_term": "Haematuria",
+    "exact_match": false,
+    "fuzzy_score": 94.73684210526316,
     "fuzzy_match": true,
     "true_llt_code": 10019450,
-    "pred_llt_code": 10019450,
+    "pred_llt_code": 10018867,
     "true_pt_code": 10018867,
     "pred_pt_code": 10018867,
     "true_soc_code": 10038359,
@@ -2530,7 +2534,7 @@
     ],
     "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
-    "model_output": "Hematuria"
+    "model_output": "Haematuria"
   },
   {
     "AE_text": "Hematuria gross hematuria",
@@ -2568,19 +2572,19 @@
   {
     "AE_text": "Hemorrhoids with pain",
     "true_llt_term": "Hemorrhoids",
-    "pred_llt_term": "Hemorrhoids",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
-    "fuzzy_match": true,
+    "pred_llt_term": "Anus pain",
+    "exact_match": false,
+    "fuzzy_score": 9.999999999999998,
+    "fuzzy_match": false,
     "true_llt_code": 10019611,
-    "pred_llt_code": 10019611,
+    "pred_llt_code": 10002854,
     "true_pt_code": 10019022,
-    "pred_pt_code": 10019022,
+    "pred_pt_code": 10036772,
     "true_soc_code": 10017947,
     "pred_soc_code": 10017947,
     "true_soc_code_primary": 10017947,
     "true_pt_term": "Haemorrhoiden",
-    "pred_pt_term": "Haemorrhoiden",
+    "pred_pt_term": "Proktalgie",
     "true_soc_term": "Erkrankungen des Gastrointestinaltrakts",
     "pred_soc_term": "Erkrankungen des Gastrointestinaltrakts",
     "true_soc_term_primary": "Erkrankungen des Gastrointestinaltrakts",
@@ -2589,12 +2593,11 @@
       10047065
     ],
     "pred_soc_codes_all": [
-      10017947,
-      10047065
+      10017947
     ],
     "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
-    "model_output": "Hemorrhoids"
+    "model_output": "Anus pain"
   },
   {
     "AE_text": "Herpes labialis Aciclovir i.v. given",
@@ -2690,12 +2693,12 @@
   {
     "AE_text": "Hot flashes starkes schwitzen",
     "true_llt_term": "Hot flashes",
-    "pred_llt_term": "Hot flushes NOS",
+    "pred_llt_term": "Hot flushes",
     "exact_match": false,
-    "fuzzy_score": 76.92307692307692,
-    "fuzzy_match": false,
+    "fuzzy_score": 90.9090909090909,
+    "fuzzy_match": true,
     "true_llt_code": 10020407,
-    "pred_llt_code": 10020413,
+    "pred_llt_code": 10020408,
     "true_pt_code": 10060800,
     "pred_pt_code": 10060800,
     "true_soc_code": 10047065,
@@ -2718,7 +2721,7 @@
     ],
     "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
-    "model_output": "Hot flushes NOS"
+    "model_output": "Hot flushes"
   },
   {
     "AE_text": "hyperglycaemia glucose over 160mg/dl",
@@ -2754,12 +2757,12 @@
   {
     "AE_text": "Hyperkalemia",
     "true_llt_term": "Hyperkalemia",
-    "pred_llt_term": "Hyperkalemia",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
+    "pred_llt_term": "Hyperkalaemia",
+    "exact_match": false,
+    "fuzzy_score": 96.0,
     "fuzzy_match": true,
     "true_llt_code": 10020647,
-    "pred_llt_code": 10020647,
+    "pred_llt_code": 10020646,
     "true_pt_code": 10020646,
     "pred_pt_code": 10020646,
     "true_soc_code": 10027433,
@@ -2778,17 +2781,17 @@
     ],
     "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
-    "model_output": "Hyperkalemia"
+    "model_output": "Hyperkalaemia"
   },
   {
     "AE_text": "hyperphosphatemia",
     "true_llt_term": "Hyperphosphatemia",
-    "pred_llt_term": "Hyperphosphataemia",
-    "exact_match": false,
-    "fuzzy_score": 97.14285714285714,
+    "pred_llt_term": "Hyperphosphatemia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
     "fuzzy_match": true,
     "true_llt_code": 10020712,
-    "pred_llt_code": 10020711,
+    "pred_llt_code": 10020712,
     "true_pt_code": 10020711,
     "pred_pt_code": 10020711,
     "true_soc_code": 10027433,
@@ -2803,7 +2806,7 @@
     "pred_soc_codes_all": [],
     "pred_primary_soc_missing": true,
     "true_primary_soc_missing": true,
-    "model_output": "Hyperphosphataemia"
+    "model_output": "Hyperphosphatemia"
   },
   {
     "AE_text": "Hypertension",
@@ -2895,40 +2898,11 @@
   {
     "AE_text": "hypokalemia",
     "true_llt_term": "Hypokalemia",
-    "pred_llt_term": "Hypokalemia",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
+    "pred_llt_term": "Hypokalaemia",
+    "exact_match": false,
+    "fuzzy_score": 95.65217391304348,
     "fuzzy_match": true,
     "true_llt_code": 10021018,
-    "pred_llt_code": 10021018,
-    "true_pt_code": 10021015,
-    "pred_pt_code": 10021015,
-    "true_soc_code": 10027433,
-    "pred_soc_code": 10027433,
-    "true_soc_code_primary": 10027433,
-    "true_pt_term": "Hypokaliaemie",
-    "pred_pt_term": "Hypokaliaemie",
-    "true_soc_term": "Stoffwechsel- und Ernaehrungsstoerungen",
-    "pred_soc_term": "Stoffwechsel- und Ernaehrungsstoerungen",
-    "true_soc_term_primary": "Stoffwechsel- und Ernaehrungsstoerungen",
-    "true_soc_codes_all": [
-      10027433
-    ],
-    "pred_soc_codes_all": [
-      10027433
-    ],
-    "pred_primary_soc_missing": false,
-    "true_primary_soc_missing": false,
-    "model_output": "Hypokalemia"
-  },
-  {
-    "AE_text": "Hypokalemia niedriger Kaliumwert",
-    "true_llt_term": "Hypokalaemia",
-    "pred_llt_term": "Hypokalaemia",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
-    "fuzzy_match": true,
-    "true_llt_code": 10021015,
     "pred_llt_code": 10021015,
     "true_pt_code": 10021015,
     "pred_pt_code": 10021015,
@@ -2949,6 +2923,35 @@
     "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
     "model_output": "Hypokalaemia"
+  },
+  {
+    "AE_text": "Hypokalemia niedriger Kaliumwert",
+    "true_llt_term": "Hypokalaemia",
+    "pred_llt_term": "Hypokalemia",
+    "exact_match": false,
+    "fuzzy_score": 95.65217391304348,
+    "fuzzy_match": true,
+    "true_llt_code": 10021015,
+    "pred_llt_code": 10021018,
+    "true_pt_code": 10021015,
+    "pred_pt_code": 10021015,
+    "true_soc_code": 10027433,
+    "pred_soc_code": 10027433,
+    "true_soc_code_primary": 10027433,
+    "true_pt_term": "Hypokaliaemie",
+    "pred_pt_term": "Hypokaliaemie",
+    "true_soc_term": "Stoffwechsel- und Ernaehrungsstoerungen",
+    "pred_soc_term": "Stoffwechsel- und Ernaehrungsstoerungen",
+    "true_soc_term_primary": "Stoffwechsel- und Ernaehrungsstoerungen",
+    "true_soc_codes_all": [
+      10027433
+    ],
+    "pred_soc_codes_all": [
+      10027433
+    ],
+    "pred_primary_soc_missing": false,
+    "true_primary_soc_missing": false,
+    "model_output": "Hypokalemia"
   },
   {
     "AE_text": "hypophosphatemia",
@@ -3574,12 +3577,12 @@
   {
     "AE_text": "lymphocyte count decreased",
     "true_llt_term": "Lymphocyte count decreased",
-    "pred_llt_term": "Absolute lymphocyte count decreased",
-    "exact_match": false,
-    "fuzzy_score": 85.24590163934427,
-    "fuzzy_match": false,
+    "pred_llt_term": "Lymphocyte count decreased",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
     "true_llt_code": 10025256,
-    "pred_llt_code": 10065395,
+    "pred_llt_code": 10025256,
     "true_pt_code": 10025256,
     "pred_pt_code": 10025256,
     "true_soc_code": 10022891,
@@ -3598,7 +3601,7 @@
     ],
     "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
-    "model_output": "Absolute lymphocyte count decreased"
+    "model_output": "Lymphocyte count decreased"
   },
   {
     "AE_text": "Menorrhagia Menorrhagia due to thrombocytopenia. Patient was treated with platelet concentrates and cyclokapron (20/Jun - 26/Jun/2023)",
@@ -3893,19 +3896,19 @@
   {
     "AE_text": "Nausea/Emesis Nausea/Emesis",
     "true_llt_term": "Nausea",
-    "pred_llt_term": "Emesis",
-    "exact_match": false,
-    "fuzzy_score": 16.666666666666664,
-    "fuzzy_match": false,
+    "pred_llt_term": "Nausea",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
     "true_llt_code": 10028813,
-    "pred_llt_code": 10014542,
+    "pred_llt_code": 10028813,
     "true_pt_code": 10028813,
-    "pred_pt_code": 10047700,
+    "pred_pt_code": 10028813,
     "true_soc_code": 10017947,
     "pred_soc_code": 10017947,
     "true_soc_code_primary": 10017947,
     "true_pt_term": "Uebelkeit",
-    "pred_pt_term": "Erbrechen",
+    "pred_pt_term": "Uebelkeit",
     "true_soc_term": "Erkrankungen des Gastrointestinaltrakts",
     "pred_soc_term": "Erkrankungen des Gastrointestinaltrakts",
     "true_soc_term_primary": "Erkrankungen des Gastrointestinaltrakts",
@@ -3917,7 +3920,7 @@
     ],
     "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
-    "model_output": "Emesis"
+    "model_output": "Nausea"
   },
   {
     "AE_text": "neutrope Colitits",
@@ -4220,12 +4223,12 @@
   {
     "AE_text": "pain stomach",
     "true_llt_term": "Pain stomach",
-    "pred_llt_term": "Pain stomach",
-    "exact_match": true,
-    "fuzzy_score": 100.0,
-    "fuzzy_match": true,
+    "pred_llt_term": "Stomach pain",
+    "exact_match": false,
+    "fuzzy_score": 58.33333333333333,
+    "fuzzy_match": false,
     "true_llt_code": 10033492,
-    "pred_llt_code": 10033492,
+    "pred_llt_code": 10042112,
     "true_pt_code": 10000087,
     "pred_pt_code": 10000087,
     "true_soc_code": 10017947,
@@ -4244,17 +4247,17 @@
     ],
     "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
-    "model_output": "Pain stomach"
+    "model_output": "Stomach pain"
   },
   {
     "AE_text": "pain tongue",
     "true_llt_term": "Pain tongue",
-    "pred_llt_term": "Tongue pain",
-    "exact_match": false,
-    "fuzzy_score": 54.54545454545454,
-    "fuzzy_match": false,
+    "pred_llt_term": "Pain tongue",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
     "true_llt_code": 10033496,
-    "pred_llt_code": 10043969,
+    "pred_llt_code": 10033496,
     "true_pt_code": 10018388,
     "pred_pt_code": 10018388,
     "true_soc_code": 10017947,
@@ -4273,7 +4276,7 @@
     ],
     "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
-    "model_output": "Tongue pain"
+    "model_output": "Pain tongue"
   },
   {
     "AE_text": "parvo B19 infection fever with rash",

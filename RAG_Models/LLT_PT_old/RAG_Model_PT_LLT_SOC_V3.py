@@ -1,15 +1,10 @@
 """
-File Name: RAG_Model_PT_LLT_SOC_V3.py    === Author: Naghme Dashti / September 2025
+File Name: RAG_Model_PT_LLT_SOC_V3.py    === Author: Naghme Dashti / August 2025
 
-RAG-based Prompting with Explicit Reasoning + Final Answer Line
-----------------------------------------------------------------
-This script maps predicted LLT -> PT and PT -> SOC and reports LLT/PT and SOC accuracies
-with robust handling of Ist_Primary_SOC (and Primary_SOC_Code if present).
-
-SOC metrics reported:
-- Option A (AE-centric):      primary(pred PT) == AE_SOC   (falls back to true primary if AE SOC missing)
-- Option B (dictionary-only): primary(pred PT) == primary(true PT)
-- Any-of vs AE:               AE_SOC ∈ all_SOCs(pred PT)
+RRAG-based Prompting with Explicit Reasoning + Final Answer Line
+---------------------------------------------------------------
+This script maps predicted LLT -> PT and PT -> SOC and reports LLT/PT  and SOC accuracy
+(AE SOC vs predicted primary SOC), with robust handling of Ist_Primary_SOC.
 """
 
 import json
@@ -35,18 +30,18 @@ client = OpenAI(
 # Parameters
 # =========================
 TOP_K = 10
-MAX_ROWS = None       # e.g., set an int to limit rows; None = all
+MAX_ROWS = None       # e.g., put number (for example 100) to limit rows; None = all
 EMB_DIM = 384
 
 # Datasets
-DATASET_NAME     = "KI_Projekt_Dauno_AE_Codierung_2022_10_20"
-DATASET_EMB_NAME = "ae_embeddings_Dauno"
+DATASET_NAME     = "KI_Projekt_Mosaic_AE_Codierung_2024_07_03"
+DATASET_EMB_NAME = "ae_embeddings_Mosaic"
 
 # Dictionaries and output
-LLT_DICTIONARY_NAME      = "LLT2_Code_English_25_0"   # includes LLT_Code, LLT_Term, PT_Code
+LLT_DICTIONARY_NAME      = "LLT2_Code_English_25_0"   # Include LLT_Code, LLT_Term, PT_Code
 LLT_DICTIONARY_EMB_NAME  = "llt2_embeddings"
-PT_DICTIONARY_NAME       = "PT2_SOC_25_0"              # supports PT_Code,SOC_Code; PT_Term,SOC_Term optional; Ist_Primary_SOC & Primary_SOC_Code optional
-OUTPUT_FILE_NAME         = "Dauno_output_v3_SOC"
+PT_DICTIONARY_NAME       = "PT2_SOC_25_0"
+OUTPUT_FILE_NAME         = "Mosaic_output_v3_SOC"       # output file name
 
 # Paths
 AE_CSV_FILE  = f"/home/naghmedashti/MedDRA-LLM/data/{DATASET_NAME}.csv"
@@ -55,7 +50,7 @@ LLT_CSV_FILE = f"/home/naghmedashti/MedDRA-LLM/data/{LLT_DICTIONARY_NAME}.csv"
 LLT_EMB_FILE = f"/home/naghmedashti/MedDRA-LLM/embedding/{LLT_DICTIONARY_EMB_NAME}.json"
 PT_CSV_FILE  = f"/home/naghmedashti/MedDRA-LLM/data/{PT_DICTIONARY_NAME}.csv"
 
-LLM_API_NAME = "llama-3.3-70b-instruct-awq"  # or: Llama-3.3-70B-Instruct
+LLM_API_NAME = "Llama-3.3-70B-Instruct"  # or: llama-3.3-70b-instruct-awq
 LLM_TEMP = 0.0
 LLM_TOKEN = 250
 
@@ -63,7 +58,7 @@ LLM_TOKEN = 250
 # Helpers
 # =========================
 def canon_code(x) -> str | None:
-    """Normalize numeric-like codes, e.g., '10000081.0' -> '10000081' (string)."""
+    """Normalize numeric codes like '10000081.0' -> '10000081', or pick first long digit run."""
     if x is None or (isinstance(x, float) and np.isnan(x)):
         return None
     s = str(x).strip()
@@ -80,100 +75,50 @@ def norm_text(s: str) -> str:
         return ""
     return " ".join(str(s).strip().casefold().split())
 
-def clean_model_term(s: str) -> str:
-    """Normalize model's last-line answer into a clean LLT term string."""
-    if not isinstance(s, str):
-        return ""
-    t = s.strip()
-    t = re.sub(r"^\s*final\s*answer\s*:\s*", "", t, flags=re.I).strip()
-    t = re.sub(r"^\s*(?:[-–—•·*]+|\(?\d+\)?[.)]|[A-Za-z]\)|\d+\s*-\s*)\s*", "", t)
-    t = t.strip().strip('"\''"“”‘’")
-    t = re.sub(r"\s+", " ", t).strip()
-    return t
-
 # =========================
 # Load AE / LLT / PT (+ SOC primary mapping)
 # =========================
-# AE (keep AE SOC raw if present)
 ae_full = pd.read_csv(AE_CSV_FILE, sep=";", encoding="latin1")
 ae_keep = [c for c in ["Original_Term_aufbereitet", "ZB_LLT_Code", "ZB_SOC_Code"] if c in ae_full.columns]
 if not ae_keep:
     raise ValueError("AE CSV must include at least 'Original_Term_aufbereitet' and 'ZB_LLT_Code'.")
 ae_df = ae_full[ae_keep].dropna(subset=["Original_Term_aufbereitet", "ZB_LLT_Code"]).reset_index(drop=True)
 
-# LLT
 llt_df = pd.read_csv(LLT_CSV_FILE, sep=";", encoding="latin1")[["LLT_Code", "LLT_Term", "PT_Code"]]
 llt_df["LLT_Code"] = llt_df["LLT_Code"].map(canon_code)
 llt_df["PT_Code"]  = llt_df["PT_Code"].map(canon_code)
 llt_df["LLT_norm"] = llt_df["LLT_Term"].map(norm_text)
 
-# PT/SOC
+# Read PT file once (detect columns), then load
 pt_header = pd.read_csv(PT_CSV_FILE, sep=";", encoding="latin1", nrows=0).columns
-pt_cols = [c for c in ["PT_Code","PT_Term","SOC_Code","SOC_Term","Ist_Primary_SOC","Primary_SOC_Code"] if c in pt_header]
-pt_df = pd.read_csv(PT_CSV_FILE, sep=";", encoding="latin1")[pt_cols].copy()
-
-# normalize codes to strings
+pt_cols = [c for c in ["PT_Code","PT_Term","SOC_Code","SOC_Term","Ist_Primary_SOC"] if c in pt_header]
+pt_df = pd.read_csv(PT_CSV_FILE, sep=";", encoding="latin1")[pt_cols]
 pt_df["PT_Code"]  = pt_df["PT_Code"].map(canon_code)
 pt_df["SOC_Code"] = pt_df["SOC_Code"].map(canon_code)
-if "Primary_SOC_Code" in pt_df.columns:
-    pt_df["Primary_SOC_Code"] = pt_df["Primary_SOC_Code"].map(canon_code)
-
-# normalize Ist_Primary_SOC
-if "Ist_Primary_SOC" in pt_df.columns:
-    pt_df["Ist_Primary_SOC_norm"] = pt_df["Ist_Primary_SOC"].astype(str).str.strip().str.upper()
-else:
-    pt_df["Ist_Primary_SOC_norm"] = ""
 
 # Lookups
 llt_code_to_term = dict(zip(llt_df["LLT_Code"], llt_df["LLT_Term"]))
 llt_to_pt        = dict(zip(llt_df["LLT_Code"], llt_df["PT_Code"]))
 soc_code_to_term = dict(zip(pt_df["SOC_Code"], pt_df["SOC_Term"])) if "SOC_Term" in pt_df.columns else {}
-pt_meta = pt_df.dropna(subset=["PT_Code"]).drop_duplicates(subset=["PT_Code"])
-pt_meta = pt_meta.set_index("PT_Code")[["PT_Term"]].to_dict(orient="index")
+pt_meta = pt_df.set_index("PT_Code")[["PT_Term"]].to_dict(orient="index")
 
-# All SOCs per PT
-pt_code_to_soc_all: dict[str, list[str]] = (
-    pt_df.dropna(subset=["PT_Code","SOC_Code"])
-         .groupby("PT_Code")["SOC_Code"]
-         .apply(lambda s: sorted(set(x for x in s if x is not None)))
-         .to_dict()
-)
-
-# Primary SOC per PT (priority: Y row > unique Primary_SOC_Code > single SOC > None)
+# Primary SOC per PT (prefer Ist_Primary_SOC=='Y'; else if PT only has one SOC)
 pt_code_to_primary_soc: dict[str, str | None] = {}
-has_primary_soc_code_col = "Primary_SOC_Code" in pt_df.columns
+if "Ist_Primary_SOC" in pt_df.columns:
+    prim = pt_df[pt_df["Ist_Primary_SOC"].astype(str).str.strip().str.upper().eq("Y")]
+    prim = prim.drop_duplicates(subset=["PT_Code"])
+    pt_code_to_primary_soc.update(dict(zip(prim["PT_Code"], prim["SOC_Code"])))
 
-for ptc, grp in pt_df.dropna(subset=["PT_Code"]).groupby("PT_Code"):
-    primary = None
+pt_code_to_soc_all = (
+    pt_df.groupby("PT_Code")["SOC_Code"]
+    .apply(lambda s: sorted(set(x for x in s if pd.notna(x))))
+    .to_dict()
+)
+for ptc, soc_list in pt_code_to_soc_all.items():
+    if ptc not in pt_code_to_primary_soc:
+        pt_code_to_primary_soc[ptc] = soc_list[0] if len(soc_list) == 1 else None
 
-    # case 1: explicit Y
-    y_rows = grp[grp["Ist_Primary_SOC_norm"] == "Y"]
-    if not y_rows.empty and pd.notna(y_rows.iloc[0].get("SOC_Code")):
-        primary = canon_code(y_rows.iloc[0]["SOC_Code"])
-    else:
-        # case 2: explicit Primary_SOC_Code unique among rows
-        if has_primary_soc_code_col:
-            prim_vals = [canon_code(v) for v in grp["Primary_SOC_Code"].dropna().tolist()]
-            uniq = sorted(set(v for v in prim_vals if v is not None))
-            if len(uniq) == 1:
-                primary = uniq[0]
-        # case 3: only one SOC for this PT
-        if primary is None:
-            all_socs = pt_code_to_soc_all.get(ptc, [])
-            if len(all_socs) == 1:
-                primary = all_socs[0]
-
-    pt_code_to_primary_soc[ptc] = primary
-
-# QC summary
-num_pts = len(pt_code_to_soc_all)
-num_single = sum(1 for _, lst in pt_code_to_soc_all.items() if len(lst) == 1)
-num_with_y = pt_df[pt_df["Ist_Primary_SOC_norm"] == "Y"]["PT_Code"].nunique()
-num_with_primary_code = pt_df.dropna(subset=["Primary_SOC_Code"])["PT_Code"].nunique() if has_primary_soc_code_col else 0
-num_undefined = sum(1 for _, v in pt_code_to_primary_soc.items() if v is None)
-print(f"[PT/SOC QC] PTs:{num_pts} | with 'Y':{num_with_y} | with Primary_SOC_Code:{num_with_primary_code} | single-SOC:{num_single} | undefined-primary:{num_undefined}")
-
-# Term -> LLT_Code (normalized)
+# Term -> LLT_Code
 term_norm_to_llt = {}
 for _, r in llt_df.iterrows():
     term_norm_to_llt.setdefault(r["LLT_norm"], r["LLT_Code"])
@@ -202,17 +147,14 @@ with open(AE_EMB_FILE,  "r", encoding="latin1") as f:
 with open(LLT_EMB_FILE, "r", encoding="latin1") as f:
     llt_emb_raw = json.load(f)
 
-# AE embs keyed by AE text and its normalized form
 ae_emb_dict = {}
 for k, v in ae_emb_raw.items():
     ae_emb_dict[k] = np.array(v)
     ae_emb_dict[norm_text(k)] = np.array(v)
 
-# LLT embs keyed by LLT term (string)
 llt_emb_dict = {k: np.array(v) for k, v in llt_emb_raw.items()}
 llt_terms_all = list(llt_df["LLT_Term"])
 
-# Optional row limit
 if isinstance(MAX_ROWS, int) and MAX_ROWS > 0:
     ae_df = ae_df.iloc[:MAX_ROWS].reset_index(drop=True)
 else:
@@ -232,11 +174,11 @@ for idx, row in ae_df.iterrows():
     true_PT_term = pt_meta.get(true_PT_Code, {}).get("PT_Term") if true_PT_Code else None
 
     # AE SOC ground-truth (raw, NO fallback)
-    true_SOC_Code_AE_raw = None
+    true_SOC_Code_AE = None
     if "ZB_SOC_Code" in ae_df.columns:
         v = row.get("ZB_SOC_Code")
         if pd.notna(v):
-            true_SOC_Code_AE_raw = canon_code(v)
+            true_SOC_Code_AE = canon_code(v)
 
     # Build candidates from embeddings (fallback: difflib + random)
     ae_emb = ae_emb_dict.get(ae_text, ae_emb_dict.get(norm_text(ae_text)))
@@ -280,24 +222,13 @@ for idx, row in ae_df.iterrows():
             max_tokens=LLM_TOKEN
         )
         answer = resp.choices[0].message.content.strip()
-        last_line = answer.split("Final answer:")[-1] if "Final answer:" in answer else answer.split("\n")[-1]
-        answer_line = clean_model_term(last_line)
+        answer_line = answer.split("Final answer:")[-1].strip() if "Final answer:" in answer else answer.strip().split("\n")[-1].strip()
 
         # Map predicted term -> LLT/PT/SOC
         pred_LLT_Code = term_to_llt_code(answer_line, allow_fuzzy=True)
         pred_PT_Code  = llt_to_pt.get(pred_LLT_Code) if pred_LLT_Code else None
         pred_PT_term  = pt_meta.get(pred_PT_Code, {}).get("PT_Term") if pred_PT_Code else None
-
-        # Primary SOCs
-        true_SOC_Code_primary = pt_code_to_primary_soc.get(true_PT_Code) if true_PT_Code else None
-        pred_SOC_Code_primary = pt_code_to_primary_soc.get(pred_PT_Code) if pred_PT_Code else None
-
-        # AE SOC with fallback for Option A metric
-        true_SOC_Code_AE_for_eval = true_SOC_Code_AE_raw if true_SOC_Code_AE_raw is not None else true_SOC_Code_primary
-
-        # All SOCs sets
-        true_SOC_codes_all = pt_code_to_soc_all.get(true_PT_Code, []) if true_PT_Code else []
-        pred_SOC_codes_all = pt_code_to_soc_all.get(pred_PT_Code, []) if pred_PT_Code else []
+        pred_SOC_Code = pt_code_to_primary_soc.get(pred_PT_Code) if pred_PT_Code else None
 
         # Term-level metrics
         exact_LLT_match = (true_LLT_term is not None and answer_line == true_LLT_term)
@@ -314,14 +245,10 @@ for idx, row in ae_df.iterrows():
 
         pred_LLT_term_std = llt_code_to_term.get(pred_LLT_Code, answer_line)
 
-        # Diagnostics flags
-        pred_primary_soc_missing = (pred_PT_Code is not None and pt_code_to_primary_soc.get(pred_PT_Code) is None)
-        true_primary_soc_missing = (true_PT_Code is not None and pt_code_to_primary_soc.get(true_PT_Code) is None) if true_PT_Code else None
-
         results.append({
             "AE_text": ae_text,
 
-            # LLT/PT terms + codes
+            # LLT/PT terms + codes 
             "true_LLT_term": true_LLT_term,
             "pred_LLT_term": pred_LLT_term_std,
             "true_LLT_Code": true_LLT_Code,
@@ -331,28 +258,13 @@ for idx, row in ae_df.iterrows():
             "true_PT_Code": true_PT_Code,
             "pred_PT_Code": pred_PT_Code,
 
-            # SOC codes/terms
-            "true_SOC_Code_AE_raw": true_SOC_Code_AE_raw,   # AE GT only (no fallback)
-            "true_SOC_Term_AE": soc_code_to_term.get(true_SOC_Code_AE_raw) if true_SOC_Code_AE_raw else None,
+            # SOC (AE raw vs predicted primary)
+            "true_SOC_Code": true_SOC_Code_AE,
+            "pred_SOC_Code": pred_SOC_Code,
+            "true_SOC_Term": soc_code_to_term.get(true_SOC_Code_AE) if true_SOC_Code_AE else None,
+            "pred_SOC_Term": soc_code_to_term.get(pred_SOC_Code) if pred_SOC_Code else None,
 
-            "true_SOC_Code": true_SOC_Code_AE_for_eval,     # AE if available, else true primary (for Option A)
-            "true_SOC_Term": soc_code_to_term.get(true_SOC_Code_AE_for_eval) if true_SOC_Code_AE_for_eval else None,
-
-            "pred_SOC_Code": pred_SOC_Code_primary,         # predicted primary from mapping
-            "pred_SOC_Term": soc_code_to_term.get(pred_SOC_Code_primary) if pred_SOC_Code_primary else None,
-
-            "true_SOC_Code_primary": true_SOC_Code_primary, # mapping primary (true PT)
-            "true_SOC_Term_primary": soc_code_to_term.get(true_SOC_Code_primary) if true_SOC_Code_primary else None,
-
-            # all SOCs
-            "true_SOC_codes_all": true_SOC_codes_all,
-            "pred_SOC_codes_all": pred_SOC_codes_all,
-
-            # diagnostics
-            "pred_primary_soc_missing": pred_primary_soc_missing,
-            "true_primary_soc_missing": true_primary_soc_missing,
-
-            # term-level metrics
+            # optional metrics kept (no SOC extras)
             "exact_LLT_match": exact_LLT_match,
             "LLT_fuzzy_score": LLT_fuzzy_score,
             "LLT_fuzzy_match": LLT_fuzzy_match,
@@ -360,24 +272,19 @@ for idx, row in ae_df.iterrows():
             "PT_fuzzy_score": PT_fuzzy_score,
             "PT_fuzzy_match": PT_fuzzy_match,
 
-            # raw model output (optional)
             "model_output": answer
         })
 
         print(f"[{idx}] AE: {ae_text}")
         print(f"→ True LLT/PT: {true_LLT_term}  |  {true_LLT_Code} / {true_PT_Code} ({true_PT_term})")
         print(f"→ Pred LLT/PT: {answer_line} |  {pred_LLT_Code} / {pred_PT_Code} ({pred_PT_term})")
-        if true_SOC_Code_AE_for_eval or pred_SOC_Code_primary:
-            print(f"→ SOC (AE/primary vs pred-primary): {true_SOC_Code_AE_for_eval} vs {pred_SOC_Code_primary}")
-        print(f"→ LLT_exact: {exact_LLT_match}, LLT_fuzzy: {LLT_fuzzy_score:.1f} | PT_exact: {exact_PT_match}, PT_fuzzy: {PT_fuzzy_score:.1f}\n")
+        if true_SOC_Code_AE or pred_SOC_Code:
+            print(f"→ SOC (AE vs pred-primary): {true_SOC_Code_AE} vs {pred_SOC_Code}")
+        print(f"→ Exact LLT: {exact_LLT_match}, Fuzzy LLT: {LLT_fuzzy_score:.1f} | Exact PT: {exact_PT_match}, Fuzzy PT: {PT_fuzzy_score:.1f}\n")
         time.sleep(0.1)
 
     except Exception as e:
         print(f"Error at index {idx}: {e}")
-        true_SOC_Code_primary = pt_code_to_primary_soc.get(true_PT_Code) if true_PT_Code else None
-        true_SOC_Code_AE_raw = canon_code(row["ZB_SOC_Code"]) if "ZB_SOC_Code" in ae_df.columns and pd.notna(row.get("ZB_SOC_Code")) else None
-        true_SOC_Code_AE_for_eval = true_SOC_Code_AE_raw if true_SOC_Code_AE_raw is not None else true_SOC_Code_primary
-
         results.append({
             "AE_text": ae_text,
             "true_LLT_term": true_LLT_term,
@@ -388,32 +295,16 @@ for idx, row in ae_df.iterrows():
             "pred_PT_term": None,
             "true_PT_Code": true_PT_Code,
             "pred_PT_Code": None,
-
-            "true_SOC_Code_AE_raw": true_SOC_Code_AE_raw,
-            "true_SOC_Term_AE": soc_code_to_term.get(true_SOC_Code_AE_raw) if true_SOC_Code_AE_raw else None,
-
-            "true_SOC_Code": true_SOC_Code_AE_for_eval,
-            "true_SOC_Term": soc_code_to_term.get(true_SOC_Code_AE_for_eval) if true_SOC_Code_AE_for_eval else None,
-
+            "true_SOC_Code": true_SOC_Code_AE,
             "pred_SOC_Code": None,
+            "true_SOC_Term": soc_code_to_term.get(true_SOC_Code_AE) if true_SOC_Code_AE else None,
             "pred_SOC_Term": None,
-
-            "true_SOC_Code_primary": true_SOC_Code_primary,
-            "true_SOC_Term_primary": soc_code_to_term.get(true_SOC_Code_primary) if true_SOC_Code_primary else None,
-
-            "true_SOC_codes_all": pt_code_to_soc_all.get(true_PT_Code, []) if true_PT_Code else [],
-            "pred_SOC_codes_all": [],
-
-            "pred_primary_soc_missing": None,
-            "true_primary_soc_missing": None,
-
             "exact_LLT_match": False,
             "LLT_fuzzy_score": 0.0,
             "LLT_fuzzy_match": False,
             "exact_PT_match": False,
             "PT_fuzzy_score": 0.0,
             "PT_fuzzy_match": False,
-
             "model_output": None
         })
 
@@ -476,43 +367,13 @@ print(f"LLT Accuracy (code): {LLT_acc:.2f}  [on {sum(mask_llt)} rows]")
 print(f"PT  Accuracy (code): {PT_acc:.2f}   [on {sum(mask_pt)} rows]")
 
 # =========================
-# SOC Accuracies (code-based) — Option A / B / Any-of
+# Single SOC Accuracy (AE SOC vs predicted primary SOC)
 # =========================
-def _both_present(pairs):
-    return [(a, b) for (a, b) in pairs if (a is not None and b is not None)]
-
-# Option A: primary(pred PT) vs AE_SOC (fallback to true primary if AE missing)
-soc_pairs_ae = _both_present([(r.get("true_SOC_Code"), r.get("pred_SOC_Code")) for r in results])
-if soc_pairs_ae:
-    soc_acc_vs_ae = sum(int(a == b) for a, b in soc_pairs_ae) / len(soc_pairs_ae)
-    print(f"SOC Accuracy (primary vs AE): {soc_acc_vs_ae:.4f} (over {len(soc_pairs_ae)} rows)")
-    print(f"SOC Accuracy (Option A):      {soc_acc_vs_ae:.4f} (over {len(soc_pairs_ae)} rows)")
-else:
-    print("SOC Accuracy (primary vs AE): N/A")
-    print("SOC Accuracy (Option A):      N/A")
-
-# Option B: primary(pred PT) vs primary(true PT)
-soc_pairs_primary = _both_present([(r.get("true_SOC_Code_primary"), r.get("pred_SOC_Code")) for r in results])
-if soc_pairs_primary:
-    soc_acc_vs_true_primary = sum(int(a == b) for a, b in soc_pairs_primary) / len(soc_pairs_primary)
-    print(f"SOC Accuracy (primary vs true primary): {soc_acc_vs_true_primary:.4f} (over {len(soc_pairs_primary)} rows)")
-    print(f"SOC Accuracy (Option B):                {soc_acc_vs_true_primary:.4f} (over {len(soc_pairs_primary)} rows)")
-else:
-    print("SOC Accuracy (primary vs true primary): N/A")
-    print("SOC Accuracy (Option B):                N/A")
-
-# Any-of vs AE: is AE SOC among all SOCs for predicted PT?
-soc_any = []
-for r in results:
-    ae_soc = r.get("true_SOC_Code")        # AE raw if present, else true primary (as defined above)
-    pred_all = r.get("pred_SOC_codes_all") or []
-    if ae_soc is not None and pred_all:
-        soc_any.append(int(ae_soc in pred_all))
-if soc_any:
-    soc_acc_any = sum(soc_any) / len(soc_any)
-    print(f"SOC Accuracy (any-of vs AE):  {soc_acc_any:.4f} (over {len(soc_any)} rows)")
-else:
-    print("SOC Accuracy (any-of vs AE): N/A")
+pairs = [(r["true_SOC_Code"], r["pred_SOC_Code"]) for r in results if r.get("true_SOC_Code") is not None]
+total = len(pairs)
+correct = sum(1 for a, b in pairs if (b is not None and str(a) == str(b)))
+soc_acc = (correct / total) if total else 0.0
+print(f"SOC Accuracy: {soc_acc:.4f} (over {total} rows)")
 
 print("\nSaved:")
 print("-", out_json)

@@ -16,8 +16,8 @@ import re
 # ---------------------------
 PT_CSV_PATH  = "/home/naghmedashti/MedDRA-LLM/data/PT2_SOC_25_0.csv"     # expects PT_Code,SOC_Code; PT_Term,SOC_Term optional; Ist_Primary_SOC=Y/N optional; Primary_SOC_Code optional
 LLT_CSV_PATH = "/home/naghmedashti/MedDRA-LLM/data/LLT2_Code_English_25_0.csv"
-AE_CSV_PATH  = "/home/naghmedashti/MedDRA-LLM/data/KI_Projekt_Mosaic_AE_Codierung_2024_07_03.csv"
-OUT_JSON     = "/home/naghmedashti/MedDRA-LLM/Baseline_LLM_Models/Mosaic_output_fuzz.json"
+AE_CSV_PATH  = "/home/naghmedashti/MedDRA-LLM/data/KI_Projekt_Dauno_AE_Codierung_2022_10_20.csv"
+OUT_JSON     = "/home/naghmedashti/MedDRA-LLM/Baseline_LLM_Models/Dauno_output_fuzz.json"
 
 # Initialize OpenAI-compatible API client
 client = OpenAI(

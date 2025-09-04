@@ -13,10 +13,10 @@ import re
 # ===========================
 # Config (adjust paths if needed)
 # ===========================
-AE_CSV_PATH  = "/home/naghmedashti/MedDRA-LLM/data/KI_Projekt_Mosaic_AE_Codierung_2024_07_03.csv"
+AE_CSV_PATH  = "/home/naghmedashti/MedDRA-LLM/data/KI_Projekt_Dauno_AE_Codierung_2022_10_20.csv"
 LLT_CSV_PATH = "/home/naghmedashti/MedDRA-LLM/data/LLT2_Code_English_25_0.csv"
 PT_CSV_PATH  = "/home/naghmedashti/MedDRA-LLM/data/PT2_SOC_25_0.csv"  # expects PT_Code, SOC_Code; PT_Term, SOC_Term, Ist_Primary_SOC, Primary_SOC_Code optional
-OUT_JSON     = "/home/naghmedashti/MedDRA-LLM/Baseline_LLM_Models/Mosaic_output_rapidfuzz.json"
+OUT_JSON     = "/home/naghmedashti/MedDRA-LLM/Baseline_LLM_Models/Dauno_output_rapidfuzz.json"
 
 # OpenAI-compatible API client
 client = OpenAI(
