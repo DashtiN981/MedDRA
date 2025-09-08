@@ -305,7 +305,7 @@
     "exact_PT_match": true,
     "PT_fuzzy_score": 100.0,
     "PT_fuzzy_match": true,
-    "model_output": "The Adverse Event (AE) \"Alkaline phosphatase increased\" indicates a rise in the level of alkaline phosphatase, an enzyme found in several tissues throughout the body, including liver, bone, and others. The most accurate MedDRA LLT term should directly reflect this increase without adding unnecessary specificity unless clearly implied by the AE description. Among the provided options, the term that most closely matches the AE without introducing unwarranted specificity is the one that directly states \"Alkaline phosphatase increased\" without further qualification.\n\nFinal answer: Alkaline phosphatase increased"
+    "model_output": "The Adverse Event (AE) \"Alkaline phosphatase increased\" indicates a rise in the level of alkaline phosphatase, an enzyme found in several tissues throughout the body, including liver, bone, and others. The most accurate MedDRA LLT term should directly reflect this increase without adding unnecessary specificity unless clearly implied by the AE description. Among the provided options, the term that most directly matches the AE without introducing unwarranted specificity is the one that simply states \"Alkaline phosphatase increased\".\n\nFinal answer: Alkaline phosphatase increased"
   },
   {
     "AE_text": "alkaline phosphatase increased",
@@ -1099,7 +1099,7 @@
     "exact_PT_match": true,
     "PT_fuzzy_score": 100.0,
     "PT_fuzzy_match": true,
-    "model_output": "The AE \"crampy upper abdominal pain\" suggests that the patient is experiencing a specific type of abdominal pain, characterized by cramping, and localized to the upper abdomen. The term \"crampy\" is key to selecting the most accurate LLT term, as it indicates a particular quality of the pain. Among the candidate LLT terms, we need to find the one that best matches this description, considering both the location (upper abdomen) and the nature of the pain (crampy).\n\nFinal answer: Abdominal crampy pains"
+    "model_output": "The AE \"crampy upper abdominal pain\" suggests that the patient is experiencing a specific type of abdominal pain, characterized by cramping, and localized to the upper abdomen. The term \"crampy\" is key to selecting the most accurate LLT term, as it indicates a particular quality of the pain. Among the candidate LLT terms, we need to find the one that best matches this description, considering both the location (upper abdominal) and the nature of the pain (crampy).\n\nFinal answer: Abdominal crampy pains"
   },
   {
     "AE_text": "creatinin increased",
@@ -2152,7 +2152,7 @@
     "exact_PT_match": true,
     "PT_fuzzy_score": 100.0,
     "PT_fuzzy_match": true,
-    "model_output": "The Adverse Event (AE) \"febrile neutropenia neutropenes Fieber\" suggests a condition where the patient is experiencing both fever (indicated by \"febrile\" and \"Fieber,\" which is German for fever) and a low neutrophil count (indicated by \"neutropenia\" and \"neutropenes\"). The combination of fever and neutropenia points towards a specific condition that involves both these symptoms.\n\nFinal answer: Febrile neutropenia"
+    "model_output": "The Adverse Event (AE) \"febrile neutropenia neutropenes Fieber\" suggests a condition where the patient is experiencing both fever (indicated by \"febrile\" and \"Fieber,\" which is German for fever) and a low neutrophil count (indicated by \"neutropenia\" and \"neutropenes\"). The combination of fever and neutropenia points towards an acute condition rather than a chronic or congenital one. Among the provided options, the term that directly matches this description is \"Febrile neutropenia,\" as it specifically refers to a condition characterized by fever in the context of neutropenia.\n\nFinal answer: Febrile neutropenia"
   },
   {
     "AE_text": "Febrile neutropenia possibly related to Midostaurin; interventions Meropenem",
@@ -2536,7 +2536,7 @@
     "exact_PT_match": true,
     "PT_fuzzy_score": 100.0,
     "PT_fuzzy_match": true,
-    "model_output": "The AE \"gingival pain\" is a symptom that describes a specific sensation or feeling of discomfort in the gums. To find the best matching LLT term, we need to look for a term that accurately describes this sensation. While there are several terms related to gingival issues, such as \"Gingival disorder\", \"Gingival swelling\", or \"Gingival inflammation\", these terms are more general and do not specifically match the symptom of pain. On the other hand, \"Gingival pain\" and \"Gingival tenderness\" are more specific and closely related to the AE. However, \"Gingival pain\" is an exact match, making it the most suitable choice.\n\nFinal answer: Gingival pain"
+    "model_output": "The AE \"gingival pain\" is a symptom that describes a specific sensation or feeling of discomfort in the gums. To find the best matching LLT term, we need to look for a term that accurately describes this sensation. While there are several terms related to gingival issues, such as swelling, infection, or inflammation, the most direct match for the AE \"gingival pain\" would be a term that explicitly mentions pain or a similar sensation.\n\nFinal answer: Gingival pain"
   },
   {
     "AE_text": "gross hematuria",
@@ -3993,7 +3993,7 @@
     "exact_PT_match": true,
     "PT_fuzzy_score": 100.0,
     "PT_fuzzy_match": true,
-    "model_output": "The Adverse Event (AE) \"Liver toxicity\" suggests an adverse effect on the liver, likely due to a drug or other substance. The most relevant MedDRA LLT term should directly relate to the liver and the concept of toxicity. Among the provided options, terms that include both \"liver\" and \"toxicity\" or closely related concepts like \"hepatotoxicity\" are most relevant. \"Hepatotoxicity\" is a specific term that refers to the capacity of a drug or other substance to cause damage to the liver, which aligns closely with the concept of \"liver toxicity.\"\n\nFinal answer: Hepatotoxicity"
+    "model_output": "The Adverse Event (AE) \"Liver toxicity\" suggests an adverse effect on the liver, likely due to a drug or other substance. The most relevant MedDRA LLT term should directly relate to the liver and the concept of toxicity. Among the provided options, terms that include both \"liver\" and \"toxicity\" or closely related concepts like \"hepatotoxicity\" are most relevant. \"Hepatotoxicity\" is a specific term that refers to the capacity of a drug or other substance to cause damage to the liver, making it a precise match for \"Liver toxicity\".\n\nFinal answer: Hepatotoxicity"
   },
   {
     "AE_text": "localized edema (ankle)",
@@ -5642,7 +5642,7 @@
     "exact_PT_match": false,
     "PT_fuzzy_score": 30.303030303030297,
     "PT_fuzzy_match": false,
-    "model_output": "The AE \"Skin irritation anal after diarrhea\" suggests that the irritation is located around the anal area and is related to skin, rather than being a gastrointestinal issue. Although diarrhea is mentioned, it seems to be a trigger or preceding event rather than the primary issue being described. The focus is on the skin irritation in the anal area. Therefore, the most relevant term should reflect both the location (anal) and the nature of the issue (skin irritation).\n\nFinal answer: Perianal irritation"
+    "model_output": "The AE \"Skin irritation anal after diarrhea\" suggests that the irritation is located around the anal area and is related to skin, rather than being a gastrointestinal issue. Although diarrhea is mentioned, it seems to be a trigger or preceding event rather than the primary issue being described. The focus is on the skin irritation in the anal area. \n\nFinal answer: Perianal irritation"
   },
   {
     "AE_text": "splenic infection Pain in the lower abdomen on the left side",

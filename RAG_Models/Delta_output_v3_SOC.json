@@ -65,7 +65,7 @@
     "exact_PT_match": true,
     "PT_fuzzy_score": 100.0,
     "PT_fuzzy_match": true,
-    "model_output": "The AE \"Acute adhesion ileus\" suggests a condition where there is a blockage or obstruction of the ileum (part of the small intestine) due to adhesions, which are bands of fibrous tissue. The term \"ileus\" refers to a condition where there is a lack of movement in the intestines, which can be caused by various factors including adhesions. Given this, we need to find a term that best describes an ileus caused by adhesions.\n\nFinal answer: Ileus adhesive"
+    "model_output": "The AE \"Acute adhesion ileus\" suggests a condition where there is a blockage or obstruction of the ileum (part of the small intestine) due to adhesions, which are bands of fibrous tissue. The term \"ileus\" refers to a condition where there is a lack of movement in the intestines, which can be caused by various factors including adhesions. Given this, we need to find a term that best captures the essence of an ileus caused by adhesions.\n\nFinal answer: Ileus adhesive"
   },
   {
     "AE_text": "acute kidney injury",
@@ -811,7 +811,7 @@
     "exact_PT_match": true,
     "PT_fuzzy_score": 100.0,
     "PT_fuzzy_match": true,
-    "model_output": "The Adverse Event (AE) provided is \"Anemia\", which is a general term that encompasses various types of anemia without specifying the cause or type. The list of candidate LLT terms includes several options that directly mention \"anemia\" but with varying degrees of specificity regarding the type or cause. Since the AE itself does not provide additional details about the type of anemia, the best matching LLT term should be the one that most closely aligns with the general term \"anemia\" without adding specificity not present in the AE.\n\nFinal answer: Anemia"
+    "model_output": "The Adverse Event (AE) provided is \"Anemia\", which is a general term that encompasses various types of anemia without specifying the cause or type. The list of candidate LLT terms includes several options that directly mention \"anemia\" but with varying degrees of specificity regarding the type or cause. Since the AE itself does not provide additional details about the type of anemia, the best match should be a term that is equally general or encompasses all types of anemia without specifying a particular cause.\n\nFinal answer: Anemia"
   },
   {
     "AE_text": "atrial fibrillation onset 04-Oct-2018 and worsening of General condition",
@@ -1564,9 +1564,9 @@
   {
     "AE_text": "death of unkown origin",
     "true_LLT_term": "Unknown cause of death",
-    "pred_LLT_term": "Death unexplained (NOS)",
+    "pred_LLT_term": "Found dead (cause undetermined)",
     "true_LLT_Code": "10063378",
-    "pred_LLT_Code": "10011941",
+    "pred_LLT_Code": "10017067",
     "true_PT_term": "Tod",
     "pred_PT_term": "Tod",
     "true_PT_Code": "10011906",
@@ -1588,12 +1588,12 @@
     "pred_primary_soc_missing": false,
     "true_primary_soc_missing": false,
     "exact_LLT_match": false,
-    "LLT_fuzzy_score": 26.66666666666667,
+    "LLT_fuzzy_score": 45.28301886792453,
     "LLT_fuzzy_match": false,
     "exact_PT_match": true,
     "PT_fuzzy_score": 100.0,
     "PT_fuzzy_match": true,
-    "model_output": "The AE \"death of unknown origin\" implies that the cause of death is not specified or determined. To find the best matching LLT term, we need to look for terms that convey a sense of uncertainty or lack of information regarding the cause of death. Terms related to the death of specific relatives or apparent death do not match the AE, as they do not imply an unknown cause. The most relevant terms seem to be \"Found dead (cause undetermined)\", \"Death unexplained\", \"Sudden death unexplained\", \"Unknown cause of death\", and \"Death unexplained (NOS)\".\n\nFinal answer: Death unexplained (NOS)"
+    "model_output": "The Adverse Event (AE) \"death of unknown origin\" implies that the cause of death is not specified or identified. To find the best matching MedDRA LLT term, we need to look for terms that convey a sense of uncertainty or lack of information regarding the cause of death. Terms related to the death of specific relatives or apparent death do not directly relate to the concept of an unknown cause. Therefore, the most relevant terms would be those that explicitly mention the cause of death being undetermined, unexplained, or unknown.\n\nFinal answer: Found dead (cause undetermined)"
   },
   {
     "AE_text": "Death: died on the way to the family doctor's practice (a. e. as part of the underlying disease)",
@@ -2329,7 +2329,7 @@
     "exact_PT_match": true,
     "PT_fuzzy_score": 100.0,
     "PT_fuzzy_match": true,
-    "model_output": "The Adverse Event (AE) \"Fatigue n.a.\" suggests that the patient is experiencing fatigue, but no additional information is provided to specify the type or severity of the fatigue. Given this, the most appropriate MedDRA LLT term would be one that directly matches the term \"fatigue\" without adding additional specificity that is not supported by the AE description.\n\nFinal answer: Fatigue"
+    "model_output": "The Adverse Event (AE) \"Fatigue n.a.\" suggests that the patient is experiencing fatigue, but no additional information is provided to specify the type or severity of the fatigue. Given this, the most suitable MedDRA LLT term would be one that directly matches the term \"fatigue\" without adding extra specificity that is not supported by the AE description.\n\nFinal answer: Fatigue"
   },
   {
     "AE_text": "Fever",
@@ -2433,7 +2433,7 @@
     "exact_PT_match": true,
     "PT_fuzzy_score": 100.0,
     "PT_fuzzy_match": true,
-    "model_output": "The Adverse Event (AE) \"Fever Fever\" appears to be a simple and direct report of fever, without any additional specifications or details. Given the lack of context or modifiers, the most straightforward and inclusive term from the provided list would be the one that directly matches the AE without adding extra characteristics.\n\nFinal answer: Fever"
+    "model_output": "The Adverse Event (AE) \"Fever Fever\" appears to be a simple and direct report of fever, without any additional specifications or details. Given the options provided, the most straightforward and matching term would be the one that directly corresponds to the general concept of fever, without implying any specific characteristics, causes, or accompanying symptoms.\n\nFinal answer: Fever"
   },
   {
     "AE_text": "Fever Fever in neutropenia",
@@ -2751,7 +2751,7 @@
     "exact_PT_match": true,
     "PT_fuzzy_score": 100.0,
     "PT_fuzzy_match": true,
-    "model_output": "The AE \"Fracture of the humerus\" is a general term that indicates a break in the humerus bone, without specifying the location (upper or lower end), the type (open or closed), or if it's a pathologic fracture. The most suitable LLT term should match this general description. \n\nFinal answer: Fracture of humerus"
+    "model_output": "The AE \"Fracture of the humerus\" is a general description of a fracture occurring in the humerus bone, without specifying the exact location (upper or lower end), type (open or closed), or if it's pathologic. The most accurate LLT term should directly mention \"humerus\" and \"fracture\" without adding unnecessary specifics not provided in the AE description.\n\nFinal answer: Fracture of humerus"
   },
   {
     "AE_text": "fugal infection",
@@ -3121,7 +3121,7 @@
     "exact_PT_match": true,
     "PT_fuzzy_score": 100.0,
     "PT_fuzzy_match": true,
-    "model_output": "The Adverse Event (AE) \"increase createnin\" suggests a laboratory abnormality related to kidney function. The term \"creatinin\" is likely a typo or variation of \"creatinine\", which is a waste product that is filtered by the kidneys. Among the provided candidate LLT terms, there is one that directly matches this concept.\n\nFinal answer: Creatinine increased"
+    "model_output": "The Adverse Event (AE) \"increase createnin\" suggests a laboratory abnormality related to kidney function. The term \"creatinin\" is likely a typo or variation of \"creatinine\", which is a waste product that is filtered by the kidneys. Among the provided candidate LLT terms, the one that directly corresponds to an increase in this specific substance is the most relevant.\n\nFinal answer: Creatinine increased"
   },
   {
     "AE_text": "increase creatinin",
@@ -3223,7 +3223,7 @@
     "exact_PT_match": false,
     "PT_fuzzy_score": 33.333333333333336,
     "PT_fuzzy_match": false,
-    "model_output": "The Adverse Event (AE) mentions an \"increase of CRP\" which is a laboratory test used to measure the level of C-reactive protein in the blood, often indicative of inflammation or infection. The phrase \"infection of unknown origin\" suggests that the increase in CRP is related to an infectious process, but the specific type of infection is not identified. Given this context, we need to find a MedDRA LLT term that best matches the concept of increased CRP in the setting of a potential infection without specifying the type of infection.\n\nFinal answer: CRP increased"
+    "model_output": "The Adverse Event (AE) mentions an \"increase of CRP\" which is a laboratory test used to measure the level of C-reactive protein in the blood, often indicative of inflammation or infection. The phrase \"infection of unknown origin\" suggests that the increase in CRP is related to an infectious process, but the specific type of infection is not identified. Given this information, we need to find a MedDRA LLT term that best matches the concept of increased CRP in the context of an infection.\n\nFinal answer: CRP increased"
   },
   {
     "AE_text": "increased creatinine",
@@ -4581,7 +4581,7 @@
     "exact_PT_match": true,
     "PT_fuzzy_score": 100.0,
     "PT_fuzzy_match": true,
-    "model_output": "The Adverse Event (AE) \"Infection sinusitis maxilaris\" suggests an infection of the maxillary sinus. To find the best matching MedDRA LLT term, we need to look for terms that specifically mention \"maxillary\" or \"maxilaris\" and are related to an infection. Among the provided options, terms like \"Maxillary sinusitis\" directly correspond to the condition described in the AE, indicating it's about the maxillary sinus. Since \"infection\" is mentioned, we should prioritize terms that imply an infectious process, but the most specific term to \"maxillary sinusitis\" without adding unnecessary specificity (like chronic or acute, which are not mentioned in the AE) would be the most appropriate choice.\n\nFinal answer: Maxillary sinusitis"
+    "model_output": "The Adverse Event (AE) \"Infection sinusitis maxilaris\" suggests an infection of the maxillary sinus. To find the best matching MedDRA LLT term, we need to look for terms that specifically mention \"maxillary\" or \"maxilaris\" and are related to an infection. Among the provided options, terms like \"Maxillary sinusitis\" directly correspond to the condition described in the AE, indicating it's about the maxillary sinus. Since \"sinusitis maxilaris\" is another term for maxillary sinusitis, the most specific and direct match would be a term that includes \"maxillary\" and indicates an infection or sinusitis.\n\nFinal answer: Maxillary sinusitis"
   },
   {
     "AE_text": "Infection soft tissue",
@@ -5328,7 +5328,7 @@
     "exact_PT_match": true,
     "PT_fuzzy_score": 100.0,
     "PT_fuzzy_match": true,
-    "model_output": "The AE \"lungembolism\" suggests a blockage in one of the arteries in the lungs, which is a specific medical condition. Analyzing the list of candidate LLT terms, we need to find the term that most accurately describes this condition. Terms like \"Lung pain\", \"Lung disorder\", \"Lung haemorrhage\", and \"Lung injury\" are not specific to the condition of an embolism. Between \"Pulmonary embolism\" and \"Lung embolism\", \"Pulmonary embolism\" is a more precise and commonly used medical term for this condition.\n\nFinal answer: Pulmonary embolism"
+    "model_output": "The AE \"lungembolism\" suggests a blockage in one of the arteries in the lungs, which is a specific medical condition. Analyzing the list of candidate LLT terms, we need to find the term that most accurately describes this condition. Terms like \"Lung pain\", \"Lung disorder\", \"Lung haemorrhage\", and \"Lung injury\" are not specific to the condition of an embolism. Between the terms that include \"embolism\", \"Pulmonary embolism\" is the most standard and specific term used in medical terminology to describe a blockage in one of the arteries in the lungs.\n\nFinal answer: Pulmonary embolism"
   },
   {
     "AE_text": "Macrohaematuturia",
@@ -6920,7 +6920,7 @@
     "exact_PT_match": true,
     "PT_fuzzy_score": 100.0,
     "PT_fuzzy_match": true,
-    "model_output": "The given Adverse Event (AE) is \"Thrombocytopenia\", which is a general term referring to a condition characterized by a low platelet count in the blood. The list of candidate LLT terms includes various specific types and descriptions of thrombocytopenia. To choose the best matching LLT term, we should select the one that most accurately and directly corresponds to the AE without adding additional specificity not implied by the AE itself. Since \"Thrombocytopenia\" is a straightforward term that does not specify the cause, duration, or type, the best match should be a term that similarly does not add extra detail beyond the basic condition.\n\nFinal answer: Thrombocytopenia"
+    "model_output": "The given Adverse Event (AE) is \"Thrombocytopenia\", which refers to a condition characterized by a low platelet count in the blood. The list of candidate LLT terms includes various specific types and causes of thrombocytopenia. However, the AE itself does not specify any particular cause, duration, or type of thrombocytopenia. Therefore, the most appropriate LLT term should be the one that directly matches the AE without adding additional specificity not provided in the AE description.\n\nFinal answer: Thrombocytopenia"
   },
   {
     "AE_text": "thrombocytopenia",
@@ -7092,7 +7092,7 @@
     "exact_PT_match": true,
     "PT_fuzzy_score": 100.0,
     "PT_fuzzy_match": true,
-    "model_output": "The AE description specifically mentions a \"Trimalleolar fracture ankle Joint right\" which indicates a precise type of fracture. Trimalleolar fracture is a specific medical term that refers to a type of ankle fracture involving three malleoli (parts of the bones) around the ankle. Given this detail, the most accurate LLT term should directly reflect this specific condition.\n\nFinal answer: Trimalleolar fracture"
+    "model_output": "The AE describes a specific type of fracture, namely a \"Trimalleolar fracture\" of the ankle joint, which occurred due to a fall. This description directly points to a particular medical condition. Among the provided LLT terms, there is one that exactly matches this description.\n\nFinal answer: Trimalleolar fracture"
   },
   {
     "AE_text": "trush Stomatitis with candida albricans",
