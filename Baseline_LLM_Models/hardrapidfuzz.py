@@ -1,7 +1,9 @@
-# === File Name: Final_baseline_hard_rapidfuzz.py     === Author: Naghme Dashti / September 2025
+# === File Name: Final_baseline_hard_rapidfuzz.py     === Author: Naghme Dashti / 4 September 2025
 # (PT & SOC accuracies + PT/SOC term fields; handles Ist_Primary_SOC = Y/N + Primary_SOC_Code with robust fallback + QC prints)
+# Updated: seed-friendly + no-skip (RAG-like), canonical code handling, per-seed outputs, deterministic sampling
 
 import pandas as pd
+import numpy as np
 import random
 from openai import OpenAI
 import time
@@ -18,6 +20,28 @@ LLT_CSV_PATH = "/home/naghmedashti/MedDRA-LLM/data/LLT2_Code_English_25_0.csv"
 PT_CSV_PATH  = "/home/naghmedashti/MedDRA-LLM/data/PT2_SOC_25_0.csv"  # expects PT_Code, SOC_Code; PT_Term, SOC_Term, Ist_Primary_SOC, Primary_SOC_Code optional
 OUT_JSON     = "/home/naghmedashti/MedDRA-LLM/Baseline_LLM_Models/Dauno_output_rapidfuzz.json"
 
+# ===========================
+# Seed (set this per run: 42 / 43 / 44)
+# ===========================
+RUN_SEED = 44
+random.seed(RUN_SEED)
+np.random.seed(RUN_SEED)
+
+# ===========================
+# Canonicalize numeric-like codes (RAG-style)
+# ===========================
+def canon_code(x):
+    if x is None:
+        return None
+    s = str(x).strip()
+    m = re.match(r"^(\d+)(?:\.0+)?$", s)
+    if m:
+        return m.group(1)
+    m2 = re.search(r"(\d{3,})", s)
+    if m2:
+        return m2.group(1)
+    return s or None
+
 # OpenAI-compatible API client
 client = OpenAI(
     api_key="sk-aKGeEFMZB0gXEcE51FTc0A",
@@ -32,20 +56,24 @@ ae_keep = [c for c in ["Original_Term_aufbereitet", "ZB_LLT_Code", "ZB_SOC_Code"
 ae_df = ae_df[ae_keep].dropna(subset=["Original_Term_aufbereitet", "ZB_LLT_Code"]).reset_index(drop=True)
 
 # ===========================
-# Load LLT (keep PT_Code / PT_Term if present)
+# Load LLT (keep PT_Code / PT_Term if present) — canonical codes
 # ===========================
 llt_df = pd.read_csv(LLT_CSV_PATH, sep=';', encoding='latin1')
 llt_keep = [c for c in ["LLT_Code", "LLT_Term", "PT_Code", "PT_Term"] if c in llt_df.columns]
 llt_df = llt_df[llt_keep].dropna(subset=["LLT_Code", "LLT_Term"]).reset_index(drop=True)
-llt_df["LLT_Code"] = llt_df["LLT_Code"].astype(int)
 
-# LLT maps
-llt_code_to_term = dict(zip(llt_df["LLT_Code"].astype(str), llt_df["LLT_Term"]))
+# canonicalize
+llt_df["LLT_Code"] = llt_df["LLT_Code"].map(canon_code)
+if "PT_Code" in llt_df.columns:
+    llt_df["PT_Code"] = llt_df["PT_Code"].map(canon_code)
+
+# LLT maps (canonical keys)
+llt_code_to_term = dict(zip(llt_df["LLT_Code"], llt_df["LLT_Term"]))
 llt_term_to_code = {}
 for _, r in llt_df.iterrows():
     k = r["LLT_Term"].strip().lower()
     if k not in llt_term_to_code:
-        llt_term_to_code[k] = int(r["LLT_Code"])
+        llt_term_to_code[k] = r["LLT_Code"]
 
 has_pt_in_llt = "PT_Code" in llt_df.columns
 llt_code_to_pt = dict(zip(llt_df["LLT_Code"], llt_df["PT_Code"])) if has_pt_in_llt else {}
@@ -55,11 +83,10 @@ pt_code_to_term_from_llt = {}
 if "PT_Term" in llt_df.columns and "PT_Code" in llt_df.columns:
     tmp = llt_df.dropna(subset=["PT_Code", "PT_Term"]).drop_duplicates(subset=["PT_Code"]).copy()
     if not tmp.empty:
-        tmp["PT_Code"] = tmp["PT_Code"].astype(int)
         pt_code_to_term_from_llt = dict(zip(tmp["PT_Code"], tmp["PT_Term"]))
 
 # ===========================
-# Load PT/SOC mapping (robust primary resolution)
+# Load PT/SOC mapping (robust primary resolution) — canonical codes
 # ===========================
 pt_code_to_term = {}
 soc_code_to_term = {}
@@ -73,8 +100,12 @@ try:
 
     keep_pt = [c for c in ["PT_Code", "SOC_Code", "PT_Term", "SOC_Term", "Ist_Primary_SOC", "Primary_SOC_Code"] if c in pt_df.columns]
     pt_df = pt_df[keep_pt].dropna(subset=["PT_Code", "SOC_Code"]).reset_index(drop=True)
-    pt_df["PT_Code"]  = pt_df["PT_Code"].astype(int)
-    pt_df["SOC_Code"] = pt_df["SOC_Code"].astype(int)
+
+    # canonicalize codes
+    pt_df["PT_Code"]  = pt_df["PT_Code"].map(canon_code)
+    pt_df["SOC_Code"] = pt_df["SOC_Code"].map(canon_code)
+    if "Primary_SOC_Code" in pt_df.columns:
+        pt_df["Primary_SOC_Code"] = pt_df["Primary_SOC_Code"].map(canon_code)
 
     # normalize Y/N flag if present
     if "Ist_Primary_SOC" in pt_df.columns:
@@ -88,11 +119,11 @@ try:
     if "SOC_Term" in pt_df.columns:
         soc_code_to_term = dict(zip(pt_df["SOC_Code"], pt_df["SOC_Term"]))
 
-    # All SOCs per PT
+    # All SOCs per PT (canonical strings)
     pt_code_to_soc_all = (
         pt_df.groupby("PT_Code")["SOC_Code"]
-        .apply(lambda s: sorted(set(s.astype(int))))
-        .to_dict()
+             .apply(lambda s: sorted(set([canon_code(v) for v in s if pd.notna(v)])))
+             .to_dict()
     )
 
     # Primary resolution priority:
@@ -100,25 +131,20 @@ try:
     # 2) else, Primary_SOC_Code exists and uniquely defined for that PT -> use it
     # 3) else, if PT has exactly one SOC_Code -> use it
     # 4) else -> None
-    pt_code_to_primary_soc = {}
     has_primary_soc_code_col = "Primary_SOC_Code" in pt_df.columns
-
+    pt_code_to_primary_soc = {}
     for ptc, grp in pt_df.groupby("PT_Code"):
         primary = None
 
-        # case 1: explicit Y
         y_rows = grp[grp["Ist_Primary_SOC_norm"] == "Y"]
-        if not y_rows.empty:
-            primary = int(y_rows.iloc[0]["SOC_Code"])
+        if not y_rows.empty and pd.notna(y_rows.iloc[0].get("SOC_Code")):
+            primary = canon_code(y_rows.iloc[0]["SOC_Code"])
         else:
-            # case 2: explicit Primary_SOC_Code unique
             if has_primary_soc_code_col:
-                prim_vals = [int(v) for v in grp["Primary_SOC_Code"].dropna().astype(int).tolist()]
-                uniq = sorted(set(prim_vals))
+                prim_vals = [canon_code(v) for v in grp["Primary_SOC_Code"].dropna().tolist()]
+                uniq = sorted(set([v for v in prim_vals if v is not None]))
                 if len(uniq) == 1:
                     primary = uniq[0]
-
-            # case 3: only one SOC for this PT
             if primary is None:
                 all_socs = pt_code_to_soc_all.get(ptc, [])
                 if len(all_socs) == 1:
@@ -149,7 +175,7 @@ if not pt_code_to_term and pt_code_to_term_from_llt:
 # Params
 # ===========================
 N_CANDIDATES = 100  # Number of Top-K LLTs shown to the model
-MAX_ROWS = None     # Number of AE samples for demo
+MAX_ROWS = None     # Number of AE samples
 SLEEP_SEC = 1.0
 results = []
 
@@ -157,7 +183,7 @@ def map_pred_term_to_llt_code(pred_term, candidate_terms):
     """Return LLT code from predicted term. Exact via global dict; else fuzzy to candidate_terms then global map."""
     if not isinstance(pred_term, str) or not pred_term.strip():
         return None
-    t = pred_term.strip().strip('"').strip("'")
+    t = pred_llt = pred_term.strip().strip('"').strip("'")
     key = t.lower()
 
     # exact (global)
@@ -179,7 +205,7 @@ def map_pred_term_to_llt_code(pred_term, candidate_terms):
 def clean_model_term(s: str) -> str:
     """
     Normalize model output:
-    - Remove 'Final answer:' if present  (if an error occurred on the same line)
+    - Remove 'Final answer:' if present
     - Remove bullets/numbering prefixes ('-', '•', '1)', '1.' ...)
     - Strip quotes
     - Collapse spaces
@@ -194,28 +220,33 @@ def clean_model_term(s: str) -> str:
     return t
 
 # ===========================
-# Main loop
+# Main loop — no-skip + canonical codes + deterministic candidate shuffle
 # ===========================
 for idx, row in ae_df.iloc[:MAX_ROWS].iterrows():
     ae_text = row["Original_Term_aufbereitet"]
-    true_llt_code_int = int(row["ZB_LLT_Code"])
-    true_llt_term = llt_code_to_term.get(str(true_llt_code_int))
-    if true_llt_term is None:
-        continue
+    true_llt_code = canon_code(row["ZB_LLT_Code"])
+    true_llt_term = llt_code_to_term.get(true_llt_code)  # may be None; DO NOT skip
 
-    # SOC GT from AE (if present)
+    # SOC GT from AE (if present) canonical
     true_soc_code_ae = None
     if "ZB_SOC_Code" in ae_df.columns:
         v = row.get("ZB_SOC_Code")
         if pd.notna(v):
-            true_soc_code_ae = int(v)
+            true_soc_code_ae = canon_code(v)
 
-    # Build RapidFuzz candidate list (includes true term)
+    # Build RapidFuzz candidate list (over all LLT terms)
     candidate_terms_all = llt_df["LLT_Term"].tolist()
-    closest_terms = [term for term, score, _ in process.extract(ae_text, candidate_terms_all, limit=N_CANDIDATES + 10)]
-    closest_terms = [term for term in closest_terms if term != true_llt_term]
+    # Note: process.extract is deterministic for same inputs; we still seed shuffle below
+    closest = process.extract(ae_text, candidate_terms_all, limit=N_CANDIDATES + 10)
+    closest_terms = [term for term, score, _ in closest]
+    # remove the exact true term if present (when known)
+    if true_llt_term is not None:
+        closest_terms = [t for t in closest_terms if t != true_llt_term]
+    # trim to N, then append true term (if known) to ensure presence like baseline
     closest_terms = closest_terms[:N_CANDIDATES]
-    closest_terms.append(true_llt_term)
+    if true_llt_term is not None and true_llt_term not in closest_terms:
+        closest_terms.append(true_llt_term)
+    # deterministic shuffle for presentation
     random.shuffle(closest_terms)
 
     prompt = (
@@ -228,8 +259,8 @@ for idx, row in ae_df.iloc[:MAX_ROWS].iterrows():
 
     try:
         response = client.chat.completions.create(
-             #model="Llama-3.3-70B-Instruct",
-            model="llama-3.3-70b-instruct-awq",
+            model="Llama-3.3-70B-Instruct",
+            #model="llama-3.3-70b-instruct-awq",
             messages=[
                 {"role": "system", "content": "You are a helpful medical coding assistant."},
                 {"role": "user", "content": prompt}
@@ -241,15 +272,15 @@ for idx, row in ae_df.iloc[:MAX_ROWS].iterrows():
         raw_last_line = full_answer.split("\n")[-1].strip()
         pred_llt_term = clean_model_term(raw_last_line)
 
-        # Term-level eval
-        exact_match = (pred_llt_term == true_llt_term)
-        fuzzy_score = fuzz.ratio(pred_llt_term.lower(), true_llt_term.lower())
-        fuzzy_match = (fuzzy_score >= 90)
+        # Term-level eval (null-safe)
+        exact_match = (pred_llt_term == (true_llt_term or ""))
+        fuzzy_score = fuzz.ratio(pred_llt_term.lower(), (true_llt_term or "").lower())
+        fuzzy_match = (true_llt_term is not None and fuzzy_score >= 90)
 
-        # Map predicted term -> codes
+        # Map predicted term -> codes (canonical)
         pred_llt_code = map_pred_term_to_llt_code(pred_llt_term, closest_terms)
 
-        true_pt_code = llt_code_to_pt.get(true_llt_code_int) if has_pt_in_llt else None
+        true_pt_code = llt_code_to_pt.get(true_llt_code) if has_pt_in_llt else None
         pred_pt_code = llt_code_to_pt.get(pred_llt_code) if (has_pt_in_llt and pred_llt_code is not None) else None
 
         # Primary SOCs via PT map:
@@ -275,7 +306,7 @@ for idx, row in ae_df.iloc[:MAX_ROWS].iterrows():
         pred_primary_soc_missing = (pred_pt_code is not None and pt_code_to_primary_soc.get(pred_pt_code) is None)
         true_primary_soc_missing = (true_pt_code is not None and pt_code_to_primary_soc.get(true_pt_code) is None) if true_pt_code is not None else None
 
-        # Save row
+        # Save row (canonical codes)
         results.append({
             "AE_text": ae_text,
             "true_llt_term": true_llt_term,
@@ -284,11 +315,11 @@ for idx, row in ae_df.iloc[:MAX_ROWS].iterrows():
             "fuzzy_score": float(fuzzy_score),
             "fuzzy_match": bool(fuzzy_match),
 
-            # codes
-            "true_llt_code": int(true_llt_code_int),
+            # codes (canonical strings)
+            "true_llt_code": true_llt_code,
             "pred_llt_code": pred_llt_code,
-            "true_pt_code":  int(true_pt_code) if true_pt_code is not None else None,
-            "pred_pt_code":  int(pred_pt_code) if pred_pt_code is not None else None,
+            "true_pt_code":  true_pt_code,
+            "pred_pt_code":  pred_pt_code,
 
             # SOCs (AE vs mapping primary)
             "true_soc_code": true_soc_code_ae,               # AE if present, else true primary
@@ -323,19 +354,58 @@ for idx, row in ae_df.iloc[:MAX_ROWS].iterrows():
 
     except Exception as e:
         print(f"Error at index {idx}: {e}")
+        # record anyway (no-skip)
+        true_pt_code = llt_code_to_pt.get(true_llt_code) if has_pt_in_llt else None
+        true_soc_code_primary = pt_code_to_primary_soc.get(true_pt_code) if true_pt_code is not None else None
+        if true_soc_code_ae is None:
+            true_soc_code_ae = true_soc_code_primary
+
+        results.append({
+            "AE_text": ae_text,
+            "true_llt_term": true_llt_term,
+            "pred_llt_term": None,
+            "exact_match": False,
+            "fuzzy_score": 0.0,
+            "fuzzy_match": False,
+
+            "true_llt_code": true_llt_code,
+            "pred_llt_code": None,
+            "true_pt_code":  true_pt_code,
+            "pred_pt_code":  None,
+
+            "true_soc_code": true_soc_code_ae,
+            "pred_soc_code": None,
+            "true_soc_code_primary": true_soc_code_primary,
+
+            "true_pt_term":  pt_code_to_term.get(true_pt_code) if true_pt_code is not None else None,
+            "pred_pt_term":  None,
+            "true_soc_term": soc_code_to_term.get(true_soc_code_ae) if true_soc_code_ae is not None else None,
+            "pred_soc_term": None,
+            "true_soc_term_primary": soc_code_to_term.get(true_soc_code_primary) if true_soc_code_primary is not None else None,
+
+            "true_soc_codes_all": pt_code_to_soc_all.get(true_pt_code, []) if true_pt_code is not None else [],
+            "pred_soc_codes_all": [],
+
+            "pred_primary_soc_missing": None,
+            "true_primary_soc_missing": None,
+
+            "model_output": None
+        })
 
 # ===========================
-# Save predictions
+# Save predictions — per-seed file
 # ===========================
-with open(OUT_JSON, "w", encoding="utf-8") as f:
+out_json = OUT_JSON.replace(".json", f"_seed{RUN_SEED}.json")
+with open(out_json, "w", encoding="utf-8") as f:
     json.dump(results, f, indent=2, ensure_ascii=False)
+print("Saved:", out_json)
 
 # ===========================
-# Term-level metrics (using *_llt_term only)
+# Term-level metrics (using *_llt_term only) — null-safe
 # ===========================
-y_true = [r["true_llt_term"] for r in results]
-y_pred = [r["pred_llt_term"] for r in results]
-y_pred_fuzzy = [r["true_llt_term"] if r["fuzzy_match"] else r["pred_llt_term"] for r in results]
+y_true = [r.get("true_llt_term") or "" for r in results]
+y_pred = [r.get("pred_llt_term") or "" for r in results]
+y_pred_fuzzy = [(r.get("true_llt_term") or r.get("pred_llt_term") or "") if r.get("fuzzy_match") else (r.get("pred_llt_term") or "") for r in results]
 
 print("Evaluation Report (Exact Match):")
 print(classification_report(y_true, y_pred, zero_division=0))
@@ -344,7 +414,7 @@ print("\nEvaluation Report (Fuzzy Match):")
 print(classification_report(y_true, y_pred_fuzzy, zero_division=0))
 
 acc = accuracy_score(y_true, y_pred) if y_true else 0.0
-f1  = f1_score(y_true, y_pred, average="macro") if y_true else 0.0
+f1  = f1_score(y_true, y_pred, average="macro", zero_division=0) if y_true else 0.0
 
 print(f"\nAccuracy: {acc:.4f}")
 print(f"F1 Score (macro): {f1:.4f}")
@@ -356,7 +426,7 @@ print(f"Precision (macro): {precision:.4f}")
 print(f"Recall (macro):    {recall:.4f}")
 
 # Fuzzy match accuracy
-fuzzy_accuracy = (sum(r["fuzzy_match"] for r in results) / len(results)) if results else 0.0
+fuzzy_accuracy = (sum(1 for r in results if r.get("fuzzy_match")) / len(results)) if results else 0.0
 print(f"Fuzzy Match Accuracy: {fuzzy_accuracy:.4f}")
 
 # ===========================
@@ -367,7 +437,7 @@ def _both_present(pairs):
 
 # PT accuracy (PT(true LLT) vs PT(pred LLT))
 if has_pt_in_llt:
-    pt_pairs = _both_present([(r["true_pt_code"], r["pred_pt_code"]) for r in results])
+    pt_pairs = _both_present([(r.get("true_pt_code"), r.get("pred_pt_code")) for r in results])
     if pt_pairs:
         pt_acc = sum(int(a == b) for a, b in pt_pairs) / len(pt_pairs)
         print(f"\nPT Accuracy (code): {pt_acc:.4f}  (over {len(pt_pairs)} rows)")
@@ -397,14 +467,52 @@ else:
     print("SOC Accuracy (Option B):                N/A")
 
 # SOC accuracy (any-of vs AE)
-soc_any = []
+soc_any_flags = []
 for r in results:
     ae_soc = r.get("true_soc_code")
     pred_all = r.get("pred_soc_codes_all") or []
     if ae_soc is not None and pred_all:
-        soc_any.append(int(ae_soc in pred_all))
-if soc_any:
-    soc_acc_any = sum(soc_any) / len(soc_any)
-    print(f"SOC Accuracy (any-of vs AE):  {soc_acc_any:.4f} (over {len(soc_any)} rows)")
+        soc_any_flags.append(int(ae_soc in pred_all))
+if soc_any_flags:
+    soc_acc_any = sum(soc_any_flags) / len(soc_any_flags)
+    print(f"SOC Accuracy (any-of vs AE):  {soc_acc_any:.4f} (over {len(soc_any_flags)} rows)")
 else:
     print("SOC Accuracy (any-of vs AE): N/A")
+
+# ===========================
+# Save RUN-LEVEL METRICS (per-seed) as JSON
+# ===========================
+metrics_payload = {
+    "meta": {
+        "dataset": AE_CSV_PATH.split("/")[-1].replace(".csv",""),
+        "model": "llama-3.3-70b-instruct",
+        "n_candidates": N_CANDIDATES,
+        "max_rows": MAX_ROWS,
+        "seed": RUN_SEED,
+        "timestamp": time.strftime("%Y-%m-%dT%H:%M:%S"),
+        "notes": "per-AE results saved in OUT_JSON with seed suffix; aggregated metrics saved here",
+    },
+    "counts": {
+        "n_samples": len(results),
+        "n_pt_pairs": len(pt_pairs) if has_pt_in_llt else 0,
+        "n_soc_optA": len(soc_pairs_ae),
+        "n_soc_optB": len(soc_pairs_primary),
+        "n_soc_any": len(soc_any_flags),
+    },
+    "metrics": {
+        "LLT_term_acc_exact": float(acc),
+        "LLT_term_acc_fuzzy": float(fuzzy_accuracy),
+        "LLT_precision_macro": float(precision),
+        "LLT_recall_macro": float(recall),
+        "LLT_f1_macro": float(f1),
+        "PT_code_acc": (float(pt_acc) if has_pt_in_llt and 'pt_acc' in locals() else None),
+        "SOC_acc_option_a": (float(soc_acc_vs_ae) if soc_pairs_ae else None),
+        "SOC_acc_option_b": (float(soc_acc_vs_true_primary) if soc_pairs_primary else None),
+        "SOC_acc_any_of_vs_AE": (float(soc_acc_any) if soc_any_flags else None),
+    },
+}
+
+metrics_path = OUT_JSON.replace(".json", f"_metrics_seed{RUN_SEED}.json")
+with open(metrics_path, "w", encoding="utf-8") as f:
+    json.dump(metrics_payload, f, indent=2, ensure_ascii=False)
+print("Saved metrics:", metrics_path)

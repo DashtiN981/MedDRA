@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load datasets
-llt_df = pd.read_csv("./data/LLT2_Code_English_25_0.csv", sep=';', encoding='latin1')
+llt_df = pd.read_csv("./data/LLT2_Code_Deutsch_25_0.csv", sep=';', encoding='latin1')
 pt_df = pd.read_csv("./data/PT2_SOC_25_0.csv", sep=';', encoding='latin1')
 
 # Merge on PT_Code

@@ -1,5 +1,5 @@
 """
-File Name: RAG_Model_PT_LLT_SOC_V3.py    === Author: Naghme Dashti / September 2025
+File Name: RAG_Model_PT_LLT_SOC_V3.py    === Author: Naghme Dashti / 25 September 2025
 
 RAG-based Prompting with Explicit Reasoning + Final Answer Line
 ----------------------------------------------------------------
@@ -18,10 +18,10 @@ import time
 import random
 import numpy as np
 import pandas as pd
-from difflib import get_close_matches
+# from difflib import get_close_matches                     # REMOVED
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, classification_report
 from openai import OpenAI
-from rapidfuzz import fuzz
+from rapidfuzz import fuzz, process                         # CHANGED: add process
 
 # =========================
 # Local OpenAI-compatible LLM API
@@ -46,7 +46,7 @@ DATASET_EMB_NAME = "ae_embeddings_Dauno"
 LLT_DICTIONARY_NAME      = "LLT2_Code_English_25_0"   # includes LLT_Code, LLT_Term, PT_Code
 LLT_DICTIONARY_EMB_NAME  = "llt2_embeddings"
 PT_DICTIONARY_NAME       = "PT2_SOC_25_0"              # supports PT_Code,SOC_Code; PT_Term,SOC_Term optional; Ist_Primary_SOC & Primary_SOC_Code optional
-OUTPUT_FILE_NAME         = "Dauno_output_v3_SOC"
+OUTPUT_FILE_NAME         = "Dauno_output"
 
 # Paths
 AE_CSV_FILE  = f"/home/naghmedashti/MedDRA-LLM/data/{DATASET_NAME}.csv"
@@ -55,7 +55,7 @@ LLT_CSV_FILE = f"/home/naghmedashti/MedDRA-LLM/data/{LLT_DICTIONARY_NAME}.csv"
 LLT_EMB_FILE = f"/home/naghmedashti/MedDRA-LLM/embedding/{LLT_DICTIONARY_EMB_NAME}.json"
 PT_CSV_FILE  = f"/home/naghmedashti/MedDRA-LLM/data/{PT_DICTIONARY_NAME}.csv"
 
-LLM_API_NAME = "llama-3.3-70b-instruct-awq"  # or: Llama-3.3-70B-Instruct
+LLM_API_NAME = "Llama-3.3-70B-Instruct"  # or "Llama-3.3-70B-Instruct" llama-3.3-70b-instruct-awq  or GPT-OSS-120B
 LLM_TEMP = 0.0
 LLM_TOKEN = 250
 
@@ -190,8 +190,9 @@ def term_to_llt_code(pred_term: str, allow_fuzzy=True) -> str | None:
         if p and p in term_norm_to_llt:
             return term_norm_to_llt[p]
     if allow_fuzzy:
-        hits = get_close_matches(t, list(term_norm_to_llt.keys()), n=1, cutoff=0.94)
-        return term_norm_to_llt[hits[0]] if hits else None
+        # CHANGED: use RapidFuzz instead of difflib.get_close_matches
+        best = process.extractOne(t, list(term_norm_to_llt.keys()), scorer=fuzz.ratio, score_cutoff=94)
+        return term_norm_to_llt[best[0]] if best else None
     return None
 
 # =========================
@@ -222,7 +223,8 @@ else:
 # RAG + prompting
 # =========================
 results = []
-random.seed(42)
+RUN_SEED = 44
+random.seed(RUN_SEED)
 
 for idx, row in ae_df.iterrows():
     ae_text = str(row["Original_Term_aufbereitet"])
@@ -238,7 +240,7 @@ for idx, row in ae_df.iterrows():
         if pd.notna(v):
             true_SOC_Code_AE_raw = canon_code(v)
 
-    # Build candidates from embeddings (fallback: difflib + random)
+    # Build candidates from embeddings (fallback: rapidfuzz + random)  # CHANGED: comment
     ae_emb = ae_emb_dict.get(ae_text, ae_emb_dict.get(norm_text(ae_text)))
     if ae_emb is not None:
         ae_norm = np.linalg.norm(ae_emb)
@@ -250,7 +252,9 @@ for idx, row in ae_df.iterrows():
         sims.sort(key=lambda x: x[1], reverse=True)
         candidate_terms = [t for t, _ in sims[:TOP_K]]
     else:
-        cand = get_close_matches(ae_text, llt_terms_all, n=TOP_K, cutoff=0.0)
+        # CHANGED: use RapidFuzz for text fallback (if AE embedding missing)
+        hits = process.extract(ae_text, llt_terms_all, scorer=fuzz.token_set_ratio, limit=TOP_K, score_cutoff=0)
+        cand = [t for (t, score, idx_) in hits]
         if len(cand) < TOP_K:
             extra = random.sample(llt_terms_all, k=min(TOP_K - len(cand), len(llt_terms_all)))
             cand += extra
@@ -418,25 +422,28 @@ for idx, row in ae_df.iterrows():
         })
 
 # =========================
-# Save Results
+# Save Results (PER-AE JSON ONLY — NO CSV)
 # =========================
-out_json = f"/home/naghmedashti/MedDRA-LLM/RAG_Models/{OUTPUT_FILE_NAME}.json"
+out_json = f"/home/naghmedashti/MedDRA-LLM/RAG_Models/{OUTPUT_FILE_NAME}_seed{RUN_SEED}.json"
 with open(out_json, "w", encoding="utf-8") as f:
     json.dump(results, f, indent=2, ensure_ascii=False)
-
-out_csv = f"/home/naghmedashti/MedDRA-LLM/RAG_Models/{OUTPUT_FILE_NAME}_enriched.csv"
-pd.DataFrame(results).to_csv(out_csv, index=False, encoding="utf-8-sig")
 
 # =========================
 # Evaluation (LLT/PT term-based + code-based)
 # =========================
 y_true = [r["true_LLT_term"] or "" for r in results]
 y_pred = [r["pred_LLT_term"] or "" for r in results]
-y_pred_fuzzy = [(r["true_LLT_term"] or r["pred_LLT_term"] or "") if r["LLT_fuzzy_match"] else (r["pred_LLT_term"] or "") for r in results]
+y_pred_fuzzy = [
+    (r["true_LLT_term"] or r["pred_LLT_term"] or "") if r["LLT_fuzzy_match"] else (r["pred_LLT_term"] or "")
+    for r in results
+]
 
 z_true = [r["true_PT_term"] or "" for r in results]
 z_pred = [r["pred_PT_term"] or "" for r in results]
-z_pred_fuzzy = [(r["true_PT_term"] or r["pred_PT_term"] or "") if r["PT_fuzzy_match"] else (r["pred_PT_term"] or "") for r in results]
+z_pred_fuzzy = [
+    (r["true_PT_term"] or r["pred_PT_term"] or "") if r["PT_fuzzy_match"] else (r["pred_PT_term"] or "")
+    for r in results
+]
 
 print("Evaluation Report (Exact LLT Match):")
 print(classification_report(y_true, y_pred, zero_division=0))
@@ -481,7 +488,11 @@ print(f"PT  Accuracy (code): {PT_acc:.2f}   [on {sum(mask_pt)} rows]")
 def _both_present(pairs):
     return [(a, b) for (a, b) in pairs if (a is not None and b is not None)]
 
-# Option A: primary(pred PT) vs AE_SOC (fallback to true primary if AE missing)
+soc_acc_vs_ae = None
+soc_acc_vs_true_primary = None
+soc_acc_any = None
+
+# Option A: primary(pred PT) vs AE_SOC (fallback به true primary اگر AE نبود)
 soc_pairs_ae = _both_present([(r.get("true_SOC_Code"), r.get("pred_SOC_Code")) for r in results])
 if soc_pairs_ae:
     soc_acc_vs_ae = sum(int(a == b) for a, b in soc_pairs_ae) / len(soc_pairs_ae)
@@ -501,19 +512,73 @@ else:
     print("SOC Accuracy (primary vs true primary): N/A")
     print("SOC Accuracy (Option B):                N/A")
 
-# Any-of vs AE: is AE SOC among all SOCs for predicted PT?
-soc_any = []
+# Any-of vs AE: آیا AE_SOC داخل all_SOCs(pred PT) هست؟
+soc_any_flags = []
 for r in results:
-    ae_soc = r.get("true_SOC_Code")        # AE raw if present, else true primary (as defined above)
+    ae_soc = r.get("true_SOC_Code")        # AE raw if present, else true primary (defined above)
     pred_all = r.get("pred_SOC_codes_all") or []
     if ae_soc is not None and pred_all:
-        soc_any.append(int(ae_soc in pred_all))
-if soc_any:
-    soc_acc_any = sum(soc_any) / len(soc_any)
-    print(f"SOC Accuracy (any-of vs AE):  {soc_acc_any:.4f} (over {len(soc_any)} rows)")
+        soc_any_flags.append(int(ae_soc in pred_all))
+if soc_any_flags:
+    soc_acc_any = sum(soc_any_flags) / len(soc_any_flags)
+    print(f"SOC Accuracy (any-of vs AE):  {soc_acc_any:.4f} (over {len(soc_any_flags)} rows)")
 else:
     print("SOC Accuracy (any-of vs AE): N/A")
 
-print("\nSaved:")
+print("\nSaved per-AE JSON:")
 print("-", out_json)
-print("-", out_csv)
+
+# =========================
+# Save RUN-LEVEL METRICS (AGGREGATED) as JSON (for reproducibility plots)
+# =========================
+metrics_payload = {
+    "meta": {
+        "dataset": DATASET_NAME,
+        "model": LLM_API_NAME,
+        "top_k": TOP_K,
+        "max_rows": MAX_ROWS,
+        "embedding_dim": EMB_DIM,
+        "llm_temp": LLM_TEMP,
+        "llm_token": LLM_TOKEN,
+        "timestamp": time.strftime("%Y-%m-%dT%H:%M:%S"),
+        "notes": "per-AE results saved in OUTPUT_FILE_NAME.json; aggregated metrics saved here",
+    },
+    "counts": {
+        "n_samples": len(results),
+        "n_LLT_code_eval": int(sum(mask_llt)),
+        "n_PT_code_eval": int(sum(mask_pt)),
+        "n_SOC_optA": len(soc_pairs_ae),
+        "n_SOC_optB": len(soc_pairs_primary),
+        "n_SOC_any": len(soc_any_flags),
+    },
+    "metrics": {
+        # LLT (terms)
+        "LLT_term_acc_exact": float(llt_acc),
+        "LLT_term_acc_fuzzy": float(llt_fuzzy_acc),
+        "LLT_precision_macro": float(llt_precision),
+        "LLT_recall_macro": float(llt_recall),
+        "LLT_f1_macro": float(llt_f1),
+
+        # PT (terms)
+        "PT_term_acc_exact": float(pt_acc),
+        "PT_term_acc_fuzzy": float(pt_fuzzy_acc),
+        "PT_precision_macro": float(pt_precision),
+        "PT_recall_macro": float(pt_recall),
+        "PT_f1_macro": float(pt_f1),
+
+        # Codes
+        "LLT_code_acc": float(LLT_acc),
+        "PT_code_acc": float(PT_acc),
+
+        # SOC
+        "SOC_acc_option_a": (None if soc_acc_vs_ae is None else float(soc_acc_vs_ae)),
+        "SOC_acc_option_b": (None if soc_acc_vs_true_primary is None else float(soc_acc_vs_true_primary)),
+        "SOC_acc_any_of_vs_AE": (None if soc_acc_any is None else float(soc_acc_any)),
+    },
+}
+
+metrics_json_path = f"/home/naghmedashti/MedDRA-LLM/RAG_Models/{OUTPUT_FILE_NAME}_metrics_seed{RUN_SEED}.json"
+with open(metrics_json_path, "w", encoding="utf-8") as f:
+    json.dump(metrics_payload, f, indent=2, ensure_ascii=False)
+
+print("[Saved metrics JSON]:", metrics_json_path)
