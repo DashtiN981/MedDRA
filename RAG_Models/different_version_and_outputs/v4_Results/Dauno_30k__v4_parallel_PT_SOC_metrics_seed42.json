@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "script": "rag_prompting_reasoning_v4_parallel_PT_SOC.py",
+    "model": "nvidia-llama-3.3-70b-instruct-fp8",
+    "top_k": 30,
+    "max_rows": null,
+    "embedding_dim": 384,
+    "llm_temp": 0.0,
+    "llm_token": 250,
+    "timestamp": "2026-01-29T11:39:20",
+    "concurrency": 30,
+    "max_retries": 4,
+    "run_seed": 42,
+    "notes": "v4 behavior preserved (no GT injection, no candidate shuffle). Added PT/SOC mapping + async parallel."
+  },
+  "counts": {
+    "n_total_rows": 443,
+    "n_usable_rows": 443,
+    "n_skipped_missing_embedding": 0,
+    "n_LLT_code_eval": 441,
+    "n_PT_code_eval": 441,
+    "n_SOC_optA": 395,
+    "n_SOC_optB": 394,
+    "n_SOC_any": 398,
+    "n_true_in_topk": 358
+  },
+  "rates": {
+    "pct_true_in_topk": 0.8081264108352144
+  },
+  "metrics": {
+    "LLT_term_acc_exact": 0.5237020316027088,
+    "LLT_term_acc_fuzzy": 0.5643340857787811,
+    "LLT_precision_macro": 0.3576573342905001,
+    "LLT_recall_macro": 0.35940570426587465,
+    "LLT_f1_macro": 0.3476528763176527,
+    "PT_term_acc_exact": 0.7765237020316027,
+    "PT_term_acc_fuzzy": 0.7065462753950339,
+    "PT_precision_macro": 0.6629549867366752,
+    "PT_recall_macro": 0.6458314088282707,
+    "PT_f1_macro": 0.6444509550983896,
+    "LLT_code_acc": 0.5260770975056689,
+    "PT_code_acc": 0.7777777777777778,
+    "SOC_acc_option_a": 0.8607594936708861,
+    "SOC_acc_option_b": 0.9137055837563451,
+    "SOC_acc_any_of_vs_AE": 0.8969849246231156
+  }
+}

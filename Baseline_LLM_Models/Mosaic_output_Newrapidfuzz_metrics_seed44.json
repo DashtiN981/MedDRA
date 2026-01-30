@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "dataset": "KI_Projekt_Mosaic_AE_Codierung_2024_07_03",
+    "model": "llama-3.3-70b-instruct",
+    "n_candidates": 100,
+    "max_rows": null,
+    "seed": 44,
+    "timestamp": "2026-01-26T13:25:42",
+    "notes": "per-AE results saved in OUT_JSON with seed suffix; aggregated metrics saved here"
+  },
+  "counts": {
+    "n_samples": 179,
+    "n_pt_pairs": 177,
+    "n_soc_optA": 162,
+    "n_soc_optB": 159,
+    "n_soc_any": 169
+  },
+  "metrics": {
+    "LLT_term_acc_exact": 0.6368715083798883,
+    "LLT_term_acc_fuzzy": 0.6983240223463687,
+    "LLT_precision_macro": 0.48019041769041765,
+    "LLT_recall_macro": 0.4509009009009009,
+    "LLT_f1_macro": 0.45083655083655083,
+    "PT_code_acc": 0.8361581920903954,
+    "SOC_acc_option_a": 0.8209876543209876,
+    "SOC_acc_option_b": 0.9119496855345912,
+    "SOC_acc_any_of_vs_AE": 0.8757396449704142
+  }
+}

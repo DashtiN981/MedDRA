@@ -1,0 +1,103 @@
+reviewer,AE_text,pred_LLT_term,true_LLT_term,record_id,source_file
+Isabella,acut respiratory distress syndrom due to pneumonia,Respiratory distress syndrome,Pneumonia,0-4-194d0779f915,Dauno_output__full__Isabella.json
+Isabella,Acute coronary syndrom with cardiac troponin t increased,Troponin T increased,Acute coronary syndrome,0-7-c19653d5ed77,Dauno_output__full__Isabella.json
+Isabella,Detection of staphylococcus epidermis in blood,Staphylococcus epidermidis septicemia,Staphylococcus epidermidis infection,0-71-4451e6c613cf,Dauno_output__full__Isabella.json
+Isabella,extramedullary manifestation,Extramedullary hemopoiesis,Leukaemic infiltration extramedullary,0-89-a648fdc6485c,Dauno_output__full__Isabella.json
+Isabella,ges. Bili,Gestosis,Bilirubin increased,0-117-f473981e8bee,Dauno_output__full__Isabella.json
+Isabella,Hemorrhage colitis acuta,Acute hemorrhagic ulcerative colitis,Hemorrhagic colitis,0-127-8a4707a2292a,Dauno_output__full__Isabella.json
+Isabella,Hemorrhage Zoekalpol,Hemorrhage,Caecal haemorrhage,0-134-19fe678c3d8d,Dauno_output__full__Isabella.json
+Isabella,Herpes root of tongue,Herpes lesion intra-oral,Herpetic stomatitis,0-136-4a8e1da4ed53,Dauno_output__full__Isabella.json
+Isabella,Increase of CRP with fever,"The Adverse Event (AE) ""Increase of CRP with fever"" indicates two main components: an increase in C-Reactive Protein (CRP), which is a marker of inflammation, and the presence of fever. The best MedDRA LLT term should ideally capture both aspects or at least the most specific aspect mentioned. Among the provided options, ""Fever"" is a direct match for one part of the AE, and ""CRP increased"" directly matches the other part. However, since ""hs-CRP increased"" is more specific, referring to high-sensitivity CRP, which is a more precise measurement of CRP levels, it might seem like a good choice. But given the information provided in the AE, ""CRP increased"" is the most straightforward match for the ""Increase of CRP"" part without assuming the use of high-sensitivity testing. For the fever aspect, ""Fever"" is the most straightforward and inclusive term. Between ""CRP increased"" and ""Fever"", the AE directly mentions both, but in the context of MedDRA coding, we often look for the term that best captures the clinical significance or the most specific aspect of the event. Since both ""CRP increased"" and",CRP increased,0-164-4ffcdaac75b6,Dauno_output__full__Isabella.json
+Isabella,Infection BK gram+ Kokken; gram- E-coli ZVK,Escherichia coli infection,Catheter bacteremia,0-174-71e0df92cbe8,Dauno_output__full__Isabella.json
+Isabella,Infection blood,Infection,Infection NOS,0-176-a61381fcb22e,Dauno_output__full__Isabella.json
+Isabella,Infection blood,Infection bacterial,Infection NOS,0-180-58f9f63268fe,Dauno_output__full__Isabella.json
+Isabella,Infection blood,Infection bacterial,Infection NOS,0-181-58f9f63268fe,Dauno_output__full__Isabella.json
+Isabella,Infection blood,Infection bacterial,Infection NOS,0-183-58f9f63268fe,Dauno_output__full__Isabella.json
+Isabella,Infection bloodstream with MssE,MRSE infection,Staphylococcus epidermidis infection,0-186-a7da223ed0b0,Dauno_output__full__Isabella.json
+Isabella,Infection Hand (ZVK),Hand infection,Catheter site infection,0-206-4cf497445766,Dauno_output__full__Isabella.json
+Isabella,Infection spaphylococcus epidermis in blood,Staphylococcus epidermidis septicemia,Staphylococcus epidermidis infection,0-263-397934d03ff4,Dauno_output__full__Isabella.json
+Isabella,Infection staph. epidermis in blood,Staphylococcus epidermidis septicemia,Staphylococcus epidermidis infection,0-264-d9bf739c23e5,Dauno_output__full__Isabella.json
+Isabella,Infection Staphylococcus epidermis in blood,Staphylococcus epidermidis septicemia,Staphylococcus epidermidis infection,0-265-f2878ac5fbd6,Dauno_output__full__Isabella.json
+Isabella,Infection Staphylococcus haemolyticus in blood,Coagulase negative staphylococcal infection,Staphylococcal infection,0-268-caccd7b285b6,Dauno_output__full__Isabella.json
+Isabella,Infection with Staphylococcus epidermis in blood,Staphylococcus epidermidis septicemia,Staphylococcus epidermidis infection,0-283-e4d43bb03560,Dauno_output__full__Isabella.json
+Isabella,Infection ZVK Infection,Zika virus infection,Catheter site infection,0-285-e4c6cb0bd321,Dauno_output__full__Isabella.json
+Isabella,Infection ZVK-Infektion,Infection,Catheter site infection,0-287-8aab8ea18412,Dauno_output__full__Isabella.json
+Isabella,sPO2 decrease - atypical infiltrates,"Given that ""sPO2"" refers to oxygen saturation measured peripherally and not directly to ""PaO2"" (which is the partial pressure of oxygen in arterial blood), the closest match related to oxygen levels is ""PO2 decreased"", as it directly refers to a decrease in oxygen levels without specifying the method of measurement (arterial, venous, etc.), making it more applicable to the context of sPO2 decrease. However, ""Lung infiltration"" directly addresses the ""atypical infiltrates"" part of the AE, making it a strong candidate for coding the lung-related aspect of the AE. Between these, ""Lung infiltration"" is more specific to the second part of the AE description (""atypical infiltrates""), but since the primary issue",Lung infiltration,0-404-fd91b7318416,Dauno_output__full__Isabella.json
+Isabella,ZVK Infection,Varicella zoster virus infection,Catheter site infection,0-442-b6a8fa61908d,Dauno_output__full__Isabella.json
+reviewer1,acut respiratory distress syndrom due to pneumonia,Respiratory distress syndrome,Pneumonia,1-4-194d0779f915,Dauno_output__full__reviewer1.json
+reviewer1,Acute coronary syndrom with cardiac troponin t increased,Troponin T increased,Acute coronary syndrome,1-7-c19653d5ed77,Dauno_output__full__reviewer1.json
+reviewer1,ARDS by neutropenic sepsis and acute renal failure,Acute renal failure,Neutropenic sepsis,1-38-5a7963c9c91b,Dauno_output__full__reviewer1.json
+reviewer1,blood stream infection,Bacteria blood identified,Infection NOS,1-56-94077e043ec0,Dauno_output__full__reviewer1.json
+reviewer1,extramedullary manifestation,Extramedullary hemopoiesis,Leukaemic infiltration extramedullary,1-89-a648fdc6485c,Dauno_output__full__reviewer1.json
+reviewer1,general worsening of condition,Condition worsened,General physical health deterioration,1-116-a9fcbf1856d8,Dauno_output__full__reviewer1.json
+reviewer1,ges. Bili,Gestosis,Bilirubin increased,1-117-f473981e8bee,Dauno_output__full__reviewer1.json
+reviewer1,Hemorrhage cheek mucosa,Mucosal hemorrhage,Oral mucosa bleeding,1-126-e1eff0ca085f,Dauno_output__full__reviewer1.json
+reviewer1,Hemorrhage Zoekalpol,Hemorrhage,Caecal haemorrhage,1-134-19fe678c3d8d,Dauno_output__full__reviewer1.json
+reviewer1,Hypocalemia,Hypocalcemia,Hypercalcaemia,1-147-86202e825678,Dauno_output__full__reviewer1.json
+reviewer1,Increase of CRP with fever,"The Adverse Event (AE) ""Increase of CRP with fever"" indicates two main components: an increase in C-Reactive Protein (CRP), which is a marker of inflammation, and the presence of fever. The best MedDRA LLT term should ideally capture both aspects or at least the most specific aspect mentioned. Among the provided options, ""Fever"" is a direct match for one part of the AE, and ""CRP increased"" directly matches the other part. However, since ""hs-CRP increased"" is more specific, referring to high-sensitivity CRP, which is a more precise measurement of CRP levels, it might seem like a good choice. But given the information provided in the AE, ""CRP increased"" is the most straightforward match for the ""Increase of CRP"" part without assuming the use of high-sensitivity testing. For the fever aspect, ""Fever"" is the most straightforward and inclusive term. Between ""CRP increased"" and ""Fever"", the AE directly mentions both, but in the context of MedDRA coding, we often look for the term that best captures the clinical significance or the most specific aspect of the event. Since both ""CRP increased"" and",CRP increased,1-164-4ffcdaac75b6,Dauno_output__full__reviewer1.json
+reviewer1,Infection blood,Infection bacterial,Infection NOS,1-180-58f9f63268fe,Dauno_output__full__reviewer1.json
+reviewer1,Infection blood,Infection bacterial,Infection NOS,1-181-58f9f63268fe,Dauno_output__full__reviewer1.json
+reviewer1,Infection blood,Bacteria blood identified,Infection,1-182-88b8facf810b,Dauno_output__full__reviewer1.json
+reviewer1,Infection blood,Infection bacterial,Infection NOS,1-183-58f9f63268fe,Dauno_output__full__reviewer1.json
+reviewer1,Infection blood (catheter related infection),Catheter related septicemia,Catheter related infection,1-184-fe629ed71eaa,Dauno_output__full__reviewer1.json
+reviewer1,Infection bloodstream with MssE,MRSE infection,Staphylococcus epidermidis infection,1-186-a7da223ed0b0,Dauno_output__full__reviewer1.json
+reviewer1,Infection gram+ Kokken epidermidis in blood cultures,Staphylococcus epidermidis infection,Gram-positive cocci infection,1-204-b82e6743949a,Dauno_output__full__reviewer1.json
+reviewer1,Infection Hand (ZVK),Hand infection,Catheter site infection,1-206-4cf497445766,Dauno_output__full__reviewer1.json
+reviewer1,Infection Staphylococcus haemolyticus in blood,Coagulase negative staphylococcal infection,Staphylococcal infection,1-268-caccd7b285b6,Dauno_output__full__reviewer1.json
+reviewer1,Infection ZVK Infection,Zika virus infection,Catheter site infection,1-285-e4c6cb0bd321,Dauno_output__full__reviewer1.json
+reviewer1,Infection ZVK-Infektion,Infection,Catheter site infection,1-287-8aab8ea18412,Dauno_output__full__reviewer1.json
+reviewer1,sPO2 decrease - atypical infiltrates,"Given that ""sPO2"" refers to oxygen saturation measured peripherally and not directly to ""PaO2"" (which is the partial pressure of oxygen in arterial blood), the closest match related to oxygen levels is ""PO2 decreased"", as it directly refers to a decrease in oxygen levels without specifying the method of measurement (arterial, venous, etc.), making it more applicable to the context of sPO2 decrease. However, ""Lung infiltration"" directly addresses the ""atypical infiltrates"" part of the AE, making it a strong candidate for coding the lung-related aspect of the AE. Between these, ""Lung infiltration"" is more specific to the second part of the AE description (""atypical infiltrates""), but since the primary issue",Lung infiltration,1-404-fd91b7318416,Dauno_output__full__reviewer1.json
+reviewer1,wound healing disorder,Wound healing disturbance of,Wound healing delayed,1-440-321a5b7d2b59,Dauno_output__full__reviewer1.json
+reviewer1,ZVK Infection,Varicella zoster virus infection,Catheter site infection,1-442-b6a8fa61908d,Dauno_output__full__reviewer1.json
+reviewer2,acut respiratory distress syndrom due to pneumonia,Respiratory distress syndrome,Pneumonia,2-4-194d0779f915,Dauno_output__full__reviewer2.json
+reviewer2,Acute coronary syndrom with cardiac troponin t increased,Troponin T increased,Acute coronary syndrome,2-7-c19653d5ed77,Dauno_output__full__reviewer2.json
+reviewer2,anorexia (parenterale nutrition was nessessary),Anorexia,Inappetence,2-36-d5a3abb11629,Dauno_output__full__reviewer2.json
+reviewer2,ARDS by neutropenic sepsis and acute renal failure,Acute renal failure,Neutropenic sepsis,2-38-5a7963c9c91b,Dauno_output__full__reviewer2.json
+reviewer2,blood stream infection,Bacteria blood identified,Infection NOS,2-56-94077e043ec0,Dauno_output__full__reviewer2.json
+reviewer2,extramedullary manifestation,Extramedullary hemopoiesis,Leukaemic infiltration extramedullary,2-89-a648fdc6485c,Dauno_output__full__reviewer2.json
+reviewer2,general worsening of condition,Condition worsened,General physical health deterioration,2-116-a9fcbf1856d8,Dauno_output__full__reviewer2.json
+reviewer2,ges. Bili,Gestosis,Bilirubin increased,2-117-f473981e8bee,Dauno_output__full__reviewer2.json
+reviewer2,Hemorrhage after teeth extraction,Tooth socket hemorrhage,Post-operative haemorrhage,2-125-76ab77923746,Dauno_output__full__reviewer2.json
+reviewer2,Hemorrhage colitis acuta,Acute hemorrhagic ulcerative colitis,Hemorrhagic colitis,2-127-8a4707a2292a,Dauno_output__full__reviewer2.json
+reviewer2,Hemorrhage Zoekalpol,Hemorrhage,Caecal haemorrhage,2-134-19fe678c3d8d,Dauno_output__full__reviewer2.json
+reviewer2,Increase of CRP with fever,"The Adverse Event (AE) ""Increase of CRP with fever"" indicates two main components: an increase in C-Reactive Protein (CRP), which is a marker of inflammation, and the presence of fever. The best MedDRA LLT term should ideally capture both aspects or at least the most specific aspect mentioned. Among the provided options, ""Fever"" is a direct match for one part of the AE, and ""CRP increased"" directly matches the other part. However, since ""hs-CRP increased"" is more specific, referring to high-sensitivity CRP, which is a more precise measurement of CRP levels, it might seem like a good choice. But given the information provided in the AE, ""CRP increased"" is the most straightforward match for the ""Increase of CRP"" part without assuming the use of high-sensitivity testing. For the fever aspect, ""Fever"" is the most straightforward and inclusive term. Between ""CRP increased"" and ""Fever"", the AE directly mentions both, but in the context of MedDRA coding, we often look for the term that best captures the clinical significance or the most specific aspect of the event. Since both ""CRP increased"" and",CRP increased,2-164-4ffcdaac75b6,Dauno_output__full__reviewer2.json
+reviewer2,Infection BK gram+ Kokken; gram- E-coli ZVK,Escherichia coli infection,Catheter bacteremia,2-174-71e0df92cbe8,Dauno_output__full__reviewer2.json
+reviewer2,Infection blood,Infection bacterial,Infection NOS,2-180-58f9f63268fe,Dauno_output__full__reviewer2.json
+reviewer2,Infection blood,Infection bacterial,Infection NOS,2-181-58f9f63268fe,Dauno_output__full__reviewer2.json
+reviewer2,Infection blood,Bacteria blood identified,Infection,2-182-88b8facf810b,Dauno_output__full__reviewer2.json
+reviewer2,Infection blood,Infection bacterial,Infection NOS,2-183-58f9f63268fe,Dauno_output__full__reviewer2.json
+reviewer2,Infection blood (catheter related infection),Catheter related septicemia,Catheter related infection,2-184-fe629ed71eaa,Dauno_output__full__reviewer2.json
+reviewer2,Infection blood (staph. aureus),Staphylococcus aureus bacteremia,Staphylococcus aureus infection,2-185-1ecfafd036cf,Dauno_output__full__reviewer2.json
+reviewer2,Infection bloodstream with MssE,MRSE infection,Staphylococcus epidermidis infection,2-186-a7da223ed0b0,Dauno_output__full__reviewer2.json
+reviewer2,Infection candida glabrata in blood,Candida sepsis,Candida infection,2-188-68c94a7e4ac8,Dauno_output__full__reviewer2.json
+reviewer2,Infection Candidda in blood culture,Systemic candidiasis,Candida infection,2-189-4d7c6f4a957c,Dauno_output__full__reviewer2.json
+reviewer2,Infection E.coli in blood,Escherichia coli bacteremia,Escherichia coli infection,2-196-83d6db81b2f0,Dauno_output__full__reviewer2.json
+reviewer2,Infection evidence of E. coli in blood,Escherichia coli bacteremia,Escherichia coli infection,2-198-873d660cacc3,Dauno_output__full__reviewer2.json
+reviewer2,Infection gram+ Kokken epidermidis in blood cultures,Staphylococcus epidermidis infection,Gram-positive cocci infection,2-204-b82e6743949a,Dauno_output__full__reviewer2.json
+reviewer2,Infection Hand (ZVK),Hand infection,Catheter site infection,2-206-4cf497445766,Dauno_output__full__reviewer2.json
+reviewer2,Infection Herpes labialis (mouth),Herpes labialis,Cold sore mouth,2-208-ece634748a01,Dauno_output__full__reviewer2.json
+reviewer2,Infection Herpes simplex nasalis,Nasal herpes,Herpes simplex,2-209-905659b3c868,Dauno_output__full__reviewer2.json
+reviewer2,Infection high c-reactive protein,C-reactive protein increased,Infection NOS,2-210-03427bf852c5,Dauno_output__full__reviewer2.json
+reviewer2,Infection influenza A pneumonia,Influenza A virus infection,Influenza with pneumonia,2-217-8f184691b22c,Dauno_output__full__reviewer2.json
+reviewer2,Infection lungs/ catheter associated,Catheter related infection,Pneumonia,2-225-1ab5ba7b2e18,Dauno_output__full__reviewer2.json
+reviewer2,Infection Lymphoid organs,Lymphadenitis,Lymph gland infection,2-226-27413dd104dc,Dauno_output__full__reviewer2.json
+reviewer2,Infection Mukosa upper respiratory tract (DD: Pharyngitis) Staph. aureus,Staphylococcal pharyngitis,Staphylococcus aureus bacteraemia,2-228-1273e6971d4d,Dauno_output__full__reviewer2.json
+reviewer2,Infection Neutropenic Colitis,Neutropenic colitis,Infectious colitis,2-231-fa144bae0730,Dauno_output__full__reviewer2.json
+reviewer2,Infection Neutropenic Enterocolitis,Neutropenic enterocolitis,Enterocolitis infectious,2-232-11d996da9ea2,Dauno_output__full__reviewer2.json
+reviewer2,Infection spaphylococcus epidermis in blood,Staphylococcus epidermidis septicemia,Staphylococcus epidermidis infection,2-263-397934d03ff4,Dauno_output__full__reviewer2.json
+reviewer2,Infection staph. epidermis in blood,Staphylococcus epidermidis septicemia,Staphylococcus epidermidis infection,2-264-d9bf739c23e5,Dauno_output__full__reviewer2.json
+reviewer2,Infection Staphylococcus epidermis in blood,Staphylococcus epidermidis septicemia,Staphylococcus epidermidis infection,2-265-f2878ac5fbd6,Dauno_output__full__reviewer2.json
+reviewer2,Infection Staphylococcus haemolyticus in blood,Staphylococcal bacteraemia,Staphylococcal infection,2-266-28eda1539254,Dauno_output__full__reviewer2.json
+reviewer2,Infection staphylococcus haemolyticus in blood,Staphylococcal bacteremia,Staphylococcal infection,2-267-8ac7420548f1,Dauno_output__full__reviewer2.json
+reviewer2,Infection Staphylococcus hominis in blood,Staphylococcal bacteraemia,Staphylococcal infection,2-269-e82eb6f5ee55,Dauno_output__full__reviewer2.json
+reviewer2,Infection Streptococcus mitis/oralis in blood,Streptococcal bacteraemia,Streptococcal infection,2-270-c168f6612fc4,Dauno_output__full__reviewer2.json
+reviewer2,Infection with Staphylococcus epidermis in blood,Staphylococcus epidermidis septicemia,Staphylococcus epidermidis infection,2-283-e4d43bb03560,Dauno_output__full__reviewer2.json
+reviewer2,Infection ZVK Infection,Zika virus infection,Catheter site infection,2-285-e4c6cb0bd321,Dauno_output__full__reviewer2.json
+reviewer2,Infection ZVK with Staphylokokken,Infection staphylococcal,Catheter site infection,2-286-3e7cad1f676f,Dauno_output__full__reviewer2.json
+reviewer2,Infection ZVK-Infektion,Infection,Catheter site infection,2-287-8aab8ea18412,Dauno_output__full__reviewer2.json
+reviewer2,low grade papillary urothelial carcinoma,Papillary urothelial carcinoma,Bladder transitional cell carcinoma,2-303-7318b0674957,Dauno_output__full__reviewer2.json
+reviewer2,lung infection/pneumonia,Lung infection,Pneumonia,2-305-b898e49ea3f0,Dauno_output__full__reviewer2.json
+reviewer2,multiresistence gramgegative bacteraemia,Gram-negative bacteraemia,Multidrug resistant bacterial infection,2-325-8b9920b0b051,Dauno_output__full__reviewer2.json
+reviewer2,Pneumonia (Sepsis),Pneumonia bacterial,Pulmonary sepsis,2-376-50f10013c23f,Dauno_output__full__reviewer2.json
+reviewer2,sPO2 decrease - atypical infiltrates,"Given that ""sPO2"" refers to oxygen saturation measured peripherally and not directly to ""PaO2"" (which is the partial pressure of oxygen in arterial blood), the closest match related to oxygen levels is ""PO2 decreased"", as it directly refers to a decrease in oxygen levels without specifying the method of measurement (arterial, venous, etc.), making it more applicable to the context of sPO2 decrease. However, ""Lung infiltration"" directly addresses the ""atypical infiltrates"" part of the AE, making it a strong candidate for coding the lung-related aspect of the AE. Between these, ""Lung infiltration"" is more specific to the second part of the AE description (""atypical infiltrates""), but since the primary issue",Lung infiltration,2-404-fd91b7318416,Dauno_output__full__reviewer2.json
+reviewer2,ZVK Infection,Varicella zoster virus infection,Catheter site infection,2-442-b6a8fa61908d,Dauno_output__full__reviewer2.json

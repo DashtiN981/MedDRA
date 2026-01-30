@@ -1,0 +1,4 @@
+reviewer,checked_file,full_file,records_in_full,records_in_checked,manual_false_count,manual_false_rate_full,manual_false_rate_checked
+Isabella,Delta_output__checked__Isabella.json,Delta_output__full__Isabella.json,226,224,8,0.035398230088495575,0.03571428571428571
+reviewer1,Delta_output__checked__reviewer1.json,Delta_output__full__reviewer1.json,226,226,13,0.05752212389380531,0.05752212389380531
+reviewer2,Delta_output__checked__reviewer2.json,Delta_output__full__reviewer2.json,226,226,21,0.09292035398230089,0.09292035398230089

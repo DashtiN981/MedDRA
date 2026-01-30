@@ -1,0 +1,2042 @@
+[
+  {
+    "AE_text": "Acidosis metabolic",
+    "true_LLT_term": "Acidosis metabolic",
+    "pred_LLT_term": "Metabolic acidosis NOS",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 50.0,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Acute adhesion ileus",
+    "true_LLT_term": "Ileus adhesive",
+    "pred_LLT_term": "Ileus adhesive",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "acute kidney injury",
+    "true_LLT_term": "Acute kidney injury",
+    "pred_LLT_term": "Acute kidney injury",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "acute renal insufficiency",
+    "true_LLT_term": "Acute renal insufficiency",
+    "pred_LLT_term": "Acute renal insufficiency",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "aktue Cholezystitis",
+    "true_LLT_term": "Acute cholecystitis",
+    "pred_LLT_term": "Acute cholecystitis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "AML Pregression",
+    "true_LLT_term": "AML progression",
+    "pred_LLT_term": "AML progression",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "AML Progress",
+    "true_LLT_term": "AML progression",
+    "pred_LLT_term": "AML progression",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "AML Progression AML",
+    "true_LLT_term": "AML progression",
+    "pred_LLT_term": "AML progression",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "AML Progression AML Progression",
+    "true_LLT_term": "AML progression",
+    "pred_LLT_term": "Acute myeloid leukemia progression",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 61.224489795918366,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+{
+    "AE_text": "AML Progression AML Progression im peripheren Blut",
+    "true_LLT_term": "AML progression",
+    "pred_LLT_term": "AML progression",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "AMl progression and pneumonie",
+    "true_LLT_term": "AML progression",
+    "pred_LLT_term": "AML progression",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "AML Progression BSC",
+    "true_LLT_term": "AML progression",
+    "pred_LLT_term": "AML progression",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "AML Progression death by progredient AML",
+    "true_LLT_term": "AML progression",
+    "pred_LLT_term": "AML progression",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "AML Progression Leukozytose",
+    "true_LLT_term": "AML progression",
+    "pred_LLT_term": "Leukocytosis",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 29.629629629629626,
+    "LLT_fuzzy_match": false,
+    "manual check": false
+  },
+  {
+    "AE_text": "AML Progression Panzytopenia",
+    "true_LLT_term": "AML progression",
+    "pred_LLT_term": "Pancytopenia",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 29.629629629629626,
+    "LLT_fuzzy_match": false,
+    "manual check": false
+  },
+  {
+    "AE_text": "AML Progression Patient deceased",
+    "true_LLT_term": "AML progression",
+    "pred_LLT_term": "AML progression",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "AML Progression Patient dies at home due to AML progression",
+    "true_LLT_term": "AML progression",
+    "pred_LLT_term": "AML progression",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "AML Progression Progress of AML",
+    "true_LLT_term": "AML progression",
+    "pred_LLT_term": "AML progression",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },  
+  {
+    "AE_text": "AML Progression Progression",
+    "true_LLT_term": "AML progression",
+    "pred_LLT_term": "Acute myeloid leukemia progression",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 61.224489795918366,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "AML Progression progressive AML",
+    "true_LLT_term": "AML progression",
+    "pred_LLT_term": "AML progression",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+{
+    "AE_text": "AML Progression Vd. auf Leukostase Syndrom",
+    "true_LLT_term": "AML progression",
+    "pred_LLT_term": "Leukostasis syndrome",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 34.285714285714285,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Anaemia",
+    "true_LLT_term": "Anaemia",
+    "pred_LLT_term": "Anaemia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+{
+    "AE_text": "Anaemia",
+    "true_LLT_term": "Anemia",
+    "pred_LLT_term": "Anemia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+ {
+    "AE_text": "atrial fibrillation onset 04-Oct-2018 and worsening of General condition",
+    "true_LLT_term": "Atrial fibrillation",
+    "pred_LLT_term": "Atrial fibrillation aggravated",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 77.55102040816327,
+    "LLT_fuzzy_match": false,
+    "manual check": false
+  },
+  {
+    "AE_text": "Atypische Pneumonie bei positivem RSV-Nachweis",
+    "true_LLT_term": "Pneumonia respiratory syncytial viral",
+    "pred_LLT_term": "Pneumonia respiratory syncytial viral",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+{
+    "AE_text": "bacteriemia",
+    "true_LLT_term": null,
+    "pred_LLT_term": "Bacteraemia",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 0.0,
+    "LLT_fuzzy_match": false,
+    "model_output": "The given Adverse Event (AE) is \"bacteriemia\", which refers to the presence of bacteria in the blood. The list of candidate LLT terms includes various types of bacteraemia, such as transient, polymicrobial, and those caused by specific bacteria. However, the AE \"bacteriemia\" does not provide any additional information about the type or cause of the bacteraemia. Therefore, the best matching LLT term should be a general term that encompasses all types of bacteraemia without specifying any particular characteristics.\n\nFinal answer: Bacteraemia",
+    "manual check": true
+  },
+  {
+    "AE_text": "Bladdertumor with renal jam",
+    "true_LLT_term": "Malignant neoplasm of bladder",
+    "pred_LLT_term": "Bladder neoplasm",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 48.88888888888889,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+{
+    "AE_text": "Bleeding cerebral Haemorrhage",
+    "true_LLT_term": "Intra-cerebral haemorrhage",
+    "pred_LLT_term": "Cerebral haemorrhage",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 86.95652173913044,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Bleeding gastro-intestinal bleeding",
+    "true_LLT_term": "Bleeding gastrointestinal",
+    "pred_LLT_term": "Gastrointestinal bleeding",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 64.0,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Bleeding gingival bleeding in thrombocytopenia",
+    "true_LLT_term": "Gingival bleeding",
+    "pred_LLT_term": "Gingival bleeding",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Bleeding head",
+    "true_LLT_term": "Intracranial haemorrhage",
+    "pred_LLT_term": "Scalp bleeding",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 31.57894736842105,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Bleeding hematuria",
+    "true_LLT_term": "Hematuria",
+    "pred_LLT_term": "Macroscopic hematuria",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 60.0,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+{
+    "AE_text": "Bleeding intracranial bleeding",
+    "true_LLT_term": "Bleeding intracranial",
+    "pred_LLT_term": "Intracranial hemorrhage",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 54.54545454545454,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Bleeding spontaneous subdural hematoma",
+    "true_LLT_term": "Subdural hematoma",
+    "pred_LLT_term": "Subdural hematoma",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Bleeding subcutaneous bleeding - hematoma",
+    "true_LLT_term": "Subcutaneous hematoma",
+    "pred_LLT_term": "Subcutaneous hematoma",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Bleeding subcutaneous hematomas",
+    "true_LLT_term": "Subcutaneous hematoma",
+    "pred_LLT_term": "Subcutaneous hematoma",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Bleeding Subdural Hematoma",
+    "true_LLT_term": "Subdural haemorrhage",
+    "pred_LLT_term": "Subdural hematoma",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 75.67567567567568,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+ {
+    "AE_text": "Bone Marrow fibrosis",
+    "true_LLT_term": "Bone marrow reticulin fibrosis",
+    "pred_LLT_term": "Bone marrow reticulin fibrosis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Cardiac decompensation",
+    "true_LLT_term": "Decompensation cardiac",
+    "pred_LLT_term": "Decompensation cardiac",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "cardial decompensation",
+    "true_LLT_term": "Decompensation cardiac",
+    "pred_LLT_term": "Decompensation cardiac",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Colonisation with vancomycin resistant enerococcus faecium",
+    "true_LLT_term": "Enterococcus colonisation",
+    "pred_LLT_term": "Vancomycin-resistant enterococcal infection",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 47.05882352941176,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "coprostasis and obstipation",
+    "true_LLT_term": "Coprostasis",
+    "pred_LLT_term": "Constipation",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 52.17391304347826,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "cranial contusion",
+    "true_LLT_term": "Brain contusion",
+    "pred_LLT_term": "Brain contusion",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Death",
+    "true_LLT_term": "Death",
+    "pred_LLT_term": "Death",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "death of unkown origin",
+    "true_LLT_term": "Unknown cause of death",
+    "pred_LLT_term": "Death unexplained",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 25.64102564102564,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Death: died on the way to the family doctor's practice (a. e. as part of the underlying disease)",
+    "true_LLT_term": "AML progression",
+    "pred_LLT_term": "Clinical death",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 27.586206896551722,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "death: Progression of AML",
+    "true_LLT_term": "AML progression",
+    "pred_LLT_term": "AML progression",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Deceased Patient. Death cause: AML Progression",
+    "true_LLT_term": "AML progression",
+    "pred_LLT_term": "AML progression",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Diarrhea Diarrhea",
+    "true_LLT_term": "Diarrhoea",
+    "pred_LLT_term": "Diarrhea",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 94.11764705882352,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Diarrhea gastrointestinal disorder",
+    "true_LLT_term": "Diarrhea",
+    "pred_LLT_term": "Diarrhea",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Diarrhea massive",
+    "true_LLT_term": "Diarrhea NOS",
+    "pred_LLT_term": "Diarrhea",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 80.0,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+{
+    "AE_text": "Dyspnea Bronchial system",
+    "true_LLT_term": "Dyspnoea NOS",
+    "pred_LLT_term": "Dyspnea",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 73.6842105263158,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Dyspnea excertional dyspnea",
+    "true_LLT_term": "Dyspnoea",
+    "pred_LLT_term": "Dyspnea exertional",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 53.84615384615385,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Dyspnea exertional dyspnea",
+    "true_LLT_term": "Dyspnoea exertional",
+    "pred_LLT_term": "Exertional dyspnea",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 54.054054054054056,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Dyspnea Lung",
+    "true_LLT_term": "Dyspnoea",
+    "pred_LLT_term": "Dyspnea",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 93.33333333333333,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Dyspnea n.a.",
+    "true_LLT_term": "Dyspnea",
+    "pred_LLT_term": "Dyspnea",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+
+  {
+    "AE_text": "Dyspnea NYHA III",
+    "true_LLT_term": "Heart failure NYHA class III",
+    "pred_LLT_term": "Dyspnea",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 11.428571428571432,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Dystelectasis both lungs",
+    "true_LLT_term": "Atelectasis",
+    "pred_LLT_term": "Atelectasis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Edema limbs; both lower legs",
+    "true_LLT_term": "Edema of lower extremities",
+    "pred_LLT_term": "Edema of lower extremities",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Edema penis",
+    "true_LLT_term": "Edema of penis",
+    "pred_LLT_term": "Penile edema",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 38.46153846153846,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Erysipel des Unterschenkel rechts",
+    "true_LLT_term": "Erysipelas",
+    "pred_LLT_term": "Erysipelas",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Fatigue Fatigue",
+    "true_LLT_term": "Fatigue",
+    "pred_LLT_term": "Fatigue",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Fatigue generalized",
+    "true_LLT_term": "Fatigue",
+    "pred_LLT_term": "Fatigue",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Fatigue HB <= 6 --> EK tranfusion",
+    "true_LLT_term": "Anemia",
+    "pred_LLT_term": "Fatigue",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 30.76923076923077,
+    "LLT_fuzzy_match": false,
+    "manual check": false
+  },
+  {
+    "AE_text": "Fatigue intermittend",
+    "true_LLT_term": "Fatigue",
+    "pred_LLT_term": "Fatigue",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Fatigue n.a.",
+    "true_LLT_term": "Fatigue",
+    "pred_LLT_term": "Fatigue",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Fever",
+    "true_LLT_term": "Fever",
+    "pred_LLT_term": "Fever",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Fever febrile neutropenia",
+    "true_LLT_term": "Febrile neutropenia",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Fever Fever",
+    "true_LLT_term": "Fever",
+    "pred_LLT_term": "Fever",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Fever Fever in neutropenia",
+    "true_LLT_term": "Febrile neutropenia",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+{
+    "AE_text": "Fever NEUTROPENIC FEVER",
+    "true_LLT_term": "Febrile neutropenia",
+    "pred_LLT_term": "Neutropenic fever",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 55.55555555555556,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Fever neutropenic fever",
+    "true_LLT_term": "Febrile neutropenia",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Fever no information",
+    "true_LLT_term": "Fever",
+    "pred_LLT_term": "Fever",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Fever Pneumonia",
+    "true_LLT_term": "Pneumonia",
+    "pred_LLT_term": "Pneumonia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Fever pneumonie",
+    "true_LLT_term": "Pneumonia",
+    "pred_LLT_term": "Pneumonia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Fever without focus",
+    "true_LLT_term": "Fever",
+    "pred_LLT_term": "Fever",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Fever wrosening General condition",
+    "true_LLT_term": "Fever",
+    "pred_LLT_term": "Fever",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Fracture of the humerus",
+    "true_LLT_term": "Fracture of humerus",
+    "pred_LLT_term": "Fracture of humerus",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "fugal infection",
+    "true_LLT_term": "Fungal infection",
+    "pred_LLT_term": "Fungal infection",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "granulopenie",
+    "true_LLT_term": "Neutropenia",
+    "pred_LLT_term": "Granulocytopenia",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 66.66666666666667,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Heart failure",
+    "true_LLT_term": "Heart failure",
+    "pred_LLT_term": "Heart failure",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "hematoma",
+    "true_LLT_term": "Hematoma",
+    "pred_LLT_term": "Hematoma NOS",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 80.0,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+{
+    "AE_text": "High UricAcic",
+    "true_LLT_term": "Uric acid increased",
+    "pred_LLT_term": "Uric acid high",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 66.66666666666667,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Hyperkalemia",
+    "true_LLT_term": "Hyperkalemia",
+    "pred_LLT_term": "Hyperkalemia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "hypertension",
+    "true_LLT_term": "Hypertension",
+    "pred_LLT_term": "Hypertension NOS",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 85.71428571428572,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Hypertension",
+    "true_LLT_term": "Hypertension",
+    "pred_LLT_term": "Hypertension NOS",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 85.71428571428572,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Hypokalemia",
+    "true_LLT_term": "Hypokalemia",
+    "pred_LLT_term": "Hypokalemia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Hyponatriaemie",
+    "true_LLT_term": "Hyponatraemia",
+    "pred_LLT_term": "Hyponatraemia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "increase createnin",
+    "true_LLT_term": "Creatinine increased",
+    "pred_LLT_term": "Creatinine increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "increase creatinin",
+    "true_LLT_term": "Creatinine increased",
+    "pred_LLT_term": "Creatinine increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+{
+    "AE_text": "increase creatinine",
+    "true_LLT_term": "Creatinine increased",
+    "pred_LLT_term": "Creatinine increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "increase of CRP (infection of unknown origin)",
+    "true_LLT_term": "Infection NOS",
+    "pred_LLT_term": "CRP increased",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 30.76923076923077,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "increased creatinine",
+    "true_LLT_term": "Creatinine increased",
+    "pred_LLT_term": "Creatinine serum increased",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 86.95652173913044,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infarction myocardial",
+    "true_LLT_term": "Myocardial infarction",
+    "pred_LLT_term": "Myocardial infarction",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infarction NSTEMI",
+    "true_LLT_term": "Non ST segment elevation myocardial infarction",
+    "pred_LLT_term": "Non ST segment elevation myocardial infarction",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection Bronchial infection",
+    "true_LLT_term": "Bronchial infection",
+    "pred_LLT_term": "Bronchial infection",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+{
+    "AE_text": "Infection Bronchopneumonia",
+    "true_LLT_term": "Bronchopneumonia NOS",
+    "pred_LLT_term": "Bronchopneumonia",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 88.88888888888889,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection Catheter related (central venous catheter)",
+    "true_LLT_term": "Catheter related infection",
+    "pred_LLT_term": "Catheter related infection",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection Colonisation with vancomycin resistant enerococcus faecium",
+    "true_LLT_term": "Enterococcus colonisation",
+    "pred_LLT_term": "Vancomycin-resistant enterococcal infection",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 47.05882352941176,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection erysipelas at right calf",
+    "true_LLT_term": "Erysipelas",
+    "pred_LLT_term": "Erysipelas",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+ {
+    "AE_text": "Infection Fieberhafter Infekt im Rahmen einer Pneumonie rechts",
+    "true_LLT_term": "Pneumonia",
+    "pred_LLT_term": "Pneumonia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection fungal infection",
+    "true_LLT_term": "Infection fungal",
+    "pred_LLT_term": "Fungal infection NOS",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 61.111111111111114,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection Herpes simplex",
+    "true_LLT_term": "Herpes simplex",
+    "pred_LLT_term": "Herpes simplex",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection Herpes Zoster",
+    "true_LLT_term": "Herpes zoster",
+    "pred_LLT_term": "Herpes zoster",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+{
+    "AE_text": "Infection Herpes zoster infection",
+    "true_LLT_term": "Herpes zoster",
+    "pred_LLT_term": "Herpes zoster infection",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 72.22222222222221,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+{
+    "AE_text": "Infection Influenza A",
+    "true_LLT_term": "Influenza",
+    "pred_LLT_term": "Influenza A virus infection",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 50.0,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection Influenza infection",
+    "true_LLT_term": "Influenza",
+    "pred_LLT_term": "Influenza",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection Influenza typ A infection",
+    "true_LLT_term": "Influenza",
+    "pred_LLT_term": "Influenza A virus infection",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 50.0,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection intense cough",
+    "true_LLT_term": "Respiratory tract infection",
+    "pred_LLT_term": "Acute cough",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 31.57894736842105,
+    "LLT_fuzzy_match": false,
+    "manual check": false
+  },
+  {
+    "AE_text": "Infection multiple infection probably due to progressive disease (AML)",
+    "true_LLT_term": "Infection",
+    "pred_LLT_term": "Infection susceptibility increased",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 41.860465116279066,
+    "LLT_fuzzy_match": false,
+    "manual check": false
+  },
+  {
+    "AE_text": "Infection mycosis Pneumonia",
+    "true_LLT_term": "Pneumonia fungal",
+    "pred_LLT_term": "Pneumonia fungal",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection mykosispneumonia",
+    "true_LLT_term": "Pneumonia fungal",
+    "pred_LLT_term": "Infection mycotic",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 30.303030303030297,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection neutropenic Fever",
+    "true_LLT_term": "Neutropenic infection",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 50.0,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection Noro virus",
+    "true_LLT_term": "Norovirus infection",
+    "pred_LLT_term": "Norovirus infection",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection oral trush",
+    "true_LLT_term": "Oral thrush",
+    "pred_LLT_term": "Oral thrush",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection phlegmon",
+    "true_LLT_term": "Phlegmon",
+    "pred_LLT_term": "Phlegmon",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection Pneumonia / Respiratory insufficiency",
+    "true_LLT_term": "Pneumonia",
+    "pred_LLT_term": "Pneumonia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection Pneumonia with Fever and cardiac decompensation",
+    "true_LLT_term": "Pneumonia",
+    "pred_LLT_term": "Pneumonia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection pneumonie",
+    "true_LLT_term": "Pneumonia",
+    "pred_LLT_term": "Infectious pneumonitis",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 51.61290322580645,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection pneumosepsis",
+    "true_LLT_term": "Pulmonary sepsis",
+    "pred_LLT_term": "Pulmonary sepsis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection port implantation",
+    "true_LLT_term": "Catheter infection",
+    "pred_LLT_term": "Implant site infection",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 70.0,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection Pulmonary sepsis",
+    "true_LLT_term": "Pulmonary sepsis",
+    "pred_LLT_term": "Pulmonary sepsis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+{
+    "AE_text": "Infection respiratory infection",
+    "true_LLT_term": "Infection respiratory",
+    "pred_LLT_term": "Respiratory tract infection",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 45.833333333333336,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection RSV-Infection",
+    "true_LLT_term": "RSV infection",
+    "pred_LLT_term": "RSV infection",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection Sepis",
+    "true_LLT_term": "Sepsis",
+    "pred_LLT_term": "Sepsis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection Sepsis",
+    "true_LLT_term": "Sepsis",
+    "pred_LLT_term": "Sepsis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection sepsis",
+    "true_LLT_term": "Sepsis",
+    "pred_LLT_term": "Sepsis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection Septic shock",
+    "true_LLT_term": "Septic shock",
+    "pred_LLT_term": "Septic shock",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection septic shock",
+    "true_LLT_term": "Septic shock",
+    "pred_LLT_term": "Septic shock",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection Septic with multiorgan failure",
+    "true_LLT_term": "Sepsis",
+    "pred_LLT_term": "Sepsis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection sinusitis maxilaris",
+    "true_LLT_term": "Maxillary sinusitis",
+    "pred_LLT_term": "Acute maxillary sinusitis",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 86.36363636363636,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection soft tissue",
+    "true_LLT_term": "Soft tissue infection",
+    "pred_LLT_term": "Soft tissue infection",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection Spondylodiscitis",
+    "true_LLT_term": "Spondylodiscitis",
+    "pred_LLT_term": "Spondylodiscitis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection Stomatitis",
+    "true_LLT_term": "Infectious stomatitis",
+    "pred_LLT_term": "Infectious stomatitis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection surgical intervention at bottom lip (->necrosis) after infection into the mouth. Hospitalisation 07.03.2019 - 10.03.2019",
+    "true_LLT_term": "Oral cavity infection",
+    "pred_LLT_term": "Lip infection",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 70.58823529411764,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection Suspected Infection already before start of chemapy/study drug",
+    "true_LLT_term": "Infection NOS",
+    "pred_LLT_term": "Infection NOS",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection urinary tract infection",
+    "true_LLT_term": "Urinary tract infection",
+    "pred_LLT_term": "Urinary tract infection",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+
+  {
+    "AE_text": "Infection Urinary tract infection",
+    "true_LLT_term": "Urinary tract infection",
+    "pred_LLT_term": "Urinary tract infection",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection Urinary tract infection",
+    "true_LLT_term": "Urinary infection",
+    "pred_LLT_term": "Urinary tract infection",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 85.0,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection urinary tract infection",
+    "true_LLT_term": "Urinary infection",
+    "pred_LLT_term": "Urinary tract infection",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 85.0,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection urinary tract infection with eschericchia coli",
+    "true_LLT_term": "Escherichia coli cystitis",
+    "pred_LLT_term": "Escherichia urinary tract infection",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 63.33333333333333,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection Urosepsis with Multi Organ failure",
+    "true_LLT_term": "Urosepsis",
+    "pred_LLT_term": "Urosepsis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection with fever",
+    "true_LLT_term": "Febrile infection",
+    "pred_LLT_term": "Febrile infection",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection Wound forearm right",
+    "true_LLT_term": "Wound infection",
+    "pred_LLT_term": "Wound infection",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection Wound Infection Vein catheter (no microbiology finding)",
+    "true_LLT_term": "Catheter site infection",
+    "pred_LLT_term": "Catheter site infection",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+{
+    "AE_text": "Infekt mit Bakterieaemie und a.e. broncho pulmonalen Fokus",
+    "true_LLT_term": null,
+    "pred_LLT_term": "Bronchopneumonia NOS",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 0.0,
+    "LLT_fuzzy_match": false,
+    "model_output": "The Adverse Event (AE) \"Infekt mit Bakterieaemie und a.e. broncho pulmonalen Fokus\" translates to \"Infection with bacteremia and a bronchopulmonary focus\". This description suggests a respiratory infection, likely pneumonia, given the mention of a bronchopulmonary focus. The term \"bacteremia\" indicates the presence of bacteria in the blood, which can be associated with various infections, including pneumonia. Among the provided candidate LLT terms, the ones related to pneumonia or infections of the bronchi are most relevant.\n\nFinal answer: Bronchopneumonia NOS",
+    "manual check": true
+  },
+  {
+    "AE_text": "Inflammation of Right foot",
+    "true_LLT_term": "Foot osteoarthritis",
+    "pred_LLT_term": "Foot infection",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 48.484848484848484,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "intermittent anemia",
+    "true_LLT_term": "Anemia",
+    "pred_LLT_term": "Anemia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Laceration on head after fall",
+    "true_LLT_term": "Head injury",
+    "pred_LLT_term": "Laceration of head",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 27.586206896551722,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "leucopenia",
+    "true_LLT_term": "Leucopenia",
+    "pred_LLT_term": "Leucopenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Leukozytostase-Syndrom",
+    "true_LLT_term": "Leukostasis syndrome",
+    "pred_LLT_term": "Leukostasis syndrome",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "lungembolism",
+    "true_LLT_term": "Pulmonary embolism",
+    "pred_LLT_term": "Pulmonary embolism",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+
+  {
+    "AE_text": "Macrohaematuturia",
+    "true_LLT_term": "Macroscopic haematuria",
+    "pred_LLT_term": "Macroscopic haematuria",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "metabolic acidosis",
+    "true_LLT_term": "Metabolic acidosis",
+    "pred_LLT_term": "Metabolic acidosis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Monokelhaematom links",
+    "true_LLT_term": "Eyelid hematoma",
+    "pred_LLT_term": "Eyelid hematoma",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Multi organ failure",
+    "true_LLT_term": "Multi organ failure",
+    "pred_LLT_term": "Multi-organ failure",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 94.73684210526316,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "mykotische atypische Pneumonie",
+    "true_LLT_term": "Pneumonia fungal",
+    "pred_LLT_term": "Pneumonia fungal",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Nausea intermittend",
+    "true_LLT_term": "Nausea",
+    "pred_LLT_term": "Nausea",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Nausea n.a.",
+    "true_LLT_term": "Nausea",
+    "pred_LLT_term": "Nausea",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Nausea severe Nausea and vomitting",
+    "true_LLT_term": "Nausea and vomiting",
+    "pred_LLT_term": "Nausea and vomiting",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Nausea Vomiting",
+    "true_LLT_term": "Nausea with vomiting",
+    "pred_LLT_term": "Nausea and vomiting",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 82.05128205128204,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "neutropenia",
+    "true_LLT_term": "Neutropenia",
+    "pred_LLT_term": "Neutropenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Neutropenie",
+    "true_LLT_term": "Neutropenia",
+    "pred_LLT_term": "Neutropenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Non small Cell Lung cancer",
+    "true_LLT_term": "Non-small cell lung cancer",
+    "pred_LLT_term": "Non-small cell lung cancer",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "opstipation",
+    "true_LLT_term": "Constipation",
+    "pred_LLT_term": "Constipation",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Pain Backpain",
+    "true_LLT_term": "Back pain",
+    "pred_LLT_term": "Back pain",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Pain Backpain lumbal",
+    "true_LLT_term": "Lumbalgia",
+    "pred_LLT_term": "Pain in lumbar spine",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 41.379310344827594,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Pain chest pain left",
+    "true_LLT_term": "Breast pain",
+    "pred_LLT_term": "Chest pain",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 76.19047619047619,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Pain Joints",
+    "true_LLT_term": "Painful joints",
+    "pred_LLT_term": "Joint pain",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 41.666666666666664,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Pain lumbar vertebra fracture (LWK 3)",
+    "true_LLT_term": "Lumbar vertebral fracture L3",
+    "pred_LLT_term": "Lumbar vertebral fracture L3",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Pain rheumatic joint pain shoulders and hips",
+    "true_LLT_term": "Arthritis rheumatoid",
+    "pred_LLT_term": "Arthritis rheumatoid",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Pancytopenia",
+    "true_LLT_term": "Pancytopenia",
+    "pred_LLT_term": "Pancytopenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Pancytopenia and febrile neutropenia with pneumonia",
+    "true_LLT_term": "Pneumonia",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 50.0,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Patient was transferred to intensiv care unit due to pneumonia intuation was Required",
+    "true_LLT_term": "Pneumonia",
+    "pred_LLT_term": "Pneumonia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Patient with atrial fibrillation to a Prior art. Now: tachyarrhythmic derailment. Hospitalisation for frequency control",
+    "true_LLT_term": "Tachyarrhythmia",
+    "pred_LLT_term": "Atrial fibrillation",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 29.411764705882348,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "perorated sigma dierticulitis",
+    "true_LLT_term": "Diverticulitis intestinal perforated",
+    "pred_LLT_term": "Diverticulitis intestinal perforated",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Pleural effusion",
+    "true_LLT_term": "Pleural effusion",
+    "pred_LLT_term": "Pleural effusion",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Pneumogene Sepsis",
+    "true_LLT_term": "Pulmonary sepsis",
+    "pred_LLT_term": "Pulmonary sepsis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Pneumonie des Unterlappens und nachgewiesene Pleuraerguesse bds",
+    "true_LLT_term": "Pneumonia",
+    "pred_LLT_term": "Pneumonia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+
+  {
+    "AE_text": "praerenales acute kidney injury",
+    "true_LLT_term": "Acute renal insufficiency",
+    "pred_LLT_term": "Acute kidney injury",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 54.54545454545454,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "progress with leukocytosis",
+    "true_LLT_term": "AML progression",
+    "pred_LLT_term": "Leukocytosis",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 29.629629629629626,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Progression General condition Deterioration in blast crisis",
+    "true_LLT_term": "Acute myeloid leukaemia progression",
+    "pred_LLT_term": "Blast crisis in myelogenous leukemia",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 47.887323943661976,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Progression of AML",
+    "true_LLT_term": "AML progression",
+    "pred_LLT_term": "AML progression",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "pulmonal Sepsis",
+    "true_LLT_term": "Pulmonary sepsis",
+    "pred_LLT_term": "Pulmonary sepsis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Rash total body",
+    "true_LLT_term": "Generalised rash",
+    "pred_LLT_term": "Generalised rash",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "rectal pain",
+    "true_LLT_term": "Rectal pain",
+    "pred_LLT_term": "Rectal pain",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "recurrent pneumonia",
+    "true_LLT_term": "Pneumonia",
+    "pred_LLT_term": "Pneumonia recurrent",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 64.28571428571428,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Relapse Morphological Relapse with a BM blast count of 28% in local cytology",
+    "true_LLT_term": "AML progression",
+    "pred_LLT_term": "Blast cell count increased",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 34.14634146341463,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "renal insufficiency",
+    "true_LLT_term": "Renal insufficiency",
+    "pred_LLT_term": "Renal insufficiency",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Resection bladder carcinoma",
+    "true_LLT_term": "Bladder tumor resection",
+    "pred_LLT_term": "Transurethral resection of bladder tumor",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 44.44444444444444,
+    "LLT_fuzzy_match": false,
+    "manual check": false
+  },
+  {
+    "AE_text": "Sepsis",
+    "true_LLT_term": "Sepsis",
+    "pred_LLT_term": "Sepsis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "staphyloccocus infection",
+    "true_LLT_term": "Staphylococcus infection in conditions classified elsewhere and of unspecified site.",
+    "pred_LLT_term": "Staphylococcal infection",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 40.74074074074075,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Sturz auf den Weg in die Ambulanz.",
+    "true_LLT_term": "Fall",
+    "pred_LLT_term": "Fall",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Subileus",
+    "true_LLT_term": "Subileus",
+    "pred_LLT_term": "Subileus",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Subilius",
+    "true_LLT_term": "Subileus",
+    "pred_LLT_term": "Subileus",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "sudden cardiac arrest at home",
+    "true_LLT_term": "Sudden cardiac death",
+    "pred_LLT_term": "Cardiac arrest",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 58.82352941176471,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "swelling of the Right knee with inflammation",
+    "true_LLT_term": "Knee arthritis",
+    "pred_LLT_term": "Joint swelling inflammatory",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 29.268292682926834,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Thrombocytopenia",
+    "true_LLT_term": "Thrombocytopenia",
+    "pred_LLT_term": "Thrombocytopenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "thrombocytopenia",
+    "true_LLT_term": "Thrombocytopenia",
+    "pred_LLT_term": "Thrombocytopenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Thrombopenia",
+    "true_LLT_term": "Thrombopenia",
+    "pred_LLT_term": "Thrombopenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "thrombopenia",
+    "true_LLT_term": "Thrombopenia",
+    "pred_LLT_term": "Thrombopenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Thrombopenie",
+    "true_LLT_term": "Thrombopenia",
+    "pred_LLT_term": "Thrombopenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Trimalleolarfracture ankle Joint right after fall on the 30. Dec.2017. The Patient slipped whilst carrying Wood!",
+    "true_LLT_term": "Trimalleolar fracture",
+    "pred_LLT_term": "Trimalleolar fracture",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "trush Stomatitis with candida albricans",
+    "true_LLT_term": "Candida stomatitis",
+    "pred_LLT_term": "Candida stomatitis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "ventricular fibrillation",
+    "true_LLT_term": "Ventricular fibrillation",
+    "pred_LLT_term": "Ventricular fibrillation",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "ventricular Tachyarrhythmia",
+    "true_LLT_term": "Ventricular tachyarrhythmia",
+    "pred_LLT_term": "Ventricular tachyarrhythmia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "ventricular tachycardia",
+    "true_LLT_term": "Ventricular tachycardia",
+    "pred_LLT_term": "Ventricular tachycardia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Vomiting prolonged vomitting",
+    "true_LLT_term": "Vomiting",
+    "pred_LLT_term": "Persistent vomiting",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 59.25925925925925,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Vomiting vomitting due to antibiotics",
+    "true_LLT_term": "Adverse reaction to antibiotics",
+    "pred_LLT_term": "Vomiting of medication",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 41.509433962264154,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "worsening of AML",
+    "true_LLT_term": "AML progression",
+    "pred_LLT_term": "AML progression",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Worsening of aterial hypertension",
+    "true_LLT_term": "Hypertension exacerbated",
+    "pred_LLT_term": "Hypertension worsened",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 71.11111111111111,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Worsening of hypoalbuminaemie",
+    "true_LLT_term": "Hypoalbuminaemia",
+    "pred_LLT_term": "Hypoalbuminemia",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 96.7741935483871,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Worsening of renal insufficency",
+    "true_LLT_term": "Renal insufficiency aggravated",
+    "pred_LLT_term": "Renal insufficiency aggravated",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+{
+    "AE_text": "Worsening of the general condition",
+    "true_LLT_term": "Reduced general condition",
+    "pred_LLT_term": "Condition worsened",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 41.860465116279066,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Worsening of the general condition AML",
+    "true_LLT_term": "AML progression",
+    "pred_LLT_term": "AML progression",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Worsening of the general condition bronchopneumonia",
+    "true_LLT_term": "Bronchopneumonia NOS",
+    "pred_LLT_term": "Bronchopneumonia",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 88.88888888888889,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Worsening of the general condition fever",
+    "true_LLT_term": "Reduced general condition",
+    "pred_LLT_term": "Fever",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 19.999999999999996,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Worsening of the general condition general",
+    "true_LLT_term": "Reduced general condition",
+    "pred_LLT_term": "Reduced general condition",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Worsening of the general condition pulmonary sepsis",
+    "true_LLT_term": "Pulmonary sepsis",
+    "pred_LLT_term": "Pulmonary sepsis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Worsening of the general condition Reduced general condition; need of assistence",
+    "true_LLT_term": "Reduced general condition",
+    "pred_LLT_term": "Condition worsened",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 41.860465116279066,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Worsening of the general condition starke Schmerzsymptomatik in der linken Huefte mit Ausstrahlung in das linke Bein. Blutiger Mund nach fraglichem Zungenbiss. Patientin voellig dement.",
+    "true_LLT_term": "General physical health deterioration",
+    "pred_LLT_term": "General physical health deterioration",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Worsening of the general condition with neutropenia and thrombopenie",
+    "true_LLT_term": "Reduced general condition",
+    "pred_LLT_term": "Thrombopenia",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 21.62162162162162,
+    "LLT_fuzzy_match": false,
+    "manual check": false
+  },
+  {
+    "AE_text": "Worsening of the general condition with vomiting and difficulty to swallow/ fungal oesophagitis",
+    "true_LLT_term": "Fungal oesophagitis",
+    "pred_LLT_term": "Fungal oesophagitis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Worsening of the general condition worsening of the General condition",
+    "true_LLT_term": "Reduced general condition",
+    "pred_LLT_term": "Condition worsened",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 41.860465116279066,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Worsening of the generel condition AML",
+    "true_LLT_term": "AML progression",
+    "pred_LLT_term": "AML progression",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Worsening of the generel condition Sepsis",
+    "true_LLT_term": "Sepsis",
+    "pred_LLT_term": "Sepsis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  }
+]

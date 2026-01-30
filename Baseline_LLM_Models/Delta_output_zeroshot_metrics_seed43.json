@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "dataset": "KI_Projekt_Delta_AE_Codierung_2023_02_08",
+    "model": "nvidia-llama-3.3-70b-instruct-fp8",
+    "baseline": "zero-shot",
+    "max_rows": null,
+    "seed": 43,
+    "timestamp": "2026-01-15T09:51:44",
+    "notes": "Zero-shot baseline: no candidate list; validity vs MedDRA dictionary recorded; retry+null-safe enabled."
+  },
+  "counts": {
+    "n_samples": 226,
+    "n_pt_pairs": 160,
+    "n_soc_optA": 127,
+    "n_soc_optB": 123,
+    "n_soc_any": 155
+  },
+  "metrics": {
+    "LLT_term_acc_exact": 0.27876106194690264,
+    "LLT_term_acc_fuzzy": 0.3230088495575221,
+    "LLT_precision_macro": 0.17180555555555557,
+    "LLT_recall_macro": 0.17631944444444442,
+    "LLT_f1_macro": 0.16571275946275943,
+    "PT_code_acc": 0.8375,
+    "SOC_acc_option_a": 0.7795275590551181,
+    "SOC_acc_option_b": 0.9512195121951219,
+    "SOC_acc_any_of_vs_AE": 0.896774193548387,
+    "Valid_MedDRA_LLT_rate": 0.7123893805309734
+  }
+}

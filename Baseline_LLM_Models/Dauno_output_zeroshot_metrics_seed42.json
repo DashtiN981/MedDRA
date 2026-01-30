@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "dataset": "KI_Projekt_Dauno_AE_Codierung_2022_10_20",
+    "model": "nvidia-llama-3.3-70b-instruct-fp8",
+    "baseline": "zero-shot",
+    "max_rows": null,
+    "seed": 42,
+    "timestamp": "2026-01-15T10:34:24",
+    "notes": "Zero-shot baseline: no candidate list; validity vs MedDRA dictionary recorded; retry+null-safe enabled."
+  },
+  "counts": {
+    "n_samples": 443,
+    "n_pt_pairs": 325,
+    "n_soc_optA": 289,
+    "n_soc_optB": 285,
+    "n_soc_any": 298
+  },
+  "metrics": {
+    "LLT_term_acc_exact": 0.3724604966139955,
+    "LLT_term_acc_fuzzy": 0.4469525959367946,
+    "LLT_precision_macro": 0.20706466735878504,
+    "LLT_recall_macro": 0.22242015149254968,
+    "LLT_f1_macro": 0.2075800796805798,
+    "PT_code_acc": 0.8430769230769231,
+    "SOC_acc_option_a": 0.8788927335640139,
+    "SOC_acc_option_b": 0.9719298245614035,
+    "SOC_acc_any_of_vs_AE": 0.9395973154362416,
+    "Valid_MedDRA_LLT_rate": 0.7336343115124153
+  }
+}

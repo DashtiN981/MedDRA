@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "dataset": "KI_Projekt_Delta_AE_Codierung_2023_02_08",
+    "model": "llama-3.3-70b-instruct",
+    "n_candidates": 100,
+    "max_rows": null,
+    "seed": 43,
+    "timestamp": "2026-01-26T12:34:35",
+    "notes": "per-AE results saved in OUT_JSON with seed suffix; aggregated metrics saved here"
+  },
+  "counts": {
+    "n_samples": 226,
+    "n_pt_pairs": 196,
+    "n_soc_optA": 159,
+    "n_soc_optB": 142,
+    "n_soc_any": 190
+  },
+  "metrics": {
+    "LLT_term_acc_exact": 0.20353982300884957,
+    "LLT_term_acc_fuzzy": 0.24336283185840707,
+    "LLT_precision_macro": 0.106859410430839,
+    "LLT_recall_macro": 0.09342403628117914,
+    "LLT_f1_macro": 0.09513281503077421,
+    "PT_code_acc": 0.37755102040816324,
+    "SOC_acc_option_a": 0.6226415094339622,
+    "SOC_acc_option_b": 0.7183098591549296,
+    "SOC_acc_any_of_vs_AE": 0.7105263157894737
+  }
+}

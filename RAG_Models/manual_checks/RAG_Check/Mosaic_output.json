@@ -1,0 +1,1613 @@
+[
+  {
+    "AE_text": "abdominal pain",
+    "true_LLT_term": "Abdominal pain",
+    "pred_LLT_term": "Abdominal pain",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"abdominal pain\" is a general term that refers to pain in the abdominal region. The list of candidate LLT terms includes various specific and general terms related to abdominal pain. To choose the best matching LLT term, we need to select the term that most accurately and specifically matches the AE. Since the AE does not provide any additional information about the location or nature of the pain, we should choose a term that is general and encompasses the concept of abdominal pain without adding any unnecessary specificity.\n\nFinal answer: Abdominal pain"
+  },
+  {
+    "AE_text": "Abdominal pain",
+    "true_LLT_term": "Abdominal pain",
+    "pred_LLT_term": "Abdominal pain",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Abdominal pain\" is a general term that does not specify the location or nature of the pain. The list of candidate LLT terms includes various options that range from general to more specific descriptions of abdominal pain. To choose the best matching LLT, we need to select the term that most accurately and broadly encompasses the description provided by the AE without adding unnecessary specificity.\n\nFinal answer: Abdominal pain"
+  },
+  {
+    "AE_text": "Acute cerebral hemorrhage",
+    "true_LLT_term": "Cerebral hemorrhage",
+    "pred_LLT_term": "Cerebral hemorrhage",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The given Adverse Event (AE) is \"Acute cerebral hemorrhage\". To find the best matching MedDRA LLT term, we need to consider the key components of the AE: \"acute\" indicating the onset or nature of the event, \"cerebral\" referring to the brain, and \"hemorrhage\" which is the actual event of bleeding. The term should ideally encompass all these aspects or at least the most critical ones. Given the options, terms that include \"cerebral\" and \"hemorrhage\" are more relevant. The term \"acute\" is important but since MedDRA terms are often more focused on the condition rather than the timing, we prioritize the condition itself.\n\nFinal answer: Cerebral hemorrhage"
+  },
+  {
+    "AE_text": "acute renal failure low eGFR",
+    "true_LLT_term": "Acute kidney failure",
+    "pred_LLT_term": "Acute renal failure",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 76.92307692307692,
+    "LLT_fuzzy_match": false,
+    "model_output": "The AE \"acute renal failure low eGFR\" indicates a sudden loss of kidney function, which is further specified by the mention of \"low eGFR\" (estimated Glomerular Filtration Rate), a measure used to assess kidney function. The term \"acute\" points towards a rapid onset, distinguishing it from chronic conditions. Among the provided LLT terms, we need to find the one that best matches the description of an acute condition affecting the kidneys, without necessarily being limited to the specifics of eGFR, as the focus is on the acute nature of the renal failure.\n\nFinal answer: Acute renal failure"
+  },
+  {
+    "AE_text": "acute urinary stasis left kidney Grad II acute renal failure; creatinin increase; fever; pain",
+    "true_LLT_term": "Acute kidney failure",
+    "pred_LLT_term": "Acute renal failure",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 76.92307692307692,
+    "LLT_fuzzy_match": false,
+    "model_output": "The Adverse Event (AE) describes a condition involving \"acute urinary stasis left kidney Grad II acute renal failure\" along with other symptoms like creatinine increase, fever, and pain. The key elements here are the acute nature of the condition and the specific mention of renal failure. The term \"acute urinary stasis\" suggests an obstruction or blockage leading to a build-up of urine, which can cause renal failure. However, the primary focus of the AE seems to be on the renal failure aspect rather than the infection or the stasis itself. Among the provided options, the most direct and relevant term that captures the essence of \"acute renal failure\" without unnecessarily specifying the cause (like infection) or other details (like oliguric status) is \"Acute renal failure\".\n\nFinal answer: Acute renal failure"
+  },
+  {
+    "AE_text": "Akutes Nierenversagen AKI 2 Â°",
+    "true_LLT_term": "Acute kidney failure",
+    "pred_LLT_term": "Acute kidney failure",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Akutes Nierenversagen AKI 2 °\" translates to \"Acute kidney failure AKI 2 °\" in English. AKI stands for Acute Kidney Injury, which is a medical condition where the kidneys suddenly stop working properly. The term \"2 °\" likely refers to the severity grade of the AKI. Given this information, we need to find the MedDRA LLT term that best matches this description.\n\nFinal answer: Acute kidney failure"
+  },
+  {
+    "AE_text": "Alanine Aminotransferase increased",
+    "true_LLT_term": "Alanine aminotransferase increased",
+    "pred_LLT_term": "Alanine aminotransferase increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"Alanine Aminotransferase increased\" directly indicates an elevation in the levels of the enzyme alanine aminotransferase, which is a specific and commonly measured indicator of liver health. The most appropriate LLT term should precisely reflect this increase. Among the provided options, the terms that mention \"alanine aminotransferase\" and indicate an increase are the most relevant. However, the term should exactly match the condition described in the AE, including the specificity of the enzyme and the direction of change (increase).\n\nFinal answer: Alanine aminotransferase increased"
+  },
+  {
+    "AE_text": "ALAT increased",
+    "true_LLT_term": "Alanine aminotransferase increased",
+    "pred_LLT_term": "Alanine aminotransferase increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"ALAT increased\" refers to an elevation in the enzyme alanine aminotransferase, which is a marker of liver health. ALAT is another term for ALT (alanine transaminase), which is synonymous with SGPT (serum glutamic-pyruvic transaminase) in some contexts, but in the context of MedDRA, the focus is on the term that directly corresponds to the enzyme's name. Among the provided options, the term that directly matches this description is \"Alanine aminotransferase increased\".\n\nFinal answer: Alanine aminotransferase increased"
+  },
+  {
+    "AE_text": "Alkaline phoshatase increased",
+    "true_LLT_term": "Alkaline phosphatase increased",
+    "pred_LLT_term": "Alkaline phosphatase increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The given Adverse Event (AE) is \"Alkaline phosphatase increased\". This indicates a rise in the level of alkaline phosphatase, an enzyme found in the body, but it does not specify the location or type of alkaline phosphatase. The most accurate MedDRA LLT term should directly reflect this increase without adding unnecessary specificity. Among the provided options, the term that most closely matches the AE without introducing additional detail not present in the AE is the one that simply states \"Alkaline phosphatase increased\".\n\nFinal answer: Alkaline phosphatase increased"
+  },
+  {
+    "AE_text": "alkaline phosphatase increased",
+    "true_LLT_term": "Alkaline phosphatase increased",
+    "pred_LLT_term": "Alkaline phosphatase increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"alkaline phosphatase increased\" is a laboratory finding that indicates an elevation in the level of alkaline phosphatase, an enzyme found in various tissues throughout the body. To choose the best MedDRA LLT term, we need to select the term that most accurately and specifically describes the AE without being overly specific or including unnecessary information. The term should ideally specify that it is alkaline phosphatase and that it is increased, without unnecessarily specifying the location (e.g., blood, bone, serum) unless the AE itself provides such specificity.\n\nFinal answer: Alkaline phosphatase increased"
+  },
+  {
+    "AE_text": "allergic reaction",
+    "true_LLT_term": "Allergic reaction",
+    "pred_LLT_term": "Allergic reaction NOS",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 89.47368421052632,
+    "LLT_fuzzy_match": false,
+    "model_output": "The AE \"allergic reaction\" is a general term that does not specify the system or organ involved, nor does it provide any additional details about the nature or cause of the reaction. Given this lack of specificity, the best matching LLT term should also be general and not imply any specific characteristics of the reaction that are not mentioned in the AE. \n\nFinal answer: Allergic reaction NOS"
+  },
+  {
+    "AE_text": "allergic reaction to transfusion of platelet concentrate",
+    "true_LLT_term": "Allergic transfusion reaction",
+    "pred_LLT_term": "Allergic transfusion reaction",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"allergic reaction to transfusion of platelet concentrate\" indicates an adverse response to the transfusion of platelets, which is an immune-mediated reaction. The focus here is on the reaction being allergic in nature and related to the transfusion process, rather than issues with the platelets themselves (such as their production, function, or toxicity). Therefore, the most relevant term should reflect the allergic nature of the reaction in the context of a transfusion.\n\nFinal answer: Allergic transfusion reaction"
+  },
+  {
+    "AE_text": "Allergic reaction transfusion of platelets Treatment: tavegil i.v.",
+    "true_LLT_term": "Allergic transfusion reaction",
+    "pred_LLT_term": "Allergic transfusion reaction",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE describes an allergic reaction that occurred during the transfusion of platelets, and the patient was treated with Tavegil, which is an antihistamine often used to alleviate allergic reactions. This information suggests that the reaction was immune-mediated and related to the transfusion process itself, rather than an issue with the platelets' function or the patient's inherent platelet condition.\n\nFinal answer: Allergic transfusion reaction"
+  },
+  {
+    "AE_text": "allergic transfusion reaction rash after blood transfusion",
+    "true_LLT_term": "Allergic transfusion reaction",
+    "pred_LLT_term": "The AE \"allergic transfusion reaction rash after blood transfusion\" suggests a reaction that occurred as a result of a blood transfusion, which is an allergic response. The key elements here are \"allergic\", \"transfusion\", and \"reaction\". While terms like \"Allergic skin reaction\", \"Immune-mediated rash\", and \"Allergic rash\" capture the allergic and skin aspects, they do not specifically mention the context of a transfusion. Terms like \"Systemic allergic reaction\" and \"Anaphylactic transfusion reaction\" could be relevant, but \"Systemic allergic reaction\" is broader and does not specifically relate to transfusions, and \"Anaphylactic transfusion reaction\" implies a severity (anaphylaxis) that is not explicitly mentioned in the AE. \"Transfusion reaction\" is relevant but does not specify the allergic nature of the reaction. \"Transfusion-related immunomodulation reaction\" is not directly relevant as it implies a modulation of the immune system which is not the focus of the described AE. \"Rash at site of injection\" and \"Infusion site rash\" are not directly relevant as the reaction is described in the context of a blood transfusion, not an injection or infusion.",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 4.833333333333334,
+    "LLT_fuzzy_match": false,
+    "model_output": "The AE \"allergic transfusion reaction rash after blood transfusion\" suggests a reaction that occurred as a result of a blood transfusion, which is an allergic response. The key elements here are \"allergic\", \"transfusion\", and \"reaction\". While terms like \"Allergic skin reaction\", \"Immune-mediated rash\", and \"Allergic rash\" capture the allergic and skin aspects, they do not specifically mention the context of a transfusion. Terms like \"Systemic allergic reaction\" and \"Anaphylactic transfusion reaction\" could be relevant, but \"Systemic allergic reaction\" is broader and does not specifically relate to transfusions, and \"Anaphylactic transfusion reaction\" implies a severity (anaphylaxis) that is not explicitly mentioned in the AE. \"Transfusion reaction\" is relevant but does not specify the allergic nature of the reaction. \"Transfusion-related immunomodulation reaction\" is not directly relevant as it implies a modulation of the immune system which is not the focus of the described AE. \"Rash at site of injection\" and \"Infusion site rash\" are not directly relevant as the reaction is described in the context of a blood transfusion, not an injection or infusion."
+  },
+  {
+    "AE_text": "alopecia",
+    "true_LLT_term": "Alopecia",
+    "pred_LLT_term": "Alopecia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"alopecia\" is a general term that refers to hair loss, and it does not provide any specific details about the cause, location, or type of hair loss. The list of candidate LLT terms includes various specific types of alopecia, but the AE itself does not contain any information that would suggest a specific type. Therefore, the best matching LLT term would be the one that is most general and encompasses the broad concept of hair loss.\n\nFinal answer: Alopecia"
+  },
+  {
+    "AE_text": "Anemia",
+    "true_LLT_term": "Anemia",
+    "pred_LLT_term": "Anemia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The given Adverse Event (AE) is \"Anemia\", which is a general term that does not specify the type, severity, or cause of the anemia. The list of candidate LLT terms includes various specific and non-specific types of anemia. To choose the best matching LLT term, we should look for the term that most closely matches the general term \"Anemia\" without adding additional specificity not provided in the AE. The term \"Anemia\" itself is present in the list, which directly matches the AE without implying any specific type or cause.\n\nFinal answer: Anemia"
+  },
+  {
+    "AE_text": "anemia",
+    "true_LLT_term": "Anemia",
+    "pred_LLT_term": "Anemia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"anemia\" is a general term that does not specify the type or cause of anemia. The list of candidate LLT terms includes various specific types of anemia, such as iron deficiency anemia, as well as more general terms. To choose the best matching LLT term, we need to select the term that most closely matches the general term \"anemia\" without adding any additional specificity that is not present in the AE.\n\nFinal answer: Anemia"
+  },
+  {
+    "AE_text": "anemia anemia",
+    "true_LLT_term": "Anemia",
+    "pred_LLT_term": "Unspecified anemia",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 50.0,
+    "LLT_fuzzy_match": false,
+    "model_output": "The AE \"anemia anemia\" is somewhat redundant, but it clearly indicates that the patient is experiencing anemia. There are no additional details provided about the type, severity, or cause of the anemia. Given this lack of specificity, the most appropriate LLT term would be one that is broad and does not imply a specific cause or duration.\n\nFinal answer: Unspecified anemia"
+  },
+  {
+    "AE_text": "Bilirubin Erhoehung",
+    "true_LLT_term": "Blood bilirubin increased",
+    "pred_LLT_term": "Blood bilirubin increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Bilirubin Erhoehung\" translates to \"Bilirubin increase\" in English, indicating a rise in bilirubin levels. The most suitable MedDRA LLT term should directly reflect this concept of an increase or elevation in bilirubin levels. Among the provided options, terms that explicitly mention an increase or elevation in bilirubin are more relevant.\n\nFinal answer: Blood bilirubin increased"
+  },
+  {
+    "AE_text": "blood bilirubin increased",
+    "true_LLT_term": "Blood bilirubin increased",
+    "pred_LLT_term": "Blood bilirubin increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The given Adverse Event (AE) is \"blood bilirubin increased\". This phrase directly indicates an increase in the bilirubin level in the blood, without specifying whether it's direct, indirect, conjugated, or unconjugated. The most appropriate MedDRA LLT term should match this description as closely as possible, without adding more specificity than is provided in the AE description.\n\nFinal answer: Blood bilirubin increased"
+  },
+  {
+    "AE_text": "Blood bilirubin increased hoher Bilirubin Wert",
+    "true_LLT_term": "Blood bilirubin increased",
+    "pred_LLT_term": "Blood bilirubin increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) mentions \"Blood bilirubin increased\" which directly indicates a rise in the bilirubin levels in the blood. The phrase \"hoher Bilirubin Wert\" translates to \"high bilirubin value\" in English, further emphasizing the increase. Since the AE does not specify whether the increase is in direct or indirect bilirubin, the most appropriate LLT term should be the one that broadly covers an increase in blood bilirubin without specifying the type.\n\nFinal answer: Blood bilirubin increased"
+  },
+  {
+    "AE_text": "Catheter related infection Abszess/Infektion ZVK Stelle",
+    "true_LLT_term": "Catheter site infection",
+    "pred_LLT_term": "Catheter site infection",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Catheter related infection Abszess/Infektion ZVK Stelle\" suggests a complication associated with a catheter, specifically an infection. The term \"Abszess\" translates to abscess, and \"Infektion ZVK Stelle\" translates to infection at the central venous catheter site. This indicates the AE is focused on an infection related to the catheter site, which could include an abscess. Among the provided LLT terms, the ones that closely match this description are \"Catheter site abscess\" and \"Catheter site infection\". However, since the AE mentions both \"Abszess\" (abscess) and \"Infektion\" (infection), the term that best encompasses both aspects of the AE is \"Catheter site infection\" because an abscess is a type of infection.\n\nFinal answer: Catheter site infection"
+  },
+  {
+    "AE_text": "Chills Schuettelfrost",
+    "true_LLT_term": "Chills",
+    "pred_LLT_term": "Chills",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Chills Schuettelfrost\" suggests a condition where the patient is experiencing chills, which is a common symptom associated with fever or infection. \"Schuettelfrost\" is a German term that translates to \"chills\" or \"rigors,\" further supporting the idea that the AE is related to chills. Given this information, the best matching LLT term should directly relate to the concept of chills.\n\nFinal answer: Chills"
+  },
+  {
+    "AE_text": "Constipation",
+    "true_LLT_term": "Constipation",
+    "pred_LLT_term": "Constipation",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The given Adverse Event (AE) is \"Constipation\", which is a general term that can be caused by various factors and can present in different ways. The list of candidate LLT terms includes more specific types of constipation, such as those related to irritable bowel syndrome, chronic conditions, procedural complications, and obstipation, which is a more severe form of constipation. However, the AE itself does not provide additional context or specifics about the nature or cause of the constipation. Therefore, the best matching LLT term should be the one that most closely aligns with the general term \"Constipation\" without adding unnecessary specificity.\n\nFinal answer: Constipation"
+  },
+  {
+    "AE_text": "constipation",
+    "true_LLT_term": "Constipation",
+    "pred_LLT_term": "Constipation",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The given Adverse Event (AE) is \"constipation\", which is a general term that refers to difficulty in passing stools or infrequent bowel movements. The list of candidate LLT terms includes various specific types and causes of constipation. To choose the best matching LLT term, we should look for the term that most closely matches the given AE without adding additional specificity that is not provided in the AE description. Since \"constipation\" is a straightforward term without any additional descriptors (such as chronic, postoperative, etc.), the best match would be a term that directly corresponds to this condition without implying a specific cause or duration.\n\nFinal answer: Constipation"
+  },
+  {
+    "AE_text": "Constipation Obstipation",
+    "true_LLT_term": "Constipation",
+    "pred_LLT_term": "Obstipation",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 86.95652173913044,
+    "LLT_fuzzy_match": false,
+    "model_output": "The Adverse Event (AE) \"Constipation Obstipation\" suggests that the patient is experiencing constipation, and \"obstipation\" is another term for severe constipation. Given this information, we need to find the MedDRA LLT term that most closely matches this description. The term \"obstipation\" is directly listed, but since \"constipation\" is also mentioned, we should consider if there's a term that encompasses both or is more specific to the condition described.\n\nFinal answer: Obstipation"
+  },
+  {
+    "AE_text": "coprostasis Koprostase",
+    "true_LLT_term": "Coprostasis",
+    "pred_LLT_term": "Coprostasis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) provided is \"coprostasis Koprostase\", which directly translates to a condition related to constipation or difficulty in passing stools. Given the list of candidate LLT terms, the most relevant term that matches this condition is \"Coprostasis\", as it directly corresponds to the description of the AE.\n\nFinal answer: Coprostasis"
+  },
+  {
+    "AE_text": "cough",
+    "true_LLT_term": "Cough",
+    "pred_LLT_term": "Cough",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"cough\" is a general term that does not provide additional details about the nature or characteristics of the cough. Given the list of candidate LLT terms, the most appropriate match would be a term that is also general and does not imply specific characteristics of the cough that are not mentioned in the AE. Terms like \"Cough aggravated\", \"Painful cough\", \"Productive cough\", etc., imply additional details about the cough that are not present in the AE. Therefore, the best match should be a term that simply and directly corresponds to \"cough\" without adding unwarranted specificity.\n\nFinal answer: Cough"
+  },
+  {
+    "AE_text": "Cough",
+    "true_LLT_term": "Cough",
+    "pred_LLT_term": "Cough",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Cough\" is a general term that can be matched to a MedDRA LLT term. The list of candidate LLT terms includes various specific types of coughs, such as \"Cough aggravated\", \"Painful cough\", and \"Productive cough\", but the AE itself does not provide any additional details or specifications. Therefore, the best matching LLT term should be a general term that encompasses the concept of cough without any additional characteristics.\n\nFinal answer: Cough"
+  },
+  {
+    "AE_text": "cough Hustenreiz",
+    "true_LLT_term": "Cough",
+    "pred_LLT_term": "Cough",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"cough Hustenreiz\" suggests that the patient is experiencing a cough, with \"Hustenreiz\" being the German term for \"cough\" or \"coughing urge\". Given this information, we need to find the MedDRA LLT term that most accurately represents a cough. The list of candidate LLT terms includes several options related to coughing, such as \"Cough\", \"Coughing\", \"Irritative cough\", and others. However, the most straightforward and direct match for the AE description would be a term that simply represents the act of coughing without adding additional descriptors that may not be explicitly mentioned in the AE.\n\nFinal answer: Cough"
+  },
+  {
+    "AE_text": "cramplike pain abdomen",
+    "true_LLT_term": "Abdominal crampy pains",
+    "pred_LLT_term": "Abdominal crampy pains",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"cramplike pain abdomen\" suggests a type of abdominal pain that is characterized by cramping. The term \"cramplike\" implies a similarity to cramps, but it's not a direct reference to cramps. However, in the context of MedDRA LLT terms, the closest match would be a term that includes both the concept of cramping and abdominal pain. \n\nFinal answer: Abdominal crampy pains"
+  },
+  {
+    "AE_text": "crampy upper abdominal pain crampy upper abdominal pain",
+    "true_LLT_term": "Abdominal crampy pains",
+    "pred_LLT_term": "Abdominal crampy pains",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"crampy upper abdominal pain\" suggests that the patient is experiencing a specific type of abdominal pain, characterized by cramping, and located in the upper abdomen. The term \"crampy\" implies a spasmodic or colicky quality to the pain. When reviewing the list of candidate LLT terms, we should look for a term that captures both the location (upper abdomen) and the nature (crampy) of the pain.\n\nFinal answer: Abdominal crampy pains"
+  },
+  {
+    "AE_text": "creatinin increased",
+    "true_LLT_term": "Creatinine increased",
+    "pred_LLT_term": "Creatinine increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"creatinin increased\" is referring to an elevation in creatinine levels, which is a waste product that is typically filtered out by the kidneys. The most relevant and specific MedDRA LLT term should accurately reflect this concept. Among the provided options, terms that mention \"serum\" or \"blood\" are more specific to the context of creatinine measurement, as creatinine levels are commonly assessed in blood or serum samples. However, the term that most directly matches the AE without adding unnecessary specificity (such as the source of the creatinine measurement) would be the one that simply states \"creatinine increased\".\n\nFinal answer: Creatinine increased"
+  },
+  {
+    "AE_text": "Creatinine increased high Creatinine",
+    "true_LLT_term": "Creatinine increased",
+    "pred_LLT_term": "Creatinine increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Creatinine increased high Creatinine\" suggests an elevation in creatinine levels, which is a key indicator of kidney function. The phrase \"increased high\" reinforces the idea that the creatinine level has risen above a normal or expected range. Among the provided candidate LLT terms, the most accurate and specific term that reflects an increase in creatinine levels, without unnecessarily specifying the medium (such as serum, blood, or urine) unless directly implied by the AE, would be a term that directly mentions \"increased\" in relation to creatinine.\n\nFinal answer: Creatinine increased"
+  },
+  {
+    "AE_text": "Delirium",
+    "true_LLT_term": "Delirium",
+    "pred_LLT_term": "Delirium",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Delirium\" is a general term that refers to a state of altered consciousness and confusion. To find the best matching MedDRA LLT term, we need to look for the term that most closely matches this general description without adding additional specificity that is not present in the AE. Terms like \"Delirium tremens\" or \"Delirium febrile\" imply specific causes or contexts (alcohol withdrawal or fever, respectively) that are not mentioned in the AE. Similarly, terms like \"Acute delirium\", \"Subacute delirium\", or \"Delirium nocternal\" add temporal or timing specifics not provided in the AE. The term \"Delirious\" is more of a descriptive state rather than a specific medical condition term. \"Delirium due to a general medical condition\" implies an etiology that is not specified in the AE. \"Mixed delirium\" and \"Dream delirium\" are not standard descriptions that match the general AE of \"Delirium\".\n\nFinal answer: Delirium"
+  },
+  {
+    "AE_text": "Delirium Verwirrtheitszustaende",
+    "true_LLT_term": "Delirium",
+    "pred_LLT_term": "Delirium",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Delirium Verwirrtheitszustaende\" translates to a state of delirium or confusion. The term \"Verwirrtheitszustaende\" is German for \"state of confusion,\" which is a key characteristic of delirium. Given this, we are looking for a MedDRA LLT term that most closely matches the general concept of delirium without specifying a particular cause or subtype that is not indicated in the AE description.\n\nFinal answer: Delirium"
+  },
+  {
+    "AE_text": "depressive mode",
+    "true_LLT_term": "Depressive disorder",
+    "pred_LLT_term": "Depressive state",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 74.28571428571429,
+    "LLT_fuzzy_match": false,
+    "model_output": "The Adverse Event (AE) \"depressive mode\" suggests a state or condition related to depression, but it does not specify a particular disorder or syndrome. The term \"mode\" implies a mood or emotional state rather than a fully defined psychiatric condition. Given this, the most appropriate MedDRA LLT term should reflect a general state of depression without implying a specific diagnosis or chronic condition.\n\nFinal answer: Depressive state"
+  },
+  {
+    "AE_text": "depressive mood in relation to situation with new diagnostic AML",
+    "true_LLT_term": "Depressive disorder",
+    "pred_LLT_term": "Depressed mood",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 66.66666666666667,
+    "LLT_fuzzy_match": false,
+    "model_output": "The AE \"depressive mood in relation to situation with new diagnostic AML\" suggests a specific emotional state (depressive mood) that is triggered by a particular situation (new diagnosis of AML), rather than a chronic or long-standing condition. This implies that the focus is on the current emotional state rather than a broader or more severe psychiatric condition. Therefore, the most suitable LLT term should directly reflect this specific emotional state without implying a more complex or chronic condition.\n\nFinal answer: Depressed mood"
+  },
+  {
+    "AE_text": "diarrhea",
+    "true_LLT_term": "Diarrhea",
+    "pred_LLT_term": "Diarrhea",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"diarrhea\" is a general term that does not provide any additional details about the characteristics of the diarrhea, such as the presence of blood or its consistency. Given this, the best matching LLT term should be a general term that encompasses diarrhea without any specific qualifiers. The terms \"Diarrhea\" and \"Diarrhea NOS\" (Not Otherwise Specified) are the most general terms in the list, but \"Diarrhea NOS\" is not necessary in this case since \"Diarrhea\" is already a general term.\n\nFinal answer: Diarrhea"
+  },
+  {
+    "AE_text": "Diarrhea",
+    "true_LLT_term": "Diarrhea",
+    "pred_LLT_term": "Diarrhea",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"Diarrhea\" is a general term that does not provide specific details about the characteristics of the diarrhea, such as the presence of blood or its consistency. The list of candidate LLT terms includes more specific types of diarrhea, but also some general terms. Since the AE does not provide additional information, the best matching LLT term should be a general term that matches the AE exactly.\n\nFinal answer: Diarrhea"
+  },
+  {
+    "AE_text": "diarrhea Enteroviren in Stuhlprobe",
+    "true_LLT_term": "Enterovirus gastroenteritis",
+    "pred_LLT_term": "Enterovirus gastroenteritis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"diarrhea Enteroviren in Stuhlprobe\" translates to \"diarrhea Enterovirus in stool sample\", indicating that the diarrhea is associated with the presence of Enterovirus. This information points towards a viral cause rather than a bacterial or toxin-related cause. Among the provided LLT terms, the one that most closely matches this description is related to a viral infection causing gastroenteritis.\n\nFinal answer: Enterovirus gastroenteritis"
+  },
+  {
+    "AE_text": "diarrhoe",
+    "true_LLT_term": "Diarrhea",
+    "pred_LLT_term": "Diarrhea",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The given Adverse Event (AE) is \"diarrhoe\", which seems to be a misspelling or variation of the word \"diarrhea\" or \"diarrhoea\". Given the options, the most appropriate choice would be a term that directly matches the intended meaning without adding additional specifics not mentioned in the AE, such as \"bloody\" or \"chronic\". The term should be as close to the root word as possible, considering standard medical terminology.\n\nFinal answer: Diarrhea"
+  },
+  {
+    "AE_text": "dry skin",
+    "true_LLT_term": "Dry skin",
+    "pred_LLT_term": "Dry skin",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"dry skin\" is a general term that refers to a condition where the skin lacks moisture. To find the best matching LLT term, we need to look for a term that most closely matches this description without being too specific or including additional concepts. Terms like \"Periorbital dry skin\", \"Dry skin face\", and \"Hot dry skin\" are too specific as they limit the condition to a particular area or add additional characteristics. Terms like \"Dry skin moisturising\", \"Dry skin moisturizing\", \"Dry skin prophylaxis\", and \"Dry skin aggravated\" include concepts of treatment or worsening, which are not part of the original AE description. \"Skin wetting\" is the opposite of dry skin, and \"Skin dry\" is close but \"Dry skin\" is a more direct and commonly used term.\n\nFinal answer: Dry skin"
+  },
+  {
+    "AE_text": "Dyspnea Oxygen given",
+    "true_LLT_term": "Dyspnea",
+    "pred_LLT_term": "Dyspnea",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"Dyspnea Oxygen given\" indicates that the patient experienced difficulty breathing, which was severe enough to require oxygen supplementation. The term \"Dyspnea\" is a general term that refers to shortness of breath or difficulty breathing. Since the AE does not specify the timing, exertion level, or other specific characteristics of the dyspnea, a more general term would be most appropriate. The fact that oxygen was given suggests that the dyspnea was significant, but it does not necessarily imply that it was acute, exertional, or paroxysmal nocturnal.\n\nFinal answer: Dyspnea"
+  },
+  {
+    "AE_text": "Edema limbs Unterschenkeloedeme bds.",
+    "true_LLT_term": "Edema limbs",
+    "pred_LLT_term": "Edema lower limb",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 74.07407407407408,
+    "LLT_fuzzy_match": false,
+    "model_output": "The Adverse Event (AE) \"Edema limbs Unterschenkeloedeme bds\" indicates swelling (edema) in the limbs, specifically mentioning \"Unterschenkeloedeme,\" which translates to \"lower leg edema\" or \"edema of the lower limbs,\" and \"bds,\" which likely stands for \"beide,\" meaning \"both\" in German, suggesting the edema affects both lower limbs. Given this description, the most accurate MedDRA LLT term should specifically reference edema in the lower limbs.\n\nFinal answer: Edema lower limb"
+  },
+  {
+    "AE_text": "edema trunk oedeme ganzer Koerper",
+    "true_LLT_term": "Edema trunk",
+    "pred_LLT_term": "Edema trunk",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"edema trunk oedeme ganzer Koerper\" suggests swelling (edema) that is specifically located on the trunk of the body, with \"ganzer Koerper\" translating to \"whole body\" in English. However, the primary focus appears to be on the trunk, given its explicit mention. The term \"oedeme ganzer Koerper\" could imply a more generalized edema, but the specific mention of \"trunk\" narrows the focus. Among the provided candidate LLT terms, the ones that directly mention \"trunk\" are most relevant.\n\nFinal answer: Edema trunk"
+  },
+  {
+    "AE_text": "Entsuendungszeichen erhoeht CRP-Wert erhoeht.",
+    "true_LLT_term": "CRP increased",
+    "pred_LLT_term": "CRP increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Entsuendungszeichen erhoeht CRP-Wert erhoeht\" translates to \"signs of inflammation increased CRP value increased\" in English. The key elements here are \"Entsuendungszeichen\" (signs of inflammation) and \"CRP-Wert erhoeht\" (increased CRP value). CRP stands for C-reactive protein, which is a marker of inflammation in the body. Given this information, we need to find a term that closely matches the concept of increased inflammation as indicated by elevated CRP levels.\n\nFinal answer: CRP increased"
+  },
+  {
+    "AE_text": "epistaxis Nasenbluten",
+    "true_LLT_term": "Epistaxis",
+    "pred_LLT_term": "Epistaxis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"epistaxis Nasenbluten\" can be analyzed by breaking down its components. \"Epistaxis\" is a medical term that refers to nosebleed, and \"Nasenbluten\" is the German word for nosebleed. Given that both parts of the AE describe the same condition, the focus should be on finding the MedDRA LLT term that directly corresponds to nosebleed or epistaxis.\n\nFinal answer: Epistaxis"
+  },
+  {
+    "AE_text": "epistaxis transfusion given",
+    "true_LLT_term": "Epistaxis",
+    "pred_LLT_term": "Epistaxis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"epistaxis transfusion given\" suggests that the patient experienced epistaxis (nosebleed) after receiving a transfusion. The key elements in this AE are \"epistaxis\" and its relation to a transfusion. The list of candidate LLT terms includes several related to transfusions and their complications, but only one term directly mentions epistaxis.\n\nFinal answer: Epistaxis"
+  },
+  {
+    "AE_text": "epistaxis Transfusion given (platelets)",
+    "true_LLT_term": "Epistaxis",
+    "pred_LLT_term": "Epistaxis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"epistaxis Transfusion given (platelets)\" suggests that the patient experienced epistaxis (nosebleed) and was given a platelet transfusion, likely to treat or prevent the bleeding. The focus of the AE is on the epistaxis, and the platelet transfusion is mentioned as a treatment or intervention. Therefore, the most relevant LLT term should directly relate to the primary event, which is the epistaxis.\n\nFinal answer: Epistaxis"
+  },
+  {
+    "AE_text": "Exanthem Exanthem Th4-5 ventral und dorsal",
+    "true_LLT_term": "Exanthema",
+    "pred_LLT_term": "Exanthem",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 94.11764705882352,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Exanthem Exanthem Th4-5 ventral und dorsal\" describes a skin eruption or rash (exanthem) located on both the ventral (front) and dorsal (back) aspects of the thoracic region, specifically at the level of the fourth and fifth thoracic vertebrae (Th4-5). The term \"exanthem\" directly refers to a skin eruption, which is a key component of the AE description. Among the provided candidate LLT terms, the ones that directly relate to skin eruptions or rashes are \"Exanthema\" and \"Exanthem\". Since both terms essentially convey the same meaning and \"Exanthem\" is listed twice, it indicates a direct match to the AE description without adding unnecessary specificity that is not mentioned in the AE, such as the location or the specific nature of the exanthem beyond its existence.\n\nFinal answer: Exanthem"
+  },
+  {
+    "AE_text": "Eye disorders Hemorrhage eye (Hyposphagma rechts)",
+    "true_LLT_term": "Hyposphagma",
+    "pred_LLT_term": "Hemorrhage eye",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 40.0,
+    "LLT_fuzzy_match": false,
+    "model_output": "The AE \"Hemorrhage eye (Hyposphagma rechts)\" indicates a hemorrhage occurring in the eye, with \"Hyposphagma\" referring to a specific type of hemorrhage, often related to the conjunctiva or under the conjunctiva, and \"rechts\" meaning right, indicating the location but not altering the nature of the condition. Given this, the most accurate term should directly relate to hemorrhage in the eye, considering \"Hyposphagma\" as a specific manifestation of eye hemorrhage.\n\nFinal answer: Hemorrhage eye"
+  },
+  {
+    "AE_text": "fatigue",
+    "true_LLT_term": "Fatigue",
+    "pred_LLT_term": "Fatigue",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"fatigue\" is a general term that can be related to various aspects of health, including physical, mental, or chronic conditions. The list of candidate LLT terms provides more specific descriptions of fatigue, such as its severity (e.g., \"Fatigue extreme\"), type (e.g., \"Mental fatigue\", \"Muscle fatigue\"), or relation to other conditions (e.g., \"Chronic fatigue\"). However, since the AE \"fatigue\" is described in a general manner without any additional specifics, the most appropriate LLT term should be the one that closely matches this general description without adding unnecessary details.\n\nFinal answer: Fatigue"
+  },
+  {
+    "AE_text": "Fatique severe fatique",
+    "true_LLT_term": "Fatigue",
+    "pred_LLT_term": "Fatigue",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Fatique severe fatique\" appears to be a misspelling or variation of the word \"fatigue\", which refers to a feeling of tiredness or lack of energy. Given this, the most relevant MedDRA LLT term would be the one that directly corresponds to this concept, rather than terms related to \"fat\" in the context of lipids or body fat.\n\nFinal answer: Fatigue"
+  },
+  {
+    "AE_text": "febrile infection in neutropenia of unkown etiology Patient presented an CRP elevation and increasing body temperature during neutropenia. PCR diagnostics and CT scans showed no focus of infection.",
+    "true_LLT_term": "Febrile infection",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 72.22222222222221,
+    "LLT_fuzzy_match": false,
+    "model_output": "The AE describes a patient with a febrile infection during neutropenia, where the etiology is unknown and no focus of infection was found. The key elements here are the presence of fever, infection, and neutropenia without a specified cause. Among the provided LLT terms, we need to find the one that best matches these conditions.\n\nFinal answer: Febrile neutropenia"
+  },
+  {
+    "AE_text": "febrile infection in neutropenia Patient presented an CRP elevation and increasing body temperature during neutropenia. Diagnostics showed no focus of infection.",
+    "true_LLT_term": "Febrile infection",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 72.22222222222221,
+    "LLT_fuzzy_match": false,
+    "model_output": "The AE describes a patient with a febrile infection during neutropenia, characterized by CRP elevation and increasing body temperature, but with no identifiable focus of infection. This suggests that the primary issue is the fever and neutropenia, rather than a specific infection or autoimmune condition. The key elements to focus on are \"febrile\", \"infection\", and \"neutropenia\". \n\nFinal answer: Febrile neutropenia"
+  },
+  {
+    "AE_text": "febrile Neutropenia febrile Neutropenia",
+    "true_LLT_term": "Febrile neutropenia",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"febrile Neutropenia febrile Neutropenia\" indicates a condition where the patient has a low neutrophil count accompanied by fever. The repetition of \"febrile Neutropenia\" emphasizes the condition but does not change its fundamental nature. Among the provided candidate LLT terms, the one that directly matches this description is the term that specifically includes both the low neutrophil count (neutropenia) and the presence of fever (febrile).\n\nFinal answer: Febrile neutropenia"
+  },
+  {
+    "AE_text": "febrile neutropenia febrile neutropenia without infection focus (tested in urine and pharyngeal swab). Temperatures up to 38.6 degrees. CRP up to 30 mg/l. Patient was treated with Piperacillin/Tazobactam (03/JUL - 06/Jul/2023) and Meropenem (06/Jul - 12/J",
+    "true_LLT_term": "Febrile neutropenia",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) describes a patient experiencing febrile neutropenia without a clear infection focus, as indicated by negative tests in urine and pharyngeal swab, but with elevated temperatures and CRP levels, and treated with antibiotics. The key elements here are the presence of fever (febrile) and neutropenia (low neutrophil count), which are directly mentioned in the AE description. Among the provided candidate LLT terms, the ones that closely match these elements are \"Febrile neutropenia\" and \"Neutropenic fever\". However, \"Febrile neutropenia\" is a more specific term that directly matches the condition described, including both the fever aspect and the neutropenia aspect.\n\nFinal answer: Febrile neutropenia"
+  },
+  {
+    "AE_text": "febrile neutropenia febrile neutropenia without infection focus (tested in urine and pharyngeal swab). Temperatures up to 38.8 degrees. CRP up to 32 mg/l. Patient was treated with Meropenem (16/Jul - 21/Jul/2023).",
+    "true_LLT_term": "Febrile neutropenia",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) describes a condition where the patient has febrile neutropenia without a clear infection focus, as indicated by negative tests in urine and pharyngeal swab, but with elevated temperatures and CRP levels, and was treated with an antibiotic (Meropenem). The key elements here are the presence of fever (febrile) and neutropenia (low neutrophil count), which are directly mentioned in the AE description.\n\nFinal answer: Febrile neutropenia"
+  },
+  {
+    "AE_text": "febrile neutropenia Fieber",
+    "true_LLT_term": "Febrile neutropenia",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"febrile neutropenia Fieber\" directly translates to a condition characterized by fever (febrile) and a low neutrophil count (neutropenia). \"Fieber\" is the German word for fever, which reinforces the febrile aspect of the condition. Given this description, the most accurate MedDRA LLT term should directly reflect both the fever and neutropenia components without introducing additional, unrelated specifics.\n\nFinal answer: Febrile neutropenia"
+  },
+  {
+    "AE_text": "Febrile neutropenia Fieber in Neutropenie",
+    "true_LLT_term": "Febrile neutropenia",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Febrile neutropenia Fieber in Neutropenie\" directly translates to a condition where a patient has fever (febrile) and a low neutrophil count (neutropenia). This condition is a specific medical term that combines both the presence of fever and the reduction in neutrophil count, which is a type of white blood cell crucial for fighting infections. Given the direct mention of both fever and neutropenia in the AE, the most appropriate MedDRA LLT term should reflect both aspects.\n\nFinal answer: Febrile neutropenia"
+  },
+  {
+    "AE_text": "febrile neutropenia neutropenes Fieber",
+    "true_LLT_term": "Febrile neutropenia",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"febrile neutropenia neutropenes Fieber\" suggests a condition where the patient has a fever (indicated by \"febrile\" and \"Fieber,\" which is German for fever) and a low neutrophil count (indicated by \"neutropenia\" and \"neutropenes\"). This combination directly points to a specific medical condition characterized by fever and neutropenia. Among the provided candidate LLT terms, the one that directly matches this description is the term that combines both fever and neutropenia.\n\nFinal answer: Febrile neutropenia"
+  },
+  {
+    "AE_text": "Febrile neutropenia possibly related to Midostaurin; interventions Meropenem",
+    "true_LLT_term": "Febrile neutropenia",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) describes a condition of \"Febrile neutropenia\" which is a specific medical condition characterized by a low neutrophil count accompanied by fever. The term \"febrile\" directly indicates the presence of fever, which is a key component of this condition. Among the provided candidate LLT terms, there is one that exactly matches this description.\n\nFinal answer: Febrile neutropenia"
+  },
+  {
+    "AE_text": "febrile neutrophenia Fieber",
+    "true_LLT_term": "Febrile neutropenia",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"febrile neutrophenia Fieber\" suggests a condition characterized by fever (febrile) and a low count of neutrophils (neutropenia), which is a type of white blood cell important for fighting infections. \"Fieber\" is the German word for fever, reinforcing the febrile aspect. Given this description, the most relevant term would be one that directly combines fever and neutropenia.\n\nFinal answer: Febrile neutropenia"
+  },
+  {
+    "AE_text": "febrile neutrpenie fever",
+    "true_LLT_term": "Febrile neutropenia",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"febrile neutropenie fever\" suggests a condition where the patient is experiencing fever due to a low neutrophil count, which is a type of white blood cell important for fighting infections. The term \"febrile\" refers to the presence of fever, and \"neutropenie\" indicates neutropenia, a condition characterized by an abnormally low level of neutrophils. The most accurate MedDRA LLT term should reflect both the fever aspect and the neutropenia aspect.\n\nFinal answer: Febrile neutropenia"
+  },
+  {
+    "AE_text": "Fecal incontinence Stuhlinikontinenz",
+    "true_LLT_term": "Faecal incontinence",
+    "pred_LLT_term": "Fecal incontinence",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 97.2972972972973,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"Fecal incontinence Stuhlinikontinenz\" suggests a condition where there is a loss of control over defecation, leading to involuntary passage of feces. The term \"Stuhlinikontinenz\" is German for \"fecal incontinence\", which further supports this interpretation. Given the options, the most accurate and direct match for this condition would be a term that explicitly mentions \"fecal\" or \"faecal\" incontinence.\n\nFinal answer: Fecal incontinence"
+  },
+  {
+    "AE_text": "fever",
+    "true_LLT_term": "Fever",
+    "pred_LLT_term": "Fever",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"fever\" is a general term that refers to an elevated body temperature, which can be a symptom of various medical conditions. The list of candidate LLT terms includes more specific types of fever, such as \"Chronic fever\", \"Periodic fever\", and \"Intermittent fever\", as well as terms that describe the severity or accompanying symptoms of fever, like \"Slight fever\", \"Feverish\", and \"Fever chills\". However, since the AE \"fever\" is a straightforward and general term, the most suitable LLT term would be the one that directly matches this description without adding any additional specificity or detail.\n\nFinal answer: Fever"
+  },
+  {
+    "AE_text": "fever in neutropenia Fever; CRP 2.7 mg/dl",
+    "true_LLT_term": "Febrile neutropenia",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) describes a condition where the patient has fever in the context of neutropenia, with a specific CRP (C-reactive protein) value provided. The key elements here are the presence of fever and neutropenia. Neutropenia refers to an abnormally low count of neutrophils, a type of white blood cell important for fighting infections. The combination of fever and neutropenia is a significant clinical condition because it can indicate a serious infection in a patient with a compromised immune system due to the low neutrophil count. Among the provided LLT terms, the ones that directly relate to both fever and neutropenia are \"Neutropenic fever\" and \"Febrile neutropenia\". Both terms essentially describe the same condition, but \"Febrile neutropenia\" is a more commonly used term in clinical practice to describe fever in the setting of neutropenia.\n\nFinal answer: Febrile neutropenia"
+  },
+  {
+    "AE_text": "GGT increased",
+    "true_LLT_term": "GGT increased",
+    "pred_LLT_term": "GGT increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"GGT increased\" directly indicates an elevation in the GGT (gamma-glutamyl transferase) enzyme level. To find the best matching MedDRA LLT term, we need to look for the term that most accurately reflects this increase. The list includes various terms related to GGT and GGTP (gamma-glutamyl transpeptidase), which is another name for GGT, but the focus should be on the term that specifies an increase.\n\nFinal answer: GGT increased"
+  },
+  {
+    "AE_text": "GGT increased GGT increased up to 243 U/L.",
+    "true_LLT_term": "GGT increased",
+    "pred_LLT_term": "GGT increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) mentions \"GGT increased\" with a specific value of up to 243 U/L, indicating an elevation in the GGT enzyme level. The most relevant MedDRA LLT term should directly reflect this increase. Among the provided options, the terms that mention an increase or elevation are \"Gamma GT increased\", \"GGTP increase\", and \"GGT increased\". Since \"GGT\" is explicitly mentioned in the AE and is a direct match with one of the options, it is the most appropriate choice, being specific to the enzyme and the direction of change (increase).\n\nFinal answer: GGT increased"
+  },
+  {
+    "AE_text": "GGT increased GGT increased up to 256 U/L.",
+    "true_LLT_term": "GGT increased",
+    "pred_LLT_term": "GGT increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) mentions \"GGT increased\" which directly indicates an elevation in the GGT (Gamma-Glutamyl Transferase) enzyme level, specifically up to 256 U/L. This suggests we are looking for a term that reflects an increase in GGT levels. Among the provided options, the terms that could potentially match are those related to GGT and indicate an increase.\n\nFinal answer: GGT increased"
+  },
+  {
+    "AE_text": "GGT increased GGT increased up to 258 U/L.",
+    "true_LLT_term": "GGT increased",
+    "pred_LLT_term": "GGT increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) mentions \"GGT increased\" which directly indicates an elevation in the GGT (Gamma-Glutamyl Transferase) enzyme level, specifically up to 258 U/L. The most appropriate MedDRA LLT term should reflect this increase. Among the provided options, the terms that directly mention an increase or elevation are \"Gamma GT increased\", \"GGT increased\", and \"GGTP increase\". However, since the AE specifically mentions \"GGT\" and not \"GGTP\" or \"Gamma GT\" in the context of an increase, the most precise match would be the term that directly corresponds to the mentioned enzyme and its condition.\n\nFinal answer: GGT increased"
+  },
+  {
+    "AE_text": "gingival pain",
+    "true_LLT_term": "Gingival pain",
+    "pred_LLT_term": "Gingival pain",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"gingival pain\" directly describes a specific symptom related to the gingiva, which is the gum tissue surrounding the teeth. The most accurate LLT term should closely match this description, focusing on the symptom of pain rather than a broader condition or disorder. Among the provided options, there is a term that exactly matches the AE description.\n\nFinal answer: Gingival pain"
+  },
+  {
+    "AE_text": "gross hematuria",
+    "true_LLT_term": "Hematuria",
+    "pred_LLT_term": "Macroscopic hematuria",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 60.0,
+    "LLT_fuzzy_match": false,
+    "model_output": "The Adverse Event (AE) \"gross hematuria\" refers to the visible presence of blood in the urine, which is often characterized by a macroscopic or noticeable amount of blood. The term \"gross\" implies that the hematuria is not microscopic, which would require laboratory testing to detect. Among the provided candidate LLT terms, the one that most closely aligns with the description of \"gross hematuria\" is the term that describes hematuria that can be seen with the naked eye.\n\nFinal answer: Macroscopic hematuria"
+  },
+  {
+    "AE_text": "Harnwegsinfekt Nachweis von Klebsiella pneumonieae in Urinkultur.",
+    "true_LLT_term": "Klebsiella pneumoniae cystitis",
+    "pred_LLT_term": "Klebsiella pneumoniae cystitis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Harnwegsinfekt Nachweis von Klebsiella pneumonieae in Urinkultur\" translates to \"urinary tract infection with detection of Klebsiella pneumoniae in urine culture\". This indicates a bacterial infection of the urinary tract caused by Klebsiella pneumoniae. The term \"Harnwegsinfekt\" specifically refers to a urinary tract infection, and \"Klebsiella pneumoniae\" is the causative agent. Among the provided candidate LLT terms, the one that directly matches this description is related to a urinary tract infection caused by Klebsiella pneumoniae.\n\nFinal answer: Klebsiella pneumoniae cystitis"
+  },
+  {
+    "AE_text": "headache",
+    "true_LLT_term": "Headache",
+    "pred_LLT_term": "Headache",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The given Adverse Event (AE) is \"headache\", which is a general term that does not specify any particular characteristics, such as location, frequency, or type. The list of candidate LLT terms includes various specific types of headaches, but the AE itself does not provide any details that would necessitate a more specific term. Therefore, the most appropriate LLT term would be the one that matches the AE description most closely without adding any unwarranted specificity.\n\nFinal answer: Headache"
+  },
+  {
+    "AE_text": "Headache",
+    "true_LLT_term": "Headache",
+    "pred_LLT_term": "Headache",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Headache\" is a general term that does not provide specific details about the nature, frequency, or characteristics of the headache. Given the list of candidate LLT terms, the best match should be a term that is equally general and does not imply additional specifics not mentioned in the AE. Terms that imply frequency (e.g., \"Frequent headaches\"), specific types (e.g., \"Migrainous headache\", \"Migraine headache\"), or characteristics (e.g., \"Throbbing headache\", \"Temporal headache\", \"Forehead headache\") are too specific. The term \"Headache\" itself is the most straightforward and general match, making it the most appropriate choice.\n\nFinal answer: Headache"
+  },
+  {
+    "AE_text": "Headache Kopfschmerzen",
+    "true_LLT_term": "Headache",
+    "pred_LLT_term": "Headache",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Headache Kopfschmerzen\" presents a straightforward description of a headache, with \"Kopfschmerzen\" being the German translation for \"headache\". There are no additional descriptors provided in the AE that would indicate the headache's duration (e.g., transient, persistent, chronic), type (e.g., tension, temporal), or severity. Therefore, the most appropriate MedDRA LLT term should be the one that matches the general description without adding unspecified characteristics.\n\nFinal answer: Headache"
+  },
+  {
+    "AE_text": "hematoma abdomen",
+    "true_LLT_term": "Abdominal hematoma",
+    "pred_LLT_term": "Abdominal haematoma",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 97.2972972972973,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"hematoma abdomen\" suggests a hematoma located in the abdominal region, but it does not specify the exact location within the abdomen. Given the options, we need to choose the term that most accurately and broadly encompasses a hematoma in the abdominal area without over-specifying the location, as the AE description does not provide detailed information about the hematoma being intra-abdominal, in the abdominal wall, or another specific location.\n\nFinal answer: Abdominal haematoma"
+  },
+  {
+    "AE_text": "hematoma left flank Transfusion given (platelets)",
+    "true_LLT_term": "Hematoma NOS",
+    "pred_LLT_term": "Hematoma NOS",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) describes a hematoma located on the left flank, with the additional context that a transfusion of platelets was given. This context suggests that the hematoma might be related to the transfusion procedure, but it does not explicitly state that the hematoma occurred at the transfusion site. However, given the information provided, the most relevant aspect to code would be the occurrence of a hematoma, as the transfusion of platelets seems to be a treatment or intervention rather than the adverse event itself. Among the provided options, the terms directly related to hematoma or the transfusion procedure should be considered. \"Infusion site hematoma\" could be a plausible choice if assuming the hematoma is directly related to the transfusion site, but without explicit confirmation of the hematoma's location being the transfusion site, a more general term might be appropriate.\n\nFinal answer: Hematoma NOS"
+  },
+  {
+    "AE_text": "hematoma left thigh",
+    "true_LLT_term": "Abdominal hematoma",
+    "pred_LLT_term": "Hematoma muscle",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 48.484848484848484,
+    "LLT_fuzzy_match": false,
+    "model_output": "The AE \"hematoma left thigh\" indicates a hematoma occurred in the thigh area, which is a specific location. The term \"thigh\" is not explicitly mentioned in the candidate LLT terms, but we can infer that a hematoma in the thigh would be related to the muscle or subcutaneous tissue in that area. Among the options, \"Subcutaneous hematoma\" and \"Hematoma muscle\" could be relevant, but \"Subcutaneous hematoma\" is a more general term that could apply to hematomas under the skin in various parts of the body, including the thigh. \"Hematoma muscle\" specifically mentions muscle, which is a key component of the thigh, making it a more precise match for a hematoma in the thigh.\n\nFinal answer: Hematoma muscle"
+  },
+  {
+    "AE_text": "hematoma right forearm",
+    "true_LLT_term": "Hematoma NOS",
+    "pred_LLT_term": "Hematoma NOS",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"hematoma right forearm\" indicates a hematoma occurred in the forearm area, but it does not specify the involvement of a joint or muscle, nor does it provide details that would suggest it is a subcutaneous hematoma or any other specific type of hematoma. Given the location (forearm) and the general nature of the term \"hematoma,\" we should look for an LLT term that is not overly specific regarding the type of hematoma or its exact location within the forearm, but still accurately reflects the occurrence of a hematoma.\n\nFinal answer: Hematoma NOS"
+  },
+  {
+    "AE_text": "hematoma right shoulder/upperarm",
+    "true_LLT_term": "Hematoma NOS",
+    "pred_LLT_term": "The AE \"hematoma right shoulder/upperarm\" indicates a hematoma located in the shoulder or upper arm area. Given the location, we can rule out terms related to abdominal or splenic hematomas. The term \"hematoma\" is too general, while \"hematoma NOS\" (not otherwise specified) might be considered if no more specific term is available. However, since the location is specified as the shoulder/upper arm, we should look for terms that relate to this area. \"Shoulder haemarthrosis\" and \"Shoulder hemarthrosis\" seem to be relevant, but \"haemarthrosis\" typically refers to bleeding into a joint, which might not be the case here since the AE does not explicitly mention a joint. \"Hematoma muscle\" could be a consideration since the upper arm has significant muscle tissue, but it's less specific to the shoulder area. \"Subcutaneous hematoma\" could also be a possibility since it refers to a hematoma under the skin, which could occur in the shoulder or upper arm area. However, the most specific term to the area mentioned without assuming the hematoma is strictly subcutaneous or in a joint would be a term that directly",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 2.131438721136769,
+    "LLT_fuzzy_match": false,
+    "model_output": "The AE \"hematoma right shoulder/upperarm\" indicates a hematoma located in the shoulder or upper arm area. Given the location, we can rule out terms related to abdominal or splenic hematomas. The term \"hematoma\" is too general, while \"hematoma NOS\" (not otherwise specified) might be considered if no more specific term is available. However, since the location is specified as the shoulder/upper arm, we should look for terms that relate to this area. \"Shoulder haemarthrosis\" and \"Shoulder hemarthrosis\" seem to be relevant, but \"haemarthrosis\" typically refers to bleeding into a joint, which might not be the case here since the AE does not explicitly mention a joint. \"Hematoma muscle\" could be a consideration since the upper arm has significant muscle tissue, but it's less specific to the shoulder area. \"Subcutaneous hematoma\" could also be a possibility since it refers to a hematoma under the skin, which could occur in the shoulder or upper arm area. However, the most specific term to the area mentioned without assuming the hematoma is strictly subcutaneous or in a joint would be a term that directly"
+  },
+  {
+    "AE_text": "hematoma upperarms",
+    "true_LLT_term": "Hematoma NOS",
+    "pred_LLT_term": "Hematoma",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 80.0,
+    "LLT_fuzzy_match": false,
+    "model_output": "The AE \"hematoma upperarms\" indicates a hematoma occurred in the upper arm area, but it does not specify the exact location or cause of the hematoma. Given the options, we need to find the term that best matches a hematoma in the upper arm without being too specific about the cause (e.g., injection) or the exact location (e.g., muscle, joint). The term should be general enough to encompass a hematoma in the upper arm but specific enough to relate to the condition described.\n\nFinal answer: Hematoma"
+  },
+  {
+    "AE_text": "hematuria blutiger Urin",
+    "true_LLT_term": "Hematuria",
+    "pred_LLT_term": "Hematuria",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"hematuria blutiger Urin\" translates to \"hematuria bloody urine\" in English, which directly indicates the presence of blood in the urine. The term \"blutiger Urin\" (bloody urine) suggests that the hematuria is visible to the naked eye, which aligns with the definition of macroscopic hematuria. However, the provided term \"hematuria\" itself is a broad term that encompasses both microscopic and macroscopic hematuria. Given the description, the most specific and appropriate term that matches the AE without over-specifying (since \"blutiger Urin\" implies visibility but doesn't necessarily imply a specific condition like \"Loin pain hematuria syndrome\" or \"Glomerular hematuria\") would be a term that indicates the presence of blood in the urine without further specification.\n\nFinal answer: Hematuria"
+  },
+  {
+    "AE_text": "Hematuria gross hematuria",
+    "true_LLT_term": "Hematuria",
+    "pred_LLT_term": "Hematuria",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Hematuria gross hematuria\" indicates the presence of blood in the urine, with \"gross\" specifying that the hematuria is visible to the naked eye, as opposed to microscopic hematuria which requires laboratory testing to detect. Given this description, we need to find the MedDRA LLT term that best matches this condition. The term should reflect the visible nature of the hematuria without implying a specific cause (like trauma) or a specific context (like post-procedure).\n\nFinal answer: Hematuria"
+  },
+  {
+    "AE_text": "Hemorrhoids with pain",
+    "true_LLT_term": "Hemorrhoids",
+    "pred_LLT_term": "Hemorrhoids",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Hemorrhoids with pain\" suggests that the patient is experiencing hemorrhoids accompanied by a symptom (pain), but it does not specify the type of hemorrhoids (internal, external, mixed) or any complications such as inflammation, infection, or the need for an operation. The term \"with pain\" implies a symptom associated with the hemorrhoids but does not necessarily indicate a specific type of hemorrhoid or a complication. Therefore, the most appropriate LLT term should directly relate to hemorrhoids without specifying a particular type or complication, as the provided information does not detail such specifics.\n\nFinal answer: Hemorrhoids"
+  },
+  {
+    "AE_text": "Herpes labialis Aciclovir i.v. given",
+    "true_LLT_term": "Herpes labialis",
+    "pred_LLT_term": "Herpes labialis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Herpes labialis Aciclovir i.v. given\" indicates that the patient was treated with Aciclovir, an antiviral medication, for Herpes labialis, which is a type of viral infection characterized by the appearance of one or more painful blisters or cold sores on the lips. Given this context, the most accurate MedDRA LLT term should directly reflect the specific condition being treated, which in this case is Herpes labialis.\n\nFinal answer: Herpes labialis"
+  },
+  {
+    "AE_text": "Herpes labialis Herpes labialis",
+    "true_LLT_term": "Herpes labialis",
+    "pred_LLT_term": "Herpes labialis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"Herpes labialis Herpes labialis\" indicates a specific condition related to the herpes virus affecting the lips, which is commonly known as cold sores. The repetition of \"Herpes labialis\" emphasizes the condition but does not alter its specificity. Among the provided LLT terms, the most accurate match should directly reference the condition affecting the lips.\n\nFinal answer: Herpes labialis"
+  },
+  {
+    "AE_text": "Herpes simplex reactivation",
+    "true_LLT_term": "Herpes simplex reactivation",
+    "pred_LLT_term": "Herpes simplex reactivation",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"Herpes simplex reactivation\" directly indicates a reactivation of the herpes simplex virus, which is a specific condition. The list of candidate LLT terms includes several options related to herpes simplex, but only one term exactly matches the description of the AE. This term is the most specific and accurate representation of the AE.\n\nFinal answer: Herpes simplex reactivation"
+  },
+  {
+    "AE_text": "Hot flashes starkes schwitzen",
+    "true_LLT_term": "Hot flashes",
+    "pred_LLT_term": "Hot flashes",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Hot flashes starkes schwitzen\" translates to \"Hot flashes strong sweating\" in English. This description directly points to a condition characterized by sudden feelings of heat, often accompanied by sweating. The term \"starkes schwitzen\" (strong sweating) is a symptom that can be associated with hot flashes, but the primary condition being described is the hot flash itself. Among the provided candidate LLT terms, the ones that directly mention \"hot flashes\" are the most relevant. Since the AE does not specify a menopausal context, the most appropriate term would be one that does not imply a specific cause or context (like menopause) for the hot flashes.\n\nFinal answer: Hot flashes"
+  },
+  {
+    "AE_text": "hyperglycaemia glucose over 160mg/dl",
+    "true_LLT_term": "Hyperglycaemia",
+    "pred_LLT_term": "Hyperglycaemia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"hyperglycaemia glucose over 160mg/dl\" indicates a condition where the glucose level in the blood is higher than normal, specifically above 160mg/dl. The term \"hyperglycaemia\" directly refers to this condition. Among the provided LLT terms, \"Hyperglycaemia\" and \"Hyperglycaemia NOS\" (Not Otherwise Specified) are the closest matches. However, since \"Hyperglycaemia NOS\" is more general and does not specify any particular aspect of hyperglycemia, and given that the AE does not provide additional specifics that would necessitate a more detailed term like \"Postprandial hyperglycaemia\" or \"Diabetic hyperglycaemic coma\", the most straightforward and accurate term for this AE would be \"Hyperglycaemia\".\n\nFinal answer: Hyperglycaemia"
+  },
+  {
+    "AE_text": "Hyperkalemia",
+    "true_LLT_term": "Hyperkalemia",
+    "pred_LLT_term": "Hyperkalemia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) provided is \"Hyperkalemia\", which refers to a condition where there is an elevated level of potassium in the blood. To find the best matching MedDRA LLT term, we need to look for the term that most accurately and specifically describes this condition. The list of candidate LLT terms includes several options related to electrolyte imbalances and blood conditions, but we are looking for the one that directly corresponds to \"Hyperkalemia\".\n\nFinal answer: Hyperkalemia"
+  },
+  {
+    "AE_text": "hyperphosphatemia",
+    "true_LLT_term": "Hyperphosphatemia",
+    "pred_LLT_term": "Hyperphosphatemia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"hyperphosphatemia\" refers to an elevated level of phosphate in the blood. To find the best matching LLT term, we need to look for the term that most accurately describes this condition. The list includes terms related to phosphate levels, but some have prefixes or suffixes that indicate different conditions, such as \"hypo-\" for low levels or \"pseudo-\" for false appearances of a condition. We should select the term that directly matches the description of elevated phosphate levels without any modifying prefixes that would alter the meaning.\n\nFinal answer: Hyperphosphatemia"
+  },
+  {
+    "AE_text": "Hypertension",
+    "true_LLT_term": "Hypertension",
+    "pred_LLT_term": "Hypertension",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The given Adverse Event (AE) is \"Hypertension\", which is a general term for high blood pressure. The list of candidate LLT terms includes various specific types and conditions related to hypertension. To choose the best matching LLT term, we should look for the term that most closely matches the given AE without adding additional specificity not provided in the AE. Since \"Hypertension\" is a broad term, we should select an LLT term that is equally broad or the most general form of hypertension listed.\n\nFinal answer: Hypertension"
+  },
+  {
+    "AE_text": "hypertension",
+    "true_LLT_term": "Hypertension",
+    "pred_LLT_term": "Hypertension NOS",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 85.71428571428572,
+    "LLT_fuzzy_match": false,
+    "model_output": "The given Adverse Event (AE) is \"hypertension\", which is a general term for high blood pressure. The list of candidate LLT terms includes various specific types of hypertension, but the AE itself does not provide additional details such as the cause, severity, or complications. Therefore, the best matching LLT term should be the one that most closely matches the general term \"hypertension\" without adding unnecessary specificity.\n\nFinal answer: Hypertension NOS"
+  },
+  {
+    "AE_text": "Hypokalemia",
+    "true_LLT_term": "Hypokalemia",
+    "pred_LLT_term": "Hypokalaemia",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 95.65217391304348,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Hypokalemia\" refers to a condition where there is an abnormally low level of potassium ions in the blood. The list of candidate LLT terms includes various related conditions, but the goal is to find the term that most directly matches the AE. The most direct match would be a term that simply describes the condition of having low potassium levels without adding additional specifics such as alkalosis or periodic paralysis, which might not be present in all cases of hypokalemia.\n\nFinal answer: Hypokalaemia"
+  },
+  {
+    "AE_text": "hypokalemia",
+    "true_LLT_term": "Hypokalemia",
+    "pred_LLT_term": "Hypokalemia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"hypokalemia\" is a condition where there is an abnormally low level of potassium ions in the blood. To find the best matching LLT term, we need to look for the term that most accurately and directly describes this condition. The list includes various terms related to hypokalemia, but some of them describe more specific syndromes or conditions that involve hypokalemia as a component, rather than hypokalemia itself.\n\nFinal answer: Hypokalemia"
+  },
+  {
+    "AE_text": "Hypokalemia niedriger Kaliumwert",
+    "true_LLT_term": "Hypokalaemia",
+    "pred_LLT_term": "Hypokalemia",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 95.65217391304348,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Hypokalemia niedriger Kaliumwert\" directly translates to \"Hypokalemia low potassium value\" in English, indicating a condition where the potassium level in the blood is lower than normal. The term \"Hypokalemia\" is a direct medical term for this condition. Among the provided candidate LLT terms, the most straightforward and exact match for this condition, without adding additional specifics not mentioned in the AE (like periodic paralysis or alkalosis), is \"Hypokalemia\".\n\nFinal answer: Hypokalemia"
+  },
+  {
+    "AE_text": "hypophosphatemia",
+    "true_LLT_term": "Hypophosphatemia",
+    "pred_LLT_term": "Hypophosphatemia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"hypophosphatemia\" refers to a condition where there is an abnormally low level of phosphate in the blood. To find the best matching LLT term, we need to look for a term that exactly matches this condition. The list includes terms that are related to phosphate levels, but some are opposite conditions (hyperphosphatemia) or related to other substances (hypouricemia, hypopotassemia). There are also terms that are more specific conditions related to hypophosphatemia, such as X-linked hypophosphatemia or hypophosphatemic osteomalacia, but these are not exact matches for the general condition of hypophosphatemia. The terms \"hypophosphatemia\" and \"hypophosphataemia\" are exact matches, but since \"hypophosphatemia\" is listed, it is the preferred choice due to its direct match without the British English spelling variation.\n\nFinal answer: Hypophosphatemia"
+  },
+  {
+    "AE_text": "Hypotension",
+    "true_LLT_term": "Hypotension",
+    "pred_LLT_term": "Hypotension NOS",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 84.61538461538461,
+    "LLT_fuzzy_match": false,
+    "model_output": "The given Adverse Event (AE) is \"Hypotension\", which refers to a condition of abnormally low blood pressure. The list of candidate LLT terms includes various specific types of hypotension, such as supine hypotension, hypotensive presyncope, controlled hypotension, acute hypotension, and chronic hypotension, among others. However, the AE itself does not provide any additional specifics regarding the type of hypotension experienced. Therefore, the most appropriate LLT term should be the one that most closely matches the general condition described by the AE without adding unnecessary specificity.\n\nFinal answer: Hypotension NOS"
+  },
+  {
+    "AE_text": "Hypotension hypotone Blutdruckwerte",
+    "true_LLT_term": "Hypotension",
+    "pred_LLT_term": "Hypotension NOS",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 84.61538461538461,
+    "LLT_fuzzy_match": false,
+    "model_output": "The Adverse Event (AE) \"Hypotension hypotone Blutdruckwerte\" translates to \"Hypotension low blood pressure values\" in English. The term \"hypotone\" is often used interchangeably with \"hypotension\" in medical contexts, and \"Blutdruckwerte\" refers to blood pressure values, which further supports the notion that the AE is describing low blood pressure. Given this information, we need to find the MedDRA LLT term that most accurately represents hypotension without specifying a particular type or cause that is not mentioned in the AE.\n\nFinal answer: Hypotension NOS"
+  },
+  {
+    "AE_text": "hypotension niedrige Blutdruckwerte",
+    "true_LLT_term": "Hypotension",
+    "pred_LLT_term": "Hypotension",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"hypotension niedrige Blutdruckwerte\" translates to \"hypotension low blood pressure\" in English, indicating a condition of abnormally low blood pressure. The term \"niedrige Blutdruckwerte\" reinforces the concept of hypotension without specifying any particular type or cause. Given this, the most appropriate MedDRA LLT term should directly correspond to the general condition of hypotension without implying additional specifics not mentioned in the AE.\n\nFinal answer: Hypotension"
+  },
+  {
+    "AE_text": "Hypotension relocation to the KMT3 for logistic and safety reasons",
+    "true_LLT_term": "Hypotension",
+    "pred_LLT_term": "Hypotension",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Hypotension relocation to the KMT3 for logistic and safety reasons\" primarily indicates that the patient experienced hypotension, which is the main medical condition being described. The mention of \"relocation to the KMT3\" seems to be related to the management or response to the hypotension rather than describing a specific type of hypotension. The term \"KMT3\" does not directly relate to any of the provided MedDRA LLT terms, suggesting it's more about the context or location of care rather than the condition itself. Therefore, the focus should be on the term that best describes hypotension without additional specifics that are not mentioned in the AE.\n\nFinal answer: Hypotension"
+  },
+  {
+    "AE_text": "increased liver values Alanine aminotransferase increased     Aspartate aminotransferase increased",
+    "true_LLT_term": "Alanine aminotransferase increase",
+    "pred_LLT_term": "Aspartate aminotransferase increased",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 84.05797101449275,
+    "LLT_fuzzy_match": false,
+    "model_output": "The Adverse Event (AE) mentions both \"Alanine aminotransferase increased\" and \"Aspartate aminotransferase increased\", indicating that the liver values are elevated for both of these enzymes. The best matching LLT term should reflect the specific increase in these enzymes.\n\nFinal answer: Aspartate aminotransferase increased"
+  },
+  {
+    "AE_text": "infection high CRP",
+    "true_LLT_term": "Infection NOS",
+    "pred_LLT_term": "Infection NOS",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"infection high CRP\" suggests that the patient has an infection, as indicated by the term \"infection\", and also has a high C-Reactive Protein (CRP) level, which is a marker of inflammation. The term \"high CRP\" is more of a laboratory finding than a specific diagnosis, so we should focus on finding an LLT term that best matches the \"infection\" part of the AE. Among the provided options, some are too specific (e.g., \"Upper resp tract infection\", \"Cronobacter infection\"), some are not directly related to infection (e.g., \"CRP positive\", \"CRP increased\"), and some are too broad or vague (e.g., \"Infection NOS\"). However, \"Infection NOS\" (Not Otherwise Specified) seems to be the most fitting as it directly addresses the \"infection\" part of the AE without specifying a particular type of infection, which is not detailed in the AE description.\n\nFinal answer: Infection NOS"
+  },
+  {
+    "AE_text": "Infection increased CRP",
+    "true_LLT_term": "Infection NOS",
+    "pred_LLT_term": "Infection NOS",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Infection increased CRP\" suggests that there is an infection present, and it has led to an increase in C-Reactive Protein (CRP) levels. CRP is a protein that increases in the blood when there is inflammation or infection. The focus here is on the infection itself rather than just the increase in CRP, as the increase in CRP is a consequence of the infection. Therefore, we need to find a term that best represents the concept of an infection.\n\nFinal answer: Infection NOS"
+  },
+  {
+    "AE_text": "infection On 24.07.2023 the patient developed fever. Anitbiotics were started (Piperacilin/ Tazobactam). Bloodcultures: gram positive coccus",
+    "true_LLT_term": "Gram-positive bacteraemia",
+    "pred_LLT_term": "Gram-positive bacteraemia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The patient developed a fever and was started on antibiotics, with blood cultures showing gram-positive coccus, indicating a bacterial infection. The terms \"Bacterial infection\", \"Infection bacterial\", and \"Acute infection\" are all plausible, but they are quite general. \"Gram-positive bacteraemia\" is more specific, as it matches the gram-positive coccus found in the blood cultures, which is a key detail in the AE description.\n\nFinal answer: Gram-positive bacteraemia"
+  },
+  {
+    "AE_text": "infection VRE Infektion",
+    "true_LLT_term": "Vancomycin-resistant enterococcal infection",
+    "pred_LLT_term": "Vancomycin-resistant enterococcal infection",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"infection VRE Infektion\" suggests a specific type of infection, namely Vancomycin-Resistant Enterococcal (VRE) infection. The term \"VRE\" is a key indicator of the type of infection being referred to. Given this information, we need to find the MedDRA LLT term that most accurately matches this description.\n\nFinal answer: Vancomycin-resistant enterococcal infection"
+  },
+  {
+    "AE_text": "inflammation ZVK puncture site",
+    "true_LLT_term": "Catheter site inflammation",
+    "pred_LLT_term": "Puncture site inflammation",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 80.76923076923077,
+    "LLT_fuzzy_match": false,
+    "model_output": "The AE \"inflammation ZVK puncture site\" indicates that the adverse event is related to inflammation at the site of a puncture, specifically a ZVK (which likely refers to a type of vascular access device). The most relevant terms from the list would be those that directly mention \"puncture site\" and \"inflammation\". \n\nFinal answer: Puncture site inflammation"
+  },
+  {
+    "AE_text": "Infusion related reaction with capillary leak syndrome and subsequent respiratory insufficiency",
+    "true_LLT_term": "Infusion related reaction",
+    "pred_LLT_term": "Capillary leak syndrome",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 29.166666666666664,
+    "LLT_fuzzy_match": false,
+    "model_output": "The Adverse Event (AE) describes a reaction related to infusion, specifically mentioning capillary leak syndrome and subsequent respiratory insufficiency. This suggests that the primary issue is related to the infusion causing a systemic reaction that includes capillary leakage, which in turn affects respiratory function. The key elements to focus on are \"infusion related reaction\" and \"capillary leak syndrome.\" \n\nFinal answer: Capillary leak syndrome"
+  },
+  {
+    "AE_text": "invasive Aspergillose progrediente Apsergillose der Lunge",
+    "true_LLT_term": "Pulmonary aspergillosis",
+    "pred_LLT_term": "Invasive bronchopulmonary aspergillosis",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 74.19354838709677,
+    "LLT_fuzzy_match": false,
+    "model_output": "The Adverse Event (AE) \"invasive Aspergillose progrediente Apsergillose der Lunge\" translates to \"invasive progressive aspergillosis of the lung\". This description points towards an infection caused by Aspergillus that is both invasive and located in the lung, indicating a severe form of the disease that has penetrated deeper into the lung tissue. The term \"invasive\" is key here, as it differentiates this condition from less severe forms of aspergillosis. Among the provided candidate LLT terms, the one that most closely matches this description is the term that specifically mentions \"invasive\" and relates to the lung.\n\nFinal answer: Invasive bronchopulmonary aspergillosis"
+  },
+  {
+    "AE_text": "Kolonperforation CT-morphologisch gedeckte Perforation bei anhaltendem Fieber und Bauchschmerzen",
+    "true_LLT_term": "Colonic perforation",
+    "pred_LLT_term": "Colonic perforation",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) describes a \"Kolonperforation\" which translates to \"colon perforation\" in English, along with symptoms of persistent fever and abdominal pain. The mention of \"CT-morphologisch gedeckte Perforation\" indicates that the perforation is confirmed by CT morphology. Given this information, we need to find the MedDRA LLT term that most accurately matches the description of a colon perforation.\n\nFinal answer: Colonic perforation"
+  },
+  {
+    "AE_text": "lipase increased",
+    "true_LLT_term": "Lipase increased",
+    "pred_LLT_term": "Lipase increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"lipase increased\" directly indicates an elevation in lipase levels, which is an enzyme found in the blood. The most suitable LLT term should accurately reflect this increase without adding unnecessary specificity (such as the medium in which it's measured, unless specified) or incorrect information (such as a decrease or normal level). The term should be precise, directly related to lipase, and indicate an increase.\n\nFinal answer: Lipase increased"
+  },
+  {
+    "AE_text": "Liver toxicity",
+    "true_LLT_term": "Hepatotoxicity",
+    "pred_LLT_term": "Hepatotoxicity",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Liver toxicity\" suggests an adverse effect on the liver that is related to toxic effects, which could be due to various causes such as drugs, chemicals, etc. The most appropriate MedDRA LLT term should directly relate to the concept of liver toxicity without being overly specific (e.g., limiting to a specific cause or duration) unless the AE itself provides such specifics.\n\nFinal answer: Hepatotoxicity"
+  },
+  {
+    "AE_text": "localized edema (ankle)",
+    "true_LLT_term": "Edema arms",
+    "pred_LLT_term": "Ankle edema",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 47.61904761904761,
+    "LLT_fuzzy_match": false,
+    "model_output": "The AE \"localized edema (ankle)\" specifically mentions the location of the edema as the ankle, which suggests that the most accurate LLT term should also reference the ankle. While \"Localized edema\" is a close match in terms of the description of the edema, it does not specify the location. Therefore, the best LLT term should be one that both describes the condition (edema) and specifies the location (ankle).\n\nFinal answer: Ankle edema"
+  },
+  {
+    "AE_text": "Loss of appetite/ Anorexia",
+    "true_LLT_term": "Anorexia",
+    "pred_LLT_term": "Decreased appetite",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 23.076923076923073,
+    "LLT_fuzzy_match": false,
+    "model_output": "The Adverse Event (AE) \"Loss of appetite/ Anorexia\" suggests a condition where the patient has a reduced desire to eat, which can be due to various reasons and is not necessarily related to the psychological disorder anorexia nervosa. The term \"Anorexia\" in the AE is likely used to describe a symptom rather than the specific eating disorder. Therefore, the best matching LLT term should reflect a general decrease in appetite without implying a specific underlying cause or disorder.\n\nFinal answer: Decreased appetite"
+  },
+  {
+    "AE_text": "Loss of appetite/anorexia related to mucositis",
+    "true_LLT_term": "Anorexia",
+    "pred_LLT_term": "Decreased appetite",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 23.076923076923073,
+    "LLT_fuzzy_match": false,
+    "model_output": "The Adverse Event (AE) describes a condition where the patient experiences a loss of appetite or anorexia, which is specifically related to mucositis. This indicates that the primary issue is the decrease in appetite, which is a symptom, rather than the mucositis itself being the focus of the AE. Among the provided LLT terms, we need to find the one that best matches the concept of decreased appetite.\n\nFinal answer: Decreased appetite"
+  },
+  {
+    "AE_text": "Lung infection Lung infection - Known fungal pneumonia",
+    "true_LLT_term": "Lung infection",
+    "pred_LLT_term": "Pneumonia fungal",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 33.333333333333336,
+    "LLT_fuzzy_match": false,
+    "model_output": "The AE \"Lung infection - Known fungal pneumonia\" indicates a specific type of lung infection caused by a fungal pathogen, which is further specified as pneumonia. The most relevant LLT term should reflect the fungal nature and the specific condition of pneumonia.\n\nFinal answer: Pneumonia fungal"
+  },
+  {
+    "AE_text": "Lung Infection Transfer to the intensive care unit on 08. Jan. 2023",
+    "true_LLT_term": "Lung infection",
+    "pred_LLT_term": "Acute lower respiratory tract infection",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 41.509433962264154,
+    "LLT_fuzzy_match": false,
+    "model_output": "The Adverse Event (AE) \"Lung Infection Transfer to the intensive care unit on 08. Jan. 2023\" suggests a serious infection affecting the lungs, which required intensive care. The term \"Lung Infection\" directly points to an issue with the lungs, but it does not specify if it's acute or chronic, upper or lower respiratory, or the causative agent. However, given the context of transfer to an intensive care unit, it implies a severity that is often associated with lower respiratory tract infections, which can be more severe. Among the provided options, \"Acute lower respiratory tract infection\" closely aligns with the severity implied by the need for intensive care and specifically mentions the lower respiratory tract, which includes the lungs.\n\nFinal answer: Acute lower respiratory tract infection"
+  },
+  {
+    "AE_text": "lymphocyte count decreased",
+    "true_LLT_term": "Lymphocyte count decreased",
+    "pred_LLT_term": "Lymphocyte count decreased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"lymphocyte count decreased\" directly indicates a reduction in the number of lymphocytes. To find the best matching LLT term, we need to look for the term that most accurately reflects this decrease without being overly specific (unless the AE itself provides specific details, such as the type of lymphocyte). The terms provided include various options related to lymphocyte counts, including increases, decreases, and specifications by type (T-lymphocyte, B-lymphocyte) or method of measurement (absolute count). The most direct match for \"lymphocyte count decreased\" would be a term that explicitly mentions a decrease in lymphocyte count without narrowing down to a specific type of lymphocyte unless specified in the AE.\n\nFinal answer: Lymphocyte count decreased"
+  },
+  {
+    "AE_text": "Menorrhagia Menorrhagia due to thrombocytopenia. Patient was treated with platelet concentrates and cyclokapron (20/Jun - 26/Jun/2023)",
+    "true_LLT_term": "Menorrhagia",
+    "pred_LLT_term": "Thrombocytopenia",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 37.03703703703704,
+    "LLT_fuzzy_match": false,
+    "model_output": "The Adverse Event (AE) describes a case of menorrhagia that is attributed to thrombocytopenia, indicating a condition where there is an abnormally low level of platelets in the blood, leading to excessive menstrual bleeding. The treatment with platelet concentrates and cyclokapron further supports the connection between the low platelet count and the menorrhagia. Among the provided candidate LLT terms, the most relevant term should directly relate to the condition of having a low platelet count without necessarily specifying a cause, as the AE does not provide information on the etiology of the thrombocytopenia beyond its association with menorrhagia.\n\nFinal answer: Thrombocytopenia"
+  },
+  {
+    "AE_text": "menorrhagia transfusion given",
+    "true_LLT_term": "Menorrhagia",
+    "pred_LLT_term": "Menorrhagia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"menorrhagia transfusion given\" suggests that the patient experienced menorrhagia, which is heavy menstrual bleeding, and as a result, received a transfusion. The focus of the AE is on the menorrhagia, which is the primary condition being described, rather than the transfusion itself being the adverse event. Therefore, the most relevant term should directly relate to menorrhagia.\n\nFinal answer: Menorrhagia"
+  },
+  {
+    "AE_text": "Mucositis",
+    "true_LLT_term": "Mucositis",
+    "pred_LLT_term": "Mucositis NOS",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 81.81818181818181,
+    "LLT_fuzzy_match": false,
+    "model_output": "The Adverse Event (AE) \"Mucositis\" is a general term that refers to inflammation of the mucous membranes, but it does not specify the location. The list of candidate LLT terms includes more specific locations (e.g., anal, gastrointestinal, intestinal, oral) as well as more general terms. Since the AE does not provide information about the specific location of the mucositis, the most appropriate LLT term would be one that is also general and does not imply a specific location.\n\nFinal answer: Mucositis NOS"
+  },
+  {
+    "AE_text": "mucositis oral",
+    "true_LLT_term": "Mucositis oral",
+    "pred_LLT_term": "Mucositis oral",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"mucositis oral\" specifically mentions the location of the mucositis as oral, which refers to the mouth. The best matching LLT term should accurately reflect both the condition (mucositis) and its location (oral). Among the provided options, the term that directly matches the description given in the AE is the one that explicitly includes both \"mucositis\" and \"oral\".\n\nFinal answer: Mucositis oral"
+  },
+  {
+    "AE_text": "mucositis oral morphin given",
+    "true_LLT_term": "Mucositis",
+    "pred_LLT_term": "Mucositis oral",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 78.26086956521739,
+    "LLT_fuzzy_match": false,
+    "model_output": "The Adverse Event (AE) \"mucositis oral morphin given\" suggests that the patient experienced mucositis, which is a condition characterized by inflammation of the mucous membranes, specifically in the oral cavity, and this occurred after being given morphin (morphine). The focus here is on the location (oral) and the condition (mucositis). Therefore, the best matching LLT term should directly relate to mucositis in the oral context without specifying additional details such as management, infection, or specific parts of the oral cavity like the tongue.\n\nFinal answer: Mucositis oral"
+  },
+  {
+    "AE_text": "Mucositis oral Mukositisbeschwerden im Mund",
+    "true_LLT_term": "Mucositis oral",
+    "pred_LLT_term": "Mucositis oral",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Mucositis oral Mukositisbeschwerden im Mund\" directly translates to \"oral mucositis\" or \"mucositis in the mouth,\" which indicates inflammation of the mucous membranes in the oral cavity. This description specifically points to a condition affecting the mouth, making terms related to gastrointestinal, intestinal, or pharyngeal mucositis less relevant. The term \"Mucositis oral\" directly matches the description given in the AE, making it the most appropriate choice.\n\nFinal answer: Mucositis oral"
+  },
+  {
+    "AE_text": "nausea",
+    "true_LLT_term": "Nausea",
+    "pred_LLT_term": "Nausea",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"nausea\" is a straightforward term that directly matches one of the options in the list. The best LLT term should be the one that exactly matches the AE without adding or implying additional symptoms. In this case, the AE does not mention vomiting, so options that include vomiting can be excluded. Similarly, terms that imply a more specific context or severity (like \"nausea aggravated\" or \"anticipatory nausea\") are not the best match since the AE does not provide such details.\n\nFinal answer: Nausea"
+  },
+  {
+    "AE_text": "Nausea",
+    "true_LLT_term": "Nausea",
+    "pred_LLT_term": "Nausea",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"Nausea\" is a straightforward term that refers to a feeling of queasiness or stomach discomfort. The list of candidate LLT terms includes various phrases that relate to nausea, but the goal is to find the most accurate and specific match. The terms \"Nausea and vomiting\" and \"Nausea with vomiting\" imply the presence of both nausea and vomiting, which is not indicated in the AE. Similarly, \"Anticipatory nausea\" and \"Nausea aggravated\" suggest specific contexts or severity levels that are not mentioned in the AE. The terms \"Nauseated\", \"Sickness feeling\", \"Sickness/nausea\", and \"Nausea alone\" are all related to nausea, but \"Nausea\" is the most direct and simple match.\n\nFinal answer: Nausea"
+  },
+  {
+    "AE_text": "Nausea intermittent nausea",
+    "true_LLT_term": "Nausea",
+    "pred_LLT_term": "Nausea",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Nausea intermittent nausea\" indicates that the patient is experiencing nausea that comes and goes, but there is no mention of vomiting or other symptoms like diarrhea. The term \"intermittent\" suggests that the nausea is not constant, but it does not imply any additional symptoms beyond nausea itself.\n\nFinal answer: Nausea"
+  },
+  {
+    "AE_text": "Nausea with vomiting",
+    "true_LLT_term": "Nausea with vomiting",
+    "pred_LLT_term": "Nausea with vomiting",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"Nausea with vomiting\" suggests that the patient is experiencing both nausea and vomiting simultaneously. The most accurate LLT term should reflect both symptoms. Upon reviewing the list, the terms \"Nausea and vomiting\", \"Nausea with vomiting\", \"Nausea vomiting and diarrhoea\", and \"Nausea vomiting and diarrhea\" all seem to capture the essence of the AE, but since the AE does not mention diarrhea, the terms including diarrhea can be excluded. Between \"Nausea and vomiting\" and \"Nausea with vomiting\", both are very similar, but \"Nausea with vomiting\" exactly matches the wording of the AE.\n\nFinal answer: Nausea with vomiting"
+  },
+  {
+    "AE_text": "Nausea/Emesis Nausea/Emesis",
+    "true_LLT_term": "Nausea",
+    "pred_LLT_term": "Nausea and vomiting",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 48.0,
+    "LLT_fuzzy_match": false,
+    "model_output": "The Adverse Event (AE) \"Nausea/Emesis Nausea/Emesis\" suggests that the patient is experiencing both nausea and emesis (vomiting). Emesis is another term for vomiting. Given this, we need to find a MedDRA LLT term that encompasses both nausea and vomiting without being too specific to other conditions (like pregnancy or anticipation) or including additional symptoms (like diarrhea) not mentioned in the AE.\n\nFinal answer: Nausea and vomiting"
+  },
+  {
+    "AE_text": "neutrope Colitits",
+    "true_LLT_term": "Neutropenic colitis",
+    "pred_LLT_term": "Neutropenic colitis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"neutrope Colitits\" appears to be a misspelling or variation of \"neutropenic colitis\", which is a condition characterized by inflammation of the colon in the setting of neutropenia, a low count of neutrophils in the blood. Given this understanding, the most relevant MedDRA LLT term would directly relate to this specific condition.\n\nFinal answer: Neutropenic colitis"
+  },
+  {
+    "AE_text": "neutropene Sepsis",
+    "true_LLT_term": "Neutropenic sepsis",
+    "pred_LLT_term": "Neutropenic sepsis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"neutropene Sepsis\" suggests a condition where the patient has a low neutrophil count (neutropenia) and is experiencing sepsis, which is a life-threatening condition that arises when the body's response to infection causes injury to its own tissues and organs. Given this, the most accurate LLT term should reflect both the neutropenia and the sepsis aspects. \n\nFinal answer: Neutropenic sepsis"
+  },
+  {
+    "AE_text": "Neutropenia Neutropenia",
+    "true_LLT_term": "Neutropenia",
+    "pred_LLT_term": "Neutropenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) provided is \"Neutropenia Neutropenia\", which suggests a condition of having an abnormally low count of neutrophils, a type of white blood cell important for fighting infections. The repetition of \"Neutropenia\" likely emphasizes the condition rather than specifying a particular type. Given the list of candidate LLT terms, the most straightforward and encompassing term that matches the AE without adding additional specificity not provided in the AE description is \"Neutropenia\".\n\nFinal answer: Neutropenia"
+  },
+  {
+    "AE_text": "Neutrophhil count decrease",
+    "true_LLT_term": "Neutropenia",
+    "pred_LLT_term": "Neutrophil count decreased",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 48.64864864864865,
+    "LLT_fuzzy_match": false,
+    "model_output": "The Adverse Event (AE) \"Neutrophil count decrease\" indicates a reduction in the number of neutrophils, which are a type of white blood cell. To find the best matching MedDRA LLT term, we need to look for a term that directly corresponds to this condition. The terms provided include various descriptions related to neutrophil counts, including increases and decreases, as well as specific types of neutrophil counts (e.g., absolute, segmented, band). The most direct and relevant term to \"Neutrophil count decrease\" would be a term that explicitly mentions a decrease in neutrophil count without specifying a particular type of neutrophil unless the AE does so.\n\nFinal answer: Neutrophil count decreased"
+  },
+  {
+    "AE_text": "Neutrophil count decrease",
+    "true_LLT_term": "Neutropenia",
+    "pred_LLT_term": "Neutrophil count decreased",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 48.64864864864865,
+    "LLT_fuzzy_match": false,
+    "model_output": "The given Adverse Event (AE) is \"Neutrophil count decrease\", which directly indicates a reduction in the number of neutrophils. To find the best matching MedDRA LLT term, we need to look for a term that closely matches this description without adding unnecessary specificity (like \"absolute\" or specifying the type of neutrophil) unless it's directly implied by the AE description. Terms that imply an increase or are too vague (like just \"Neutrophil count\") should be excluded. \"Neutropenia\" is a condition characterized by a low neutrophil count, which is a close match but does not directly state \"decrease\". The most direct matches would be terms that explicitly mention a decrease in neutrophil count.\n\nFinal answer: Neutrophil count decreased"
+  },
+  {
+    "AE_text": "neutrophil count decreased",
+    "true_LLT_term": "Neutrophil count decreased",
+    "pred_LLT_term": "Neutrophil count decreased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The given Adverse Event (AE) is \"neutrophil count decreased\", which directly indicates a reduction in the number of neutrophils. To find the best matching MedDRA LLT term, we need to look for the term that most accurately reflects this condition without adding unnecessary specificity (like \"absolute\", \"segmented\", \"plasma\", \"serum\", or \"blood\" unless specified in the AE) or incorrect direction (like \"increased\"). The AE does not specify the type of neutrophil count or the context (e.g., absolute, segmented), so the most straightforward and matching term should be chosen.\n\nFinal answer: Neutrophil count decreased"
+  },
+  {
+    "AE_text": "Neutrophil count decreased Day / Time / Value      Do 14.04.2022 / 08:43 / 0.97",
+    "true_LLT_term": "Neutropenia",
+    "pred_LLT_term": "Neutrophil count decreased",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 48.64864864864865,
+    "LLT_fuzzy_match": false,
+    "model_output": "The Adverse Event (AE) describes a decrease in neutrophil count, which is a specific and measurable value. The provided value of 0.97 on a particular day indicates a low neutrophil count. Among the candidate LLT terms, we need to find the one that most accurately reflects a decrease in the absolute number of neutrophils, as the term \"neutrophil count\" typically refers to the absolute count rather than a percentage or a count in a specific component like plasma or serum.\n\nFinal answer: Neutrophil count decreased"
+  },
+  {
+    "AE_text": "oedema both legs",
+    "true_LLT_term": "Edema legs",
+    "pred_LLT_term": "Oedema legs",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 95.23809523809523,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"oedema both legs\" indicates swelling in both lower limbs, specifically the legs. The most accurate LLT term should reflect this description. Considering the options, terms like \"Oedema upper limb\", \"Ankle oedema\", \"Foot oedema\", and \"Oedema thigh\" are too specific and do not fully capture the AE's description. Terms such as \"Oedema limbs\" could be considered, but it is less specific than needed since it includes upper limbs as well. The best term should specifically mention \"legs\" or \"lower limb\" to accurately represent the AE.\n\nFinal answer: Oedema legs"
+  },
+  {
+    "AE_text": "oral hemorrhage transfusion given",
+    "true_LLT_term": "Haemorrhage oral",
+    "pred_LLT_term": "Oral hemorrhage",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 64.51612903225806,
+    "LLT_fuzzy_match": false,
+    "model_output": "The AE \"oral hemorrhage transfusion given\" suggests that the patient experienced bleeding in the oral cavity and received a transfusion, likely as a result of the hemorrhage. The focus of the AE is on the oral hemorrhage, rather than the transfusion itself. Therefore, the most suitable LLT term should directly relate to the oral hemorrhage.\n\nFinal answer: Oral hemorrhage"
+  },
+  {
+    "AE_text": "Pain back",
+    "true_LLT_term": "Pain back",
+    "pred_LLT_term": "Back pain",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 44.44444444444444,
+    "LLT_fuzzy_match": false,
+    "model_output": "The AE \"Pain back\" is a straightforward description of a symptom, and we need to find the most accurate and specific MedDRA LLT term that matches this description. The best LLT term should be a direct and concise match, without adding extra information or specificity that is not present in the AE. In this case, we are looking for a term that simply describes pain in the back area.\n\nFinal answer: Back pain"
+  },
+  {
+    "AE_text": "pain stomach",
+    "true_LLT_term": "Pain stomach",
+    "pred_LLT_term": "Pain stomach",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"pain stomach\" is a straightforward description of a symptom, and we need to find the most accurate match in the provided list of LLT terms. The term should ideally be a direct match or a synonym that precisely captures the meaning of the AE. In this case, several terms seem to convey the same meaning, but we should choose the one that is most commonly used and accepted in medical terminology.\n\nFinal answer: Pain stomach"
+  },
+  {
+    "AE_text": "pain tongue",
+    "true_LLT_term": "Pain tongue",
+    "pred_LLT_term": "Pain tongue",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"pain tongue\" directly indicates that the patient is experiencing pain in the tongue, which is a specific location. The most accurate LLT term should directly reflect this specific location and the nature of the symptom, which is pain. Among the provided options, there are terms that directly mention \"pain\" and \"tongue,\" making them highly relevant.\n\nFinal answer: Pain tongue"
+  },
+  {
+    "AE_text": "parvo B19 infection fever with rash",
+    "true_LLT_term": "Parvovirus B19 infection",
+    "pred_LLT_term": "Parvovirus B19 infection",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"parvo B19 infection fever with rash\" indicates that the patient has contracted an infection caused by parvovirus B19, which is manifesting with symptoms of fever and rash. The most relevant LLT term should directly relate to the infection itself, as the fever and rash are symptoms of the infection rather than separate conditions. Among the provided options, the terms that directly mention \"Parvovirus B19 infection\" are the most relevant. However, since \"parvo B19 infection\" is mentioned without any specification of it being a reactivation or a congenital condition, the most straightforward term that matches the description given in the AE would be the one that simply states \"Parvovirus B19 infection\".\n\nFinal answer: Parvovirus B19 infection"
+  },
+  {
+    "AE_text": "petechiae chest and lower leg Petechien im Brustbereich und Unterschenkel",
+    "true_LLT_term": null,
+    "pred_LLT_term": "Petechiae",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 0.0,
+    "LLT_fuzzy_match": false,
+    "model_output": "The Adverse Event (AE) describes petechiae located on the chest and lower leg, which are small spots on the skin that occur due to bleeding from small blood vessels. The description directly mentions \"petechiae\" and specifies the locations as \"chest\" and \"lower leg\". The most accurate term should directly reference \"petechiae\" without unnecessarily specifying a location that is not universally applicable (like \"periorbital\" which refers to the area around the eyes) or adding conditions not described in the AE (like \"rash\" or \"oedema\" or \"deformity\").\n\nFinal answer: Petechiae"
+  },
+  {
+    "AE_text": "petechiae chest Petechien im Brustbereich",
+    "true_LLT_term": "Petechia",
+    "pred_LLT_term": "Petechiae",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 94.11764705882352,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"petechiae chest Petechien im Brustbereich\" describes a condition where petechiae (small spots due to bleeding under the skin) are specifically located on the chest. The term \"petechiae\" directly refers to this condition, and since the location is specified as the chest, we need to find the most appropriate term that matches this description. However, none of the provided terms directly specify \"chest petechiae.\" Among the options, \"Petechiae\" is the most general term that matches the condition described, as it directly refers to the presence of petechiae without excluding any specific location, including the chest.\n\nFinal answer: Petechiae"
+  },
+  {
+    "AE_text": "Petechiae Petechien am ganzen Koerper",
+    "true_LLT_term": "Petechia",
+    "pred_LLT_term": "Petechiae",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 94.11764705882352,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Petechiae Petechien am ganzen Koerper\" translates to \"Petechiae on the whole body\" in English. This description indicates a widespread occurrence of petechiae, which are small spots on the skin that occur due to bleeding from small blood vessels. Given the options provided, the most accurate term should directly reference petechiae without limiting the location to a specific area of the body, as the AE describes a generalized condition.\n\nFinal answer: Petechiae"
+  },
+  {
+    "AE_text": "petechiae right thigh",
+    "true_LLT_term": "Petechia",
+    "pred_LLT_term": "Petechiae",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 94.11764705882352,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"petechiae right thigh\" indicates a specific location (right thigh) for the petechiae, which is a small spot of blood under the skin. The list of candidate LLT terms includes various locations and related terms. Since \"right thigh\" is not explicitly mentioned in the list, we should look for the most general term that matches \"petechiae\" without specifying a location that doesn't match the AE.\n\nFinal answer: Petechiae"
+  },
+  {
+    "AE_text": "Petechiae transfusion given",
+    "true_LLT_term": "Petechia",
+    "pred_LLT_term": "Petechiae",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 94.11764705882352,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Petechiae transfusion given\" suggests that petechiae occurred in the context of a transfusion, which implies a systemic or general reaction rather than a localized one to a specific site such as the mouth, penis, vagina, or injection site. The term \"petechiae\" itself refers to small spots on the skin that occur with bleeding from small blood vessels, which can be a side effect of various medical procedures, including transfusions. Given the lack of specificity regarding the location of the petechiae in the AE description, the most appropriate LLT term should be general, encompassing the condition without specifying an unnecessary location.\n\nFinal answer: Petechiae"
+  },
+  {
+    "AE_text": "petechiae Transfusion given (platelets)",
+    "true_LLT_term": "Petechia",
+    "pred_LLT_term": "Petechia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"petechiae Transfusion given (platelets)\" suggests that the patient developed petechiae, which are small spots on the skin that occur with bleeding from small blood vessels, after receiving a platelet transfusion. The focus here is on the development of petechiae in the context of a platelet transfusion, rather than on the transfusion itself or a broader platelet disorder. Therefore, the most relevant term should directly relate to the manifestation (petechiae) rather than the treatment (platelet transfusion) or the condition of the platelets.\n\nFinal answer: Petechia"
+  },
+  {
+    "AE_text": "Platelet count decrease",
+    "true_LLT_term": "Thrombopenia",
+    "pred_LLT_term": "Platelet count decreased",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 22.22222222222222,
+    "LLT_fuzzy_match": false,
+    "model_output": "The AE \"Platelet count decrease\" indicates a reduction in the number of platelets in the blood. To find the best matching LLT term, we need to look for a term that directly corresponds to this description. Terms that imply a decrease or reduction in platelet count are most relevant. Among the options provided, terms like \"Platelet count decreased\", \"Reduced platelet count\", \"Platelets decreased\", and \"Platelet count low\" all suggest a decrease in platelet count. However, \"Platelet count decreased\" is the most direct and specific match for the AE description.\n\nFinal answer: Platelet count decreased"
+  },
+  {
+    "AE_text": "platelet count decreased",
+    "true_LLT_term": "Platelet count decreased",
+    "pred_LLT_term": "Platelet count decreased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"platelet count decreased\" directly indicates a reduction in the number of platelets, which is a specific and quantifiable measure. The best matching LLT term should reflect this decrease in platelet count. Among the provided options, the terms that directly mention a decrease or reduction in platelet count are the most relevant. \n\nFinal answer: Platelet count decreased"
+  },
+  {
+    "AE_text": "Platelet count decreased Thrombocytopenia",
+    "true_LLT_term": "Thrombopenia",
+    "pred_LLT_term": "Platelet count decreased",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 22.22222222222222,
+    "LLT_fuzzy_match": false,
+    "model_output": "The Adverse Event (AE) \"Platelet count decreased Thrombocytopenia\" indicates a specific condition where the platelet count is lower than normal, which is further clarified by the term \"Thrombocytopenia\", a medical condition characterized by an abnormally low level of platelets. The best matching LLT term should directly reflect this decrease in platelet count.\n\nFinal answer: Platelet count decreased"
+  },
+  {
+    "AE_text": "Platelet cunt decrease",
+    "true_LLT_term": "Thrombopenia",
+    "pred_LLT_term": "Platelet count decreased",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 22.22222222222222,
+    "LLT_fuzzy_match": false,
+    "model_output": "The Adverse Event (AE) \"Platelet count decrease\" seems to be the intended meaning, given the context of the provided phrase \"Platelet cunt decrease\", which appears to be a typographical error. The correct term should relate to a reduction in the number of platelets. Among the provided options, the term that most accurately reflects this condition is the one directly referencing a decrease in platelet count.\n\nFinal answer: Platelet count decreased"
+  },
+  {
+    "AE_text": "rash",
+    "true_LLT_term": "Rash",
+    "pred_LLT_term": "Rash",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"rash\" is a general term that does not provide specific details about the location, characteristics, or severity of the rash. Given the list of candidate LLT terms, the best match should be a term that is also general and does not imply additional specifics not mentioned in the AE. Terms that include additional descriptors such as location (e.g., \"Rash on face\"), characteristics (e.g., \"Painful rash\", \"Red rash\"), or severity (e.g., \"Widespread rash\") are not ideal matches because they introduce details not present in the original AE.\n\nFinal answer: Rash"
+  },
+  {
+    "AE_text": "Rash Entire body",
+    "true_LLT_term": "Rash generalised",
+    "pred_LLT_term": "Rash generalised",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"Rash Entire body\" suggests a widespread skin reaction that covers the whole body. To find the best matching LLT term, we need to look for terms that convey a similar meaning of a rash affecting a large area or the entire body. Terms like \"Rash on leg\", \"Rash face\", \"Rash on face\", and \"Periocular rash\" are too specific to certain body parts and do not match the description of the rash being on the entire body. Terms like \"Painful rash\" and \"Rash impetiginous\" describe characteristics or types of rashes but do not necessarily convey the extent of the rash. \"Rash all over\", \"Widespread rash\", and \"Rash generalised\" all suggest a rash that covers a large area or the entire body, making them potential matches.\n\nFinal answer: Rash generalised"
+  },
+  {
+    "AE_text": "Rash whole body",
+    "true_LLT_term": "Rash generalised",
+    "pred_LLT_term": "Widespread rash",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 38.70967741935484,
+    "LLT_fuzzy_match": false,
+    "model_output": "The AE \"Rash whole body\" suggests a widespread skin reaction affecting the entire body. To find the best matching LLT term, we need to look for terms that convey a similar meaning of being widespread or generalized, rather than terms that are limited to specific areas of the body such as the face, legs, or periocular region.\n\nFinal answer: Widespread rash"
+  },
+  {
+    "AE_text": "Renal toxicity",
+    "true_LLT_term": "Toxicity renal",
+    "pred_LLT_term": "Toxic nephropathy",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 51.61290322580645,
+    "LLT_fuzzy_match": false,
+    "model_output": "The AE \"Renal toxicity\" suggests damage or harm to the kidneys due to a toxic substance, which could be a drug or other chemical. The most suitable LLT term should specifically relate to kidney damage caused by toxicity. Among the provided options, terms like \"Renal disease\", \"Kidney dysfunction\", and \"Renal failure\" are more general and do not directly imply toxicity. Terms such as \"Drug toxicity\", \"Systemic toxicity\", and \"Urinary tract toxicity\" are either too broad or not specifically focused on the kidney. \"Toxic nephropathy\" and \"Nephropathy toxic\" directly imply kidney damage due to toxicity, making them strong candidates.\n\nFinal answer: Toxic nephropathy"
+  },
+  {
+    "AE_text": "Restlessness Unruhezustaende und Panikattacken",
+    "true_LLT_term": "Restlessness",
+    "pred_LLT_term": "Restlessness",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Restlessness Unruhezustaende und Panikattacken\" translates to \"Restlessness, states of unrest and panic attacks\" in English. This description suggests a state of agitation or unease, which is a broad concept that encompasses various forms of restlessness. The term \"Unruhezustaende\" specifically implies a state of inner unrest or agitation, which is an important aspect to consider when selecting the most appropriate MedDRA LLT term. Among the provided options, the term that most closely aligns with this description, without being overly specific to a cause (like drug-related or phenothiazine) or narrowing down to a specific type of restlessness (like motor or physically restless), is \"Restlessness\". This term broadly covers the concept of restlessness without limiting it to a specific context or manifestation.\n\nFinal answer: Restlessness"
+  },
+  {
+    "AE_text": "Sars-CoV-2",
+    "true_LLT_term": "SARS-CoV-2 infection",
+    "pred_LLT_term": "SARS-CoV-2 infection",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Sars-CoV-2\" is quite broad and does not specify whether it refers to a test, infection, vaccination, or other context. However, given the options provided, the most direct and relevant term that matches the AE without implying additional context (such as testing or vaccination) would be related to the presence or state of the virus itself. Among the options, terms like \"SARS-CoV-2 infection\" directly relate to the condition caused by the virus, which is a common interpretation of \"Sars-CoV-2\" in a medical context when not further specified.\n\nFinal answer: SARS-CoV-2 infection"
+  },
+  {
+    "AE_text": "Sepsis",
+    "true_LLT_term": "Sepsis",
+    "pred_LLT_term": "Sepsis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Sepsis\" is a general term that refers to a life-threatening condition caused by the body's response to an infection. The list of candidate LLT terms includes more specific types of sepsis, such as bacterial, viral, or wound sepsis, as well as more general terms like \"Sepsis\" or \"Sepsis NOS\" (Not Otherwise Specified). Since the AE \"Sepsis\" does not provide any additional information about the type or cause of the sepsis, the most appropriate LLT term would be a general term that encompasses all types of sepsis without specifying a particular cause or location.\n\nFinal answer: Sepsis"
+  },
+  {
+    "AE_text": "Skin irritation anal after diarrhea",
+    "true_LLT_term": "Skin irritation",
+    "pred_LLT_term": "Perianal irritation",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 76.47058823529412,
+    "LLT_fuzzy_match": false,
+    "model_output": "The AE \"Skin irritation anal after diarrhea\" suggests that the primary issue is irritation of the skin in the anal area, which occurred after an episode of diarrhea. The term \"skin irritation\" is mentioned, but it's specifically located in the \"anal\" area, so a more specific term would be preferred if available. The term \"anal irritation\" is a good match, but \"perianal irritation\" could also be considered since it refers to the area around the anus, which includes the skin. However, \"perianal irritation\" is more specific to the area around the anus and directly implies skin involvement, making it a precise choice for describing skin irritation in the anal area.\n\nFinal answer: Perianal irritation"
+  },
+  {
+    "AE_text": "splenic infection Pain in the lower abdomen on the left side",
+    "true_LLT_term": "Splenic infection",
+    "pred_LLT_term": "Splenic infection",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"splenic infection Pain in the lower abdomen on the left side\" suggests that the patient is experiencing an infection of the spleen, which is causing pain in the lower abdomen. The term \"infection\" is explicitly mentioned, and there is no specification of the type of infection (viral or bacterial) or any other condition such as abscess, cyst, or injury. Therefore, the most suitable LLT term should directly relate to a splenic infection without adding additional specifics not provided in the AE description.\n\nFinal answer: Splenic infection"
+  },
+  {
+    "AE_text": "stomach pain",
+    "true_LLT_term": "Stomach pain",
+    "pred_LLT_term": "Stomach pain",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"stomach pain\" is a specific symptom that directly refers to pain in the stomach area. The most accurate LLT term should directly match this description without being too broad or too vague. Terms like \"Abdominal discomfort\" or \"Abdominal pain\" are related but broader, as they can refer to pain in any part of the abdomen, not just the stomach. Similarly, terms that use \"ache\" or \"discomfort\" might not perfectly capture the essence of \"pain.\" The best match should be a term that specifically mentions \"stomach\" and \"pain\" to ensure precision in coding.\n\nFinal answer: Stomach pain"
+  },
+  {
+    "AE_text": "tachycardia",
+    "true_LLT_term": "Tachycardia",
+    "pred_LLT_term": "Tachycardia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The given Adverse Event (AE) is \"tachycardia\" without any additional descriptors. This means we are looking for the most general and direct match from the provided list of MedDRA LLT terms. Since \"tachycardia\" does not specify the type (e.g., paroxysmal, irregular, ventricular), the best match should be a term that encompasses the general condition without adding specificity not provided in the AE.\n\nFinal answer: Tachycardia"
+  },
+  {
+    "AE_text": "Thrombopenia Thrombocytes on 09-Dec-2022 51Gpt/l",
+    "true_LLT_term": "Thrombopenia",
+    "pred_LLT_term": "Thrombocytopenia",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 85.71428571428572,
+    "LLT_fuzzy_match": false,
+    "model_output": "The Adverse Event (AE) describes a condition where the thrombocyte (platelet) count is low, specifically 51 Gpt/l, which is below the normal range. The term \"Thrombopenia\" in the AE directly refers to a low platelet count. Among the provided candidate LLT terms, the one that most accurately matches this description is the term that directly corresponds to a low platelet count.\n\nFinal answer: Thrombocytopenia"
+  },
+  {
+    "AE_text": "Thrombophlebitis Thrombophlebitis im Bereich der oberflaechlichen Unterschenkelvenen.",
+    "true_LLT_term": "Phlebitis and thrombophlebitis of superficial vessels of lower extremities",
+    "pred_LLT_term": "Phlebitis and thrombophlebitis of superficial vessels of lower extremities",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Thrombophlebitis Thrombophlebitis im Bereich der oberflaechlichen Unterschenkelvenen\" translates to \"Thrombophlebitis in the area of the superficial lower leg veins.\" This description specifically mentions the condition affecting the superficial veins of the lower extremities, which helps narrow down the choice among the provided LLT terms. The terms that directly reference superficial thrombophlebitis or specify the location as the lower extremities are the most relevant. Among these, \"Phlebitis and thrombophlebitis of superficial vessels of lower extremities\" closely matches the description given in the AE, as it specifies both the condition (thrombophlebitis) and the location (superficial vessels of lower extremities).\n\nFinal answer: Phlebitis and thrombophlebitis of superficial vessels of lower extremities"
+  },
+  {
+    "AE_text": "Thrombosis Vena subclavia dextra",
+    "true_LLT_term": "Thrombosis venous arm",
+    "pred_LLT_term": "Thrombosis venous arm",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Thrombosis Vena subclavia dextra\" indicates a thrombosis occurring in the right subclavian vein. The term \"Vena subclavia\" refers to the subclavian vein, which is a major vein located near the shoulder and is part of the venous system of the arm. Given this, we need to find a MedDRA LLT term that best matches a thrombosis in a venous structure, specifically considering the location (arm/venous system) and the nature of the event (thrombosis).\n\nFinal answer: Thrombosis venous arm"
+  },
+  {
+    "AE_text": "Thrombotic thrombocytopenic purpura Petechiae",
+    "true_LLT_term": "Purpura thrombopaenic thrombotic",
+    "pred_LLT_term": "Thrombotic thrombocytopenic purpura",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 59.70149253731343,
+    "LLT_fuzzy_match": false,
+    "model_output": "The Adverse Event (AE) \"Thrombotic thrombocytopenic purpura Petechiae\" suggests a condition characterized by the formation of blood clots (thrombotic) that lead to a low platelet count (thrombocytopenic) and purpura, which is a condition marked by purple spots on the skin due to bleeding under the skin. Petechiae are small spots due to minor bleeding from broken capillary blood vessels. Given this description, the most accurate MedDRA LLT term should directly reflect the thrombotic and thrombocytopenic aspects of the condition.\n\nFinal answer: Thrombotic thrombocytopenic purpura"
+  },
+  {
+    "AE_text": "vomiting",
+    "true_LLT_term": "Vomiting",
+    "pred_LLT_term": "Vomiting",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The given Adverse Event (AE) is \"vomiting\", which directly indicates the act of expelling stomach contents. The list of candidate LLT terms includes various conditions related to vomiting, but the most straightforward match would be the term that directly corresponds to the AE without adding additional specifics not mentioned in the AE.\n\nFinal answer: Vomiting"
+  },
+  {
+    "AE_text": "Weight gain",
+    "true_LLT_term": "Weight gain",
+    "pred_LLT_term": "Weight gain",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"Weight gain\" is a straightforward term that implies an increase in body weight. The list of candidate LLT terms includes various phrases that convey a similar meaning, but some of them add additional context or specificity, such as \"unintentional\" or \"edematous\". However, the AE itself does not provide any additional context, so the best matching LLT term should be a simple and direct phrase that matches the AE.\n\nFinal answer: Weight gain"
+  },
+  {
+    "AE_text": "weight gain",
+    "true_LLT_term": "Weight gain",
+    "pred_LLT_term": "Weight gain",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The AE \"weight gain\" is a straightforward term that implies an increase in body weight. The list of candidate LLT terms includes various phrases that convey a similar meaning, but some of them add additional context or specificity, such as \"unintentional\" or \"edematous\". However, the AE itself does not provide any additional context, so the best matching LLT term should be a simple and direct phrase that matches the AE.\n\nFinal answer: Weight gain"
+  },
+  {
+    "AE_text": "Weight gain Gewichtszunahme (Diurese)",
+    "true_LLT_term": "Weight gain",
+    "pred_LLT_term": "Weight gain",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"Weight gain Gewichtszunahme (Diurese)\" suggests an increase in body weight, with the term \"Diurese\" implying a relationship to urine production, which could be relevant in the context of fluid retention. The most accurate LLT term should reflect the concept of weight gain without necessarily implying a specific cause or context that is not directly mentioned in the AE, such as fear or poor weight gain. Terms that imply a specific medical condition or context (like \"Oedematous weight gain\" or \"Extensive interdialytic weight gain\") might be too specific unless directly supported by the AE description.\n\nFinal answer: Weight gain"
+  },
+  {
+    "AE_text": "weight loss",
+    "true_LLT_term": "Weight loss",
+    "pred_LLT_term": "Unintentional weight loss",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 61.111111111111114,
+    "LLT_fuzzy_match": false,
+    "model_output": "The AE \"weight loss\" is a general term that can be interpreted in various ways, but in the context of medical coding, it's essential to choose a term that accurately reflects the intended meaning. The term \"weight loss\" can be intentional or unintentional, but without additional context, it's reasonable to assume that the term refers to an unintended or abnormal loss of weight. Among the provided candidate LLT terms, some are more specific, such as \"Weight loss diet\" which implies intentional weight loss, or \"Inability to lose weight\" which is the opposite of what is described. The term \"Unintentional weight loss\" seems to be the most accurate as it specifies that the weight loss was not intended, which is often a concern in medical contexts.\n\nFinal answer: Unintentional weight loss"
+  },
+  {
+    "AE_text": "Weight loss",
+    "true_LLT_term": "Weight loss",
+    "pred_LLT_term": "Weight decreased",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 59.25925925925925,
+    "LLT_fuzzy_match": false,
+    "model_output": "The AE \"Weight loss\" is a general term that can be interpreted in various ways, but in the context of medical coding, it's essential to choose a term that accurately reflects the intended meaning. The list of candidate LLT terms includes phrases that imply intentional or unintentional weight loss, as well as phrases that specify the weight loss as abnormal or related to a diet. However, the AE \"Weight loss\" does not provide additional context, so the most suitable LLT term should be a general and neutral phrase that simply indicates a decrease in weight without implying intention or abnormality.\n\nFinal answer: Weight decreased"
+  },
+  {
+    "AE_text": "white blood cell decreased",
+    "true_LLT_term": "White blood cell decreased",
+    "pred_LLT_term": "White blood cell count decreased",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 89.65517241379311,
+    "LLT_fuzzy_match": false,
+    "model_output": "The AE \"white blood cell decreased\" indicates a reduction in the number of white blood cells. To find the best matching LLT term, we need to look for a term that accurately reflects this decrease. The most suitable term should directly mention \"decreased\" or \"low\" in relation to white blood cells or their count.\n\nFinal answer: White blood cell count decreased"
+  },
+  {
+    "AE_text": "worsening of the preexisting Diarrhea",
+    "true_LLT_term": "Diarrhea aggravated",
+    "pred_LLT_term": "Diarrhea aggravated",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "model_output": "The Adverse Event (AE) \"worsening of the preexisting Diarrhea\" indicates that the patient had diarrhea before and it became worse. This implies an exacerbation or increase in severity of a condition that was already present. The term that best captures this concept of worsening or increase in severity is \"Diarrhea aggravated\", as it directly implies that the preexisting condition of diarrhea has become worse.\n\nFinal answer: Diarrhea aggravated"
+  },
+  {
+    "AE_text": "worsening of the preexisting Mucositis",
+    "true_LLT_term": "Mucositis",
+    "pred_LLT_term": "Mucositis NOS",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 81.81818181818181,
+    "LLT_fuzzy_match": false,
+    "model_output": "The Adverse Event (AE) \"worsening of the preexisting Mucositis\" indicates a deterioration or increase in severity of a condition that was already present. The term \"Mucositis\" itself is quite broad and can refer to inflammation of mucous membranes in various parts of the body, but without specifying a particular location, it suggests a general condition rather than one localized to a specific area like the mouth (oral), intestines, or anus. The term \"Mucositis NOS\" (Not Otherwise Specified) is often used when the location or specifics of the mucositis are not detailed, making it a good fit for general references to mucositis without further specification.\n\nFinal answer: Mucositis NOS"
+  }
+]

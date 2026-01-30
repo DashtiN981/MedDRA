@@ -8,9 +8,9 @@ datasets = ["MOSAIC", "DELTA", "DAUNO"]
 models = ["Baseline A", "Baseline B", "RAG v3"]
 
 colors = {
-    "Baseline A": "#1f77b4",  # blue
-    "Baseline B": "#ff7f0e",  # orange
-    "RAG v3": "#2ca02c",      # green
+    "Baseline A": "#1b9e77",  # teal green
+    "Baseline B": "#d95f02",  # strong orange
+    "RAG v3":     "#7570b3",  # violet
 }
 
 llt_exact = {
@@ -85,8 +85,10 @@ plt.show()
 fig5, ax5 = plt.subplots(figsize=(9,6))
 
 bar_width = 0.35
-ax5.bar(x - bar_width/2, ccr, bar_width, label="CCR (clinically correct portion)", color="#17becf", alpha=0.7)
-ax5.bar(x + bar_width/2, manual_acc, bar_width, label="Final Manual Review Accuracy", color="#9467bd", alpha=0.7)
+ax5.bar(x - bar_width/2, ccr, bar_width, 
+        label="CCR (clinically correct portion)", color="#e7298a", alpha=0.8)
+ax5.bar(x + bar_width/2, manual_acc, bar_width, 
+        label="Final Manual Review Accuracy", color="#66a61e", alpha=0.8)
 
 ax5.set_title("Clinical Correctness and Manual Review (RAG v3)")
 ax5.set_xticks(x)

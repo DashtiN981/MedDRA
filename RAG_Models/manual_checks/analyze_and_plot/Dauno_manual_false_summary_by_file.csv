@@ -1,0 +1,4 @@
+reviewer,checked_file,full_file,records_in_full,records_in_checked,manual_false_count,manual_false_rate_full,manual_false_rate_checked
+Isabella,Dauno_output__checked__Isabella.json,Dauno_output__full__Isabella.json,443,440,25,0.056433408577878104,0.056818181818181816
+reviewer1,Dauno_output__checked__reviewer1.json,Dauno_output__full__reviewer1.json,443,429,25,0.056433408577878104,0.05827505827505827
+reviewer2,Dauno_output__checked__reviewer2.json,Dauno_output__full__reviewer2.json,443,429,52,0.11738148984198646,0.12121212121212122

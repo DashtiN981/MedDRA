@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "dataset": "KI_Projekt_Mosaic_AE_Codierung_2024_07_03",
+    "model": "nvidia-llama-3.3-70b-instruct-fp8",
+    "baseline": "zero-shot",
+    "max_rows": null,
+    "seed": 44,
+    "timestamp": "2026-01-13T14:47:00",
+    "notes": "Zero-shot baseline: no candidate list; validity vs MedDRA dictionary recorded; retry+null-safe enabled."
+  },
+  "counts": {
+    "n_samples": 179,
+    "n_pt_pairs": 148,
+    "n_soc_optA": 134,
+    "n_soc_optB": 134,
+    "n_soc_any": 140
+  },
+  "metrics": {
+    "LLT_term_acc_exact": 0.4022346368715084,
+    "LLT_term_acc_fuzzy": 0.5195530726256983,
+    "LLT_precision_macro": 0.22687265917602997,
+    "LLT_recall_macro": 0.22219101123595503,
+    "LLT_f1_macro": 0.21947565543071162,
+    "PT_code_acc": 0.8716216216216216,
+    "SOC_acc_option_a": 0.8432835820895522,
+    "SOC_acc_option_b": 0.9253731343283582,
+    "SOC_acc_any_of_vs_AE": 0.8928571428571429,
+    "Valid_MedDRA_LLT_rate": 0.8324022346368715
+  }
+}

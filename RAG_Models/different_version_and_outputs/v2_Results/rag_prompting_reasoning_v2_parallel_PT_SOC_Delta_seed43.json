@@ -1,0 +1,3293 @@
+[
+  {
+    "AE_text": "Acidosis metabolic",
+    "true_term": "Acidosis metabolic",
+    "predicted": "Metabolic acidosis",
+    "exact_match": false,
+    "fuzzy_score": 50.0,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10000492",
+    "pred_LLT_Code": "10027417",
+    "true_PT_Code": "10027417",
+    "pred_PT_Code": "10027417",
+    "true_PT_term": "Metabolische Azidose",
+    "pred_PT_term": "Metabolische Azidose",
+    "true_SOC_Code_AE_raw": "10027433",
+    "true_SOC_Code": "10027433",
+    "pred_SOC_Code": "10027433",
+    "true_SOC_Code_primary": "10027433",
+    "true_SOC_codes_all": [
+      "10027433"
+    ],
+    "pred_SOC_codes_all": [
+      "10027433"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Metabolic acidosis"
+  },
+  {
+    "AE_text": "Acute adhesion ileus",
+    "true_term": "Ileus adhesive",
+    "predicted": "Ileus adhesive",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_LLT_Code": "10056322",
+    "pred_LLT_Code": "10056322",
+    "true_PT_Code": "10051399",
+    "pred_PT_Code": "10051399",
+    "true_PT_term": "Mechanischer Ileus",
+    "pred_PT_term": "Mechanischer Ileus",
+    "true_SOC_Code_AE_raw": "10017947",
+    "true_SOC_Code": "10017947",
+    "pred_SOC_Code": "10017947",
+    "true_SOC_Code_primary": "10017947",
+    "true_SOC_codes_all": [
+      "10017947"
+    ],
+    "pred_SOC_codes_all": [
+      "10017947"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "1. Analyzing the AE text \"Acute adhesion ileus\", the relevant clinical keywords are \"acute\", \"adhesion\", and \"ileus\".\n2. Comparing these keywords with the candidate LLT terms, we find several terms that contain parts of these keywords, such as \"Intestinal adhesions\", \"Adynamic ileus\", \"Ileus adhesive\", \"Intestinal or peritoneal adhesions with obstruction\", and \"Mechanical ileus\".\n3. Eliminating unrelated terms, we focus on those that directly relate to \"adhesion\" and \"ileus\". Terms like \"Ileitis\", \"Ileal obstruction\", and \"Postoperative ileus\" are related but do not directly match the combination of \"acute\", \"adhesion\", and \"ileus\".\n4. Selecting the LLT that best matches the AE context, \"Ileus adhesive\" directly combines the concepts of \"ileus\" (a condition where there is a lack of movement in the intestines) and \"adhesive\" (relating to adhesions), which aligns with the given AE of \"Acute adhesion ileus\". Although \"Intestinal or peritoneal adhesions with obstruction\" mentions adhesions and could imply ileus through obstruction, it does not directly state \"ileus\". \"Mechanical ileus\" could be a consideration since adhesions can cause mechanical obstruction, but it does not explicitly mention adhesions."
+  },
+  {
+    "AE_text": "acute kidney injury",
+    "true_term": "Acute kidney injury",
+    "predicted": "Acute kidney injury",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_LLT_Code": "10069339",
+    "pred_LLT_Code": "10069339",
+    "true_PT_Code": "10069339",
+    "pred_PT_Code": "10069339",
+    "true_PT_term": "Akute Nierenschaedigung",
+    "pred_PT_term": "Akute Nierenschaedigung",
+    "true_SOC_Code_AE_raw": "10038359",
+    "true_SOC_Code": "10038359",
+    "pred_SOC_Code": "10038359",
+    "true_SOC_Code_primary": "10038359",
+    "true_SOC_codes_all": [
+      "10038359"
+    ],
+    "pred_SOC_codes_all": [
+      "10038359"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Acute kidney injury"
+  },
+  {
+    "AE_text": "acute renal insufficiency",
+    "true_term": "Acute renal insufficiency",
+    "predicted": "Acute renal insufficiency",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_LLT_Code": "10050440",
+    "pred_LLT_Code": "10050440",
+    "true_PT_Code": "10069339",
+    "pred_PT_Code": "10069339",
+    "true_PT_term": "Akute Nierenschaedigung",
+    "pred_PT_term": "Akute Nierenschaedigung",
+    "true_SOC_Code_AE_raw": "10038359",
+    "true_SOC_Code": "10038359",
+    "pred_SOC_Code": "10038359",
+    "true_SOC_Code_primary": "10038359",
+    "true_SOC_codes_all": [
+      "10038359"
+    ],
+    "pred_SOC_codes_all": [
+      "10038359"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Acute renal insufficiency"
+  },
+  {
+    "AE_text": "aktue Cholezystitis",
+    "true_term": "Acute cholecystitis",
+    "predicted": "Cholecystitis",
+    "exact_match": false,
+    "fuzzy_score": 81.25,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10000691",
+    "pred_LLT_Code": "10008612",
+    "true_PT_Code": "10008614",
+    "pred_PT_Code": "10008612",
+    "true_PT_term": "Akute Cholezystitis",
+    "pred_PT_term": "Cholezystitis",
+    "true_SOC_Code_AE_raw": "10019805",
+    "true_SOC_Code": "10019805",
+    "pred_SOC_Code": "10019805",
+    "true_SOC_Code_primary": "10019805",
+    "true_SOC_codes_all": [
+      "10019805"
+    ],
+    "pred_SOC_codes_all": [
+      "10019805"
+    ],
+    "exact_PT_match": false,
+    "PT_fuzzy_score": 81.25,
+    "PT_fuzzy_match": false,
+    "model_output": "Cholecystitis acute"
+  },
+  {
+    "AE_text": "AML Pregression",
+    "true_term": "AML progression",
+    "predicted": "AML",
+    "exact_match": false,
+    "fuzzy_score": 33.333333333333336,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10066572",
+    "pred_LLT_Code": "10001941",
+    "true_PT_Code": "10000880",
+    "pred_PT_Code": "10000880",
+    "true_PT_term": "Akute myeloische Leukaemie",
+    "pred_PT_term": "Akute myeloische Leukaemie",
+    "true_SOC_Code_AE_raw": "10029104",
+    "true_SOC_Code": "10029104",
+    "pred_SOC_Code": "10029104",
+    "true_SOC_Code_primary": "10029104",
+    "true_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "pred_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "1. Analyze the AE text \"AML Pregression\" and extract relevant clinical keywords: AML, progression.\n2. Compare those keywords with candidate LLT terms: The terms that match are \"AML\", \"AML progression\", and potentially \"CML progression\" or \"CLL progression\" if considering broader myeloid or lymphoid leukemia contexts, but \"AML progression\" directly matches.\n3. Eliminate unrelated terms: All terms not related to AML or leukemia progression can be eliminated.\n4. Select the LLT that best matches the AE context: \"AML progression\" is the most specific and direct match for the AE \"AML Pregression\", considering \"Pregression\" likely to be a typo or variation of \"progression\".\n\nAML progression"
+  },
+  {
+    "AE_text": "AML Progress",
+    "true_term": "AML progression",
+    "predicted": "AML",
+    "exact_match": false,
+    "fuzzy_score": 33.333333333333336,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10066572",
+    "pred_LLT_Code": "10001941",
+    "true_PT_Code": "10000880",
+    "pred_PT_Code": "10000880",
+    "true_PT_term": "Akute myeloische Leukaemie",
+    "pred_PT_term": "Akute myeloische Leukaemie",
+    "true_SOC_Code_AE_raw": "10029104",
+    "true_SOC_Code": "10029104",
+    "pred_SOC_Code": "10029104",
+    "true_SOC_Code_primary": "10029104",
+    "true_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "pred_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "AML progression"
+  },
+  {
+    "AE_text": "AML Progression AML",
+    "true_term": "AML progression",
+    "predicted": "Acute myeloid leukemia progression",
+    "exact_match": false,
+    "fuzzy_score": 61.224489795918366,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10066572",
+    "pred_LLT_Code": "10066638",
+    "true_PT_Code": "10000880",
+    "pred_PT_Code": "10000880",
+    "true_PT_term": "Akute myeloische Leukaemie",
+    "pred_PT_term": "Akute myeloische Leukaemie",
+    "true_SOC_Code_AE_raw": "10029104",
+    "true_SOC_Code": "10029104",
+    "pred_SOC_Code": "10029104",
+    "true_SOC_Code_primary": "10029104",
+    "true_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "pred_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Acute myeloid leukemia progression"
+  },
+  {
+    "AE_text": "AML Progression AML Progression",
+    "true_term": "AML progression",
+    "predicted": "Acute myeloid leukemia progression",
+    "exact_match": false,
+    "fuzzy_score": 61.224489795918366,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10066572",
+    "pred_LLT_Code": "10066638",
+    "true_PT_Code": "10000880",
+    "pred_PT_Code": "10000880",
+    "true_PT_term": "Akute myeloische Leukaemie",
+    "pred_PT_term": "Akute myeloische Leukaemie",
+    "true_SOC_Code_AE_raw": "10029104",
+    "true_SOC_Code": "10029104",
+    "pred_SOC_Code": "10029104",
+    "true_SOC_Code_primary": "10029104",
+    "true_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "pred_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Acute myeloid leukemia progression"
+  },
+  {
+    "AE_text": "AML Progression AML Progression im peripheren Blut",
+    "true_term": "AML progression",
+    "predicted": "Acute myeloid leukaemia progression",
+    "exact_match": false,
+    "fuzzy_score": 60.0,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10066572",
+    "pred_LLT_Code": "10066764",
+    "true_PT_Code": "10000880",
+    "pred_PT_Code": "10000880",
+    "true_PT_term": "Akute myeloische Leukaemie",
+    "pred_PT_term": "Akute myeloische Leukaemie",
+    "true_SOC_Code_AE_raw": "10029104",
+    "true_SOC_Code": "10029104",
+    "pred_SOC_Code": "10029104",
+    "true_SOC_Code_primary": "10029104",
+    "true_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "pred_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Acute myeloid leukaemia progression"
+  },
+  {
+    "AE_text": "AMl progression and pneumonie",
+    "true_term": "AML progression",
+    "predicted": "Pneumonitis",
+    "exact_match": false,
+    "fuzzy_score": 30.76923076923077,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10066572",
+    "pred_LLT_Code": "10035742",
+    "true_PT_Code": "10000880",
+    "pred_PT_Code": "10035742",
+    "true_PT_term": "Akute myeloische Leukaemie",
+    "pred_PT_term": "Pneumonitis",
+    "true_SOC_Code_AE_raw": "10029104",
+    "true_SOC_Code": "10029104",
+    "pred_SOC_Code": "10038738",
+    "true_SOC_Code_primary": "10029104",
+    "true_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "pred_SOC_codes_all": [
+      "10038738"
+    ],
+    "exact_PT_match": false,
+    "PT_fuzzy_score": 27.027027027027028,
+    "PT_fuzzy_match": false,
+    "model_output": "AML progression \nPneumonitis"
+  },
+  {
+    "AE_text": "AML Progression BSC",
+    "true_term": "AML progression",
+    "predicted": "AML",
+    "exact_match": false,
+    "fuzzy_score": 33.333333333333336,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10066572",
+    "pred_LLT_Code": "10001941",
+    "true_PT_Code": "10000880",
+    "pred_PT_Code": "10000880",
+    "true_PT_term": "Akute myeloische Leukaemie",
+    "pred_PT_term": "Akute myeloische Leukaemie",
+    "true_SOC_Code_AE_raw": "10029104",
+    "true_SOC_Code": "10029104",
+    "pred_SOC_Code": "10029104",
+    "true_SOC_Code_primary": "10029104",
+    "true_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "pred_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "1. Analyze the AE text \"AML Progression BSC\" and extract relevant clinical keywords: \nThe relevant keywords are \"AML\" and \"progression\".\n\n2. Compare those keywords with candidate LLT terms:\nComparing the keywords with the candidate LLT terms, we find several terms that include \"AML\" and some that include \"progression\".\n\n3. Eliminate unrelated terms:\nWe can eliminate terms that do not include \"AML\" or \"progression\" since they are not relevant to the AE. Terms like \"Ameba test\", \"MEA Type II\", \"Amenorrhoea secondary\", \"BCR-ABL1 level increased\", \"CML\", \"Bejel\", \"MBC\", \"B-type NP\", \"BPES type II\", \"Ambidexterity\", \"Ameloblastoma\", \"Ascites grade 1\", \"Ameloblastic carcinoma\", \"Amusia\", \"Amelogenesis imperfecta\", \"Mesenteric ischaemia\", \"Academic underachievement\", \"BPES type I\", \"BCR\", \"Amenorrhoea primary\", \"Amnestic syndrome\", \"Amebic colitis\", \"Multiple myeloma progression\", \"MMSE\", \"Pb++\", \"Rise in BP\", \"BCL-2 gene status assay\", \"Conjunctival bleb\", \"MHA-TP positive\", \"AST\", \"AST increased\", \"Non-occlusive mes"
+  },
+  {
+    "AE_text": "AML Progression death by progredient AML",
+    "true_term": "AML progression",
+    "predicted": "Acute myeloid leukemia progression",
+    "exact_match": false,
+    "fuzzy_score": 61.224489795918366,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10066572",
+    "pred_LLT_Code": "10066638",
+    "true_PT_Code": "10000880",
+    "pred_PT_Code": "10000880",
+    "true_PT_term": "Akute myeloische Leukaemie",
+    "pred_PT_term": "Akute myeloische Leukaemie",
+    "true_SOC_Code_AE_raw": "10029104",
+    "true_SOC_Code": "10029104",
+    "pred_SOC_Code": "10029104",
+    "true_SOC_Code_primary": "10029104",
+    "true_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "pred_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Acute myeloid leukemia progression"
+  },
+  {
+    "AE_text": "AML Progression Leukozytose",
+    "true_term": "AML progression",
+    "predicted": "Leucocytosis",
+    "exact_match": false,
+    "fuzzy_score": 29.629629629629626,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10066572",
+    "pred_LLT_Code": null,
+    "true_PT_Code": "10000880",
+    "pred_PT_Code": null,
+    "true_PT_term": "Akute myeloische Leukaemie",
+    "pred_PT_term": null,
+    "true_SOC_Code_AE_raw": "10029104",
+    "true_SOC_Code": "10029104",
+    "pred_SOC_Code": null,
+    "true_SOC_Code_primary": "10029104",
+    "true_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "pred_SOC_codes_all": [],
+    "exact_PT_match": false,
+    "PT_fuzzy_score": 0.0,
+    "PT_fuzzy_match": false,
+    "model_output": "Leucocytosis"
+  },
+  {
+    "AE_text": "AML Progression Panzytopenia",
+    "true_term": "AML progression",
+    "predicted": "Pancytopenia",
+    "exact_match": false,
+    "fuzzy_score": 29.629629629629626,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10066572",
+    "pred_LLT_Code": "10033661",
+    "true_PT_Code": "10000880",
+    "pred_PT_Code": "10033661",
+    "true_PT_term": "Akute myeloische Leukaemie",
+    "pred_PT_term": "Panzytopenie",
+    "true_SOC_Code_AE_raw": "10029104",
+    "true_SOC_Code": "10029104",
+    "pred_SOC_Code": "10005329",
+    "true_SOC_Code_primary": "10029104",
+    "true_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "pred_SOC_codes_all": [
+      "10005329"
+    ],
+    "exact_PT_match": false,
+    "PT_fuzzy_score": 31.57894736842105,
+    "PT_fuzzy_match": false,
+    "model_output": "Pancytopenia"
+  },
+  {
+    "AE_text": "AML Progression Patient deceased",
+    "true_term": "AML progression",
+    "predicted": "Acute myeloid leukemia progression",
+    "exact_match": false,
+    "fuzzy_score": 61.224489795918366,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10066572",
+    "pred_LLT_Code": "10066638",
+    "true_PT_Code": "10000880",
+    "pred_PT_Code": "10000880",
+    "true_PT_term": "Akute myeloische Leukaemie",
+    "pred_PT_term": "Akute myeloische Leukaemie",
+    "true_SOC_Code_AE_raw": "10029104",
+    "true_SOC_Code": "10029104",
+    "pred_SOC_Code": "10029104",
+    "true_SOC_Code_primary": "10029104",
+    "true_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "pred_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Acute myeloid leukemia progression"
+  },
+  {
+    "AE_text": "AML Progression Patient dies at home due to AML progression",
+    "true_term": "AML progression",
+    "predicted": "Acute myeloid leukaemia progression",
+    "exact_match": false,
+    "fuzzy_score": 60.0,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10066572",
+    "pred_LLT_Code": "10066764",
+    "true_PT_Code": "10000880",
+    "pred_PT_Code": "10000880",
+    "true_PT_term": "Akute myeloische Leukaemie",
+    "pred_PT_term": "Akute myeloische Leukaemie",
+    "true_SOC_Code_AE_raw": "10029104",
+    "true_SOC_Code": "10029104",
+    "pred_SOC_Code": "10029104",
+    "true_SOC_Code_primary": "10029104",
+    "true_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "pred_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Acute myeloid leukaemia progression"
+  },
+  {
+    "AE_text": "AML Progression Progress of AML",
+    "true_term": "AML progression",
+    "predicted": "Acute myeloid leukemia progression",
+    "exact_match": false,
+    "fuzzy_score": 61.224489795918366,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10066572",
+    "pred_LLT_Code": "10066638",
+    "true_PT_Code": "10000880",
+    "pred_PT_Code": "10000880",
+    "true_PT_term": "Akute myeloische Leukaemie",
+    "pred_PT_term": "Akute myeloische Leukaemie",
+    "true_SOC_Code_AE_raw": "10029104",
+    "true_SOC_Code": "10029104",
+    "pred_SOC_Code": "10029104",
+    "true_SOC_Code_primary": "10029104",
+    "true_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "pred_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Acute myeloid leukemia progression"
+  },
+  {
+    "AE_text": "AML Progression Progression",
+    "true_term": "AML progression",
+    "predicted": "AML",
+    "exact_match": false,
+    "fuzzy_score": 33.333333333333336,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10066572",
+    "pred_LLT_Code": "10001941",
+    "true_PT_Code": "10000880",
+    "pred_PT_Code": "10000880",
+    "true_PT_term": "Akute myeloische Leukaemie",
+    "pred_PT_term": "Akute myeloische Leukaemie",
+    "true_SOC_Code_AE_raw": "10029104",
+    "true_SOC_Code": "10029104",
+    "pred_SOC_Code": "10029104",
+    "true_SOC_Code_primary": "10029104",
+    "true_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "pred_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "1. Analyze the AE text: The given Adverse Event (AE) is \"AML Progression Progression\". The relevant clinical keywords here are \"AML\" and \"progression\".\n\n2. Compare keywords with candidate LLT terms: Looking through the list, terms that include \"AML\" and concepts related to progression are of interest.\n\n3. Eliminate unrelated terms: Terms not related to \"AML\" or \"progression\" in the context of leukemia can be eliminated. This includes terms like \"HIV disease progression\", \"Coronary artery disease progression\", \"Progression of rheumatoid arthritis\", \"Diabetes mellitus progression\", etc.\n\n4. Select the LLT that best matches the AE context: Among the remaining terms, \"AML progression\", \"Acute myeloid leukemia progression\", and \"Acute myeloid leukaemia progression\" are the most relevant. Since \"AML\" is a common abbreviation for \"Acute Myeloid Leukemia\", all these terms essentially refer to the same condition. However, the most direct and concise match for the AE \"AML Progression Progression\" would be a term that directly mentions \"AML\" and \"progression\".\n\nGiven the options and the need for precision in medical coding, the term \"Acute myeloid leukemia progression\" is the most appropriate choice because it fully spells out \"AML\" as \"Acute myeloid leukemia\", providing clarity and specificity to the coding.\n\nAcute myeloid"
+  },
+  {
+    "AE_text": "AML Progression progressive AML",
+    "true_term": "AML progression",
+    "predicted": "Acute myeloid leukemia progression",
+    "exact_match": false,
+    "fuzzy_score": 61.224489795918366,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10066572",
+    "pred_LLT_Code": "10066638",
+    "true_PT_Code": "10000880",
+    "pred_PT_Code": "10000880",
+    "true_PT_term": "Akute myeloische Leukaemie",
+    "pred_PT_term": "Akute myeloische Leukaemie",
+    "true_SOC_Code_AE_raw": "10029104",
+    "true_SOC_Code": "10029104",
+    "pred_SOC_Code": "10029104",
+    "true_SOC_Code_primary": "10029104",
+    "true_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "pred_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Acute myeloid leukemia progression"
+  },
+  {
+    "AE_text": "AML Progression Vd. auf Leukostase Syndrom",
+    "true_term": "AML progression",
+    "predicted": "Leukostasis syndrome",
+    "exact_match": false,
+    "fuzzy_score": 34.285714285714285,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10066572",
+    "pred_LLT_Code": "10074608",
+    "true_PT_Code": "10000880",
+    "pred_PT_Code": "10074608",
+    "true_PT_term": "Akute myeloische Leukaemie",
+    "pred_PT_term": "Leukostasesyndrom",
+    "true_SOC_Code_AE_raw": "10029104",
+    "true_SOC_Code": "10029104",
+    "pred_SOC_Code": "10005329",
+    "true_SOC_Code_primary": "10029104",
+    "true_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "pred_SOC_codes_all": [
+      "10005329",
+      "10029104",
+      "10029205",
+      "10038738"
+    ],
+    "exact_PT_match": false,
+    "PT_fuzzy_score": 32.55813953488372,
+    "PT_fuzzy_match": false,
+    "model_output": "Leukostasis syndrome"
+  },
+  {
+    "AE_text": "Anaemia",
+    "true_term": "Anaemia",
+    "predicted": "Anaemia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_LLT_Code": "10002034",
+    "pred_LLT_Code": "10002034",
+    "true_PT_Code": "10002034",
+    "pred_PT_Code": "10002034",
+    "true_PT_term": "Anaemie",
+    "pred_PT_term": "Anaemie",
+    "true_SOC_Code_AE_raw": "10005329",
+    "true_SOC_Code": "10005329",
+    "pred_SOC_Code": "10005329",
+    "true_SOC_Code_primary": "10005329",
+    "true_SOC_codes_all": [
+      "10005329"
+    ],
+    "pred_SOC_codes_all": [
+      "10005329"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Anaemia"
+  },
+  {
+    "AE_text": "Anemia",
+    "true_term": "Anemia",
+    "predicted": "Anemia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_LLT_Code": "10002272",
+    "pred_LLT_Code": "10002272",
+    "true_PT_Code": "10002034",
+    "pred_PT_Code": "10002034",
+    "true_PT_term": "Anaemie",
+    "pred_PT_term": "Anaemie",
+    "true_SOC_Code_AE_raw": "10005329",
+    "true_SOC_Code": "10005329",
+    "pred_SOC_Code": "10005329",
+    "true_SOC_Code_primary": "10005329",
+    "true_SOC_codes_all": [
+      "10005329"
+    ],
+    "pred_SOC_codes_all": [
+      "10005329"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Anemia"
+  },
+  {
+    "AE_text": "atrial fibrillation onset 04-Oct-2018 and worsening of General condition",
+    "true_term": "Atrial fibrillation",
+    "predicted": "Atrial fibrillation",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_LLT_Code": "10003658",
+    "pred_LLT_Code": "10003658",
+    "true_PT_Code": "10003658",
+    "pred_PT_Code": "10003658",
+    "true_PT_term": "Vorhofflimmern",
+    "pred_PT_term": "Vorhofflimmern",
+    "true_SOC_Code_AE_raw": "10007541",
+    "true_SOC_Code": "10007541",
+    "pred_SOC_Code": "10007541",
+    "true_SOC_Code_primary": "10007541",
+    "true_SOC_codes_all": [
+      "10007541"
+    ],
+    "pred_SOC_codes_all": [
+      "10007541"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Atrial fibrillation aggravated"
+  },
+  {
+    "AE_text": "Atypische Pneumonie bei positivem RSV-Nachweis",
+    "true_term": "Pneumonia respiratory syncytial viral",
+    "predicted": "Respiratory syncytial virus pneumonitis",
+    "exact_match": false,
+    "fuzzy_score": 65.78947368421053,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10035732",
+    "pred_LLT_Code": "10067384",
+    "true_PT_Code": "10035732",
+    "pred_PT_Code": "10035732",
+    "true_PT_term": "Pneumonie durch Respiratory Syncytial Virus",
+    "pred_PT_term": "Pneumonie durch Respiratory Syncytial Virus",
+    "true_SOC_Code_AE_raw": "10021881",
+    "true_SOC_Code": "10021881",
+    "pred_SOC_Code": "10021881",
+    "true_SOC_Code_primary": "10021881",
+    "true_SOC_codes_all": [
+      "10021881",
+      "10038738"
+    ],
+    "pred_SOC_codes_all": [
+      "10021881",
+      "10038738"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "1. Analyze the AE text: The AE is \"Atypische Pneumonie bei positivem RSV-Nachweis\", which translates to \"Atypical pneumonia with positive RSV detection\". Relevant clinical keywords are \"atypical pneumonia\", \"RSV\", and \"positive detection\".\n\n2. Compare keywords with candidate LLT terms: Looking through the list, terms that relate to pneumonia, RSV, or viral infections are of interest.\n\n3. Eliminate unrelated terms: Terms like \"Pneumonitis chemical\", \"Toxic pneumonitis\", \"Pneumonitis due to solids and liquids\", and others that do not relate to viral or RSV infections can be eliminated.\n\n4. Select the LLT that best matches the AE context: Given the keywords \"atypical pneumonia\" and \"RSV\", the most relevant term would be one that directly mentions RSV or viral pneumonitis.\n\n5. Final answer: Respiratory syncytial virus pneumonitis"
+  },
+  {
+    "AE_text": "bacteriemia",
+    "skip_reason": "true_code_not_in_dict"
+  },
+  {
+    "AE_text": "Bladdertumor with renal jam",
+    "true_term": "Malignant neoplasm of bladder",
+    "predicted": "Bladder neoplasm",
+    "exact_match": false,
+    "fuzzy_score": 48.88888888888889,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10025735",
+    "pred_LLT_Code": "10005056",
+    "true_PT_Code": "10005003",
+    "pred_PT_Code": "10005056",
+    "true_PT_term": "Blasenkrebs",
+    "pred_PT_term": "Neubildung der Blase",
+    "true_SOC_Code_AE_raw": "10029104",
+    "true_SOC_Code": "10029104",
+    "pred_SOC_Code": "10029104",
+    "true_SOC_Code_primary": "10029104",
+    "true_SOC_codes_all": [
+      "10029104",
+      "10038359"
+    ],
+    "pred_SOC_codes_all": [
+      "10029104",
+      "10038359"
+    ],
+    "exact_PT_match": false,
+    "PT_fuzzy_score": 38.70967741935484,
+    "PT_fuzzy_match": false,
+    "model_output": "Bladder neoplasm"
+  },
+  {
+    "AE_text": "Bleeding cerebral Haemorrhage",
+    "true_term": "Intra-cerebral haemorrhage",
+    "predicted": "Cerebral haemorrhage",
+    "exact_match": false,
+    "fuzzy_score": 86.95652173913044,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10022737",
+    "pred_LLT_Code": "10008111",
+    "true_PT_Code": "10008111",
+    "pred_PT_Code": "10008111",
+    "true_PT_term": "Hirnblutung",
+    "pred_PT_term": "Hirnblutung",
+    "true_SOC_Code_AE_raw": "10047065",
+    "true_SOC_Code": "10047065",
+    "pred_SOC_Code": "10029205",
+    "true_SOC_Code_primary": "10029205",
+    "true_SOC_codes_all": [
+      "10029205",
+      "10047065"
+    ],
+    "pred_SOC_codes_all": [
+      "10029205",
+      "10047065"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Cerebral haemorrhage"
+  },
+  {
+    "AE_text": "Bleeding gastro-intestinal bleeding",
+    "true_term": "Bleeding gastrointestinal",
+    "predicted": "Gastrointestinal bleeding",
+    "exact_match": false,
+    "fuzzy_score": 64.0,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10005116",
+    "pred_LLT_Code": "10017936",
+    "true_PT_Code": "10017955",
+    "pred_PT_Code": "10017955",
+    "true_PT_term": "Gastrointestinalblutung",
+    "pred_PT_term": "Gastrointestinalblutung",
+    "true_SOC_Code_AE_raw": "10047065",
+    "true_SOC_Code": "10047065",
+    "pred_SOC_Code": "10017947",
+    "true_SOC_Code_primary": "10017947",
+    "true_SOC_codes_all": [
+      "10017947",
+      "10047065"
+    ],
+    "pred_SOC_codes_all": [
+      "10017947",
+      "10047065"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Gastrointestinal bleeding"
+  },
+  {
+    "AE_text": "Bleeding gingival bleeding in thrombocytopenia",
+    "true_term": "Gingival bleeding",
+    "predicted": "Gingival bleeding",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_LLT_Code": "10018276",
+    "pred_LLT_Code": "10018276",
+    "true_PT_Code": "10018276",
+    "pred_PT_Code": "10018276",
+    "true_PT_term": "Zahnfleischbluten",
+    "pred_PT_term": "Zahnfleischbluten",
+    "true_SOC_Code_AE_raw": "10047065",
+    "true_SOC_Code": "10047065",
+    "pred_SOC_Code": "10017947",
+    "true_SOC_Code_primary": "10017947",
+    "true_SOC_codes_all": [
+      "10017947",
+      "10047065"
+    ],
+    "pred_SOC_codes_all": [
+      "10017947",
+      "10047065"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Gingival bleeding"
+  },
+  {
+    "AE_text": "Bleeding head",
+    "true_term": "Intracranial haemorrhage",
+    "predicted": "Bleeding",
+    "exact_match": false,
+    "fuzzy_score": 18.75,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10073792",
+    "pred_LLT_Code": "10005103",
+    "true_PT_Code": "10018985",
+    "pred_PT_Code": "10055798",
+    "true_PT_term": "Intrakranielle Blutung",
+    "pred_PT_term": "Blutung",
+    "true_SOC_Code_AE_raw": "10047065",
+    "true_SOC_Code": "10047065",
+    "pred_SOC_Code": "10047065",
+    "true_SOC_Code_primary": "10029205",
+    "true_SOC_codes_all": [
+      "10029205",
+      "10047065"
+    ],
+    "pred_SOC_codes_all": [
+      "10047065"
+    ],
+    "exact_PT_match": false,
+    "PT_fuzzy_score": 48.275862068965516,
+    "PT_fuzzy_match": false,
+    "model_output": "Scalp bleeding"
+  },
+  {
+    "AE_text": "Bleeding hematuria",
+    "true_term": "Hematuria",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Bleeding intracranial bleeding",
+    "true_term": "Bleeding intracranial",
+    "predicted": "Intracranial hemorrhage",
+    "exact_match": false,
+    "fuzzy_score": 54.54545454545454,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10005121",
+    "pred_LLT_Code": "10022763",
+    "true_PT_Code": "10018985",
+    "pred_PT_Code": "10018985",
+    "true_PT_term": "Intrakranielle Blutung",
+    "pred_PT_term": "Intrakranielle Blutung",
+    "true_SOC_Code_AE_raw": "10047065",
+    "true_SOC_Code": "10047065",
+    "pred_SOC_Code": "10029205",
+    "true_SOC_Code_primary": "10029205",
+    "true_SOC_codes_all": [
+      "10029205",
+      "10047065"
+    ],
+    "pred_SOC_codes_all": [
+      "10029205",
+      "10047065"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Intracranial hemorrhage"
+  },
+  {
+    "AE_text": "Bleeding spontaneous subdural hematoma",
+    "true_term": "Subdural hematoma",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Bleeding subcutaneous bleeding - hematoma",
+    "true_term": "Subcutaneous hematoma",
+    "predicted": "Subcutaneous hematoma",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_LLT_Code": "10042346",
+    "pred_LLT_Code": "10042346",
+    "true_PT_Code": "10042345",
+    "pred_PT_Code": "10042345",
+    "true_PT_term": "Subkutanes Haematom",
+    "pred_PT_term": "Subkutanes Haematom",
+    "true_SOC_Code_AE_raw": "10047065",
+    "true_SOC_Code": "10047065",
+    "pred_SOC_Code": "10022117",
+    "true_SOC_Code_primary": "10022117",
+    "true_SOC_codes_all": [
+      "10022117",
+      "10040785",
+      "10047065"
+    ],
+    "pred_SOC_codes_all": [
+      "10022117",
+      "10040785",
+      "10047065"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "1. Analyzing the AE text \"Bleeding subcutaneous bleeding - hematoma\", the relevant clinical keywords are \"subcutaneous\", \"bleeding\", and \"hematoma\".\n2. Comparing these keywords with the candidate LLT terms, we find several terms that include these words.\n3. Eliminating unrelated terms (e.g., terms related to specific locations like \"uterine\", \"abdominal\", \"intracranial\", or conditions like \"hemorrhoidal\", \"tumor\", \"wound\") that do not match the general description of \"subcutaneous bleeding\" and \"hematoma\", we narrow down our options.\n4. The most relevant terms after elimination are \"Subcutaneous hematoma\", \"Subcutaneous bleeding\", \"Hematoma\", and \"Subcutaneous haematoma\". Between these, \"Subcutaneous hematoma\" and \"Subcutaneous haematoma\" are essentially the same condition, with \"haematoma\" being a variant spelling of \"hematoma\". \"Subcutaneous bleeding\" is related but does not specifically denote a hematoma, which is a collection of blood outside of blood cells.\n\nGiven the context, the term that best matches the AE description is \"Subcutaneous hematoma\" because it directly combines the key elements of the AE: the location (\"subcutaneous\") and the condition (\"hematoma\").\n\nSubcutaneous hematoma"
+  },
+  {
+    "AE_text": "Bleeding subcutaneous hematomas",
+    "true_term": "Subcutaneous hematoma",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Bleeding Subdural Hematoma",
+    "true_term": "Subdural haemorrhage",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Bone Marrow fibrosis",
+    "true_term": "Bone marrow reticulin fibrosis",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Cardiac decompensation",
+    "true_term": "Decompensation cardiac",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "cardial decompensation",
+    "true_term": "Decompensation cardiac",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Colonisation with vancomycin resistant enerococcus faecium",
+    "true_term": "Enterococcus colonisation",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "coprostasis and obstipation",
+    "true_term": "Coprostasis",
+    "predicted": "Obstipation",
+    "exact_match": false,
+    "fuzzy_score": 45.45454545454546,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10067340",
+    "pred_LLT_Code": "10029932",
+    "true_PT_Code": "10056325",
+    "pred_PT_Code": "10010774",
+    "true_PT_term": "Faekulom",
+    "pred_PT_term": "Obstipation",
+    "true_SOC_Code_AE_raw": "10017947",
+    "true_SOC_Code": "10017947",
+    "pred_SOC_Code": "10017947",
+    "true_SOC_Code_primary": "10017947",
+    "true_SOC_codes_all": [
+      "10017947"
+    ],
+    "pred_SOC_codes_all": [
+      "10017947"
+    ],
+    "exact_PT_match": false,
+    "PT_fuzzy_score": 21.052631578947366,
+    "PT_fuzzy_match": false,
+    "model_output": "1. The AE text is \"coprostasis and obstipation\". The relevant clinical keywords extracted are \"coprostasis\" and \"obstipation\".\n2. Comparing these keywords with the candidate LLT terms, we find direct matches: \"Coprostasis\" and \"Obstipation\".\n3. Eliminating unrelated terms, we focus on terms related to constipation or bowel obstruction since both \"coprostasis\" and \"obstipation\" relate to conditions of bowel movements or obstruction.\n4. Between \"Coprostasis\" and \"Obstipation\", both are specific terms. \"Coprostasis\" refers to an accumulation of feces in the rectum, and \"Obstipation\" refers to a severe constipation where the bowel is obstructed. Given that the AE mentions both conditions, we need to select the term that best encompasses the context of both or is more specific to the conditions described.\n\nGiven the direct mention of both conditions and their specific nature, the most appropriate choice would be to select a term that directly corresponds to one of these conditions if a combined or more specific term is not available. Since \"Obstipation\" is a direct term and \"Coprostasis\" is also directly mentioned, but considering the context of both being related to severe constipation or bowel obstruction, we should look for a term that best represents the condition described without combining two separate terms.\n\nThe final answer is: Obstipation"
+  },
+  {
+    "AE_text": "cranial contusion",
+    "true_term": "Brain contusion",
+    "predicted": "Cerebral laceration and contusion",
+    "exact_match": false,
+    "fuzzy_score": 62.5,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10052346",
+    "pred_LLT_Code": "10008123",
+    "true_PT_Code": "10052346",
+    "pred_PT_Code": "10052346",
+    "true_PT_term": "Hirnprellung",
+    "pred_PT_term": "Hirnprellung",
+    "true_SOC_Code_AE_raw": "10022117",
+    "true_SOC_Code": "10022117",
+    "pred_SOC_Code": "10022117",
+    "true_SOC_Code_primary": "10022117",
+    "true_SOC_codes_all": [
+      "10022117",
+      "10029205"
+    ],
+    "pred_SOC_codes_all": [
+      "10022117",
+      "10029205"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Cerebral laceration and contusion"
+  },
+  {
+    "AE_text": "Death",
+    "true_term": "Death",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "death of unkown origin",
+    "true_term": "Unknown cause of death",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Death: died on the way to the family doctor's practice (a. e. as part of the underlying disease)",
+    "true_term": "AML progression",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "death: Progression of AML",
+    "true_term": "AML progression",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Deceased Patient. Death cause: AML Progression",
+    "true_term": "AML progression",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Diarrhea Diarrhea",
+    "true_term": "Diarrhoea",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Diarrhea gastrointestinal disorder",
+    "true_term": "Diarrhea",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Diarrhea massive",
+    "true_term": "Diarrhea NOS",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Dyspnea Bronchial system",
+    "true_term": "Dyspnoea NOS",
+    "predicted": "Dyspnea",
+    "exact_match": false,
+    "fuzzy_score": 73.6842105263158,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10013972",
+    "pred_LLT_Code": "10013963",
+    "true_PT_Code": "10013968",
+    "pred_PT_Code": "10013968",
+    "true_PT_term": "Dyspnoe",
+    "pred_PT_term": "Dyspnoe",
+    "true_SOC_Code_AE_raw": "10038738",
+    "true_SOC_Code": "10038738",
+    "pred_SOC_Code": "10038738",
+    "true_SOC_Code_primary": "10038738",
+    "true_SOC_codes_all": [
+      "10007541",
+      "10038738"
+    ],
+    "pred_SOC_codes_all": [
+      "10007541",
+      "10038738"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Dyspnea"
+  },
+  {
+    "AE_text": "Dyspnea excertional dyspnea",
+    "true_term": "Dyspnoea",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Dyspnea exertional dyspnea",
+    "true_term": "Dyspnoea exertional",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Dyspnea Lung",
+    "true_term": "Dyspnoea",
+    "predicted": "Dyspnea",
+    "exact_match": false,
+    "fuzzy_score": 93.33333333333333,
+    "fuzzy_match": true,
+    "true_LLT_Code": "10013968",
+    "pred_LLT_Code": "10013963",
+    "true_PT_Code": "10013968",
+    "pred_PT_Code": "10013968",
+    "true_PT_term": "Dyspnoe",
+    "pred_PT_term": "Dyspnoe",
+    "true_SOC_Code_AE_raw": "10038738",
+    "true_SOC_Code": "10038738",
+    "pred_SOC_Code": "10038738",
+    "true_SOC_Code_primary": "10038738",
+    "true_SOC_codes_all": [
+      "10007541",
+      "10038738"
+    ],
+    "pred_SOC_codes_all": [
+      "10007541",
+      "10038738"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Dyspnea"
+  },
+  {
+    "AE_text": "Dyspnea n.a.",
+    "true_term": "Dyspnea",
+    "predicted": "Dyspnea",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_LLT_Code": "10013963",
+    "pred_LLT_Code": "10013963",
+    "true_PT_Code": "10013968",
+    "pred_PT_Code": "10013968",
+    "true_PT_term": "Dyspnoe",
+    "pred_PT_term": "Dyspnoe",
+    "true_SOC_Code_AE_raw": "10038738",
+    "true_SOC_Code": "10038738",
+    "pred_SOC_Code": "10038738",
+    "true_SOC_Code_primary": "10038738",
+    "true_SOC_codes_all": [
+      "10007541",
+      "10038738"
+    ],
+    "pred_SOC_codes_all": [
+      "10007541",
+      "10038738"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Dyspnea"
+  },
+  {
+    "AE_text": "Dyspnea NYHA III",
+    "true_term": "Heart failure NYHA class III",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Dystelectasis both lungs",
+    "true_term": "Atelectasis",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Edema limbs; both lower legs",
+    "true_term": "Edema of lower extremities",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Edema penis",
+    "true_term": "Edema of penis",
+    "predicted": "Penile edema",
+    "exact_match": false,
+    "fuzzy_score": 38.46153846153846,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10014242",
+    "pred_LLT_Code": "10066853",
+    "true_PT_Code": "10066774",
+    "pred_PT_Code": "10066774",
+    "true_PT_term": "Penisoedem",
+    "pred_PT_term": "Penisoedem",
+    "true_SOC_Code_AE_raw": "10038604",
+    "true_SOC_Code": "10038604",
+    "pred_SOC_Code": "10038604",
+    "true_SOC_Code_primary": "10038604",
+    "true_SOC_codes_all": [
+      "10038604"
+    ],
+    "pred_SOC_codes_all": [
+      "10038604"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Penile edema"
+  },
+  {
+    "AE_text": "Erysipel des Unterschenkel rechts",
+    "true_term": "Erysipelas",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Fatigue Fatigue",
+    "true_term": "Fatigue",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Fatigue generalized",
+    "true_term": "Fatigue",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Fatigue HB <= 6 --> EK tranfusion",
+    "true_term": "Anemia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Fatigue intermittend",
+    "true_term": "Fatigue",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Fatigue n.a.",
+    "true_term": "Fatigue",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Fever",
+    "true_term": "Fever",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Fever febrile neutropenia",
+    "true_term": "Febrile neutropenia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Fever Fever",
+    "true_term": "Fever",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Fever Fever in neutropenia",
+    "true_term": "Febrile neutropenia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Fever NEUTROPENIC FEVER",
+    "true_term": "Febrile neutropenia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Fever neutropenic fever",
+    "true_term": "Febrile neutropenia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Fever no information",
+    "true_term": "Fever",
+    "predicted": "Fever",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_LLT_Code": "10016558",
+    "pred_LLT_Code": "10016558",
+    "true_PT_Code": "10037660",
+    "pred_PT_Code": "10037660",
+    "true_PT_term": "Fieber",
+    "pred_PT_term": "Fieber",
+    "true_SOC_Code_AE_raw": "10018065",
+    "true_SOC_Code": "10018065",
+    "pred_SOC_Code": "10018065",
+    "true_SOC_Code_primary": "10018065",
+    "true_SOC_codes_all": [
+      "10018065"
+    ],
+    "pred_SOC_codes_all": [
+      "10018065"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Fever"
+  },
+  {
+    "AE_text": "Fever Pneumonia",
+    "true_term": "Pneumonia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Fever pneumonie",
+    "true_term": "Pneumonia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Fever without focus",
+    "true_term": "Fever",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Fever wrosening General condition",
+    "true_term": "Fever",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Fracture of the humerus",
+    "true_term": "Fracture of humerus",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "fugal infection",
+    "true_term": "Fungal infection",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "granulopenie",
+    "true_term": "Neutropenia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Heart failure",
+    "true_term": "Heart failure",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "hematoma",
+    "true_term": "Hematoma",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "High UricAcic",
+    "true_term": "Uric acid increased",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Hyperkalemia",
+    "true_term": "Hyperkalemia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "hypertension",
+    "true_term": "Hypertension",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Hypertension",
+    "true_term": "Hypertension",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Hypokalemia",
+    "true_term": "Hypokalemia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Hyponatriaemie",
+    "true_term": "Hyponatraemia",
+    "predicted": "Hyponatraemia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_LLT_Code": "10021036",
+    "pred_LLT_Code": "10021036",
+    "true_PT_Code": "10021036",
+    "pred_PT_Code": "10021036",
+    "true_PT_term": "Hyponatriaemie",
+    "pred_PT_term": "Hyponatriaemie",
+    "true_SOC_Code_AE_raw": "10027433",
+    "true_SOC_Code": "10027433",
+    "pred_SOC_Code": "10027433",
+    "true_SOC_Code_primary": "10027433",
+    "true_SOC_codes_all": [
+      "10027433"
+    ],
+    "pred_SOC_codes_all": [
+      "10027433"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Hyponatraemia"
+  },
+  {
+    "AE_text": "increase createnin",
+    "true_term": "Creatinine increased",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "increase creatinin",
+    "true_term": "Creatinine increased",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "increase creatinine",
+    "true_term": "Creatinine increased",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "increase of CRP (infection of unknown origin)",
+    "true_term": "Infection NOS",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "increased creatinine",
+    "true_term": "Creatinine increased",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infarction myocardial",
+    "true_term": "Myocardial infarction",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infarction NSTEMI",
+    "true_term": "Non ST segment elevation myocardial infarction",
+    "predicted": "Infarction",
+    "exact_match": false,
+    "fuzzy_score": 35.71428571428571,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10064347",
+    "pred_LLT_Code": "10061216",
+    "true_PT_Code": "10000891",
+    "pred_PT_Code": "10061216",
+    "true_PT_term": "Akuter Myokardinfarkt",
+    "pred_PT_term": null,
+    "true_SOC_Code_AE_raw": "10007541",
+    "true_SOC_Code": "10007541",
+    "pred_SOC_Code": null,
+    "true_SOC_Code_primary": "10007541",
+    "true_SOC_codes_all": [
+      "10007541"
+    ],
+    "pred_SOC_codes_all": [],
+    "exact_PT_match": false,
+    "PT_fuzzy_score": 0.0,
+    "PT_fuzzy_match": false,
+    "model_output": "Myocardial infarction"
+  },
+  {
+    "AE_text": "Infection Bronchial infection",
+    "true_term": "Bronchial infection",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection Bronchopneumonia",
+    "true_term": "Bronchopneumonia NOS",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection Catheter related (central venous catheter)",
+    "true_term": "Catheter related infection",
+    "predicted": "Catheter related infection",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_LLT_Code": "10007810",
+    "pred_LLT_Code": "10007810",
+    "true_PT_Code": "10064687",
+    "pred_PT_Code": "10064687",
+    "true_PT_term": "Infektion im Zusammenhang mit einem Medizinprodukt",
+    "pred_PT_term": "Infektion im Zusammenhang mit einem Medizinprodukt",
+    "true_SOC_Code_AE_raw": "10021881",
+    "true_SOC_Code": "10021881",
+    "pred_SOC_Code": "10021881",
+    "true_SOC_Code_primary": "10021881",
+    "true_SOC_codes_all": [
+      "10018065",
+      "10021881"
+    ],
+    "pred_SOC_codes_all": [
+      "10018065",
+      "10021881"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Catheter related infection"
+  },
+  {
+    "AE_text": "Infection Colonisation with vancomycin resistant enerococcus faecium",
+    "true_term": "Enterococcus colonisation",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection erysipelas at right calf",
+    "true_term": "Erysipelas",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection Fieberhafter Infekt im Rahmen einer Pneumonie rechts",
+    "true_term": "Pneumonia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection fungal infection",
+    "true_term": "Infection fungal",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection Herpes simplex",
+    "true_term": "Herpes simplex",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection Herpes Zoster",
+    "true_term": "Herpes zoster",
+    "predicted": "Herpes zoster",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_LLT_Code": "10019974",
+    "pred_LLT_Code": "10019974",
+    "true_PT_Code": "10019974",
+    "pred_PT_Code": "10019974",
+    "true_PT_term": "Herpes zoster",
+    "pred_PT_term": "Herpes zoster",
+    "true_SOC_Code_AE_raw": "10021881",
+    "true_SOC_Code": "10021881",
+    "pred_SOC_Code": "10021881",
+    "true_SOC_Code_primary": "10021881",
+    "true_SOC_codes_all": [
+      "10021881",
+      "10029205",
+      "10040785"
+    ],
+    "pred_SOC_codes_all": [
+      "10021881",
+      "10029205",
+      "10040785"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Herpes zoster"
+  },
+  {
+    "AE_text": "Infection Herpes zoster infection",
+    "true_term": "Herpes zoster",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection Influenza A",
+    "true_term": "Influenza",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection Influenza infection",
+    "true_term": "Influenza",
+    "predicted": "Influenza",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_LLT_Code": "10022000",
+    "pred_LLT_Code": "10022000",
+    "true_PT_Code": "10022000",
+    "pred_PT_Code": "10022000",
+    "true_PT_term": "Grippe",
+    "pred_PT_term": "Grippe",
+    "true_SOC_Code_AE_raw": "10021881",
+    "true_SOC_Code": "10021881",
+    "pred_SOC_Code": "10021881",
+    "true_SOC_Code_primary": "10021881",
+    "true_SOC_codes_all": [
+      "10021881",
+      "10038738"
+    ],
+    "pred_SOC_codes_all": [
+      "10021881",
+      "10038738"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Influenza"
+  },
+  {
+    "AE_text": "Infection Influenza typ A infection",
+    "true_term": "Influenza",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection intense cough",
+    "true_term": "Respiratory tract infection",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection multiple infection probably due to progressive disease (AML)",
+    "true_term": "Infection",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection mycosis Pneumonia",
+    "true_term": "Pneumonia fungal",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection mykosispneumonia",
+    "true_term": "Pneumonia fungal",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection neutropenic Fever",
+    "true_term": "Neutropenic infection",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection Noro virus",
+    "true_term": "Norovirus infection",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection oral trush",
+    "true_term": "Oral thrush",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection phlegmon",
+    "true_term": "Phlegmon",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection Pneumonia / Respiratory insufficiency",
+    "true_term": "Pneumonia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection Pneumonia with Fever and cardiac decompensation",
+    "true_term": "Pneumonia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection pneumonie",
+    "true_term": "Pneumonia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection pneumosepsis",
+    "true_term": "Pulmonary sepsis",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection port implantation",
+    "true_term": "Catheter infection",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection Pulmonary sepsis",
+    "true_term": "Pulmonary sepsis",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection respiratory infection",
+    "true_term": "Infection respiratory",
+    "predicted": "Respiratory tract infection",
+    "exact_match": false,
+    "fuzzy_score": 45.833333333333336,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10021863",
+    "pred_LLT_Code": "10062352",
+    "true_PT_Code": "10062352",
+    "pred_PT_Code": "10062352",
+    "true_PT_term": "Atemwegsinfektion",
+    "pred_PT_term": "Atemwegsinfektion",
+    "true_SOC_Code_AE_raw": "10021881",
+    "true_SOC_Code": "10021881",
+    "pred_SOC_Code": "10021881",
+    "true_SOC_Code_primary": "10021881",
+    "true_SOC_codes_all": [
+      "10021881",
+      "10038738"
+    ],
+    "pred_SOC_codes_all": [
+      "10021881",
+      "10038738"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Respiratory tract infection"
+  },
+  {
+    "AE_text": "Infection RSV-Infection",
+    "true_term": "RSV infection",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection Sepis",
+    "true_term": "Sepsis",
+    "predicted": "Sepsis",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_LLT_Code": "10040047",
+    "pred_LLT_Code": "10040047",
+    "true_PT_Code": "10040047",
+    "pred_PT_Code": "10040047",
+    "true_PT_term": null,
+    "pred_PT_term": null,
+    "true_SOC_Code_AE_raw": "10021881",
+    "true_SOC_Code": "10021881",
+    "pred_SOC_Code": null,
+    "true_SOC_Code_primary": null,
+    "true_SOC_codes_all": [],
+    "pred_SOC_codes_all": [],
+    "exact_PT_match": false,
+    "PT_fuzzy_score": 0.0,
+    "PT_fuzzy_match": false,
+    "model_output": "Sepsis"
+  },
+  {
+    "AE_text": "Infection Sepsis",
+    "true_term": "Sepsis",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection sepsis",
+    "true_term": "Sepsis",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection Septic shock",
+    "true_term": "Septic shock",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection septic shock",
+    "true_term": "Septic shock",
+    "predicted": "Septic shock",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_LLT_Code": "10040070",
+    "pred_LLT_Code": "10040070",
+    "true_PT_Code": "10040070",
+    "pred_PT_Code": "10040070",
+    "true_PT_term": "Septischer Schock",
+    "pred_PT_term": "Septischer Schock",
+    "true_SOC_Code_AE_raw": "10021881",
+    "true_SOC_Code": "10021881",
+    "pred_SOC_Code": "10021881",
+    "true_SOC_Code_primary": "10021881",
+    "true_SOC_codes_all": [
+      "10047065"
+    ],
+    "pred_SOC_codes_all": [
+      "10047065"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Septic shock"
+  },
+  {
+    "AE_text": "Infection Septic with multiorgan failure",
+    "true_term": "Sepsis",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection sinusitis maxilaris",
+    "true_term": "Maxillary sinusitis",
+    "predicted": "Maxillary sinusitis",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_LLT_Code": "10056475",
+    "pred_LLT_Code": "10056475",
+    "true_PT_Code": "10040753",
+    "pred_PT_Code": "10040753",
+    "true_PT_term": "Sinusitis",
+    "pred_PT_term": "Sinusitis",
+    "true_SOC_Code_AE_raw": "10021881",
+    "true_SOC_Code": "10021881",
+    "pred_SOC_Code": "10021881",
+    "true_SOC_Code_primary": "10021881",
+    "true_SOC_codes_all": [
+      "10021881",
+      "10038738"
+    ],
+    "pred_SOC_codes_all": [
+      "10021881",
+      "10038738"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "1. Analyzing the AE text \"Infection sinusitis maxilaris\", the relevant clinical keywords extracted are \"infection\", \"sinusitis\", and \"maxilaris\" (which refers to the maxillary sinus).\n\n2. Comparing these keywords with the candidate LLT terms, we look for terms that include \"maxillary\" and \"sinusitis\" since \"infection\" is implied by the context of sinusitis.\n\n3. Eliminating unrelated terms, we can remove those that do not refer to the maxillary sinus or sinusitis, such as terms related to other types of sinuses (ethmoidal, frontal, sphenoidal), non-infective conditions, or conditions unrelated to infection or sinusitis (like neoplasms, cysts, or injuries).\n\n4. Selecting the LLT that best matches the AE context, we are looking for a term that specifically refers to an infection of the maxillary sinus. Among the provided options, \"Maxillary sinusitis\" directly corresponds to the condition described in the AE, implying an infection of the maxillary sinus without specifying it as acute or chronic, which makes it a suitable choice given the information provided.\n\nSinusitis \nis not as specific as \"Maxillary sinusitis\" since it does not specify the type of sinus involved. However, \"Maxillary sinusitis\" is the most direct match for \"infection sinusitis maxilaris\" given its specificity to the maxillary sinus.\n\nFinal"
+  },
+  {
+    "AE_text": "Infection soft tissue",
+    "true_term": "Soft tissue infection",
+    "predicted": "Soft tissue infection",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_LLT_Code": "10062255",
+    "pred_LLT_Code": "10062255",
+    "true_PT_Code": "10062255",
+    "pred_PT_Code": "10062255",
+    "true_PT_term": "Weichteilinfektion",
+    "pred_PT_term": "Weichteilinfektion",
+    "true_SOC_Code_AE_raw": "10021881",
+    "true_SOC_Code": "10021881",
+    "pred_SOC_Code": "10021881",
+    "true_SOC_Code_primary": "10021881",
+    "true_SOC_codes_all": [
+      "10021881",
+      "10028395"
+    ],
+    "pred_SOC_codes_all": [
+      "10021881",
+      "10028395"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Soft tissue infection"
+  },
+  {
+    "AE_text": "Infection Spondylodiscitis",
+    "true_term": "Spondylodiscitis",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection Stomatitis",
+    "true_term": "Infectious stomatitis",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection surgical intervention at bottom lip (->necrosis) after infection into the mouth. Hospitalisation 07.03.2019 - 10.03.2019",
+    "true_term": "Oral cavity infection",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection Suspected Infection already before start of chemapy/study drug",
+    "true_term": "Infection NOS",
+    "predicted": "Infection",
+    "exact_match": false,
+    "fuzzy_score": 81.81818181818181,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10021842",
+    "pred_LLT_Code": "10021789",
+    "true_PT_Code": "10021789",
+    "pred_PT_Code": "10021789",
+    "true_PT_term": "Infektion",
+    "pred_PT_term": "Infektion",
+    "true_SOC_Code_AE_raw": "10021881",
+    "true_SOC_Code": "10021881",
+    "pred_SOC_Code": "10021881",
+    "true_SOC_Code_primary": "10021881",
+    "true_SOC_codes_all": [
+      "10021881"
+    ],
+    "pred_SOC_codes_all": [
+      "10021881"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Infection"
+  },
+  {
+    "AE_text": "Infection urinary tract infection",
+    "true_term": "Urinary tract infection",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection Urinary tract infection",
+    "true_term": "Urinary tract infection",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection Urinary tract infection",
+    "true_term": "Urinary infection",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection urinary tract infection",
+    "true_term": "Urinary infection",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection urinary tract infection with eschericchia coli",
+    "true_term": "Escherichia coli cystitis",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection Urosepsis with Multi Organ failure",
+    "true_term": "Urosepsis",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection with fever",
+    "true_term": "Febrile infection",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection Wound forearm right",
+    "true_term": "Wound infection",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infection Wound Infection Vein catheter (no microbiology finding)",
+    "true_term": "Catheter site infection",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Infekt mit Bakterieaemie und a.e. broncho pulmonalen Fokus",
+    "skip_reason": "true_code_not_in_dict"
+  },
+  {
+    "AE_text": "Inflammation of Right foot",
+    "true_term": "Foot osteoarthritis",
+    "predicted": "Inflammation",
+    "exact_match": false,
+    "fuzzy_score": 25.806451612903224,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10016973",
+    "pred_LLT_Code": "10061218",
+    "true_PT_Code": "10031161",
+    "pred_PT_Code": "10061218",
+    "true_PT_term": "Osteoarthrose",
+    "pred_PT_term": "Entzuendung",
+    "true_SOC_Code_AE_raw": "10028395",
+    "true_SOC_Code": "10028395",
+    "pred_SOC_Code": "10018065",
+    "true_SOC_Code_primary": "10028395",
+    "true_SOC_codes_all": [
+      "10028395"
+    ],
+    "pred_SOC_codes_all": [
+      "10018065"
+    ],
+    "exact_PT_match": false,
+    "PT_fuzzy_score": 25.0,
+    "PT_fuzzy_match": false,
+    "model_output": "Inflammation of foot"
+  },
+  {
+    "AE_text": "intermittent anemia",
+    "true_term": "Anemia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Laceration on head after fall",
+    "true_term": "Head injury",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "leucopenia",
+    "true_term": "Leucopenia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Leukozytostase-Syndrom",
+    "true_term": "Leukostasis syndrome",
+    "predicted": "Leukostasis",
+    "exact_match": false,
+    "fuzzy_score": 70.96774193548387,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10074608",
+    "pred_LLT_Code": "10024404",
+    "true_PT_Code": "10074608",
+    "pred_PT_Code": "10074608",
+    "true_PT_term": "Leukostasesyndrom",
+    "pred_PT_term": "Leukostasesyndrom",
+    "true_SOC_Code_AE_raw": "10005329",
+    "true_SOC_Code": "10005329",
+    "pred_SOC_Code": "10005329",
+    "true_SOC_Code_primary": "10005329",
+    "true_SOC_codes_all": [
+      "10005329",
+      "10029104",
+      "10029205",
+      "10038738"
+    ],
+    "pred_SOC_codes_all": [
+      "10005329",
+      "10029104",
+      "10029205",
+      "10038738"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Leukostasis syndrome"
+  },
+  {
+    "AE_text": "lungembolism",
+    "true_term": "Pulmonary embolism",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Macrohaematuturia",
+    "true_term": "Macroscopic haematuria",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "metabolic acidosis",
+    "true_term": "Metabolic acidosis",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Monokelhaematom links",
+    "true_term": "Eyelid hematoma",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Multi organ failure",
+    "true_term": "Multi organ failure",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "mykotische atypische Pneumonie",
+    "true_term": "Pneumonia fungal",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Nausea intermittend",
+    "true_term": "Nausea",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Nausea n.a.",
+    "true_term": "Nausea",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Nausea severe Nausea and vomitting",
+    "true_term": "Nausea and vomiting",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Nausea Vomiting",
+    "true_term": "Nausea with vomiting",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "neutropenia",
+    "true_term": "Neutropenia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Neutropenie",
+    "true_term": "Neutropenia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Non small Cell Lung cancer",
+    "true_term": "Non-small cell lung cancer",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "opstipation",
+    "true_term": "Constipation",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Pain Backpain",
+    "true_term": "Back pain",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Pain Backpain lumbal",
+    "true_term": "Lumbalgia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Pain chest pain left",
+    "true_term": "Breast pain",
+    "predicted": "Chest pain",
+    "exact_match": false,
+    "fuzzy_score": 76.19047619047619,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10006298",
+    "pred_LLT_Code": "10008479",
+    "true_PT_Code": "10006298",
+    "pred_PT_Code": "10008479",
+    "true_PT_term": "Brustschmerz",
+    "pred_PT_term": "Brustkorbschmerz",
+    "true_SOC_Code_AE_raw": "10038604",
+    "true_SOC_Code": "10038604",
+    "pred_SOC_Code": "10018065",
+    "true_SOC_Code_primary": "10038604",
+    "true_SOC_codes_all": [
+      "10038604"
+    ],
+    "pred_SOC_codes_all": [
+      "10007541",
+      "10018065",
+      "10038738"
+    ],
+    "exact_PT_match": false,
+    "PT_fuzzy_score": 85.71428571428572,
+    "PT_fuzzy_match": false,
+    "model_output": "Chest pain with radiation to left arm"
+  },
+  {
+    "AE_text": "Pain Joints",
+    "true_term": "Painful joints",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Pain lumbar vertebra fracture (LWK 3)",
+    "true_term": "Lumbar vertebral fracture L3",
+    "predicted": "Lumbar vertebral fracture L3",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_LLT_Code": "10049959",
+    "pred_LLT_Code": "10049959",
+    "true_PT_Code": "10049947",
+    "pred_PT_Code": "10049947",
+    "true_PT_term": "Fraktur eines Lendenwirbels",
+    "pred_PT_term": "Fraktur eines Lendenwirbels",
+    "true_SOC_Code_AE_raw": "10022117",
+    "true_SOC_Code": "10022117",
+    "pred_SOC_Code": null,
+    "true_SOC_Code_primary": null,
+    "true_SOC_codes_all": [
+      "10022117",
+      "10028395"
+    ],
+    "pred_SOC_codes_all": [
+      "10022117",
+      "10028395"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Lumbar vertebral fracture L3"
+  },
+  {
+    "AE_text": "Pain rheumatic joint pain shoulders and hips",
+    "true_term": "Arthritis rheumatoid",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Pancytopenia",
+    "true_term": "Pancytopenia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Pancytopenia and febrile neutropenia with pneumonia",
+    "true_term": "Pneumonia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Patient was transferred to intensiv care unit due to pneumonia intuation was Required",
+    "true_term": "Pneumonia",
+    "predicted": "Pneumonia",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_LLT_Code": "10035664",
+    "pred_LLT_Code": "10035664",
+    "true_PT_Code": "10035664",
+    "pred_PT_Code": "10035664",
+    "true_PT_term": "Pneumonie",
+    "pred_PT_term": "Pneumonie",
+    "true_SOC_Code_AE_raw": "10021881",
+    "true_SOC_Code": "10021881",
+    "pred_SOC_Code": "10021881",
+    "true_SOC_Code_primary": "10021881",
+    "true_SOC_codes_all": [
+      "10021881",
+      "10038738"
+    ],
+    "pred_SOC_codes_all": [
+      "10021881",
+      "10038738"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "1. Analyzing the AE text: \"Patient was transferred to intensive care unit due to pneumonia intubation was Required\" \n   - Relevant clinical keywords: pneumonia, intensive care unit, intubation.\n\n2. Comparing keywords with candidate LLT terms:\n   - Terms related to pneumonia are relevant.\n\n3. Eliminating unrelated terms:\n   - Terms not directly related to pneumonia or its immediate context (like specific organisms or locations) can be considered less relevant unless specified in the AE.\n\n4. Selecting the LLT that best matches the AE context:\n   - The AE mentions pneumonia as the reason for transfer to the intensive care unit and the requirement for intubation. \n   - \"Ventilator-associated pneumonia\" directly relates to pneumonia requiring intubation (ventilation), which matches the context of needing intubation.\n\nVentilator associated pneumonia"
+  },
+  {
+    "AE_text": "Patient with atrial fibrillation to a Prior art. Now: tachyarrhythmic derailment. Hospitalisation for frequency control",
+    "true_term": "Tachyarrhythmia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "perorated sigma dierticulitis",
+    "true_term": "Diverticulitis intestinal perforated",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Pleural effusion",
+    "true_term": "Pleural effusion",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Pneumogene Sepsis",
+    "true_term": "Pulmonary sepsis",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Pneumonie des Unterlappens und nachgewiesene Pleuraerguesse bds",
+    "true_term": "Pneumonia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "praerenales acute kidney injury",
+    "true_term": "Acute renal insufficiency",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "progress with leukocytosis",
+    "true_term": "AML progression",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Progression General condition Deterioration in blast crisis",
+    "true_term": "Acute myeloid leukaemia progression",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Progression of AML",
+    "true_term": "AML progression",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "pulmonal Sepsis",
+    "true_term": "Pulmonary sepsis",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Rash total body",
+    "true_term": "Generalised rash",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "rectal pain",
+    "true_term": "Rectal pain",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "recurrent pneumonia",
+    "true_term": "Pneumonia",
+    "predicted": "Pneumonia recurrent",
+    "exact_match": false,
+    "fuzzy_score": 64.28571428571428,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10035664",
+    "pred_LLT_Code": "10066727",
+    "true_PT_Code": "10035664",
+    "pred_PT_Code": "10035664",
+    "true_PT_term": "Pneumonie",
+    "pred_PT_term": "Pneumonie",
+    "true_SOC_Code_AE_raw": "10021881",
+    "true_SOC_Code": "10021881",
+    "pred_SOC_Code": "10021881",
+    "true_SOC_Code_primary": "10021881",
+    "true_SOC_codes_all": [
+      "10021881",
+      "10038738"
+    ],
+    "pred_SOC_codes_all": [
+      "10021881",
+      "10038738"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Pneumonia recurrent"
+  },
+  {
+    "AE_text": "Relapse Morphological Relapse with a BM blast count of 28% in local cytology",
+    "true_term": "AML progression",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "renal insufficiency",
+    "true_term": "Renal insufficiency",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Resection bladder carcinoma",
+    "true_term": "Bladder tumor resection",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Sepsis",
+    "true_term": "Sepsis",
+    "predicted": "Sepsis",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_LLT_Code": "10040047",
+    "pred_LLT_Code": "10040047",
+    "true_PT_Code": "10040047",
+    "pred_PT_Code": "10040047",
+    "true_PT_term": null,
+    "pred_PT_term": null,
+    "true_SOC_Code_AE_raw": "10021881",
+    "true_SOC_Code": "10021881",
+    "pred_SOC_Code": null,
+    "true_SOC_Code_primary": null,
+    "true_SOC_codes_all": [],
+    "pred_SOC_codes_all": [],
+    "exact_PT_match": false,
+    "PT_fuzzy_score": 0.0,
+    "PT_fuzzy_match": false,
+    "model_output": "Sepsis NOS"
+  },
+  {
+    "AE_text": "staphyloccocus infection",
+    "true_term": "Staphylococcus infection in conditions classified elsewhere and of unspecified site.",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Sturz auf den Weg in die Ambulanz.",
+    "true_term": "Fall",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Subileus",
+    "true_term": "Subileus",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Subilius",
+    "true_term": "Subileus",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "sudden cardiac arrest at home",
+    "true_term": "Sudden cardiac death",
+    "predicted": "Cardiac arrest",
+    "exact_match": false,
+    "fuzzy_score": 58.82352941176471,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10049418",
+    "pred_LLT_Code": "10007515",
+    "true_PT_Code": "10049418",
+    "pred_PT_Code": "10007515",
+    "true_PT_term": "Ploetzlicher Herztod",
+    "pred_PT_term": "Herzstillstand",
+    "true_SOC_Code_AE_raw": "10018065",
+    "true_SOC_Code": "10018065",
+    "pred_SOC_Code": "10007541",
+    "true_SOC_Code_primary": "10018065",
+    "true_SOC_codes_all": [
+      "10007541",
+      "10018065"
+    ],
+    "pred_SOC_codes_all": [
+      "10007541"
+    ],
+    "exact_PT_match": false,
+    "PT_fuzzy_score": 35.29411764705882,
+    "PT_fuzzy_match": false,
+    "model_output": "1. The relevant clinical keywords extracted from the AE text \"sudden cardiac arrest at home\" are \"sudden\", \"cardiac\", and \"arrest\".\n2. Comparing these keywords with the candidate LLT terms, we find several terms that include \"cardiac\" and \"arrest\".\n3. Eliminating unrelated terms, we focus on terms directly related to cardiac issues and arrest, such as \"Cardiac arrest\", \"Sudden cardiac death\", \"Cardiopulmonary arrest\", and \"Cardiac arrest transient\".\n4. Considering the context of the AE, which specifies \"sudden cardiac arrest\", the term that best matches is one that includes both \"sudden\" and \"cardiac arrest\". While \"Sudden cardiac death\" is close, it implies a fatal outcome, which is not explicitly stated in the AE. \"Cardiac arrest\" is a direct match but does not include \"sudden\". However, \"Cardiac arrest transient\" does not necessarily convey the suddenness or the severity implied by \"sudden\". The most direct and relevant term given the context provided is \"Cardiac arrest\" since it directly addresses the \"cardiac arrest\" part of the AE, and the absence of \"sudden\" in the LLT does not negate its applicability, as \"sudden\" can be considered part of the narrative rather than a necessary specifier for the LLT.\n\nCardiac arrest"
+  },
+  {
+    "AE_text": "swelling of the Right knee with inflammation",
+    "true_term": "Knee arthritis",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Thrombocytopenia",
+    "true_term": "Thrombocytopenia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "thrombocytopenia",
+    "true_term": "Thrombocytopenia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Thrombopenia",
+    "true_term": "Thrombopenia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "thrombopenia",
+    "true_term": "Thrombopenia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Thrombopenie",
+    "true_term": "Thrombopenia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Trimalleolarfracture ankle Joint right after fall on the 30. Dec.2017. The Patient slipped whilst carrying Wood!",
+    "true_term": "Trimalleolar fracture",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "trush Stomatitis with candida albricans",
+    "true_term": "Candida stomatitis",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "ventricular fibrillation",
+    "true_term": "Ventricular fibrillation",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "ventricular Tachyarrhythmia",
+    "true_term": "Ventricular tachyarrhythmia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "ventricular tachycardia",
+    "true_term": "Ventricular tachycardia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Vomiting prolonged vomitting",
+    "true_term": "Vomiting",
+    "predicted": "Vomiting",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_LLT_Code": "10047700",
+    "pred_LLT_Code": "10047700",
+    "true_PT_Code": "10047700",
+    "pred_PT_Code": "10047700",
+    "true_PT_term": "Erbrechen",
+    "pred_PT_term": "Erbrechen",
+    "true_SOC_Code_AE_raw": "10017947",
+    "true_SOC_Code": "10017947",
+    "pred_SOC_Code": "10017947",
+    "true_SOC_Code_primary": "10017947",
+    "true_SOC_codes_all": [
+      "10017947"
+    ],
+    "pred_SOC_codes_all": [
+      "10017947"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Vomiting"
+  },
+  {
+    "AE_text": "Vomiting vomitting due to antibiotics",
+    "true_term": "Adverse reaction to antibiotics",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "worsening of AML",
+    "true_term": "AML progression",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Worsening of aterial hypertension",
+    "true_term": "Hypertension exacerbated",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Worsening of hypoalbuminaemie",
+    "true_term": "Hypoalbuminaemia",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Worsening of renal insufficency",
+    "true_term": "Renal insufficiency aggravated",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Worsening of the general condition",
+    "true_term": "Reduced general condition",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Worsening of the general condition AML",
+    "true_term": "AML progression",
+    "predicted": "Condition worsened",
+    "exact_match": false,
+    "fuzzy_score": 30.303030303030297,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10066572",
+    "pred_LLT_Code": "10076326",
+    "true_PT_Code": "10000880",
+    "pred_PT_Code": "10010264",
+    "true_PT_term": "Akute myeloische Leukaemie",
+    "pred_PT_term": "Zustand verschlimmert",
+    "true_SOC_Code_AE_raw": "10029104",
+    "true_SOC_Code": "10029104",
+    "pred_SOC_Code": "10018065",
+    "true_SOC_Code_primary": "10029104",
+    "true_SOC_codes_all": [
+      "10005329",
+      "10029104"
+    ],
+    "pred_SOC_codes_all": [
+      "10018065"
+    ],
+    "exact_PT_match": false,
+    "PT_fuzzy_score": 42.553191489361694,
+    "PT_fuzzy_match": false,
+    "model_output": "1. Analyze the AE text: The AE is \"Worsening of the general condition AML\". Relevant clinical keywords are \"worsening\", \"general condition\", and \"AML\".\n2. Compare keywords with candidate LLT terms: The terms that seem related are \"AML progression\", \"Condition worsened\", \"General physical condition decreased\", \"Reduced general condition\", and \"Weakness worsened\" because they either mention AML or a worsening condition.\n3. Eliminate unrelated terms: Terms like \"AML1 gene mutation\", \"Ameba test negative\", \"Linear Ig A disease\", and others that do not relate to the worsening of a condition or specifically to AML can be eliminated.\n4. Select the LLT that best matches the AE context: Between \"AML progression\", \"Condition worsened\", \"General physical condition decreased\", \"Reduced general condition\", and \"Weakness worsened\", \"AML progression\" directly relates to AML, which is a specific condition mentioned in the AE, and implies a worsening or progression of the disease.\n\nCondition worsened"
+  },
+  {
+    "AE_text": "Worsening of the general condition bronchopneumonia",
+    "true_term": "Bronchopneumonia NOS",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Worsening of the general condition fever",
+    "true_term": "Reduced general condition",
+    "predicted": "Fever",
+    "exact_match": false,
+    "fuzzy_score": 19.999999999999996,
+    "fuzzy_match": false,
+    "true_LLT_Code": "10057364",
+    "pred_LLT_Code": "10016558",
+    "true_PT_Code": "10049438",
+    "pred_PT_Code": "10037660",
+    "true_PT_term": "Generelle Verschlechterung des physischen Gesundheitszustandes",
+    "pred_PT_term": "Fieber",
+    "true_SOC_Code_AE_raw": "10018065",
+    "true_SOC_Code": "10018065",
+    "pred_SOC_Code": "10018065",
+    "true_SOC_Code_primary": "10018065",
+    "true_SOC_codes_all": [
+      "10018065"
+    ],
+    "pred_SOC_codes_all": [
+      "10018065"
+    ],
+    "exact_PT_match": false,
+    "PT_fuzzy_score": 8.823529411764708,
+    "PT_fuzzy_match": false,
+    "model_output": "To determine the most appropriate MedDRA Lowest Level Term (LLT) for the Adverse Event (AE) \"Worsening of the general condition fever\", let's follow the steps outlined:\n\n1. **Analyze the AE text and extract relevant clinical keywords**: The keywords here are \"worsening\", \"general condition\", and \"fever\". The term \"worsening\" suggests a progression or increase in severity, \"general condition\" implies an overall state of health, and \"fever\" is a specific symptom.\n\n2. **Compare those keywords with candidate LLT terms**: We need to find terms that relate to \"fever\" and possibly to a \"general condition\" or \"worsening\". Many of the candidate terms specifically describe types of fever or conditions associated with fever.\n\n3. **Eliminate unrelated terms**: Terms like \"Fever convulsions\", \"Fever sore\", \"Fever blister\", and specific types of fever caused by infections (e.g., \"Typhoid fever\", \"Enteric fever\", \"Rheumatic fever\") can be eliminated because they describe specific manifestations or causes of fever that are not indicated in the AE description. Terms that imply a specific context or etiology not mentioned in the AE (like \"Post procedural fever\", \"Infusion related fever\", \"Tumor associated fever\", \"Neutropenic fever\") can also be eliminated.\n\n4. **Select the LLT that best matches the AE context**: The AE"
+  },
+  {
+    "AE_text": "Worsening of the general condition general",
+    "true_term": "Reduced general condition",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Worsening of the general condition pulmonary sepsis",
+    "true_term": "Pulmonary sepsis",
+    "predicted": "Pulmonary sepsis",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_LLT_Code": "10051739",
+    "pred_LLT_Code": "10051739",
+    "true_PT_Code": "10051739",
+    "pred_PT_Code": "10051739",
+    "true_PT_term": "Pulmonale Sepsis",
+    "pred_PT_term": "Pulmonale Sepsis",
+    "true_SOC_Code_AE_raw": "10021881",
+    "true_SOC_Code": "10021881",
+    "pred_SOC_Code": "10038738",
+    "true_SOC_Code_primary": "10038738",
+    "true_SOC_codes_all": [
+      "10038738"
+    ],
+    "pred_SOC_codes_all": [
+      "10038738"
+    ],
+    "exact_PT_match": true,
+    "PT_fuzzy_score": 100.0,
+    "PT_fuzzy_match": true,
+    "model_output": "Pulmonary sepsis"
+  },
+  {
+    "AE_text": "Worsening of the general condition Reduced general condition; need of assistence",
+    "true_term": "Reduced general condition",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Worsening of the general condition starke Schmerzsymptomatik in der linken Huefte mit Ausstrahlung in das linke Bein. Blutiger Mund nach fraglichem Zungenbiss. Patientin voellig dement.",
+    "true_term": "General physical health deterioration",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Worsening of the general condition with neutropenia and thrombopenie",
+    "true_term": "Reduced general condition",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Worsening of the general condition with vomiting and difficulty to swallow/ fungal oesophagitis",
+    "true_term": "Fungal oesophagitis",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Worsening of the general condition worsening of the General condition",
+    "true_term": "Reduced general condition",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Worsening of the generel condition AML",
+    "true_term": "AML progression",
+    "predicted": null,
+    "exact_match": false,
+    "fuzzy_score": 0.0,
+    "fuzzy_match": false,
+    "model_output": "__ERROR__: <asyncio.locks.Semaphore object at 0x7fcf44f2c1a0 [locked]> is bound to a different event loop"
+  },
+  {
+    "AE_text": "Worsening of the generel condition Sepsis",
+    "true_term": "Sepsis",
+    "predicted": "Sepsis",
+    "exact_match": true,
+    "fuzzy_score": 100.0,
+    "fuzzy_match": true,
+    "true_LLT_Code": "10040047",
+    "pred_LLT_Code": "10040047",
+    "true_PT_Code": "10040047",
+    "pred_PT_Code": "10040047",
+    "true_PT_term": null,
+    "pred_PT_term": null,
+    "true_SOC_Code_AE_raw": "10021881",
+    "true_SOC_Code": "10021881",
+    "pred_SOC_Code": null,
+    "true_SOC_Code_primary": null,
+    "true_SOC_codes_all": [],
+    "pred_SOC_codes_all": [],
+    "exact_PT_match": false,
+    "PT_fuzzy_score": 0.0,
+    "PT_fuzzy_match": false,
+    "model_output": "Sepsis"
+  }
+]

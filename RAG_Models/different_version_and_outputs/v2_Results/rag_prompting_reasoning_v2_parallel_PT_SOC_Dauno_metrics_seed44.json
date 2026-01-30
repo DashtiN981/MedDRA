@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "script": "rag_prompting_reasoning_v2_parallel_PT_SOC_multiseed.py",
+    "seed": 44,
+    "model": "nvidia-llama-3.3-70b-instruct-fp8",
+    "top_k": 30,
+    "max_rows": null,
+    "embedding_dim": 384,
+    "llm_temp": 0.2,
+    "llm_token": 300,
+    "concurrency": 50,
+    "shuffle_candidates": false,
+    "timestamp": "2026-01-30T13:34:56",
+    "notes": "v2 logic preserved; added parallel + PT/SOC mapping + multi-seed outputs."
+  },
+  "counts": {
+    "n_total": 443,
+    "n_usable": 89,
+    "n_skipped_missing_embedding": 0,
+    "n_skipped_true_code_not_in_dict": 0,
+    "n_soc_optA": 83,
+    "n_soc_optB": 79,
+    "n_soc_any": 83
+  },
+  "metrics": {
+    "LLT_term_acc_exact": 0.6292134831460674,
+    "LLT_term_acc_fuzzy": 0.6629213483146067,
+    "LLT_precision_macro": 0.4412280701754386,
+    "LLT_recall_macro": 0.44285714285714284,
+    "LLT_f1_macro": 0.43432216905901116,
+    "PT_term_acc_exact": 0.7528089887640449,
+    "PT_term_acc_fuzzy": 0.6853932584269663,
+    "SOC_acc_option_a": 0.8313253012048193,
+    "SOC_acc_option_b": 0.9240506329113924,
+    "SOC_acc_any_of_vs_AE": 0.9036144578313253
+  }
+}

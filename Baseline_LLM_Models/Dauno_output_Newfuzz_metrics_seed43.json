@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "dataset": "KI_Projekt_Dauno_AE_Codierung_2022_10_20",
+    "model": "llama-3.3-70b-instruct",
+    "n_candidates": 100,
+    "max_rows": null,
+    "seed": 43,
+    "timestamp": "2026-01-26T13:53:35",
+    "notes": "per-AE results saved in OUT_JSON with seed suffix; aggregated metrics saved here"
+  },
+  "counts": {
+    "n_samples": 443,
+    "n_pt_pairs": 363,
+    "n_soc_optA": 312,
+    "n_soc_optB": 288,
+    "n_soc_any": 333
+  },
+  "metrics": {
+    "LLT_term_acc_exact": 0.23927765237020315,
+    "LLT_term_acc_fuzzy": 0.25733634311512416,
+    "LLT_precision_macro": 0.11975325691663213,
+    "LLT_recall_macro": 0.11697082092055161,
+    "LLT_f1_macro": 0.11426481623968159,
+    "PT_code_acc": 0.4132231404958678,
+    "SOC_acc_option_a": 0.6987179487179487,
+    "SOC_acc_option_b": 0.7638888888888888,
+    "SOC_acc_any_of_vs_AE": 0.7867867867867868
+  }
+}

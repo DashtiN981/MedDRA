@@ -1,0 +1,1614 @@
+[
+  {
+    "AE_text": "abdominal pain",
+    "true_LLT_term": "Abdominal pain",
+    "pred_LLT_term": "Abdominal pain",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+     "manual check": true
+  },
+  {
+    "AE_text": "Abdominal pain",
+    "true_LLT_term": "Abdominal pain",
+    "pred_LLT_term": "Abdominal pain",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Acute cerebral hemorrhage",
+    "true_LLT_term": "Cerebral hemorrhage",
+    "pred_LLT_term": "Cerebral hemorrhage",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "acute renal failure low eGFR",
+    "true_LLT_term": "Acute kidney failure",
+    "pred_LLT_term": "Acute renal failure",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 76.92307692307692,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "acute urinary stasis left kidney Grad II acute renal failure; creatinin increase; fever; pain",
+    "true_LLT_term": "Acute kidney failure",
+    "pred_LLT_term": "Acute renal failure",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 76.92307692307692,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Akutes Nierenversagen AKI 2 Â°",
+    "true_LLT_term": "Acute kidney failure",
+    "pred_LLT_term": "Acute kidney failure",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Alanine Aminotransferase increased",
+    "true_LLT_term": "Alanine aminotransferase increased",
+    "pred_LLT_term": "Alanine aminotransferase increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "ALAT increased",
+    "true_LLT_term": "Alanine aminotransferase increased",
+    "pred_LLT_term": "Alanine aminotransferase increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Alkaline phoshatase increased",
+    "true_LLT_term": "Alkaline phosphatase increased",
+    "pred_LLT_term": "Alkaline phosphatase increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "alkaline phosphatase increased",
+    "true_LLT_term": "Alkaline phosphatase increased",
+    "pred_LLT_term": "Alkaline phosphatase increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "allergic reaction",
+    "true_LLT_term": "Allergic reaction",
+    "pred_LLT_term": "Allergic reaction NOS",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 89.47368421052632,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "allergic reaction to transfusion of platelet concentrate",
+    "true_LLT_term": "Allergic transfusion reaction",
+    "pred_LLT_term": "Allergic transfusion reaction",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Allergic reaction transfusion of platelets Treatment: tavegil i.v.",
+    "true_LLT_term": "Allergic transfusion reaction",
+    "pred_LLT_term": "Allergic transfusion reaction",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "allergic transfusion reaction rash after blood transfusion",
+    "true_LLT_term": "Allergic transfusion reaction",
+    "pred_LLT_term": "The AE \"allergic transfusion reaction rash after blood transfusion\" suggests a reaction that occurred as a result of a blood transfusion, which is an allergic response. The key elements here are \"allergic\", \"transfusion\", and \"reaction\". While terms like \"Allergic skin reaction\", \"Immune-mediated rash\", and \"Allergic rash\" capture the allergic and skin aspects, they do not specifically mention the context of a transfusion. Terms like \"Systemic allergic reaction\" and \"Anaphylactic transfusion reaction\" could be relevant, but \"Systemic allergic reaction\" is broader and does not specifically relate to transfusions, and \"Anaphylactic transfusion reaction\" implies a severity (anaphylaxis) that is not explicitly mentioned in the AE. \"Transfusion reaction\" is relevant but does not specify the allergic nature of the reaction. \"Transfusion-related immunomodulation reaction\" is not directly relevant as it implies a modulation of the immune system which is not the focus of the described AE. \"Rash at site of injection\" and \"Infusion site rash\" are not directly relevant as the reaction is described in the context of a blood transfusion, not an injection or infusion.",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 4.833333333333334,
+    "LLT_fuzzy_match": false,
+    "manual check": false
+  },
+  {
+    "AE_text": "alopecia",
+    "true_LLT_term": "Alopecia",
+    "pred_LLT_term": "Alopecia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Anemia",
+    "true_LLT_term": "Anemia",
+    "pred_LLT_term": "Anemia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "anemia",
+    "true_LLT_term": "Anemia",
+    "pred_LLT_term": "Anemia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "anemia anemia",
+    "true_LLT_term": "Anemia",
+    "pred_LLT_term": "Unspecified anemia",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 50.0,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Bilirubin Erhoehung",
+    "true_LLT_term": "Blood bilirubin increased",
+    "pred_LLT_term": "Blood bilirubin increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "blood bilirubin increased",
+    "true_LLT_term": "Blood bilirubin increased",
+    "pred_LLT_term": "Blood bilirubin increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Blood bilirubin increased hoher Bilirubin Wert",
+    "true_LLT_term": "Blood bilirubin increased",
+    "pred_LLT_term": "Blood bilirubin increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Catheter related infection Abszess/Infektion ZVK Stelle",
+    "true_LLT_term": "Catheter site infection",
+    "pred_LLT_term": "Catheter site infection",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Chills Schuettelfrost",
+    "true_LLT_term": "Chills",
+    "pred_LLT_term": "Chills",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Constipation",
+    "true_LLT_term": "Constipation",
+    "pred_LLT_term": "Constipation",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "constipation",
+    "true_LLT_term": "Constipation",
+    "pred_LLT_term": "Constipation",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Constipation Obstipation",
+    "true_LLT_term": "Constipation",
+    "pred_LLT_term": "Obstipation",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 86.95652173913044,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "coprostasis Koprostase",
+    "true_LLT_term": "Coprostasis",
+    "pred_LLT_term": "Coprostasis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "cough",
+    "true_LLT_term": "Cough",
+    "pred_LLT_term": "Cough",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Cough",
+    "true_LLT_term": "Cough",
+    "pred_LLT_term": "Cough",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "cough Hustenreiz",
+    "true_LLT_term": "Cough",
+    "pred_LLT_term": "Cough",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "cramplike pain abdomen",
+    "true_LLT_term": "Abdominal crampy pains",
+    "pred_LLT_term": "Abdominal crampy pains",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "crampy upper abdominal pain crampy upper abdominal pain",
+    "true_LLT_term": "Abdominal crampy pains",
+    "pred_LLT_term": "Abdominal crampy pains",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "creatinin increased",
+    "true_LLT_term": "Creatinine increased",
+    "pred_LLT_term": "Creatinine increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Creatinine increased high Creatinine",
+    "true_LLT_term": "Creatinine increased",
+    "pred_LLT_term": "Creatinine increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Delirium",
+    "true_LLT_term": "Delirium",
+    "pred_LLT_term": "Delirium",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Delirium Verwirrtheitszustaende",
+    "true_LLT_term": "Delirium",
+    "pred_LLT_term": "Delirium",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "depressive mode",
+    "true_LLT_term": "Depressive disorder",
+    "pred_LLT_term": "Depressive state",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 74.28571428571429,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "depressive mood in relation to situation with new diagnostic AML",
+    "true_LLT_term": "Depressive disorder",
+    "pred_LLT_term": "Depressed mood",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 66.66666666666667,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "diarrhea",
+    "true_LLT_term": "Diarrhea",
+    "pred_LLT_term": "Diarrhea",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Diarrhea",
+    "true_LLT_term": "Diarrhea",
+    "pred_LLT_term": "Diarrhea",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "diarrhea Enteroviren in Stuhlprobe",
+    "true_LLT_term": "Enterovirus gastroenteritis",
+    "pred_LLT_term": "Enterovirus gastroenteritis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "diarrhoe",
+    "true_LLT_term": "Diarrhea",
+    "pred_LLT_term": "Diarrhea",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "dry skin",
+    "true_LLT_term": "Dry skin",
+    "pred_LLT_term": "Dry skin",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Dyspnea Oxygen given",
+    "true_LLT_term": "Dyspnea",
+    "pred_LLT_term": "Dyspnea",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Edema limbs Unterschenkeloedeme bds.",
+    "true_LLT_term": "Edema limbs",
+    "pred_LLT_term": "Edema lower limb",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 74.07407407407408,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "edema trunk oedeme ganzer Koerper",
+    "true_LLT_term": "Edema trunk",
+    "pred_LLT_term": "Edema trunk",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Entsuendungszeichen erhoeht CRP-Wert erhoeht.",
+    "true_LLT_term": "CRP increased",
+    "pred_LLT_term": "CRP increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "epistaxis Nasenbluten",
+    "true_LLT_term": "Epistaxis",
+    "pred_LLT_term": "Epistaxis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "epistaxis transfusion given",
+    "true_LLT_term": "Epistaxis",
+    "pred_LLT_term": "Epistaxis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "epistaxis Transfusion given (platelets)",
+    "true_LLT_term": "Epistaxis",
+    "pred_LLT_term": "Epistaxis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Exanthem Exanthem Th4-5 ventral und dorsal",
+    "true_LLT_term": "Exanthema",
+    "pred_LLT_term": "Exanthem",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 94.11764705882352,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Eye disorders Hemorrhage eye (Hyposphagma rechts)",
+    "true_LLT_term": "Hyposphagma",
+    "pred_LLT_term": "Hemorrhage eye",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 40.0,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "fatigue",
+    "true_LLT_term": "Fatigue",
+    "pred_LLT_term": "Fatigue",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Fatique severe fatique",
+    "true_LLT_term": "Fatigue",
+    "pred_LLT_term": "Fatigue",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "febrile infection in neutropenia of unkown etiology Patient presented an CRP elevation and increasing body temperature during neutropenia. PCR diagnostics and CT scans showed no focus of infection.",
+    "true_LLT_term": "Febrile infection",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 72.22222222222221,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "febrile infection in neutropenia Patient presented an CRP elevation and increasing body temperature during neutropenia. Diagnostics showed no focus of infection.",
+    "true_LLT_term": "Febrile infection",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 72.22222222222221,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "febrile Neutropenia febrile Neutropenia",
+    "true_LLT_term": "Febrile neutropenia",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "febrile neutropenia febrile neutropenia without infection focus (tested in urine and pharyngeal swab). Temperatures up to 38.6 degrees. CRP up to 30 mg/l. Patient was treated with Piperacillin/Tazobactam (03/JUL - 06/Jul/2023) and Meropenem (06/Jul - 12/J",
+    "true_LLT_term": "Febrile neutropenia",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "febrile neutropenia febrile neutropenia without infection focus (tested in urine and pharyngeal swab). Temperatures up to 38.8 degrees. CRP up to 32 mg/l. Patient was treated with Meropenem (16/Jul - 21/Jul/2023).",
+    "true_LLT_term": "Febrile neutropenia",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "febrile neutropenia Fieber",
+    "true_LLT_term": "Febrile neutropenia",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Febrile neutropenia Fieber in Neutropenie",
+    "true_LLT_term": "Febrile neutropenia",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "febrile neutropenia neutropenes Fieber",
+    "true_LLT_term": "Febrile neutropenia",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Febrile neutropenia possibly related to Midostaurin; interventions Meropenem",
+    "true_LLT_term": "Febrile neutropenia",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "febrile neutrophenia Fieber",
+    "true_LLT_term": "Febrile neutropenia",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "febrile neutrpenie fever",
+    "true_LLT_term": "Febrile neutropenia",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Fecal incontinence Stuhlinikontinenz",
+    "true_LLT_term": "Faecal incontinence",
+    "pred_LLT_term": "Fecal incontinence",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 97.2972972972973,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "fever",
+    "true_LLT_term": "Fever",
+    "pred_LLT_term": "Fever",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "fever in neutropenia Fever; CRP 2.7 mg/dl",
+    "true_LLT_term": "Febrile neutropenia",
+    "pred_LLT_term": "Febrile neutropenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "GGT increased",
+    "true_LLT_term": "GGT increased",
+    "pred_LLT_term": "GGT increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "GGT increased GGT increased up to 243 U/L.",
+    "true_LLT_term": "GGT increased",
+    "pred_LLT_term": "GGT increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "GGT increased GGT increased up to 256 U/L.",
+    "true_LLT_term": "GGT increased",
+    "pred_LLT_term": "GGT increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "GGT increased GGT increased up to 258 U/L.",
+    "true_LLT_term": "GGT increased",
+    "pred_LLT_term": "GGT increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "gingival pain",
+    "true_LLT_term": "Gingival pain",
+    "pred_LLT_term": "Gingival pain",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "gross hematuria",
+    "true_LLT_term": "Hematuria",
+    "pred_LLT_term": "Macroscopic hematuria",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 60.0,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Harnwegsinfekt Nachweis von Klebsiella pneumonieae in Urinkultur.",
+    "true_LLT_term": "Klebsiella pneumoniae cystitis",
+    "pred_LLT_term": "Klebsiella pneumoniae cystitis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "headache",
+    "true_LLT_term": "Headache",
+    "pred_LLT_term": "Headache",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Headache",
+    "true_LLT_term": "Headache",
+    "pred_LLT_term": "Headache",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Headache Kopfschmerzen",
+    "true_LLT_term": "Headache",
+    "pred_LLT_term": "Headache",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "hematoma abdomen",
+    "true_LLT_term": "Abdominal hematoma",
+    "pred_LLT_term": "Abdominal haematoma",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 97.2972972972973,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "hematoma left flank Transfusion given (platelets)",
+    "true_LLT_term": "Hematoma NOS",
+    "pred_LLT_term": "Hematoma NOS",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "hematoma left thigh",
+    "true_LLT_term": "Abdominal hematoma",
+    "pred_LLT_term": "Hematoma muscle",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 48.484848484848484,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "hematoma right forearm",
+    "true_LLT_term": "Hematoma NOS",
+    "pred_LLT_term": "Hematoma NOS",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "hematoma right shoulder/upperarm",
+    "true_LLT_term": "Hematoma NOS",
+    "pred_LLT_term": "The AE \"hematoma right shoulder/upperarm\" indicates a hematoma located in the shoulder or upper arm area. Given the location, we can rule out terms related to abdominal or splenic hematomas. The term \"hematoma\" is too general, while \"hematoma NOS\" (not otherwise specified) might be considered if no more specific term is available. However, since the location is specified as the shoulder/upper arm, we should look for terms that relate to this area. \"Shoulder haemarthrosis\" and \"Shoulder hemarthrosis\" seem to be relevant, but \"haemarthrosis\" typically refers to bleeding into a joint, which might not be the case here since the AE does not explicitly mention a joint. \"Hematoma muscle\" could be a consideration since the upper arm has significant muscle tissue, but it's less specific to the shoulder area. \"Subcutaneous hematoma\" could also be a possibility since it refers to a hematoma under the skin, which could occur in the shoulder or upper arm area. However, the most specific term to the area mentioned without assuming the hematoma is strictly subcutaneous or in a joint would be a term that directly",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 2.131438721136769,
+    "LLT_fuzzy_match": false,
+    "manual check": false
+  },
+  {
+    "AE_text": "hematoma upperarms",
+    "true_LLT_term": "Hematoma NOS",
+    "pred_LLT_term": "Hematoma",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 80.0,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "hematuria blutiger Urin",
+    "true_LLT_term": "Hematuria",
+    "pred_LLT_term": "Hematuria",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Hematuria gross hematuria",
+    "true_LLT_term": "Hematuria",
+    "pred_LLT_term": "Hematuria",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Hemorrhoids with pain",
+    "true_LLT_term": "Hemorrhoids",
+    "pred_LLT_term": "Hemorrhoids",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Herpes labialis Aciclovir i.v. given",
+    "true_LLT_term": "Herpes labialis",
+    "pred_LLT_term": "Herpes labialis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Herpes labialis Herpes labialis",
+    "true_LLT_term": "Herpes labialis",
+    "pred_LLT_term": "Herpes labialis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Herpes simplex reactivation",
+    "true_LLT_term": "Herpes simplex reactivation",
+    "pred_LLT_term": "Herpes simplex reactivation",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Hot flashes starkes schwitzen",
+    "true_LLT_term": "Hot flashes",
+    "pred_LLT_term": "Hot flashes",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "hyperglycaemia glucose over 160mg/dl",
+    "true_LLT_term": "Hyperglycaemia",
+    "pred_LLT_term": "Hyperglycaemia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Hyperkalemia",
+    "true_LLT_term": "Hyperkalemia",
+    "pred_LLT_term": "Hyperkalemia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "hyperphosphatemia",
+    "true_LLT_term": "Hyperphosphatemia",
+    "pred_LLT_term": "Hyperphosphatemia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Hypertension",
+    "true_LLT_term": "Hypertension",
+    "pred_LLT_term": "Hypertension",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "hypertension",
+    "true_LLT_term": "Hypertension",
+    "pred_LLT_term": "Hypertension NOS",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 85.71428571428572,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Hypokalemia",
+    "true_LLT_term": "Hypokalemia",
+    "pred_LLT_term": "Hypokalaemia",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 95.65217391304348,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "hypokalemia",
+    "true_LLT_term": "Hypokalemia",
+    "pred_LLT_term": "Hypokalemia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Hypokalemia niedriger Kaliumwert",
+    "true_LLT_term": "Hypokalaemia",
+    "pred_LLT_term": "Hypokalemia",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 95.65217391304348,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "hypophosphatemia",
+    "true_LLT_term": "Hypophosphatemia",
+    "pred_LLT_term": "Hypophosphatemia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Hypotension",
+    "true_LLT_term": "Hypotension",
+    "pred_LLT_term": "Hypotension NOS",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 84.61538461538461,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Hypotension hypotone Blutdruckwerte",
+    "true_LLT_term": "Hypotension",
+    "pred_LLT_term": "Hypotension NOS",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 84.61538461538461,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "hypotension niedrige Blutdruckwerte",
+    "true_LLT_term": "Hypotension",
+    "pred_LLT_term": "Hypotension",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Hypotension relocation to the KMT3 for logistic and safety reasons",
+    "true_LLT_term": "Hypotension",
+    "pred_LLT_term": "Hypotension",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "increased liver values Alanine aminotransferase increased     Aspartate aminotransferase increased",
+    "true_LLT_term": "Alanine aminotransferase increase",
+    "pred_LLT_term": "Aspartate aminotransferase increased",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 84.05797101449275,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "infection high CRP",
+    "true_LLT_term": "Infection NOS",
+    "pred_LLT_term": "Infection NOS",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infection increased CRP",
+    "true_LLT_term": "Infection NOS",
+    "pred_LLT_term": "Infection NOS",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "infection On 24.07.2023 the patient developed fever. Anitbiotics were started (Piperacilin/ Tazobactam). Bloodcultures: gram positive coccus",
+    "true_LLT_term": "Gram-positive bacteraemia",
+    "pred_LLT_term": "Gram-positive bacteraemia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "infection VRE Infektion",
+    "true_LLT_term": "Vancomycin-resistant enterococcal infection",
+    "pred_LLT_term": "Vancomycin-resistant enterococcal infection",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "inflammation ZVK puncture site",
+    "true_LLT_term": "Catheter site inflammation",
+    "pred_LLT_term": "Puncture site inflammation",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 80.76923076923077,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Infusion related reaction with capillary leak syndrome and subsequent respiratory insufficiency",
+    "true_LLT_term": "Infusion related reaction",
+    "pred_LLT_term": "Capillary leak syndrome",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 29.166666666666664,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "invasive Aspergillose progrediente Apsergillose der Lunge",
+    "true_LLT_term": "Pulmonary aspergillosis",
+    "pred_LLT_term": "Invasive bronchopulmonary aspergillosis",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 74.19354838709677,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Kolonperforation CT-morphologisch gedeckte Perforation bei anhaltendem Fieber und Bauchschmerzen",
+    "true_LLT_term": "Colonic perforation",
+    "pred_LLT_term": "Colonic perforation",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "lipase increased",
+    "true_LLT_term": "Lipase increased",
+    "pred_LLT_term": "Lipase increased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Liver toxicity",
+    "true_LLT_term": "Hepatotoxicity",
+    "pred_LLT_term": "Hepatotoxicity",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "localized edema (ankle)",
+    "true_LLT_term": "Edema arms",
+    "pred_LLT_term": "Ankle edema",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 47.61904761904761,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Loss of appetite/ Anorexia",
+    "true_LLT_term": "Anorexia",
+    "pred_LLT_term": "Decreased appetite",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 23.076923076923073,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Loss of appetite/anorexia related to mucositis",
+    "true_LLT_term": "Anorexia",
+    "pred_LLT_term": "Decreased appetite",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 23.076923076923073,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Lung infection Lung infection - Known fungal pneumonia",
+    "true_LLT_term": "Lung infection",
+    "pred_LLT_term": "Pneumonia fungal",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 33.333333333333336,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Lung Infection Transfer to the intensive care unit on 08. Jan. 2023",
+    "true_LLT_term": "Lung infection",
+    "pred_LLT_term": "Acute lower respiratory tract infection",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 41.509433962264154,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "lymphocyte count decreased",
+    "true_LLT_term": "Lymphocyte count decreased",
+    "pred_LLT_term": "Lymphocyte count decreased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Menorrhagia Menorrhagia due to thrombocytopenia. Patient was treated with platelet concentrates and cyclokapron (20/Jun - 26/Jun/2023)",
+    "true_LLT_term": "Menorrhagia",
+    "pred_LLT_term": "Thrombocytopenia",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 37.03703703703704,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "menorrhagia transfusion given",
+    "true_LLT_term": "Menorrhagia",
+    "pred_LLT_term": "Menorrhagia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Mucositis",
+    "true_LLT_term": "Mucositis",
+    "pred_LLT_term": "Mucositis NOS",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 81.81818181818181,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "mucositis oral",
+    "true_LLT_term": "Mucositis oral",
+    "pred_LLT_term": "Mucositis oral",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "mucositis oral morphin given",
+    "true_LLT_term": "Mucositis",
+    "pred_LLT_term": "Mucositis oral",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 78.26086956521739,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Mucositis oral Mukositisbeschwerden im Mund",
+    "true_LLT_term": "Mucositis oral",
+    "pred_LLT_term": "Mucositis oral",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "nausea",
+    "true_LLT_term": "Nausea",
+    "pred_LLT_term": "Nausea",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Nausea",
+    "true_LLT_term": "Nausea",
+    "pred_LLT_term": "Nausea",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Nausea intermittent nausea",
+    "true_LLT_term": "Nausea",
+    "pred_LLT_term": "Nausea",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Nausea with vomiting",
+    "true_LLT_term": "Nausea with vomiting",
+    "pred_LLT_term": "Nausea with vomiting",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Nausea/Emesis Nausea/Emesis",
+    "true_LLT_term": "Nausea",
+    "pred_LLT_term": "Nausea and vomiting",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 48.0,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "neutrope Colitits",
+    "true_LLT_term": "Neutropenic colitis",
+    "pred_LLT_term": "Neutropenic colitis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "neutropene Sepsis",
+    "true_LLT_term": "Neutropenic sepsis",
+    "pred_LLT_term": "Neutropenic sepsis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Neutropenia Neutropenia",
+    "true_LLT_term": "Neutropenia",
+    "pred_LLT_term": "Neutropenia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Neutrophhil count decrease",
+    "true_LLT_term": "Neutropenia",
+    "pred_LLT_term": "Neutrophil count decreased",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 48.64864864864865,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Neutrophil count decrease",
+    "true_LLT_term": "Neutropenia",
+    "pred_LLT_term": "Neutrophil count decreased",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 48.64864864864865,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "neutrophil count decreased",
+    "true_LLT_term": "Neutrophil count decreased",
+    "pred_LLT_term": "Neutrophil count decreased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Neutrophil count decreased Day / Time / Value      Do 14.04.2022 / 08:43 / 0.97",
+    "true_LLT_term": "Neutropenia",
+    "pred_LLT_term": "Neutrophil count decreased",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 48.64864864864865,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "oedema both legs",
+    "true_LLT_term": "Edema legs",
+    "pred_LLT_term": "Oedema legs",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 95.23809523809523,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "oral hemorrhage transfusion given",
+    "true_LLT_term": "Haemorrhage oral",
+    "pred_LLT_term": "Oral hemorrhage",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 64.51612903225806,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Pain back",
+    "true_LLT_term": "Pain back",
+    "pred_LLT_term": "Back pain",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 44.44444444444444,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "pain stomach",
+    "true_LLT_term": "Pain stomach",
+    "pred_LLT_term": "Pain stomach",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "pain tongue",
+    "true_LLT_term": "Pain tongue",
+    "pred_LLT_term": "Pain tongue",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "parvo B19 infection fever with rash",
+    "true_LLT_term": "Parvovirus B19 infection",
+    "pred_LLT_term": "Parvovirus B19 infection",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "petechiae chest and lower leg Petechien im Brustbereich und Unterschenkel",
+    "true_LLT_term": null,
+    "pred_LLT_term": "Petechiae",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 0.0,
+    "LLT_fuzzy_match": false,
+    "model_output": "The Adverse Event (AE) describes petechiae located on the chest and lower leg, which are small spots on the skin that occur due to bleeding from small blood vessels. The description directly mentions \"petechiae\" and specifies the locations as \"chest\" and \"lower leg\". The most accurate term should directly reference \"petechiae\" without unnecessarily specifying a location that is not universally applicable (like \"periorbital\" which refers to the area around the eyes) or adding conditions not described in the AE (like \"rash\" or \"oedema\" or \"deformity\").\n\nFinal answer: Petechiae",
+    "manual check": true
+  },
+  {
+    "AE_text": "petechiae chest Petechien im Brustbereich",
+    "true_LLT_term": "Petechia",
+    "pred_LLT_term": "Petechiae",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 94.11764705882352,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Petechiae Petechien am ganzen Koerper",
+    "true_LLT_term": "Petechia",
+    "pred_LLT_term": "Petechiae",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 94.11764705882352,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "petechiae right thigh",
+    "true_LLT_term": "Petechia",
+    "pred_LLT_term": "Petechiae",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 94.11764705882352,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Petechiae transfusion given",
+    "true_LLT_term": "Petechia",
+    "pred_LLT_term": "Petechiae",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 94.11764705882352,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "petechiae Transfusion given (platelets)",
+    "true_LLT_term": "Petechia",
+    "pred_LLT_term": "Petechia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Platelet count decrease",
+    "true_LLT_term": "Thrombopenia",
+    "pred_LLT_term": "Platelet count decreased",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 22.22222222222222,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "platelet count decreased",
+    "true_LLT_term": "Platelet count decreased",
+    "pred_LLT_term": "Platelet count decreased",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Platelet count decreased Thrombocytopenia",
+    "true_LLT_term": "Thrombopenia",
+    "pred_LLT_term": "Platelet count decreased",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 22.22222222222222,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Platelet cunt decrease",
+    "true_LLT_term": "Thrombopenia",
+    "pred_LLT_term": "Platelet count decreased",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 22.22222222222222,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "rash",
+    "true_LLT_term": "Rash",
+    "pred_LLT_term": "Rash",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Rash Entire body",
+    "true_LLT_term": "Rash generalised",
+    "pred_LLT_term": "Rash generalised",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Rash whole body",
+    "true_LLT_term": "Rash generalised",
+    "pred_LLT_term": "Widespread rash",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 38.70967741935484,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Renal toxicity",
+    "true_LLT_term": "Toxicity renal",
+    "pred_LLT_term": "Toxic nephropathy",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 51.61290322580645,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Restlessness Unruhezustaende und Panikattacken",
+    "true_LLT_term": "Restlessness",
+    "pred_LLT_term": "Restlessness",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Sars-CoV-2",
+    "true_LLT_term": "SARS-CoV-2 infection",
+    "pred_LLT_term": "SARS-CoV-2 infection",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Sepsis",
+    "true_LLT_term": "Sepsis",
+    "pred_LLT_term": "Sepsis",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Skin irritation anal after diarrhea",
+    "true_LLT_term": "Skin irritation",
+    "pred_LLT_term": "Perianal irritation",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 76.47058823529412,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "splenic infection Pain in the lower abdomen on the left side",
+    "true_LLT_term": "Splenic infection",
+    "pred_LLT_term": "Splenic infection",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "stomach pain",
+    "true_LLT_term": "Stomach pain",
+    "pred_LLT_term": "Stomach pain",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "tachycardia",
+    "true_LLT_term": "Tachycardia",
+    "pred_LLT_term": "Tachycardia",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Thrombopenia Thrombocytes on 09-Dec-2022 51Gpt/l",
+    "true_LLT_term": "Thrombopenia",
+    "pred_LLT_term": "Thrombocytopenia",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 85.71428571428572,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Thrombophlebitis Thrombophlebitis im Bereich der oberflaechlichen Unterschenkelvenen.",
+    "true_LLT_term": "Phlebitis and thrombophlebitis of superficial vessels of lower extremities",
+    "pred_LLT_term": "Phlebitis and thrombophlebitis of superficial vessels of lower extremities",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Thrombosis Vena subclavia dextra",
+    "true_LLT_term": "Thrombosis venous arm",
+    "pred_LLT_term": "Thrombosis venous arm",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Thrombotic thrombocytopenic purpura Petechiae",
+    "true_LLT_term": "Purpura thrombopaenic thrombotic",
+    "pred_LLT_term": "Thrombotic thrombocytopenic purpura",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 59.70149253731343,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "vomiting",
+    "true_LLT_term": "Vomiting",
+    "pred_LLT_term": "Vomiting",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Weight gain",
+    "true_LLT_term": "Weight gain",
+    "pred_LLT_term": "Weight gain",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "weight gain",
+    "true_LLT_term": "Weight gain",
+    "pred_LLT_term": "Weight gain",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "Weight gain Gewichtszunahme (Diurese)",
+    "true_LLT_term": "Weight gain",
+    "pred_LLT_term": "Weight gain",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "weight loss",
+    "true_LLT_term": "Weight loss",
+    "pred_LLT_term": "Unintentional weight loss",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 61.111111111111114,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "Weight loss",
+    "true_LLT_term": "Weight loss",
+    "pred_LLT_term": "Weight decreased",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 59.25925925925925,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "white blood cell decreased",
+    "true_LLT_term": "White blood cell decreased",
+    "pred_LLT_term": "White blood cell count decreased",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 89.65517241379311,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  },
+  {
+    "AE_text": "worsening of the preexisting Diarrhea",
+    "true_LLT_term": "Diarrhea aggravated",
+    "pred_LLT_term": "Diarrhea aggravated",
+    "exact_LLT_match": true,
+    "LLT_fuzzy_score": 100.0,
+    "LLT_fuzzy_match": true,
+    "manual check": true
+  },
+  {
+    "AE_text": "worsening of the preexisting Mucositis",
+    "true_LLT_term": "Mucositis",
+    "pred_LLT_term": "Mucositis NOS",
+    "exact_LLT_match": false,
+    "LLT_fuzzy_score": 81.81818181818181,
+    "LLT_fuzzy_match": false,
+    "manual check": true
+  }
+]

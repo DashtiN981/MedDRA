@@ -1,0 +1,4 @@
+reviewer,checked_file,full_file,records_in_full,records_in_checked,manual_false_count,manual_false_rate_full,manual_false_rate_checked
+Isabella,Mosaic_output__checked__Isabella.json,Mosaic_output__full__Isabella.json,179,178,2,0.0111731843575419,0.011235955056179775
+reviewer1,Mosaic_output__checked__reviewer1.json,Mosaic_output__full__reviewer1.json,179,179,6,0.0335195530726257,0.0335195530726257
+reviewer2,Mosaic_output__checked__reviewer2.json,Mosaic_output__full__reviewer2.json,179,179,8,0.0446927374301676,0.0446927374301676

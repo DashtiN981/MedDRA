@@ -1,0 +1,43 @@
+reviewer,AE_text,pred_LLT_term,true_LLT_term,record_id,source_file
+Isabella,AML Progression Leukozytose,Leukocytosis,AML progression,0-13-cd173eb12b78,Delta_output__full__Isabella.json
+Isabella,AML Progression Panzytopenia,Pancytopenia,AML progression,0-14-e79be49205cc,Delta_output__full__Isabella.json
+Isabella,atrial fibrillation onset 04-Oct-2018 and worsening of General condition,Atrial fibrillation aggravated,Atrial fibrillation,0-23-84285dc38944,Delta_output__full__Isabella.json
+Isabella,Fatigue HB <= 6 --> EK tranfusion,Fatigue,Anemia,0-63-c5f2de2349c7,Delta_output__full__Isabella.json
+Isabella,Infection intense cough,Acute cough,Respiratory tract infection,0-108-1276851f2eb4,Delta_output__full__Isabella.json
+Isabella,Infection multiple infection probably due to progressive disease (AML),Infection susceptibility increased,Infection,0-109-58861c4abd4e,Delta_output__full__Isabella.json
+Isabella,Resection bladder carcinoma,Transurethral resection of bladder tumor,Bladder tumor resection,0-189-9ac176266bb6,Delta_output__full__Isabella.json
+Isabella,Worsening of the general condition with neutropenia and thrombopenie,Thrombopenia,Reduced general condition,0-221-ed7d295fd741,Delta_output__full__Isabella.json
+reviewer1,AML Progression Leukozytose,Leukocytosis,AML progression,1-13-cd173eb12b78,Delta_output__full__reviewer1.json
+reviewer1,AML Progression Panzytopenia,Pancytopenia,AML progression,1-14-e79be49205cc,Delta_output__full__reviewer1.json
+reviewer1,atrial fibrillation onset 04-Oct-2018 and worsening of General condition,Atrial fibrillation aggravated,Atrial fibrillation,1-23-84285dc38944,Delta_output__full__reviewer1.json
+reviewer1,Bleeding head,Scalp bleeding,Intracranial haemorrhage,1-30-7b8b7091d9e4,Delta_output__full__reviewer1.json
+reviewer1,Dyspnea NYHA III,Dyspnea,Heart failure NYHA class III,1-56-f58003288b98,Delta_output__full__reviewer1.json
+reviewer1,Fatigue HB <= 6 --> EK tranfusion,Fatigue,Anemia,1-63-c5f2de2349c7,Delta_output__full__reviewer1.json
+reviewer1,Infection intense cough,Acute cough,Respiratory tract infection,1-108-1276851f2eb4,Delta_output__full__reviewer1.json
+reviewer1,Infection multiple infection probably due to progressive disease (AML),Infection susceptibility increased,Infection,1-109-58861c4abd4e,Delta_output__full__reviewer1.json
+reviewer1,Infection port implantation,Implant site infection,Catheter infection,1-120-e115a3f44b00,Delta_output__full__reviewer1.json
+reviewer1,progress with leukocytosis,Leukocytosis,AML progression,1-180-73aafcd695a1,Delta_output__full__reviewer1.json
+reviewer1,Relapse Morphological Relapse with a BM blast count of 28% in local cytology,Blast cell count increased,AML progression,1-187-3b77a405fce7,Delta_output__full__reviewer1.json
+reviewer1,Resection bladder carcinoma,Transurethral resection of bladder tumor,Bladder tumor resection,1-189-9ac176266bb6,Delta_output__full__reviewer1.json
+reviewer1,Worsening of the general condition with neutropenia and thrombopenie,Thrombopenia,Reduced general condition,1-221-ed7d295fd741,Delta_output__full__reviewer1.json
+reviewer2,AML Progression Leukozytose,Leukocytosis,AML progression,2-13-cd173eb12b78,Delta_output__full__reviewer2.json
+reviewer2,AML Progression Panzytopenia,Pancytopenia,AML progression,2-14-e79be49205cc,Delta_output__full__reviewer2.json
+reviewer2,AML Progression Vd. auf Leukostase Syndrom,Leukostasis syndrome,AML progression,2-20-2b8ce4b1b6a7,Delta_output__full__reviewer2.json
+reviewer2,Bleeding head,Scalp bleeding,Intracranial haemorrhage,2-30-7b8b7091d9e4,Delta_output__full__reviewer2.json
+reviewer2,Colonisation with vancomycin resistant enerococcus faecium,Vancomycin-resistant enterococcal infection,Enterococcus colonisation,2-40-d6d98a66f857,Delta_output__full__reviewer2.json
+reviewer2,Death: died on the way to the family doctor's practice (a. e. as part of the underlying disease),Clinical death,AML progression,2-45-c281cf81d8a7,Delta_output__full__reviewer2.json
+reviewer2,Dyspnea NYHA III,Dyspnea,Heart failure NYHA class III,2-56-f58003288b98,Delta_output__full__reviewer2.json
+reviewer2,Fatigue HB <= 6 --> EK tranfusion,Fatigue,Anemia,2-63-c5f2de2349c7,Delta_output__full__reviewer2.json
+reviewer2,increase of CRP (infection of unknown origin),CRP increased,Infection NOS,2-91-39d050d0ffd6,Delta_output__full__reviewer2.json
+reviewer2,Infection Colonisation with vancomycin resistant enerococcus faecium,Vancomycin-resistant enterococcal infection,Enterococcus colonisation,2-98-3fca7d17d077,Delta_output__full__reviewer2.json
+reviewer2,Infection intense cough,Acute cough,Respiratory tract infection,2-108-1276851f2eb4,Delta_output__full__reviewer2.json
+reviewer2,Infection multiple infection probably due to progressive disease (AML),Infection susceptibility increased,Infection,2-109-58861c4abd4e,Delta_output__full__reviewer2.json
+reviewer2,Infection pneumonie,Infectious pneumonitis,Pneumonia,2-118-483a7227b113,Delta_output__full__reviewer2.json
+reviewer2,Infection port implantation,Implant site infection,Catheter infection,2-120-e115a3f44b00,Delta_output__full__reviewer2.json
+reviewer2,Infection surgical intervention at bottom lip (->necrosis) after infection into the mouth. Hospitalisation 07.03.2019 - 10.03.2019,Lip infection,Oral cavity infection,2-134-cbff538323ca,Delta_output__full__reviewer2.json
+reviewer2,Pancytopenia and febrile neutropenia with pneumonia,Febrile neutropenia,Pneumonia,2-172-ad6ad7d09710,Delta_output__full__reviewer2.json
+reviewer2,progress with leukocytosis,Leukocytosis,AML progression,2-180-73aafcd695a1,Delta_output__full__reviewer2.json
+reviewer2,Relapse Morphological Relapse with a BM blast count of 28% in local cytology,Blast cell count increased,AML progression,2-187-3b77a405fce7,Delta_output__full__reviewer2.json
+reviewer2,Vomiting vomitting due to antibiotics,Vomiting of medication,Adverse reaction to antibiotics,2-208-6edf4657e194,Delta_output__full__reviewer2.json
+reviewer2,Worsening of the general condition fever,Fever,Reduced general condition,2-216-6a892804a05e,Delta_output__full__reviewer2.json
+reviewer2,Worsening of the general condition with neutropenia and thrombopenie,Thrombopenia,Reduced general condition,2-221-ed7d295fd741,Delta_output__full__reviewer2.json
