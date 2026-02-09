@@ -17,7 +17,7 @@ from datetime import datetime
 
 # ---------- CONFIG ----------
 ROOTS = [
-    "/home/naghmedashti/MedDRA-LLM/RAG_Models",
+    "/home/naghmedashti/MedDRA-LLM/RAG_Models/NewRAG_Results/Top_K_100",
     "/home/naghmedashti/MedDRA-LLM/Baseline_LLM_Models",
 ]
 

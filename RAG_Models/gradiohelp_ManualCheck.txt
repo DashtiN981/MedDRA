@@ -1,0 +1,11 @@
+Run file by Gradio as follow:
+
+1. tmux new -s gradio
+2. source /home/naghmedashti/MedDRA-LLM/llm-env/bin/activate
+3. pip show gradio
+4. python /home/naghmedashti/MedDRA-LLM/RAG_Models/resultscheck_gradio.py
+5. copy public link and share
+6. Ctrl+b then d for dettach
+7. tmux attach -t gradio
+8. Ctrl + C for kill
+9. exit

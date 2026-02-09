@@ -2,7 +2,7 @@ import json
 import matplotlib.pyplot as plt
 
 # Load the final checked results
-file_path = "/home/naghmedashti/MedDRA-LLM/RAG_Models/manual_checks/Dauno_output_NewRAG__full__reviewer1.json"
+file_path = "/home/naghmedashti/MedDRA-LLM/RAG_Models/manual_checks/Mosaic_output_NewRAG__full__reviewer3.json"
 with open(file_path, "r", encoding="latin1") as f:
     data = json.load(f)
 
@@ -27,7 +27,7 @@ plt.figure(figsize=(8, 6))
 bars = plt.bar(labels, accuracies, color=["#4CAF50", "#2196F3", "#FF9800"])
 plt.ylim(0, 100)
 plt.ylabel("Accuracy (%)")
-plt.title("Accuracy Comparison Mosaic Dataset – Model Reasoning v3")
+plt.title("Accuracy Comparison Dauno Dataset – Model Reasoning v3")
 
 # Annotate bars
 for bar, acc in zip(bars, accuracies):
@@ -35,7 +35,7 @@ for bar, acc in zip(bars, accuracies):
     plt.text(bar.get_x() + bar.get_width()/2, yval + 1, f"{acc:.1f}%", ha='center', va='bottom')
 
 # Save plot
-output_path = "/home/naghmedashti/MedDRA-LLM/RAG_Models/manual_checks/Dauno_output_NewRAG_accuracy_comparison.png"
+output_path = "/home/naghmedashti/MedDRA-LLM/RAG_Models/manual_checks/Mosaic_output_NewRAG_accuracy_comparison3.png"
 plt.tight_layout()
 plt.savefig(output_path, dpi=300)
 plt.show()

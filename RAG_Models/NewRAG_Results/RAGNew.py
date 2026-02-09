@@ -22,42 +22,51 @@ import pandas as pd
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, classification_report
 from openai import OpenAI
 from rapidfuzz import fuzz, process                         # CHANGED: add process
+from config import load_config
+
+
+cfg = load_config()
+if not cfg.api_key:
+    raise ValueError(
+        "Missing API key. Please set MEDDRA_LLM_API_KEY in the environment "
+        "before running this script."
+    )
 
 # =========================
 # Local OpenAI-compatible LLM API
 # =========================
 client = OpenAI(
-    api_key="sk-aKGeEFMZB0gXEcE51FTc0A",
-    base_url="http://pluto/v1/"
+    api_key=cfg.api_key,
+    base_url=cfg.base_url
 )
 
 # =========================
-# Parameters
+# Parameters (from config)
 # =========================
-TOP_K = 100
-MAX_ROWS = None       # e.g., set an int to limit rows; None = all
-EMB_DIM = 384
+TOP_K = cfg.top_k
+MAX_ROWS = cfg.max_rows       # e.g., set an int to limit rows; None = all
+EMB_DIM = cfg.emb_dim
 
 # Datasets
-DATASET_NAME     = "KI_Projekt_Dauno_AE_Codierung_2022_10_20"
-DATASET_EMB_NAME = "ae_embeddings_Dauno"
+DATASET_NAME = cfg.dataset_name
+DATASET_EMB_NAME = cfg.dataset_emb_name
 
 # Dictionaries and output
-LLT_DICTIONARY_NAME      = "LLT2_Code_English_25_0"   # includes LLT_Code, LLT_Term, PT_Code
-LLT_DICTIONARY_EMB_NAME  = "llt2_embeddings"
-PT_DICTIONARY_NAME       = "PT2_SOC_25_0"              # supports PT_Code,SOC_Code; PT_Term,SOC_Term optional; Ist_Primary_SOC & Primary_SOC_Code optional
-OUTPUT_FILE_NAME         = "Dauno_output"
+LLT_DICTIONARY_NAME = cfg.llt_dictionary_name   # includes LLT_Code, LLT_Term, PT_Code
+LLT_DICTIONARY_EMB_NAME = cfg.llt_dictionary_emb_name
+PT_DICTIONARY_NAME = cfg.pt_dictionary_name     # supports PT_Code,SOC_Code; PT_Term,SOC_Term optional; Ist_Primary_SOC & Primary_SOC_Code optional
+OUTPUT_FILE_NAME = cfg.output_file_name
 
 # Paths
-AE_CSV_FILE  = f"/home/naghmedashti/MedDRA-LLM/data/{DATASET_NAME}.csv"
-AE_EMB_FILE  = f"/home/naghmedashti/MedDRA-LLM/embedding/{DATASET_EMB_NAME}.json"
-LLT_CSV_FILE = f"/home/naghmedashti/MedDRA-LLM/data/{LLT_DICTIONARY_NAME}.csv"
-LLT_EMB_FILE = f"/home/naghmedashti/MedDRA-LLM/embedding/{LLT_DICTIONARY_EMB_NAME}.json"
-PT_CSV_FILE  = f"/home/naghmedashti/MedDRA-LLM/data/{PT_DICTIONARY_NAME}.csv"
+AE_CSV_FILE = cfg.ae_csv_file
+AE_EMB_FILE = cfg.ae_emb_file
+LLT_CSV_FILE = cfg.llt_csv_file
+LLT_EMB_FILE = cfg.llt_emb_file
+PT_CSV_FILE = cfg.pt_csv_file
 
-LLM_API_NAME = "nvidia-llama-3.3-70b-instruct-fp8"  # or "Llama-3.3-70B-Instruct" llama-3.3-70b-instruct-awq  or GPT-OSS-120B
-LLM_TEMP = 0.0
-LLM_TOKEN = 250
+LLM_API_NAME = cfg.llm_api_name  # or "Llama-3.3-70B-Instruct" llama-3.3-70b-instruct-awq  or GPT-OSS-120B
+LLM_TEMP = cfg.llm_temp
+LLM_TOKEN = cfg.llm_token
 
 # =========================
 # Helpers
@@ -223,7 +232,7 @@ else:
 # RAG + prompting
 # =========================
 results = []
-RUN_SEED = 44
+RUN_SEED = cfg.run_seed
 random.seed(RUN_SEED)
 
 for idx, row in ae_df.iterrows():
@@ -424,7 +433,7 @@ for idx, row in ae_df.iterrows():
 # =========================
 # Save Results (PER-AE JSON ONLY — NO CSV)
 # =========================
-out_json = f"/home/naghmedashti/MedDRA-LLM/RAG_Models/{OUTPUT_FILE_NAME}_seed{RUN_SEED}.json"
+out_json = f"/home/naghmedashti/MedDRA-LLM/RAG_Models/NewRAG_Results/{OUTPUT_FILE_NAME}_seed{RUN_SEED}.json"
 with open(out_json, "w", encoding="utf-8") as f:
     json.dump(results, f, indent=2, ensure_ascii=False)
 
@@ -577,7 +586,7 @@ metrics_payload = {
     },
 }
 
-metrics_json_path = f"/home/naghmedashti/MedDRA-LLM/RAG_Models/{OUTPUT_FILE_NAME}_metrics_seed{RUN_SEED}.json"
+metrics_json_path = f"/home/naghmedashti/MedDRA-LLM/RAG_Models/NewRAG_Results/{OUTPUT_FILE_NAME}_metrics_seed{RUN_SEED}.json"
 with open(metrics_json_path, "w", encoding="utf-8") as f:
     json.dump(metrics_payload, f, indent=2, ensure_ascii=False)
 

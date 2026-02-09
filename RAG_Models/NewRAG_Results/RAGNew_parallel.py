@@ -43,14 +43,14 @@ MAX_RETRIES = 4
 sem = asyncio.Semaphore(CONCURRENCY)
 
 # Datasets
-DATASET_NAME     = "KI_Projekt_Delta_AE_Codierung_2023_02_08"
-DATASET_EMB_NAME = "ae_embeddings_Delta"
+DATASET_NAME     = "KI_Projekt_Mosaic_AE_Codierung_2024_07_03"
+DATASET_EMB_NAME = "ae_embeddings_Mosaic"
 
 # Dictionaries and output
 LLT_DICTIONARY_NAME      = "LLT2_Code_English_25_0"
 LLT_DICTIONARY_EMB_NAME  = "llt2_embeddings"
 PT_DICTIONARY_NAME       = "PT2_SOC_25_0"
-OUTPUT_FILE_NAME         = "Delta_outputParallel"
+OUTPUT_FILE_NAME         = "Mosaic_outputParallel"
 
 # Paths
 AE_CSV_FILE  = f"/home/naghmedashti/MedDRA-LLM/data/{DATASET_NAME}.csv"
