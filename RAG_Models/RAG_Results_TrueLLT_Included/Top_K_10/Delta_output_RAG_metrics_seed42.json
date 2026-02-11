@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "dataset": "KI_Projekt_Delta_AE_Codierung_2023_02_08",
+    "model": "Llama-3.3-70B-Instruct",
+    "top_k": 10,
+    "max_rows": null,
+    "embedding_dim": 384,
+    "llm_temp": 0.0,
+    "llm_token": 250,
+    "timestamp": "2025-09-25T13:28:35",
+    "notes": "per-AE results saved in OUTPUT_FILE_NAME.json; aggregated metrics saved here"
+  },
+  "counts": {
+    "n_samples": 226,
+    "n_LLT_code_eval": 223,
+    "n_PT_code_eval": 221,
+    "n_SOC_optA": 210,
+    "n_SOC_optB": 209,
+    "n_SOC_any": 214
+  },
+  "metrics": {
+    "LLT_term_acc_exact": 0.5929203539823009,
+    "LLT_term_acc_fuzzy": 0.6327433628318584,
+    "LLT_precision_macro": 0.3968174204355109,
+    "LLT_recall_macro": 0.39529313232830815,
+    "LLT_f1_macro": 0.3866026634870856,
+    "PT_term_acc_exact": 0.8053097345132744,
+    "PT_term_acc_fuzzy": 0.7654867256637168,
+    "PT_precision_macro": 0.6706410256410257,
+    "PT_recall_macro": 0.6673950408565794,
+    "PT_f1_macro": 0.656054501054501,
+    "LLT_code_acc": 0.600896860986547,
+    "PT_code_acc": 0.8190045248868778,
+    "SOC_acc_option_a": 0.8428571428571429,
+    "SOC_acc_option_b": 0.9090909090909091,
+    "SOC_acc_any_of_vs_AE": 0.897196261682243
+  }
+}

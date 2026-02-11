@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "dataset": "KI_Projekt_Mosaic_AE_Codierung_2024_07_03",
+    "model": "nvidia-llama-3.3-70b-instruct-fp8",
+    "top_k": 10,
+    "max_rows": null,
+    "embedding_dim": 384,
+    "llm_temp": 0.0,
+    "llm_token": 250,
+    "timestamp": "2026-01-30T15:23:53",
+    "notes": "per-AE results saved in OUTPUT_FILE_NAME.json; aggregated metrics saved here",
+    "concurrency": 30,
+    "max_retries": 4
+  },
+  "counts": {
+    "n_samples": 179,
+    "n_LLT_code_eval": 177,
+    "n_PT_code_eval": 176,
+    "n_SOC_optA": 169,
+    "n_SOC_optB": 168,
+    "n_SOC_any": 169
+  },
+  "metrics": {
+    "LLT_term_acc_exact": 0.547486033519553,
+    "LLT_term_acc_fuzzy": 0.5921787709497207,
+    "LLT_precision_macro": 0.33937534857780255,
+    "LLT_recall_macro": 0.3245398773006135,
+    "LLT_f1_macro": 0.32196903301197777,
+    "PT_term_acc_exact": 0.7821229050279329,
+    "PT_term_acc_fuzzy": 0.7374301675977654,
+    "PT_precision_macro": 0.618799603174603,
+    "PT_recall_macro": 0.5924107142857143,
+    "PT_f1_macro": 0.5917411222862351,
+    "LLT_code_acc": 0.5536723163841808,
+    "PT_code_acc": 0.7897727272727273,
+    "SOC_acc_option_a": 0.8047337278106509,
+    "SOC_acc_option_b": 0.8690476190476191,
+    "SOC_acc_any_of_vs_AE": 0.8579881656804734
+  }
+}

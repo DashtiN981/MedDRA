@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "dataset": "KI_Projekt_Dauno_AE_Codierung_2022_10_20",
+    "model": "Llama-3.3-70B-Instruct",
+    "top_k": 10,
+    "max_rows": null,
+    "embedding_dim": 384,
+    "llm_temp": 0.0,
+    "llm_token": 250,
+    "timestamp": "2025-09-25T15:23:13",
+    "notes": "per-AE results saved in OUTPUT_FILE_NAME.json; aggregated metrics saved here"
+  },
+  "counts": {
+    "n_samples": 443,
+    "n_LLT_code_eval": 438,
+    "n_PT_code_eval": 438,
+    "n_SOC_optA": 402,
+    "n_SOC_optB": 402,
+    "n_SOC_any": 404
+  },
+  "metrics": {
+    "LLT_term_acc_exact": 0.6455981941309256,
+    "LLT_term_acc_fuzzy": 0.6884875846501128,
+    "LLT_precision_macro": 0.4474896019013666,
+    "LLT_recall_macro": 0.45181184970187527,
+    "LLT_f1_macro": 0.4412044696086351,
+    "PT_term_acc_exact": 0.8510158013544018,
+    "PT_term_acc_fuzzy": 0.7787810383747178,
+    "PT_precision_macro": 0.776021901021901,
+    "PT_recall_macro": 0.7680119242619243,
+    "PT_f1_macro": 0.7663719317255405,
+    "LLT_code_acc": 0.6529680365296804,
+    "PT_code_acc": 0.8584474885844748,
+    "SOC_acc_option_a": 0.8930348258706468,
+    "SOC_acc_option_b": 0.9601990049751243,
+    "SOC_acc_any_of_vs_AE": 0.9381188118811881
+  }
+}
