@@ -28,8 +28,8 @@ MODELS_DISPLAY = ["Baseline A", "Baseline B"]
 # === Colors (paper-friendly, NOT gray) ===
 # Two base colors (one per baseline) with lightness gradient for LLT/PT/SOC.
 BASELINE_BASE_COLOR = {
-    "Baseline A": "#2F6CB3",  # blue
-    "Baseline B": "#C95A2A",  # orange
+    "Baseline A": "#7570b3",  # purple
+    "Baseline B": "#DE3CB9",  # pink
 }
 
 def shade_towards_white(hex_color, t):
@@ -46,7 +46,7 @@ def baseline_level_colors(baseline):
         "SOC": shade_towards_white(base, 0.65),
     }
 
-OUT_FIG = os.path.join(OUT_DIR, "baselines_excelstyle_stacked_levels_horizontal.png")
+OUT_FIG = os.path.join(OUT_DIR, "Accuracy_Plots_BaseA_and_BaseB_horizontal.png")
 
 # ===================== STYLE =====================
 plt.rcParams.update({

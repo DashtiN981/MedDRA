@@ -41,7 +41,7 @@ COLORS = {
 }
 
 # output
-OUT_FIG = os.path.join(OUT_DIR, "rag_vs_baselines_LLT_PT_SOC2.png")
+OUT_FIG = os.path.join(OUT_DIR, "Accuracy_Plot_RAG_vs_BaseA_and_BaseB.png")
 
 # ===================== STYLE =====================
 plt.rcParams.update({

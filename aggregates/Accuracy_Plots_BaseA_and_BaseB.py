@@ -55,7 +55,7 @@ BASELINE_EDGE = {
     "Baseline B": shade_towards_white(BASELINE_BASE_COLOR["Baseline B"], 0.0),
 }
 
-OUT_FIG = os.path.join(OUT_DIR, "baselines_excelstyle_stacked_levels.png")
+OUT_FIG = os.path.join(OUT_DIR, "Accuracy_Plots_BaseA_and_BaseB.png")
 
 # ===================== STYLE =====================
 plt.rcParams.update({

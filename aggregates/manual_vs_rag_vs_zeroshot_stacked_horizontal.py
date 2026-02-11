@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Manual clinical validation vs NewRAG vs Zero-shot
+Manual clinical validation vs NewRAG (from aggregate) vs Zero-shot (from seeds)
 
 Manual (clinical validation):
   - LLT accuracy = CCR = mean(manual_check==True) across rows that have a manual flag
@@ -8,21 +8,11 @@ Manual (clinical validation):
   - SOC accuracy = among manual_check==True rows: SOC(pred) == SOC(true)
     where SOC(x) := primarySOC( PT( LLT(x) ) )
 
-NewRAG (seeds) & Zero-shot (seeds):
-  - LLT accuracy = exact match rate: pred_LLT_term == true_LLT_term (normalized)
-  - PT accuracy  = PT(pred_LLT) == PT(true_LLT) across ALL rows
-  - SOC accuracy = SOC(pred) == SOC(true) across ALL rows
+NewRAG:
+  - Loaded from aggregated metrics JSON (no per-seed recomputation)
 
-Aggregation:
-  - Manual: mean±std across reviewers per dataset
-  - NewRAG: mean±std across seed files per dataset
-  - Zero-shot: mean±std across seed files per dataset
-
-Plot:
-  - Horizontal stacked segments (independent LLT/PT/SOC)
-  - Per dataset: Manual | NewRAG | Zero-shot (vertical offsets)
-  - No error bars
-  - Save PNG
+Zero-shot:
+  - Computed from seed output JSON files (same as original script)
 """
 
 import json
@@ -74,23 +64,7 @@ ZEROSHOT_FILES = {
     ],
 }
 
-NEWRAG_FILES = {
-    "Dauno": [
-        "/home/naghmedashti/MedDRA-LLM/RAG_Models/NewRAG_Results/Top_K_100/Dauno_output_NewRAG_seed42.json",
-        "/home/naghmedashti/MedDRA-LLM/RAG_Models/NewRAG_Results/Top_K_100/Dauno_output_NewRAG_seed43.json",
-        "/home/naghmedashti/MedDRA-LLM/RAG_Models/NewRAG_Results/Top_K_100/Dauno_output_NewRAG_seed44.json",
-    ],
-    "Delta": [
-        "/home/naghmedashti/MedDRA-LLM/RAG_Models/NewRAG_Results/Top_K_100/Delta_output_NewRAG_seed42.json",
-        "/home/naghmedashti/MedDRA-LLM/RAG_Models/NewRAG_Results/Top_K_100/Delta_output_NewRAG_seed43.json",
-        "/home/naghmedashti/MedDRA-LLM/RAG_Models/NewRAG_Results/Top_K_100/Delta_output_NewRAG_seed44.json",
-    ],
-    "Mosaic": [
-        "/home/naghmedashti/MedDRA-LLM/RAG_Models/NewRAG_Results/Top_K_100/Mosaic_output_NewRAG_seed42.json",
-        "/home/naghmedashti/MedDRA-LLM/RAG_Models/NewRAG_Results/Top_K_100/Mosaic_output_NewRAG_seed43.json",
-        "/home/naghmedashti/MedDRA-LLM/RAG_Models/NewRAG_Results/Top_K_100/Mosaic_output_NewRAG_seed44.json",
-    ],
-}
+AGG_JSON_PATH = "/home/naghmedashti/MedDRA-LLM/aggregates/aggregated_by_variant_20260209_093745.json"
 
 LLT_CSV_FILE = "/home/naghmedashti/MedDRA-LLM/data/LLT2_Code_English_25_0.csv"
 PT_CSV_FILE  = "/home/naghmedashti/MedDRA-LLM/data/PT2_SOC_25_0.csv"
@@ -324,7 +298,7 @@ def compute_zeroshot_metrics(rows: List[dict],
                             llt_to_pt: Dict[str, str],
                             pt_primary_soc: Dict[str, Optional[str]]) -> Dict[str, float]:
     """
-    Zero-shot / NewRAG:
+    Zero-shot:
       - LLT_acc = exact match pred vs true (normalized)
       - PT_acc  = PT(pred) == PT(true) across all rows
       - SOC_acc = SOC(pred) == SOC(true) across all rows
@@ -374,15 +348,34 @@ def shade_towards_white(hex_color: str, t: float) -> str:
     return f"#{r:02X}{g:02X}{b:02X}"
 
 
+def load_agg_metrics(path: str) -> Dict[Tuple[str, str], dict]:
+    with open(path, "r", encoding="utf-8") as f:
+        agg = json.load(f)
+
+    rec_map = {}
+    for it in agg.get("items", []):
+        ds = it.get("dataset")
+        variant = (it.get("variant") or "").lower()
+        if ds and variant:
+            rec_map[(ds, variant)] = it
+    return rec_map
+
+
+def require_fields(rec: dict, fields: List[str], ctx: str):
+    missing = [k for k in fields if k not in rec or rec.get(k) is None]
+    if missing:
+        raise ValueError(f"Missing fields for {ctx}: {missing}")
+
+
 # =========================
 # Plotting
 # =========================
 
 def plot(df: pd.DataFrame):
     # Base colors
-    C_MANUAL = "#0072B2"
-    C_NEWRAG = "#009E73"
-    C_ZS     = "#D55E00"
+    C_MANUAL = "#0072B2" # blue
+    C_NEWRAG = "#1b9e77" # green
+    C_ZS     = "#d95f02"  # orange
 
     # Shades per level
     shades = {
@@ -416,11 +409,17 @@ def plot(df: pd.DataFrame):
 
         # Stacked horizontal segments up to boundary values (non-additive)
         for i in range(len(llt)):
-            levels = [
-                ("LLT", llt[i], shade_towards_white(base_color, shades["LLT"])),
-                ("PT",  pt[i],  shade_towards_white(base_color, shades["PT"])),
-                ("SOC", soc[i], shade_towards_white(base_color, shades["SOC"])),
-            ]
+            # Manual: show LLT only. NewRAG/Zero-shot: show all levels.
+            if key == "manual":
+                levels = [
+                    ("LLT", llt[i], shade_towards_white(base_color, shades["LLT"])),
+                ]
+            else:
+                levels = [
+                    ("LLT", llt[i], shade_towards_white(base_color, shades["LLT"])),
+                    ("PT",  pt[i],  shade_towards_white(base_color, shades["PT"])),
+                    ("SOC", soc[i], shade_towards_white(base_color, shades["SOC"])),
+                ]
             levels_sorted = sorted(levels, key=lambda t: t[1])
 
             prev = 0.0
@@ -433,55 +432,39 @@ def plot(df: pd.DataFrame):
                     )
                 prev = val
 
-            # Labels centered in their own segments (per bar)
-            def place_labels(ax, y0, dy, llt_val, pt_val, soc_val):
-                y_offsets = {"L": -0.06, "P": 0.00, "S": 0.06}
-                min_dx = 0.03
-                labels = [
-                    ("L", llt_val),
-                    ("P", pt_val),
-                    ("S", soc_val),
-                ]
+            # Labels centered within each segment
+            y_offsets = {"LLT": -0.06, "PT": 0.00, "SOC": 0.06}
+            segment_map = {}
+            prev = 0.0
+            for tag, val, _ in levels_sorted:
+                segment_map[tag] = (prev, val)
+                prev = val
 
-                # sort by value for segment construction
-                labels_sorted = sorted(labels, key=lambda t: t[1])
-                placed_x = []
-
-                prev = 0.0
-                for tag, val in labels_sorted:
-                    seg = max(val - prev, 0.0)
-                    if seg < 0.06:
-                        x_pos = val + 0.01
-                        ha = "left"
-                    else:
-                        x_pos = (prev + val) / 2.0
-                        ha = "center"
-
-                    # prevent horizontal overlap
-                    if placed_x:
-                        if x_pos - placed_x[-1] < min_dx:
-                            x_pos = placed_x[-1] + min_dx
-                            ha = "left"
-
-                    text = f"{tag}:{val:.2f}"
-                    ax.text(x_pos, y0 + dy + y_offsets[tag], text,
-                            ha=ha, va="center", fontsize=10, color="black", clip_on=False)
-                    placed_x.append(x_pos)
-                    prev = val
-
-            place_labels(ax, y[i], dy, llt[i], pt[i], soc[i])
+            if key == "manual":
+                start, end = segment_map.get("LLT", (0.0, 0.0))
+                x_center = (start + end) / 2.0
+                y_adj = y[i] + dy + y_offsets["LLT"]
+                ax.text(x_center, y_adj, f"LLT:{end:.2f}",
+                        ha="center", va="center", fontsize=10, color="black", clip_on=False)
+            else:
+                for tag in ["LLT", "PT", "SOC"]:
+                    start, end = segment_map.get(tag, (0.0, 0.0))
+                    x_center = (start + end) / 2.0
+                    y_adj = y[i] + dy + y_offsets[tag]
+                    ax.text(x_center, y_adj, f"{tag}:{end:.2f}",
+                            ha="center", va="center", fontsize=10, color="black", clip_on=False)
 
     ax.set_yticks(y)
     ax.set_yticklabels(df["dataset"].tolist(), fontsize=12)
     ax.set_xlim(0, 1.05)
     ax.set_xlabel("Accuracy", fontsize=12)
-    ax.set_title("RAG-based Pipeline vs RAG and Zero-shot", fontsize=13, pad=8)
+    ax.set_title("RAG-based Pipeline vs Zero-shot", fontsize=13, pad=8)
     ax.grid(True, axis="x", linestyle="--", linewidth=0.7, alpha=0.5)
 
     # Legends (two blocks)
     method_handles = [
-        Patch(facecolor=C_MANUAL, edgecolor="none", label="RAG-based pipeline(clinical validation)"),
-        Patch(facecolor=C_NEWRAG, edgecolor="none", label="RAG"),
+        Patch(facecolor=C_MANUAL, edgecolor="none", label="RAG(clinical validation)"),
+        Patch(facecolor=C_NEWRAG, edgecolor="none", label="RAG(automated validation)"),
         Patch(facecolor=C_ZS, edgecolor="none", label="Zero-shot"),
     ]
 
@@ -545,23 +528,38 @@ def main():
         })
     manual_df = pd.DataFrame(manual_summary)
 
-    # ---- NewRAG (seeds): mean±std
+    # ---- NewRAG from aggregate
+    agg = load_agg_metrics(AGG_JSON_PATH)
+
+    def extract_variant(ds: str, variant: str) -> dict:
+        rec = agg.get((ds, variant))
+        if rec is None:
+            raise ValueError(f"Missing dataset/variant in aggregate: dataset={ds}, variant={variant}")
+        require_fields(
+            rec,
+            [
+                "LLT_term_acc_exact__mean",
+                "LLT_term_acc_exact__std",
+                "PT_code_acc__mean",
+                "PT_code_acc__std",
+                "SOC_acc_option_b__mean",
+                "SOC_acc_option_b__std",
+            ],
+            ctx=f"dataset={ds}, variant={variant}",
+        )
+        return rec
+
     newrag_summary = []
-    for ds, files in NEWRAG_FILES.items():
-        per_seed = []
-        for fp in files:
-            rows = load_json(fp)
-            per_seed.append(compute_zeroshot_metrics(rows, term_norm_to_llt, llt_to_pt, pt_primary_soc))
-
-        llt_mu, llt_sd = mean_std(per_seed, "LLT_acc")
-        pt_mu,  pt_sd  = mean_std(per_seed, "PT_acc")
-        soc_mu, soc_sd = mean_std(per_seed, "SOC_acc")
-
+    for ds in DATASET_ORDER:
+        rec_newrag = extract_variant(ds, "newrag")
         newrag_summary.append({
             "dataset": ds,
-            "LLT_newrag_mean": llt_mu, "LLT_newrag_std": llt_sd,
-            "PT_newrag_mean":  pt_mu,  "PT_newrag_std":  pt_sd,
-            "SOC_newrag_mean": soc_mu, "SOC_newrag_std": soc_sd,
+            "LLT_newrag_mean": float(rec_newrag["LLT_term_acc_exact__mean"]),
+            "LLT_newrag_std":  float(rec_newrag["LLT_term_acc_exact__std"]),
+            "PT_newrag_mean":  float(rec_newrag["PT_code_acc__mean"]),
+            "PT_newrag_std":   float(rec_newrag["PT_code_acc__std"]),
+            "SOC_newrag_mean": float(rec_newrag["SOC_acc_option_b__mean"]),
+            "SOC_newrag_std":  float(rec_newrag["SOC_acc_option_b__std"]),
         })
     newrag_df = pd.DataFrame(newrag_summary)
 
