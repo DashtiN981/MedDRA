@@ -28,8 +28,8 @@ MODELS_DISPLAY = ["Baseline A", "Baseline B"]
 # === Colors (paper-friendly, NOT gray) ===
 # Two base colors (one per baseline) with lightness gradient for LLT/PT/SOC.
 BASELINE_BASE_COLOR = {
-    "Baseline A": "#7570b3",  # purple
-    "Baseline B": "#DE3CB9",  # pink
+    "Baseline A": "#AA9CC2",  # purple
+    "Baseline B": "#7E54C7",  # light purple 
 }
 
 def shade_towards_white(hex_color, t):
@@ -81,7 +81,10 @@ def get_metrics(ds_key, model):
     soc = f(r.get("SOC_acc_option_b__mean"))
     pt  = f(r.get("PT_code_acc__mean"))
     llt = f(r.get("LLT_term_acc_exact__mean"))
-    return soc, pt, llt
+    soc_sd = f(r.get("SOC_acc_option_b__std"))
+    pt_sd  = f(r.get("PT_code_acc__std"))
+    llt_sd = f(r.get("LLT_term_acc_exact__std"))
+    return soc, pt, llt, soc_sd, pt_sd, llt_sd
 
 # ===================== PLOT =====================
 fig, ax = plt.subplots(figsize=(13.2, 5.6))
@@ -97,52 +100,82 @@ offsets = {
 for m in MODELS_DISPLAY:
     ypos = y + offsets[m]
     soc_list, pt_list, llt_list = [], [], []
+    soc_sd_list, pt_sd_list, llt_sd_list = [], [], []
 
     for d in DATASETS_DISPLAY:
-        soc, pt, llt = get_metrics(DS_KEY_MAP[d], m)
+        soc, pt, llt, soc_sd, pt_sd, llt_sd = get_metrics(DS_KEY_MAP[d], m)
         soc_list.append(soc)
         pt_list.append(pt)
         llt_list.append(llt)
+        soc_sd_list.append(soc_sd)
+        pt_sd_list.append(pt_sd)
+        llt_sd_list.append(llt_sd)
 
     soc = np.nan_to_num(np.array(soc_list), nan=0.0)
     pt  = np.nan_to_num(np.array(pt_list),  nan=0.0)
     llt = np.nan_to_num(np.array(llt_list), nan=0.0)
+    soc_sd = np.nan_to_num(np.array(soc_sd_list), nan=0.0)
+    pt_sd  = np.nan_to_num(np.array(pt_sd_list),  nan=0.0)
+    llt_sd = np.nan_to_num(np.array(llt_sd_list), nan=0.0)
 
     colors = baseline_level_colors(m)
+    level_specs = [
+        ("LLT", llt, llt_sd, colors["LLT"]),
+        ("PT",  pt,  pt_sd,  colors["PT"]),
+        ("SOC", soc, soc_sd, colors["SOC"]),
+    ]
 
     for i in range(len(DATASETS_DISPLAY)):
-        levels = [
-            ("LLT", llt[i], colors["LLT"]),
-            ("PT",  pt[i],  colors["PT"]),
-            ("SOC", soc[i], colors["SOC"]),
-        ]
+        levels = [(name, vals[i], color) for name, vals, _, color in level_specs]
         levels_sorted = sorted(levels, key=lambda t: t[1])
+        label_pos = []
 
         prev = 0.0
-        for _, val, color in levels_sorted:
+        for name, val, color in levels_sorted:
             seg = max(val - prev, 0.0)
             if seg > 0:
                 ax.barh(ypos[i], seg, height=H, left=prev, color=color, edgecolor="none")
+                label_pos.append((name, prev, val, prev + seg / 2.0))
             prev = val
 
-        # Labels at boundary values with simple collision avoidance
-        min_dx = 0.03
-        labels = [
-            ("L", llt[i]),
-            ("P", pt[i]),
-            ("S", soc[i]),
-        ]
-        labels_sorted = sorted(labels, key=lambda t: t[1])
-        placed_x = []
-        for tag, x_val in labels_sorted:
-            x_adj = x_val
-            if placed_x and x_adj - placed_x[-1] < min_dx:
-                x_adj = placed_x[-1] + min_dx
-            if x_adj > 1.05:
-                x_adj = 1.05
-            ha = "left" if x_adj < 1.05 else "right"
-            ax.text(x_adj, ypos[i], f"{tag}:{x_val:.2f}", ha=ha, va="center", fontsize=10, clip_on=False)
-            placed_x.append(x_adj)
+        for _, vals, sds, color in level_specs:
+            if sds[i] > 0:
+                ax.errorbar(
+                    vals[i],
+                    ypos[i],
+                    xerr=sds[i],
+                    fmt="none",
+                    ecolor="#111111",
+                    elinewidth=1.2,
+                    capsize=3,
+                    capthick=1.2,
+                    zorder=3,
+                )
+
+        # Put each level label at the center of its own drawn segment.
+        soc_min_width_for_inside_label = 0.09
+        soc_outside_pad = 0.008
+        for name, x_start, x_end, x_mid in label_pos:
+            tag = {"LLT": "LLT", "PT": "PT", "SOC": "SOC"}[name]
+            x_text = x_mid
+            ha = "center"
+
+            # If SOC segment is too narrow, place label just outside to avoid overlap.
+            if name == "SOC" and (x_end - x_start) < soc_min_width_for_inside_label:
+                x_text = min(x_end + soc_outside_pad, 1.045)
+                ha = "left"
+
+            ax.text(
+                x_text,
+                ypos[i],
+                f"{tag}:{x_end:.2f}",
+                ha=ha,
+                va="center",
+                fontsize=9,
+                color="#111111",
+                clip_on=False,
+                zorder=4,
+            )
 
 # Axis formatting
 ax.set_yticks(y)

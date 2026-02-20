@@ -76,7 +76,7 @@ FUZZY_CUTOFF = 94
 DATASET_ORDER = ["Mosaic", "Delta", "Dauno"]
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-OUT_FIG_PNG = SCRIPT_DIR / "manual_vs_rag_vs_zeroshot_stacked_horizontal_newrag_from_agg.png"
+OUT_FIG_PNG = SCRIPT_DIR / "manual_vs_rag_vs_zeroshot_all_LLT_PT_SOC_agg.png"
 
 
 # =========================
@@ -402,44 +402,68 @@ def plot(df: pd.DataFrame):
         llt = df[f"LLT_{key}_mean"].values
         pt  = df[f"PT_{key}_mean"].values
         soc = df[f"SOC_{key}_mean"].values
+        llt_sd = df[f"LLT_{key}_std"].values
+        pt_sd  = df[f"PT_{key}_std"].values
+        soc_sd = df[f"SOC_{key}_std"].values
 
         llt = np.nan_to_num(llt, nan=0.0)
         pt  = np.nan_to_num(pt,  nan=0.0)
         soc = np.nan_to_num(soc, nan=0.0)
+        llt_sd = np.nan_to_num(llt_sd, nan=0.0)
+        pt_sd  = np.nan_to_num(pt_sd,  nan=0.0)
+        soc_sd = np.nan_to_num(soc_sd, nan=0.0)
+
+        level_specs = [
+            ("LLT", llt, llt_sd, shade_towards_white(base_color, shades["LLT"])),
+            ("PT",  pt,  pt_sd,  shade_towards_white(base_color, shades["PT"])),
+            ("SOC", soc, soc_sd, shade_towards_white(base_color, shades["SOC"])),
+        ]
 
         # Stacked horizontal segments up to boundary values (non-additive)
         for i in range(len(llt)):
-            levels = [
-                ("LLT", llt[i], shade_towards_white(base_color, shades["LLT"])),
-                ("PT",  pt[i],  shade_towards_white(base_color, shades["PT"])),
-                ("SOC", soc[i], shade_towards_white(base_color, shades["SOC"])),
-            ]
+            levels = [(name, vals[i], color) for name, vals, _, color in level_specs]
             levels_sorted = sorted(levels, key=lambda t: t[1])
+            label_pos = []
 
             prev = 0.0
-            for _, val, color in levels_sorted:
+            for name, val, color in levels_sorted:
                 seg = max(val - prev, 0.0)
                 if seg > 0:
                     ax.barh(
                         y[i] + dy, seg, height=bar_h,
                         left=prev, color=color, linewidth=0
                     )
+                    label_pos.append((name, prev + seg / 2.0, val))
                 prev = val
+
+            for _, vals, sds, _ in level_specs:
+                if sds[i] > 0:
+                    ax.errorbar(
+                        vals[i],
+                        y[i] + dy,
+                        xerr=sds[i],
+                        fmt="none",
+                        ecolor="#111111",
+                        elinewidth=1.2,
+                        capsize=3,
+                        capthick=1.2,
+                        zorder=3,
+                    )
 
             # Labels centered within each segment
-            y_offsets = {"LLT": -0.06, "PT": 0.00, "SOC": 0.06}
-            segment_map = {}
-            prev = 0.0
-            for tag, val, _ in levels_sorted:
-                segment_map[tag] = (prev, val)
-                prev = val
-
-            for tag in ["LLT", "PT", "SOC"]:
-                start, end = segment_map.get(tag, (0.0, 0.0))
-                x_center = (start + end) / 2.0
-                y_adj = y[i] + dy + y_offsets[tag]
-                ax.text(x_center, y_adj, f"{tag}:{end:.2f}",
-                        ha="center", va="center", fontsize=10, color="black", clip_on=False)
+            for tag, x_mid, x_val in label_pos:
+                short_tag = {"LLT": "L", "PT": "P", "SOC": "S"}[tag]
+                ax.text(
+                    x_mid,
+                    y[i] + dy,
+                    f"{short_tag}:{x_val:.2f}",
+                    ha="center",
+                    va="center",
+                    fontsize=9,
+                    color="#111111",
+                    clip_on=True,
+                    zorder=4,
+                )
 
     ax.set_yticks(y)
     ax.set_yticklabels(df["dataset"].tolist(), fontsize=12)

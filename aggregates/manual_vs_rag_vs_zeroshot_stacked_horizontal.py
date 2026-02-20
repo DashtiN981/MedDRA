@@ -402,57 +402,81 @@ def plot(df: pd.DataFrame):
         llt = df[f"LLT_{key}_mean"].values
         pt  = df[f"PT_{key}_mean"].values
         soc = df[f"SOC_{key}_mean"].values
+        llt_sd = df[f"LLT_{key}_std"].values
+        pt_sd  = df[f"PT_{key}_std"].values
+        soc_sd = df[f"SOC_{key}_std"].values
 
         llt = np.nan_to_num(llt, nan=0.0)
         pt  = np.nan_to_num(pt,  nan=0.0)
         soc = np.nan_to_num(soc, nan=0.0)
+        llt_sd = np.nan_to_num(llt_sd, nan=0.0)
+        pt_sd  = np.nan_to_num(pt_sd,  nan=0.0)
+        soc_sd = np.nan_to_num(soc_sd, nan=0.0)
 
         # Stacked horizontal segments up to boundary values (non-additive)
         for i in range(len(llt)):
             # Manual: show LLT only. NewRAG/Zero-shot: show all levels.
             if key == "manual":
                 levels = [
-                    ("LLT", llt[i], shade_towards_white(base_color, shades["LLT"])),
+                    ("LLT", llt[i], llt_sd[i], shade_towards_white(base_color, shades["LLT"])),
                 ]
             else:
                 levels = [
-                    ("LLT", llt[i], shade_towards_white(base_color, shades["LLT"])),
-                    ("PT",  pt[i],  shade_towards_white(base_color, shades["PT"])),
-                    ("SOC", soc[i], shade_towards_white(base_color, shades["SOC"])),
+                    ("LLT", llt[i], llt_sd[i], shade_towards_white(base_color, shades["LLT"])),
+                    ("PT",  pt[i],  pt_sd[i],  shade_towards_white(base_color, shades["PT"])),
+                    ("SOC", soc[i], soc_sd[i], shade_towards_white(base_color, shades["SOC"])),
                 ]
             levels_sorted = sorted(levels, key=lambda t: t[1])
+            label_pos = []
 
             prev = 0.0
-            for _, val, color in levels_sorted:
+            for tag, val, _, color in levels_sorted:
                 seg = max(val - prev, 0.0)
                 if seg > 0:
                     ax.barh(
                         y[i] + dy, seg, height=bar_h,
                         left=prev, color=color, linewidth=0
                     )
+                    label_pos.append((tag, prev, val, prev + seg / 2.0))
                 prev = val
 
-            # Labels centered within each segment
-            y_offsets = {"LLT": -0.06, "PT": 0.00, "SOC": 0.06}
-            segment_map = {}
-            prev = 0.0
-            for tag, val, _ in levels_sorted:
-                segment_map[tag] = (prev, val)
-                prev = val
+            for _, val, sd, _ in levels:
+                if sd > 0:
+                    ax.errorbar(
+                        val,
+                        y[i] + dy,
+                        xerr=sd,
+                        fmt="none",
+                        ecolor="#111111",
+                        elinewidth=1.2,
+                        capsize=3,
+                        capthick=1.2,
+                        zorder=3,
+                    )
 
-            if key == "manual":
-                start, end = segment_map.get("LLT", (0.0, 0.0))
-                x_center = (start + end) / 2.0
-                y_adj = y[i] + dy + y_offsets["LLT"]
-                ax.text(x_center, y_adj, f"LLT:{end:.2f}",
-                        ha="center", va="center", fontsize=10, color="black", clip_on=False)
-            else:
-                for tag in ["LLT", "PT", "SOC"]:
-                    start, end = segment_map.get(tag, (0.0, 0.0))
-                    x_center = (start + end) / 2.0
-                    y_adj = y[i] + dy + y_offsets[tag]
-                    ax.text(x_center, y_adj, f"{tag}:{end:.2f}",
-                            ha="center", va="center", fontsize=10, color="black", clip_on=False)
+            soc_min_width_for_inside_label = 0.09
+            soc_outside_pad = 0.008
+            for tag, x_start, x_end, x_mid in label_pos:
+                short_tag = {"LLT": "L", "PT": "P", "SOC": "S"}[tag]
+                x_text = x_mid
+                ha = "center"
+
+                # If SOC segment is too narrow, place label just outside to avoid overlap.
+                if tag == "SOC" and (x_end - x_start) < soc_min_width_for_inside_label:
+                    x_text = min(x_end + soc_outside_pad, 1.045)
+                    ha = "left"
+
+                ax.text(
+                    x_text,
+                    y[i] + dy,
+                    f"{short_tag}:{x_end:.2f}",
+                    ha=ha,
+                    va="center",
+                    fontsize=9,
+                    color="#111111",
+                    clip_on=False,
+                    zorder=4,
+                )
 
     ax.set_yticks(y)
     ax.set_yticklabels(df["dataset"].tolist(), fontsize=12)
