@@ -1,8 +1,8 @@
 1. tmux new -s gradio_rag_demo3
 2. pip show gradio_rag_demo3
 3. source /home/naghmedashti/MedDRA-LLM/llm-env/bin/activate
-4. export MEDDRA_LLM_API_KEY="API-key"
-5. python /home/naghmedashti/MedDRA-LLM/RAG_Models/NewRAG_Results/app_gradio_demo3.py
+4. export MEDDRA_LLM_API_KEY="sk-aKGeEFMZB0gXEcE51FTc0A"
+5. python /home/naghmedashti/MedDRA-LLM/RAG_Models/RAG_Results_TrueLLT_Excluded/app_gradio_demo3.py
 6. copy public link and share
 7. Ctrl+b then d for dettach
 8. tmux attach -t gradio_rag_demo

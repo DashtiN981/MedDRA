@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MedDRA RAG Medical Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
+</head>
+<body>
+  <div class="bg-blur bg-blur-a"></div>
+  <div class="bg-blur bg-blur-b"></div>
+
+  <main class="shell">
+    <section class="hero reveal">
+      <div class="hero-badge">Clinical Coding AI</div>
+      <h1>MedDRA RAG Assistant</h1>
+      <p>Modern medical coding dashboard for LLT/PT/SOC prediction and candidate analysis.</p>
+    </section>
+
+    <section class="panel input-panel reveal">
+      <div class="panel-header">
+        <h2>Adverse Event Description</h2>
+        <span id="status-pill" class="status idle">Idle</span>
+      </div>
+      <textarea id="ae-input" rows="5" placeholder="Enter adverse event narrative..."></textarea>
+      <div class="actions">
+        <button id="predict-btn" class="btn-primary">Predict MedDRA Terms</button>
+      </div>
+
+      <h3>Quick Examples</h3>
+      <div id="example-grid" class="example-grid">
+        {% for ex in examples %}
+          <button class="example-card" data-example="{{ ex }}">{{ ex }}</button>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section id="results" class="results hidden">
+      <div class="panel result-card reveal">
+        <h2>Prediction Result</h2>
+        <div class="result-grid">
+          <article class="term-card">
+            <label>LLT</label>
+            <h3 id="llt-term">-</h3>
+            <p>Code: <span id="llt-code">-</span></p>
+          </article>
+          <article class="term-card">
+            <label>PT</label>
+            <h3 id="pt-term">-</h3>
+            <p>Code: <span id="pt-code">-</span></p>
+          </article>
+          <article class="term-card">
+            <label>SOC</label>
+            <h3 id="soc-term">-</h3>
+            <p>Code: <span id="soc-code">-</span></p>
+          </article>
+        </div>
+        <div class="meta-row">
+          <span>Latency: <strong id="latency">-</strong> ms</span>
+          <span>Fallback: <strong id="fallback">-</strong></span>
+          <span>Top 5: <strong id="top5-inline">-</strong></span>
+        </div>
+      </div>
+
+      <div class="split reveal">
+        <section class="panel">
+          <h2>Top Candidate Terms</h2>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>LLT Term</th>
+                  <th>LLT Code</th>
+                  <th>Score</th>
+                  <th>PT Code</th>
+                  <th>SOC Code</th>
+                </tr>
+              </thead>
+              <tbody id="candidate-body"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="panel terminal-panel">
+          <h2>MedDRA Hierarchy</h2>
+          <div id="hierarchy" class="terminal"></div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

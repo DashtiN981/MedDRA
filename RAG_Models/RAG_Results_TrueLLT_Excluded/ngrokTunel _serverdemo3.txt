@@ -1,0 +1,10 @@
+1. tmux new -s meddrademo3 or meddrademo
+2. pip show meddrademo3 or meddrademo
+3. source /home/naghmedashti/MedDRA-LLM/llm-env/bin/activate
+4. cd ~/MedDRA-LLM/RAG_Models/RAG_Results_TrueLLT_Excluded/
+5. ENABLE_NGROK=true NGROK_AUTHTOKEN=39vhzZVVn2p2bymSRMC8Ovu8Gez_5pBZaK6dcyscui2irsNcd MEDDRA_LLM_API_KEY=sk-aKGeEFMZB0gXEcE51FTc0A python serverdemo3.py or server.py
+6. copy public link and share
+7. Ctrl+b then d for dettach
+8. tmux attach -t meddrademo3
+9. Ctrl + C for kill
+10. exit

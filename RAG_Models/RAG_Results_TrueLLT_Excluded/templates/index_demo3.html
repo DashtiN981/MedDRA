@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MedDRA Demo3 Review Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/demo3_styles.css') }}" />
+</head>
+<body>
+  <div class="aurora aurora-a"></div>
+  <div class="aurora aurora-b"></div>
+
+  <main class="layout">
+    <header class="hero card lift-in">
+      <div class="hero-top">
+        <span class="chip">MedDRA Review Workflow</span>
+        <span id="status-pill" class="status">Idle</span>
+      </div>
+      <h1>Demo3 Clinical Coding Board</h1>
+      <p>Upload CSV/XLSX, run row-wise prediction, and review each case with accept, reject, top-5 alternate, or manual LLT override.</p>
+    </header>
+
+    <section class="card upload-card lift-in delay-1">
+      <div class="row">
+        <div class="field">
+          <label>Upload File</label>
+          <input type="file" id="file-input" accept=".csv,.xlsx" />
+        </div>
+        <div class="field">
+          <label>AE Column</label>
+          <select id="ae-column"></select>
+        </div>
+      </div>
+      <div class="actions">
+        <button id="run-btn" class="btn">Run Predictions</button>
+      </div>
+      <div id="run-progress-wrap" class="run-progress hidden">
+        <div class="run-progress-head">
+          <span id="run-progress-text">Preparing...</span>
+          <span id="run-elapsed">0.0s</span>
+        </div>
+        <div class="run-progress-track">
+          <div id="run-progress-fill" class="run-progress-fill"></div>
+        </div>
+      </div>
+      <p id="file-meta" class="meta"></p>
+
+      <div class="table-wrap">
+        <table id="preview-table">
+          <thead id="preview-head"></thead>
+          <tbody id="preview-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="review-section" class="hidden">
+      <div class="grid-2 lift-in delay-2">
+        <article class="card">
+          <div class="head-row">
+            <h2>Current Item</h2>
+            <strong id="progress-label">Item 0 / 0</strong>
+          </div>
+          <p class="mono" id="ae-text">No row selected.</p>
+
+          <div class="prediction">
+            <div><span>LLT</span><strong id="pred-llt">-</strong><em id="pred-llt-code">Code: -</em></div>
+            <div><span>PT</span><strong id="pred-pt">-</strong><em id="pred-pt-code">Code: -</em></div>
+            <div><span>SOC</span><strong id="pred-soc">-</strong><em id="pred-soc-code">Code: -</em></div>
+          </div>
+
+          <div class="meta-row">
+            <span>Latency: <b id="latency">-</b> ms</span>
+            <span>Fallback: <b id="fallback">-</b></span>
+            <span>Decision: <b id="decision">-</b></span>
+          </div>
+
+          <div class="control-grid">
+            <div class="field">
+              <label>Top 5 Suggestions</label>
+              <select id="top5-select"></select>
+            </div>
+            <div class="field">
+              <label>Manual LLT term (optional)</label>
+              <input id="manual-term" type="text" placeholder="Type LLT term manually" />
+            </div>
+          </div>
+
+          <div class="actions">
+            <button id="prev-btn" class="btn ghost">Prev</button>
+            <button id="next-btn" class="btn ghost">Next</button>
+            <button id="accept-btn" class="btn success">Accept</button>
+            <button id="reject-btn" class="btn danger">Reject</button>
+            <button id="export-btn" class="btn">Download Reviewed Excel</button>
+          </div>
+        </article>
+
+        <article class="card terminal-card">
+          <h2>MedDRA Hierarchy</h2>
+          <pre id="hierarchy-box" class="terminal">$ waiting for results...</pre>
+        </article>
+      </div>
+
+      <div class="grid-2 lift-in delay-3">
+        <article class="card">
+          <h2>Top 10 Candidate Terms</h2>
+          <div class="table-wrap tall">
+            <table>
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>LLT Term</th>
+                  <th>LLT Code</th>
+                  <th>Score</th>
+                  <th>PT Code</th>
+                  <th>SOC Code</th>
+                </tr>
+              </thead>
+              <tbody id="candidate-body"></tbody>
+            </table>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2>Review Table</h2>
+          <div class="table-wrap tall">
+            <table>
+              <thead>
+                <tr>
+                  <th>row_id</th>
+                  <th>AE_text</th>
+                  <th>pred_LLT_term</th>
+                  <th>selected_LLT_term</th>
+                  <th>selected_LLT_Code</th>
+                  <th>selection_source</th>
+                  <th>decision</th>
+                </tr>
+              </thead>
+              <tbody id="review-body"></tbody>
+            </table>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="{{ url_for('static', filename='js/demo3_app.js') }}"></script>
+</body>
+</html>
