@@ -612,7 +612,7 @@
       "LLT_recall_macro__mean": 0.403862,
       "LLT_recall_macro__std": 0.040739,
       "LLT_recall_macro__n": 3,
-      "LLT_term_acc_exact__mean": 0.585214,
+      "LLT_term_acc_exact__mean": 0.584214,
       "LLT_term_acc_exact__std": 0.027558,
       "LLT_term_acc_exact__n": 3,
       "LLT_term_acc_fuzzy__mean": 0.674115,
