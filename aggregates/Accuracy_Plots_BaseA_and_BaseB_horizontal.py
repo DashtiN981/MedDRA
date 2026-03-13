@@ -12,7 +12,7 @@ import matplotlib.colors as mcolors
 from matplotlib.patches import Patch
 
 # ===================== CONFIG =====================
-AGG_JSON_PATH = "/home/naghmedashti/MedDRA-LLM/aggregates/aggregated_by_variant_20260209_093745.json"
+AGG_JSON_PATH = "/home/naghmedashti/MedDRA-LLM/aggregates/aggregated_by_variant_20260209.json"
 OUT_DIR       = "/home/naghmedashti/MedDRA-LLM/aggregates"
 os.makedirs(OUT_DIR, exist_ok=True)
 

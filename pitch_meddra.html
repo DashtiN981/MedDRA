@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MedDRA AE Coding Tool – Clinicum Digitale 2026</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+  :root {
+    --bg-primary: #0a0f1a;
+    --bg-secondary: #111827;
+    --bg-card: #1a2332;
+    --bg-card-hover: #1f2b3d;
+    --accent-teal: #10b981;
+    --accent-teal-dim: rgba(16,185,129,0.15);
+    --accent-purple: #8b5cf6;
+    --accent-purple-dim: rgba(139,92,246,0.15);
+    --accent-blue: #3b82f6;
+    --accent-red: #ef4444;
+    --accent-amber: #f59e0b;
+    --text-primary: #f1f5f9;
+    --text-secondary: #94a3b8;
+    --text-dim: #64748b;
+    --border: #1e293b;
+  }
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .slide {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    padding: 60px 80px;
+    position: relative;
+    overflow: hidden;
+  }
+  .slide.active { display: flex; flex-direction: column; }
+
+  /* Navigation */
+  .nav {
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    z-index: 1000;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  .nav button {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    transition: all 0.2s;
+  }
+  .nav button:hover { background: var(--accent-teal); color: #000; }
+  .slide-counter {
+    color: var(--text-dim);
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  /* Progress bar */
+  .progress-bar {
+    position: fixed;
+    top: 0; left: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--accent-teal), var(--accent-purple));
+    transition: width 0.4s ease;
+    z-index: 1001;
+  }
+
+  /* Common elements */
+  .badge {
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  .badge-teal { background: var(--accent-teal-dim); color: var(--accent-teal); }
+  .badge-purple { background: var(--accent-purple-dim); color: var(--accent-purple); }
+
+  h1 {
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 16px;
+    background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-teal) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: var(--text-primary);
+  }
+  h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--accent-teal);
+    margin-bottom: 10px;
+  }
+  .subtitle {
+    font-size: 20px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    max-width: 700px;
+  }
+
+  /* Cards grid */
+  .cards { display: grid; gap: 20px; flex: 1; align-content: start; margin-top: 30px; }
+  .cards-2 { grid-template-columns: 1fr 1fr; }
+  .cards-3 { grid-template-columns: 1fr 1fr 1fr; }
+  .cards-4 { grid-template-columns: 1fr 1fr 1fr 1fr; }
+
+  .card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 28px;
+    transition: all 0.3s;
+  }
+  .card:hover { border-color: var(--accent-teal); transform: translateY(-2px); }
+  .card-icon {
+    font-size: 32px;
+    margin-bottom: 14px;
+  }
+  .card h4 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--text-primary);
+  }
+  .card p {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  /* Table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  th {
+    text-align: left;
+    padding: 14px 18px;
+    background: var(--bg-card);
+    color: var(--accent-teal);
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid var(--accent-teal);
+  }
+  td {
+    padding: 12px 18px;
+    border-bottom: 1px solid var(--border);
+    font-size: 14px;
+    color: var(--text-secondary);
+  }
+  tr:hover td { background: rgba(16,185,129,0.05); }
+
+  /* Pipeline diagram */
+  .pipeline {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    margin: 30px 0;
+    justify-content: center;
+  }
+  .pipeline-stage {
+    background: var(--bg-card);
+    border: 2px solid var(--border);
+    border-radius: 16px;
+    padding: 24px 28px;
+    text-align: center;
+    min-width: 220px;
+    position: relative;
+  }
+  .pipeline-stage.active-stage { border-color: var(--accent-teal); box-shadow: 0 0 30px rgba(16,185,129,0.15); }
+  .pipeline-arrow {
+    font-size: 28px;
+    color: var(--accent-teal);
+    margin: 0 8px;
+  }
+  .pipeline-stage .stage-num {
+    display: inline-block;
+    width: 30px; height: 30px;
+    background: var(--accent-teal);
+    color: #000;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .pipeline-stage h4 { font-size: 16px; margin-bottom: 6px; color: var(--text-primary); }
+  .pipeline-stage p { font-size: 12px; color: var(--text-secondary); }
+
+  /* Stat boxes */
+  .stats { display: flex; gap: 24px; margin: 24px 0; }
+  .stat-box {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 28px;
+    text-align: center;
+    flex: 1;
+  }
+  .stat-box .stat-value {
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--accent-teal);
+  }
+  .stat-box .stat-label {
+    font-size: 12px;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 4px;
+  }
+
+  /* Highlight bar */
+  .highlight-bar {
+    background: linear-gradient(135deg, var(--accent-teal-dim), var(--accent-purple-dim));
+    border-left: 4px solid var(--accent-teal);
+    border-radius: 0 12px 12px 0;
+    padding: 18px 24px;
+    margin: 16px 0;
+    font-size: 15px;
+    color: var(--text-primary);
+  }
+
+  /* Bar chart */
+  .bar-chart { margin: 16px 0; }
+  .bar-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .bar-label {
+    width: 140px;
+    font-size: 13px;
+    color: var(--text-secondary);
+    text-align: right;
+    padding-right: 16px;
+  }
+  .bar-track {
+    flex: 1;
+    height: 28px;
+    background: var(--bg-card);
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+  }
+  .bar-fill {
+    height: 100%;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+    transition: width 1s ease;
+  }
+  .bar-fill.teal { background: linear-gradient(90deg, var(--accent-teal), #34d399); }
+  .bar-fill.purple { background: linear-gradient(90deg, var(--accent-purple), #a78bfa); }
+  .bar-fill.blue { background: linear-gradient(90deg, var(--accent-blue), #60a5fa); }
+  .bar-fill.amber { background: linear-gradient(90deg, var(--accent-amber), #fbbf24); }
+
+  /* Out of scope box */
+  .out-scope {
+    background: rgba(239,68,68,0.08);
+    border: 1px solid rgba(239,68,68,0.3);
+    border-radius: 12px;
+    padding: 18px 24px;
+    margin-top: 16px;
+  }
+  .out-scope h4 { color: var(--accent-red); font-size: 14px; margin-bottom: 6px; }
+  .out-scope p { font-size: 13px; color: var(--text-secondary); }
+
+  /* Feature list */
+  .feature-list { list-style: none; margin-top: 20px; }
+  .feature-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 15px;
+    color: var(--text-secondary);
+  }
+  .feature-list li:last-child { border-bottom: none; }
+  .feature-icon {
+    width: 36px; height: 36px;
+    background: var(--accent-teal-dim);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+
+  /* Timeline */
+  .timeline { margin-top: 20px; }
+  .timeline-item {
+    display: flex;
+    gap: 20px;
+    padding: 16px 0;
+    position: relative;
+  }
+  .timeline-dot {
+    width: 16px; height: 16px;
+    background: var(--accent-teal);
+    border-radius: 50%;
+    margin-top: 4px;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .timeline-dot::after {
+    content: '';
+    position: absolute;
+    top: 16px; left: 7px;
+    width: 2px;
+    height: calc(100% + 16px);
+    background: var(--border);
+  }
+  .timeline-item:last-child .timeline-dot::after { display: none; }
+  .timeline-day { font-size: 14px; font-weight: 700; color: var(--accent-teal); margin-bottom: 4px; }
+  .timeline-desc { font-size: 14px; color: var(--text-secondary); line-height: 1.5; }
+
+  /* Two column */
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; flex: 1; margin-top: 24px; }
+  .two-col-wide { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 40px; flex: 1; margin-top: 24px; }
+
+  /* Architecture */
+  .arch-box {
+    border: 2px dashed var(--accent-teal);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 16px;
+  }
+  .arch-box.provided {
+    border-color: var(--accent-purple);
+    border-style: solid;
+  }
+  .arch-label {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  .arch-label.you { background: var(--accent-teal-dim); color: var(--accent-teal); }
+  .arch-label.given { background: var(--accent-purple-dim); color: var(--accent-purple); }
+
+  /* Logo footer */
+  .slide-footer {
+    position: absolute;
+    bottom: 24px;
+    left: 80px;
+    font-size: 12px;
+    color: var(--text-dim);
+  }
+
+  /* Glow effects */
+  .glow-tl {
+    position: absolute;
+    top: -200px; left: -200px;
+    width: 500px; height: 500px;
+    background: radial-gradient(circle, rgba(16,185,129,0.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .glow-br {
+    position: absolute;
+    bottom: -200px; right: -200px;
+    width: 500px; height: 500px;
+    background: radial-gradient(circle, rgba(139,92,246,0.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  /* Skill columns */
+  .skill-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px; margin-top: 24px; }
+  .skill-col h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid;
+  }
+  .skill-col ul { list-style: none; }
+  .skill-col li { font-size: 14px; color: var(--text-secondary); padding: 6px 0; padding-left: 16px; position: relative; }
+  .skill-col li::before { content: '→'; position: absolute; left: 0; color: var(--text-dim); }
+
+  /* CTA */
+  .cta-box {
+    background: linear-gradient(135deg, rgba(16,185,129,0.12), rgba(139,92,246,0.12));
+    border: 1px solid rgba(16,185,129,0.3);
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .cta-box h2 {
+    font-size: 32px;
+    background: linear-gradient(135deg, var(--accent-teal), var(--accent-purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .cta-items { display: flex; justify-content: center; gap: 40px; margin-top: 24px; }
+  .cta-item { font-size: 16px; color: var(--text-secondary); }
+
+  /* Hierarchy diagram */
+  .hierarchy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin: 20px 0;
+  }
+  .hier-box {
+    padding: 14px 32px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    min-width: 300px;
+  }
+  .hier-arrow { color: var(--text-dim); font-size: 20px; }
+  .hier-soc { background: rgba(139,92,246,0.15); color: var(--accent-purple); border: 1px solid rgba(139,92,246,0.3); }
+  .hier-pt { background: rgba(59,130,246,0.15); color: var(--accent-blue); border: 1px solid rgba(59,130,246,0.3); }
+  .hier-llt { background: rgba(16,185,129,0.15); color: var(--accent-teal); border: 1px solid rgba(16,185,129,0.3); }
+
+  .flex-1 { flex: 1; }
+  .mt-auto { margin-top: auto; }
+  .mb-12 { margin-bottom: 12px; }
+  .mt-20 { margin-top: 20px; }
+  .mt-30 { margin-top: 30px; }
+  .text-center { text-align: center; }
+  .justify-center { justify-content: center; }
+</style>
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<!-- ===================== SLIDE 1 — TITLE ===================== -->
+<div class="slide active" id="slide-1">
+  <div class="glow-tl"></div>
+  <div class="glow-br"></div>
+  <div style="flex:1; display:flex; flex-direction:column; justify-content:center;">
+    <span class="badge badge-teal">Clinicum Digitale · Spring School 2026</span>
+    <h1 style="font-size:56px; max-width:900px;">LLM-Powered MedDRA<br>Adverse Event Coding</h1>
+    <p class="subtitle" style="margin-top:12px;">
+      Build a production-ready web tool for automated clinical coding —<br>
+      powered by Retrieval-Augmented Reasoning
+    </p>
+    <div style="margin-top:40px; display:flex; gap:16px; align-items:center;">
+      <div style="width:48px;height:48px;border-radius:50%;background:var(--accent-teal-dim);display:flex;align-items:center;justify-content:center;font-size:20px;">🧬</div>
+      <div>
+        <div style="font-size:15px;font-weight:600;">Project Supervisor: Naghme Dashti</div>
+        <div style="font-size:13px;color:var(--text-dim);">Else Kröner Fresenius Center for Digital Health · TU Dresden</div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">EKFZ Digital Health · TU Dresden · March 2026</div>
+</div>
+
+<!-- ===================== SLIDE 2 — THE PROBLEM ===================== -->
+<div class="slide" id="slide-2">
+  <div class="glow-br"></div>
+  <span class="badge badge-purple">The Challenge</span>
+  <h2>Why Does This Matter?</h2>
+  <div class="two-col">
+    <div>
+      <ul class="feature-list">
+        <li>
+          <div class="feature-icon">💊</div>
+          <div><strong style="color:var(--text-primary);">Adverse Events are the backbone of drug safety.</strong><br>Every clinical trial generates hundreds to thousands of AE reports that must be coded for regulatory submission.</div>
+        </li>
+        <li>
+          <div class="feature-icon">📝</div>
+          <div><strong style="color:var(--text-primary);">AEs are written as free text</strong><br>Heterogeneous, ambiguous, institution-specific descriptions. E.g. "Patient had blurry vision", "difficulty breathing", "Bilirubin Erhoehung".</div>
+        </li>
+        <li>
+          <div class="feature-icon">🧠</div>
+          <div><strong style="color:var(--text-primary);">Manual MedDRA coding is a bottleneck</strong><br>Time-consuming, subjective, prone to inter-rater variability, and hard to scale across multi-center trials.</div>
+        </li>
+        <li>
+          <div class="feature-icon">🔍</div>
+          <div><strong style="color:var(--text-primary);">80,000+ possible codes</strong><br>MedDRA contains ~80K Low-Level Terms — finding the right one is like a needle in a haystack.</div>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <div class="card" style="margin-bottom:16px;">
+        <h3 style="font-size:16px;">Current Workflow</h3>
+        <div style="display:flex;align-items:center;gap:12px;margin-top:12px;">
+          <div style="background:var(--bg-primary);padding:12px 16px;border-radius:8px;font-size:13px;flex:1;text-align:center;">📄 Free-text AE</div>
+          <div style="color:var(--accent-teal);">→</div>
+          <div style="background:var(--bg-primary);padding:12px 16px;border-radius:8px;font-size:13px;flex:1;text-align:center;">👨‍⚕️ Manual Coding</div>
+          <div style="color:var(--accent-teal);">→</div>
+          <div style="background:var(--bg-primary);padding:12px 16px;border-radius:8px;font-size:13px;flex:1;text-align:center;">📋 MedDRA Code</div>
+        </div>
+        <p style="margin-top:12px;font-size:13px;color:var(--accent-amber);">⏱ Hours per trial · ❌ Inconsistent · 📉 Doesn't scale</p>
+      </div>
+      <div class="card">
+        <h3 style="font-size:16px;">Our Vision</h3>
+        <div style="display:flex;align-items:center;gap:12px;margin-top:12px;">
+          <div style="background:var(--bg-primary);padding:12px 16px;border-radius:8px;font-size:13px;flex:1;text-align:center;">📄 Free-text AE</div>
+          <div style="color:var(--accent-teal);">→</div>
+          <div style="background:var(--accent-teal-dim);padding:12px 16px;border-radius:8px;font-size:13px;flex:1;text-align:center;color:var(--accent-teal);font-weight:600;">🤖 LLM + RAG</div>
+          <div style="color:var(--accent-teal);">→</div>
+          <div style="background:var(--bg-primary);padding:12px 16px;border-radius:8px;font-size:13px;flex:1;text-align:center;">✅ Human Review</div>
+        </div>
+        <p style="margin-top:12px;font-size:13px;color:var(--accent-teal);">⚡ Seconds per AE · 🎯 91–97% clinically correct · 📈 Scalable</p>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">EKFZ Digital Health · TU Dresden</div>
+</div>
+
+<!-- ===================== SLIDE 3 — WHAT IS MedDRA ===================== -->
+<div class="slide" id="slide-3">
+  <span class="badge badge-teal">Background</span>
+  <h2>The MedDRA Hierarchy</h2>
+  <p style="color:var(--text-secondary);font-size:15px;margin-bottom:10px;">Medical Dictionary for Regulatory Activities — 5-level hierarchical terminology by ICH</p>
+  <div class="two-col">
+    <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;">
+      <div class="hierarchy">
+        <div class="hier-box hier-soc" style="min-width:380px;">
+          <div style="font-size:11px;opacity:0.7;">SOC – System Organ Class</div>
+          27 categories · e.g., "Nervous system disorders"
+        </div>
+        <div class="hier-arrow">▼</div>
+        <div class="hier-box hier-pt" style="min-width:320px;">
+          <div style="font-size:11px;opacity:0.7;">PT – Preferred Term</div>
+          ~22,000 terms · e.g., "Headache"
+        </div>
+        <div class="hier-arrow">▼</div>
+        <div class="hier-box hier-llt" style="min-width:260px;">
+          <div style="font-size:11px;opacity:0.7;">LLT – Low-Level Term</div>
+          ~80,000 terms · e.g., "Throbbing headache"
+        </div>
+      </div>
+    </div>
+    <div>
+      <h3 style="font-size:16px;margin-top:10px;">Real-World Examples</h3>
+      <table style="margin-top:12px;">
+        <thead>
+          <tr><th>Free-text AE</th><th>LLT</th><th>PT</th><th>SOC</th></tr>
+        </thead>
+        <tbody>
+          <tr><td style="color:var(--text-primary)">"blurry vision"</td><td>Blurred vision</td><td>Vision blurred</td><td>Eye disorders</td></tr>
+          <tr><td style="color:var(--text-primary)">"difficulty breathing"</td><td>Shortness of breath</td><td>Dyspnea</td><td>Respiratory disorders</td></tr>
+          <tr><td style="color:var(--text-primary)">"Skin rash after injection"</td><td>Injection site rash</td><td>Injection site reaction</td><td>Skin disorders</td></tr>
+        </tbody>
+      </table>
+      <div class="highlight-bar" style="margin-top:20px;">
+        <strong>Key Challenge:</strong> Multiple LLTs can be clinically acceptable for the same AE — e.g., "Headache" vs "Headache NOS" vs "Cephalalgia"
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">EKFZ Digital Health · TU Dresden</div>
+</div>
+
+<!-- ===================== SLIDE 4 — PIPELINE ===================== -->
+<div class="slide" id="slide-4">
+  <span class="badge badge-teal">Our Approach</span>
+  <h2>Retrieval-Augmented Reasoning Pipeline</h2>
+  <p style="color:var(--text-secondary);font-size:15px;">Three-stage architecture combining semantic retrieval with structured LLM reasoning</p>
+
+  <div class="pipeline" style="margin-top:40px;">
+    <div class="pipeline-stage active-stage">
+      <div class="stage-num">1</div>
+      <h4>Candidate Generation</h4>
+      <p style="margin-top:8px;">Dense semantic retrieval<br><strong style="color:var(--accent-teal);">MiniLM embeddings</strong><br>Top-100 similar LLTs<br>via cosine similarity</p>
+    </div>
+    <div class="pipeline-arrow">→</div>
+    <div class="pipeline-stage active-stage">
+      <div class="stage-num">2</div>
+      <h4>LLM Reasoning</h4>
+      <p style="margin-top:8px;">Chain-of-Thought prompting<br><strong style="color:var(--accent-teal);">LLaMA-3.3-70B-Instruct</strong><br>Structured comparison<br>"Final answer: &lt;LLT&gt;"</p>
+    </div>
+    <div class="pipeline-arrow">→</div>
+    <div class="pipeline-stage active-stage">
+      <div class="stage-num">3</div>
+      <h4>Hierarchical Mapping</h4>
+      <p style="margin-top:8px;">Deterministic lookup<br><strong style="color:var(--accent-teal);">LLT → PT → SOC</strong><br>MedDRA v25.0<br>Traceable & auditable</p>
+    </div>
+  </div>
+
+  <div class="highlight-bar" style="margin-top:30px; text-align:center;">
+    💡 <strong>The LLM pipeline already exists as a FastAPI backend</strong> — your mission is to build the <strong>web application & user workflow</strong> around it!
+  </div>
+  <div class="slide-footer">EKFZ Digital Health · TU Dresden</div>
+</div>
+
+<!-- ===================== SLIDE 5 — RESULTS ===================== -->
+<div class="slide" id="slide-5">
+  <span class="badge badge-purple">Validated Results</span>
+  <h2>Performance Across 3 Clinical Trials</h2>
+  <p style="color:var(--text-secondary);font-size:15px;">Tested on AML oncology datasets — validated by blinded expert clinical review</p>
+
+  <div class="stats" style="margin-top:24px;">
+    <div class="stat-box">
+      <div class="stat-value">91–97%</div>
+      <div class="stat-label">Clinical Correctness (CCR)</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-value">78–85%</div>
+      <div class="stat-label">PT-Level Accuracy</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-value">90–93%</div>
+      <div class="stat-label">SOC-Level Accuracy</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-value">50–58%</div>
+      <div class="stat-label">Exact LLT Match</div>
+    </div>
+  </div>
+
+  <div class="two-col" style="margin-top:20px;">
+    <div>
+      <h3 style="font-size:16px;">RAG Pipeline vs Zero-shot</h3>
+      <div class="bar-chart">
+        <div style="font-size:12px;color:var(--text-dim);margin-bottom:8px;">PT Accuracy</div>
+        <div class="bar-row">
+          <div class="bar-label">RAG</div>
+          <div class="bar-track"><div class="bar-fill teal" style="width:85%;">85%</div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">Zero-shot</div>
+          <div class="bar-track"><div class="bar-fill purple" style="width:72%;">72%</div></div>
+        </div>
+        <div style="font-size:12px;color:var(--text-dim);margin:12px 0 8px;">SOC Accuracy</div>
+        <div class="bar-row">
+          <div class="bar-label">RAG</div>
+          <div class="bar-track"><div class="bar-fill teal" style="width:92%;">92%</div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">Zero-shot</div>
+          <div class="bar-track"><div class="bar-fill purple" style="width:74%;">74%</div></div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h3 style="font-size:16px;">Why LLT Exact ≠ Clinical Quality</h3>
+      <div class="card" style="margin-top:8px;">
+        <p style="font-size:14px;line-height:1.7;">
+          📊 <strong>38–41%</strong> of "errors" under strict LLT matching were actually <strong style="color:var(--accent-teal);">clinically acceptable alternatives</strong><br><br>
+          🩺 Multiple LLTs can be valid for the same AE<br><br>
+          ✅ <strong>Blinded expert review</strong> confirmed real-world clinical usability
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">EKFZ Digital Health · TU Dresden</div>
+</div>
+
+<!-- ===================== SLIDE 6 — EXISTING DEMOS ===================== -->
+<div class="slide" id="slide-6">
+  <span class="badge badge-teal">What Exists</span>
+  <h2>Existing Prototypes</h2>
+  <p style="color:var(--text-secondary);font-size:15px;">We've built Flask-based demos — your job is to create the production-ready tool</p>
+  <div class="cards cards-2" style="margin-top:24px;">
+    <div class="card">
+      <h3 style="font-size:16px;">🔬 MedDRA RAG Assistant</h3>
+      <p style="margin-top:8px;">
+        • Single AE text input → instant prediction<br>
+        • Shows LLT / PT / SOC with codes<br>
+        • Top candidate terms with similarity scores<br>
+        • MedDRA hierarchy tree view<br>
+        • Latency tracking & fallback indicator<br>
+        • Quick example buttons for testing
+      </p>
+      <div style="margin-top:12px;padding:8px 12px;background:var(--bg-primary);border-radius:6px;font-size:11px;color:var(--text-dim);">
+        ✅ Working prototype · Flask + FastAPI backend
+      </div>
+    </div>
+    <div class="card">
+      <h3 style="font-size:16px;">📋 Clinical Coding Board</h3>
+      <p style="margin-top:8px;">
+        • Batch CSV/XLSX upload with progress bar<br>
+        • Row-by-row LLM prediction<br>
+        • <strong style="color:var(--accent-teal);">Human-in-the-Loop review</strong>: Accept / Reject<br>
+        • Top-5 alternative suggestions dropdown<br>
+        • Manual LLT override option<br>
+        • Export reviewed results as Excel
+      </p>
+      <div style="margin-top:12px;padding:8px 12px;background:var(--bg-primary);border-radius:6px;font-size:11px;color:var(--text-dim);">
+        ✅ Working prototype · Flask + FastAPI backend
+      </div>
+    </div>
+  </div>
+  <div class="highlight-bar" style="margin-top:20px;text-align:center;">
+    🚀 These prototypes prove the concept works — now let's build it <strong>right</strong>!
+  </div>
+  <div class="slide-footer">EKFZ Digital Health · TU Dresden</div>
+</div>
+
+<!-- ===================== SLIDE 7 — YOUR MISSION ===================== -->
+<div class="slide" id="slide-7">
+  <span class="badge badge-purple">Your Mission</span>
+  <h2>What You Will Build 🚀</h2>
+
+  <div class="two-col-wide" style="margin-top:20px;">
+    <div>
+      <ul class="feature-list">
+        <li>
+          <div class="feature-icon">📤</div>
+          <div><strong style="color:var(--text-primary)">CSV/XLSX Upload</strong><br>Drag & drop adverse event files with column selection</div>
+        </li>
+        <li>
+          <div class="feature-icon">⚡</div>
+          <div><strong style="color:var(--text-primary)">FastAPI Integration</strong><br>Connect to existing LLM backend (black-box) via REST API</div>
+        </li>
+        <li>
+          <div class="feature-icon">📊</div>
+          <div><strong style="color:var(--text-primary)">Results Dashboard</strong><br>Display LLT/PT/SOC predictions with alternative suggestions</div>
+        </li>
+        <li>
+          <div class="feature-icon">✅</div>
+          <div><strong style="color:var(--text-primary)">Human-in-the-Loop Validation</strong><br>Accept / Reject / Modify each prediction interactively</div>
+        </li>
+        <li>
+          <div class="feature-icon">📈</div>
+          <div><strong style="color:var(--text-primary)">Progress Tracking</strong><br>Real-time progress bar + intermediate saves</div>
+        </li>
+        <li>
+          <div class="feature-icon">💾</div>
+          <div><strong style="color:var(--text-primary)">Export</strong><br>Download validated coding results as CSV/Excel</div>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <div class="arch-box" style="margin-top:0;">
+        <div class="arch-label you">👩‍💻 You Build This</div>
+        <div style="font-size:14px;color:var(--text-secondary);line-height:1.8;">
+          • Upload module & file parsing<br>
+          • UI/UX for review workflow<br>
+          • API client for FastAPI calls<br>
+          • State management & progress<br>
+          • Export functionality<br>
+          • Responsive, modern design
+        </div>
+      </div>
+      <div class="arch-box provided">
+        <div class="arch-label given">🔧 Provided For You</div>
+        <div style="font-size:14px;color:var(--text-secondary);line-height:1.8;">
+          • FastAPI backend (LLM pipeline)<br>
+          • MiniLM embeddings + retrieval<br>
+          • LLaMA-3.3-70B inference<br>
+          • MedDRA v25.0 data resources
+        </div>
+      </div>
+      <div class="out-scope">
+        <h4>❌ Out of Scope</h4>
+        <p>No model training, no NLP development, no medical validation — focus on the <strong>web tool & UX</strong></p>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">EKFZ Digital Health · TU Dresden</div>
+</div>
+
+<!-- ===================== SLIDE 8 — ARCHITECTURE ===================== -->
+<div class="slide" id="slide-8">
+  <span class="badge badge-teal">Technical Architecture</span>
+  <h2>System Overview</h2>
+  <div style="flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;">
+    <div style="width:100%;max-width:900px;">
+      <div class="arch-box" style="border-color:var(--accent-teal);margin-bottom:0;">
+        <div class="arch-label you">👩‍💻 Frontend — You Build This</div>
+        <div class="cards cards-3" style="margin-top:10px;gap:12px;">
+          <div style="background:var(--bg-primary);padding:16px;border-radius:10px;text-align:center;">
+            <div style="font-size:24px;">📤</div>
+            <div style="font-size:13px;margin-top:8px;color:var(--text-secondary);">Upload Module</div>
+            <div style="font-size:11px;color:var(--text-dim);">CSV/XLSX parsing</div>
+          </div>
+          <div style="background:var(--bg-primary);padding:16px;border-radius:10px;text-align:center;">
+            <div style="font-size:24px;">🔍</div>
+            <div style="font-size:13px;margin-top:8px;color:var(--text-secondary);">Review Dashboard</div>
+            <div style="font-size:11px;color:var(--text-dim);">Accept / Reject / Modify</div>
+          </div>
+          <div style="background:var(--bg-primary);padding:16px;border-radius:10px;text-align:center;">
+            <div style="font-size:24px;">💾</div>
+            <div style="font-size:13px;margin-top:8px;color:var(--text-secondary);">Export Module</div>
+            <div style="font-size:11px;color:var(--text-dim);">CSV/Excel download</div>
+          </div>
+        </div>
+      </div>
+      <div style="text-align:center;font-size:28px;color:var(--accent-teal);margin:12px 0;">⬇ REST API ⬆</div>
+      <div class="arch-box provided" style="margin-bottom:0;">
+        <div class="arch-label given">🔧 FastAPI Backend — Provided</div>
+        <div class="cards cards-3" style="margin-top:10px;gap:12px;">
+          <div style="background:var(--bg-primary);padding:16px;border-radius:10px;text-align:center;">
+            <div style="font-size:24px;">🔢</div>
+            <div style="font-size:13px;margin-top:8px;color:var(--text-secondary);">MiniLM Embeddings</div>
+            <div style="font-size:11px;color:var(--text-dim);">384-dim retrieval</div>
+          </div>
+          <div style="background:var(--bg-primary);padding:16px;border-radius:10px;text-align:center;">
+            <div style="font-size:24px;">🧠</div>
+            <div style="font-size:13px;margin-top:8px;color:var(--text-secondary);">LLaMA-3.3-70B</div>
+            <div style="font-size:11px;color:var(--text-dim);">Chain-of-Thought</div>
+          </div>
+          <div style="background:var(--bg-primary);padding:16px;border-radius:10px;text-align:center;">
+            <div style="font-size:24px;">📚</div>
+            <div style="font-size:13px;margin-top:8px;color:var(--text-secondary);">MedDRA v25.0</div>
+            <div style="font-size:11px;color:var(--text-dim);">LLT → PT → SOC</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="display:flex;gap:24px;margin-top:30px;">
+      <div style="padding:10px 20px;background:var(--bg-card);border-radius:8px;font-size:13px;color:var(--text-secondary);">
+        🖥 <strong>Frontend:</strong> React / Vue / Streamlit
+      </div>
+      <div style="padding:10px 20px;background:var(--bg-card);border-radius:8px;font-size:13px;color:var(--text-secondary);">
+        ⚡ <strong>API:</strong> FastAPI (provided)
+      </div>
+      <div style="padding:10px 20px;background:var(--bg-card);border-radius:8px;font-size:13px;color:var(--text-secondary);">
+        🧠 <strong>LLM:</strong> LLaMA-3.3-70B
+      </div>
+      <div style="padding:10px 20px;background:var(--bg-card);border-radius:8px;font-size:13px;color:var(--text-secondary);">
+        📦 <strong>Data:</strong> MedDRA CSV
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">EKFZ Digital Health · TU Dresden</div>
+</div>
+
+<!-- ===================== SLIDE 9 — TIMELINE ===================== -->
+<div class="slide" id="slide-9">
+  <span class="badge badge-purple">Sprint Plan</span>
+  <h2>Project Timeline</h2>
+  <div class="two-col" style="margin-top:20px;">
+    <div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div>
+            <div class="timeline-day">Friday, 20 March — Afternoon</div>
+            <div class="timeline-desc">Kick-off · Understand pipeline & API docs · Set up dev environment · Team role assignment</div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div>
+            <div class="timeline-day">Monday, 23 March — Full Day</div>
+            <div class="timeline-desc">Build upload module · Connect to FastAPI backend · Display prediction results · Basic UI layout</div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div>
+            <div class="timeline-day">Tuesday, 24 March — Full Day</div>
+            <div class="timeline-desc">Human-in-the-Loop review UI · Progress bar · Top-5 alternatives · Export functionality · Testing</div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div>
+            <div class="timeline-day">Wednesday, 25 March — Morning</div>
+            <div class="timeline-desc">Polish UI · Bug fixes · Prepare demo · Presentation rehearsal</div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot" style="background:var(--accent-purple);"></div>
+          <div>
+            <div class="timeline-day" style="color:var(--accent-purple);">Wednesday, 25 March — Afternoon 🎤</div>
+            <div class="timeline-desc"><strong style="color:var(--text-primary);">Final Presentation & Live Demo</strong></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h3 style="font-size:16px;">Suggested Team Roles</h3>
+      <div class="cards" style="grid-template-columns:1fr;gap:12px;margin-top:12px;">
+        <div class="card" style="padding:16px 20px;display:flex;align-items:center;gap:14px;">
+          <div style="font-size:24px;">🎨</div>
+          <div><strong style="font-size:14px;">Frontend Developer(s)</strong><br><span style="font-size:12px;color:var(--text-dim);">React/Vue components, UI layout, styling</span></div>
+        </div>
+        <div class="card" style="padding:16px 20px;display:flex;align-items:center;gap:14px;">
+          <div style="font-size:24px;">⚙️</div>
+          <div><strong style="font-size:14px;">API Integration Lead</strong><br><span style="font-size:12px;color:var(--text-dim);">FastAPI connection, data flow, error handling</span></div>
+        </div>
+        <div class="card" style="padding:16px 20px;display:flex;align-items:center;gap:14px;">
+          <div style="font-size:24px;">🩺</div>
+          <div><strong style="font-size:14px;">Clinical/Domain Expert</strong><br><span style="font-size:12px;color:var(--text-dim);">MedDRA understanding, test case design, UX review</span></div>
+        </div>
+        <div class="card" style="padding:16px 20px;display:flex;align-items:center;gap:14px;">
+          <div style="font-size:24px;">🎤</div>
+          <div><strong style="font-size:14px;">Demo & Presentation Lead</strong><br><span style="font-size:12px;color:var(--text-dim);">Final demo flow, slides, live presentation</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">EKFZ Digital Health · TU Dresden</div>
+</div>
+
+<!-- ===================== SLIDE 10 — SKILLS ===================== -->
+<div class="slide" id="slide-10">
+  <span class="badge badge-teal">Learning Outcomes</span>
+  <h2>What You'll Gain</h2>
+
+  <div class="skill-grid" style="margin-top:30px;">
+    <div class="skill-col">
+      <h4 style="color:var(--accent-teal);border-color:var(--accent-teal);">🏥 Clinical Knowledge</h4>
+      <ul>
+        <li>MedDRA terminology & hierarchy</li>
+        <li>Adverse event coding workflow</li>
+        <li>Pharmacovigilance fundamentals</li>
+        <li>Clinical trial safety reporting</li>
+        <li>Human-in-the-Loop AI in medicine</li>
+      </ul>
+    </div>
+    <div class="skill-col">
+      <h4 style="color:var(--accent-purple);border-color:var(--accent-purple);">💻 Technical Skills</h4>
+      <ul>
+        <li>REST API integration (FastAPI)</li>
+        <li>Modern frontend development</li>
+        <li>LLM pipeline architecture</li>
+        <li>RAG system understanding</li>
+        <li>Data upload/export workflows</li>
+      </ul>
+    </div>
+    <div class="skill-col">
+      <h4 style="color:var(--accent-blue);border-color:var(--accent-blue);">🎯 Professional Experience</h4>
+      <ul>
+        <li>Agile sprint workflow</li>
+        <li>Team collaboration</li>
+        <li>Product demo & pitching</li>
+        <li>Real-world Digital Health project</li>
+        <li>Research-to-production thinking</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="cta-box" style="margin-top:40px;">
+    <h2 style="font-size:28px;">Ready to Build the Future of Drug Safety?</h2>
+    <div class="cta-items" style="margin-top:20px;">
+      <div class="cta-item">🧬 Real clinical data pipeline</div>
+      <div class="cta-item">🤖 State-of-the-art LLM technology</div>
+      <div class="cta-item">🏥 Direct impact on pharmacovigilance</div>
+      <div class="cta-item">🚀 Research paper → Production tool</div>
+    </div>
+    <div style="margin-top:24px;font-size:14px;color:var(--text-dim);">
+      <strong style="color:var(--text-secondary);">Supervisor:</strong> Naghme Dashti &nbsp;|&nbsp;
+      <strong style="color:var(--text-secondary);">Lab:</strong> Else Kröner Fresenius Center for Digital Health, TU Dresden
+    </div>
+  </div>
+  <div class="slide-footer">EKFZ Digital Health · TU Dresden</div>
+</div>
+
+<!-- ===================== NAVIGATION ===================== -->
+<div class="nav">
+  <button onclick="prevSlide()">← Prev</button>
+  <span class="slide-counter" id="slideCounter">1 / 10</span>
+  <button onclick="nextSlide()">Next →</button>
+</div>
+
+<script>
+let current = 1;
+const total = 10;
+
+function showSlide(n) {
+  document.querySelectorAll('.slide').forEach(s => s.classList.remove('active'));
+  document.getElementById('slide-' + n).classList.add('active');
+  document.getElementById('slideCounter').textContent = n + ' / ' + total;
+  document.getElementById('progressBar').style.width = (n / total * 100) + '%';
+}
+
+function nextSlide() {
+  if (current < total) { current++; showSlide(current); }
+}
+
+function prevSlide() {
+  if (current > 1) { current--; showSlide(current); }
+}
+
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); nextSlide(); }
+  if (e.key === 'ArrowLeft') { e.preventDefault(); prevSlide(); }
+});
+
+// Touch support
+let touchStartX = 0;
+document.addEventListener('touchstart', e => { touchStartX = e.changedTouches[0].screenX; });
+document.addEventListener('touchend', e => {
+  const diff = e.changedTouches[0].screenX - touchStartX;
+  if (diff < -50) nextSlide();
+  if (diff > 50) prevSlide();
+});
+</script>
+
+</body>
+</html>
